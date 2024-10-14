@@ -1,0 +1,158 @@
+---
+slug: /documentation/game-info/divas/basara-nekki
+---
+
+# Basara Nekki
+
+import Link from '@docusaurus/Link';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import { createContext, useContext, useState } from 'react';
+import { LanguageContext, LanguageContext_ } from "@umo-generator/components/LanguageContext";
+import { DivaIdContext_, DivaLanguageLink, DivaString, DivaIdContext, DivaImage } from "@umo-generator/components/Diva";
+import { getLinkById } from "@umo-generator/js/link"
+
+export const DivaInfoProfileTableRow = ({data, language}) =>
+{
+  return (
+    <tr>
+    <td>{data.name}</td>
+    <td><DivaLanguageLink bank="common" id={data.id} language={language} /></td>
+    <td><DivaString bank="common" id={data.id} language={language} /></td>
+    </tr>
+  );
+};
+
+export const DivaInfoProfileTable = ({language}) =>
+{
+  const data = 
+  [
+    {
+      name:"Age",
+      id:"profile_diva0##ID##_age"
+    },
+    {
+      name:"Birthday",
+      id:"profile_diva0##ID##_birthday"
+    },
+    {
+      name:"Birthplace",
+      id:"profile_diva0##ID##_birthplace"
+    },
+    {
+      name:"Favorite",
+      id:"profile_diva0##ID##_favorite"
+    },
+    {
+      name:"Description",
+      id:"profile_diva0##ID##_description"
+    }
+  ]
+  const items = data.map(k => (<DivaInfoProfileTableRow data={k} language={language} />));
+  return (
+    <table>
+    <thead>
+    <tr>
+    <th>Name</th>
+    <th>String Id</th>
+    <th>Text</th>
+    </tr>
+    </thead>
+    <tbody>
+    {items}
+    </tbody>
+    </table>
+  );
+};
+
+export const languagesFiles = [
+    { name:"common", lang:["ja", "fr", "en"] },
+    { name:"menu", lang:["ja", "fr", "en"] },
+    { name:"master", lang:["ja", "fr", "en"] },
+  ];
+
+<LanguageContext files={languagesFiles}>
+
+<DivaIdContext divaId="9">
+
+<div style={{position:'relative'}}><div style={{position: 'absolute',top:'-140px', right:'-50px', width:'40%'}}><DivaImage type="l_size" /></div></div>
+
+## Linked datas
+
+* <!--<Link href={getLinkById("documentation/database/diva/diva"+(9 - 1).toString().padStart(2, '0'))} >Database</Link>-->
+
+## Profil
+
+<Tabs groupId="language">
+  <TabItem value="ja" label="Japanese" default>
+    <DivaInfoProfileTable language="ja" />
+  </TabItem>
+  <TabItem value="fr" label="French">
+    <DivaInfoProfileTable language="fr" />
+  </TabItem>
+  <TabItem value="en" label="English">
+    <DivaInfoProfileTable language="en" />
+  </TabItem>
+</Tabs>
+
+## Icons
+
+
+<Tabs groupId="divaIcon">
+  <TabItem value="s_size" label="S size" default>
+    <DivaImage type="s_size" />
+  </TabItem>
+  <TabItem value="m_size" label="M size" default>
+    <DivaImage type="m_size" />
+  </TabItem>
+  <TabItem value="l_size" label="L size" default>
+    <DivaImage type="l_size" />
+  </TabItem>
+  <TabItem value="ps" label="PS" default>
+    <DivaImage type="ps" />
+  </TabItem>
+  <TabItem value="story" label="Story" default>
+    <DivaImage type="story" />
+  </TabItem>
+  <TabItem value="small_bustup" label="Small bustup" default>
+    <DivaImage type="small_bustup" />
+  </TabItem>
+  <TabItem value="standing_costume" label="Standing Costume" default>
+    <DivaImage type="standing_costume" />
+  </TabItem>
+  <TabItem value="event_go_diva" label="Event Go Diva" default>
+    <DivaImage type="event_go_diva" />
+  </TabItem>
+  <TabItem value="event_go_diva_typed" label="Event Go Diva Typed" default>
+    <DivaImage type="event_go_diva_typed" />
+  </TabItem>
+</Tabs>
+
+
+## Story description
+
+<Tabs groupId="language">
+  <TabItem value="ja" label="Japanese" default>
+
+<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" language="ja" />  
+
+<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" language="ja" /></blockquote>
+
+  </TabItem>
+  <TabItem value="fr" label="French">
+
+<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" language="fr" />  
+
+<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" language="fr" /></blockquote>
+
+  </TabItem>
+  <TabItem value="en" label="English">
+
+<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" language="en" />  
+
+<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" language="en" /></blockquote>
+
+  </TabItem>
+</Tabs>
+</DivaIdContext>
+</LanguageContext>

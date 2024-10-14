@@ -1,0 +1,109 @@
+---
+sidebar_custom_props: {sb_hide: true}
+---
+import diva_struct from "@site/static/data/database/divas/diva.struct.json";
+import diva_data from "@site/static/data/database/divas/diva.data.json";
+
+import logger from '@docusaurus/logger';
+
+export function getStructAndDataFromPath(struct, data, path)
+{
+    const splitPath = path.split("/");
+    var curStruct = struct;
+    var curData = data;
+    for(var p of splitPath)
+    {
+        if(p == ".")
+            continue;
+        if(curStruct.type == "list")
+        {
+            const idx = parseInt(p);
+            curData = curData[idx];
+            curStruct = curStruct.innerType;
+            continue;
+        }
+        if(curStruct.type == "class")
+        {
+            if(p in curData)
+            {
+                curData = curData[p];
+                var found = false;
+                for(var m of curStruct.members)
+                {
+                    if(m.member_name == p)
+                    {
+                        curStruct = m;
+                        found = true;
+                        break;
+                    }
+                }
+                if(!found)
+                {
+                    logger.error("Member class not found "+p);
+                    return null;
+                }
+                continue;
+            }
+            else
+            {
+                logger.error("Current data doesn't contain "+p);
+                return null;
+            }
+        }
+        logger.error("Can move for path "+p);
+        return null;
+    }
+    return [curStruct, curData];
+}
+
+export const DisplayList = ({struct, data}) =>
+{
+    return (
+        <>
+        <table>
+        <thead><tr>{Object.entries(data[0]).map(k => <th>{k[0]}</th>)}</tr></thead>
+        <tbody>
+        {Object.entries(data).map(k => <tr>{Object.entries(k[1]).map(k2 => <td>{k2[1]}</td>)}</tr>)}
+        </tbody>
+        </table>
+        </>
+    );
+}
+
+export const DisplayObject = ({struct, data}) =>
+{
+    return <>{Object.entries(data).map(k => {
+        const dataStruct = struct.members.find((m) => m.member_name == k[0]);
+        if(dataStruct.type == "list")
+            return (<><tr><td><code>{k[0]}</code></td><td><DisplayList struct={dataStruct} data={k[1]} /></td></tr></>);
+        else if(dataStruct.type == "class")
+            return (<><tr><td><code>{k[0]}</code></td><td>class</td></tr></>);
+        else
+            return (<><tr><td><code>{k[0]}</code></td><td>{k[1]}</td></tr></>);
+    }
+    )}</>
+}
+
+export const DisplayData = ({struct, data, path}) =>
+{
+    const filtered = getStructAndDataFromPath(struct,data, path);
+    const currentData = {
+        A:"t"
+    };
+    return (
+        <>
+        <h2>Properties</h2>
+
+        <table>
+        <thead><tr><th>Name</th><th>Value</th></tr></thead>
+        <tbody>
+        <DisplayObject struct={filtered[0]} data={filtered[1]} />
+        </tbody>
+        </table>
+
+        </>
+    );
+}
+
+<DisplayData struct={diva_struct} data={diva_data} path="./CDENCMNHNGA_Divas/1" />
+

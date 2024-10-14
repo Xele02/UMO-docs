@@ -1,0 +1,169 @@
+
+{
+    "type" : "class",
+    "name" : "HPBPIOPPDCB_Diva",
+    "cryptedName" : "HPBPIOPPDCB",
+    "realName"    : "Diva",
+    "members"     : [
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "BJPLLEBHAGO_DivaInfo",
+                "cryptedName" : "BJPLLEBHAGO",
+                "realName"    : "DivaInfo",
+                "members"     : [
+                    {
+                        "type" : "SByte",
+                        "member_type" : "property",
+                        "member_name" : "AIHCEGFANAM_Attr",
+                        "member_cryptedName" : "AIHCEGFANAM",
+                        "member_realName"    : "Attr",
+                        "member_reader"      : "JPFMJHLCMJL"
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "property",
+                        "member_name" : "AHHJLDLAPAN_DivaId",
+                        "member_cryptedName" : "AHHJLDLAPAN",
+                        "member_realName"    : "DivaId",
+                        "member_reader"      : "PPFNGGCBJKC"
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "property",
+                        "member_name" : "IDDHKOEFJFB_BodyId",
+                        "member_cryptedName" : "IDDHKOEFJFB",
+                        "member_realName"    : "BodyId",
+                        "member_reader"      : "JIBNPJCIALH"
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "property",
+                        "member_name" : "FPMGHDKACOF_PersonalityId",
+                        "member_cryptedName" : "FPMGHDKACOF",
+                        "member_realName"    : "PersonalityId",
+                        "member_reader"      : "OKADDOIJGNB"
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "property",
+                        "member_name" : "PPEGAKEIEGM_Enabled",
+                        "member_cryptedName" : "PPEGAKEIEGM",
+                        "member_realName"    : "Enabled",
+                        "member_reader"      : "IJEKNCDIIAE|PLALNIIBLOF"
+                    },
+                    {
+                        "type" : "UInt16",
+                        "member_type" : "property",
+                        "member_name" : "LIOGKHIGJKN_FreeMusicId",
+                        "member_cryptedName" : "LIOGKHIGJKN",
+                        "member_realName"    : "FreeMusicId",
+                        "member_reader"      : "LIOGKHIGJKN"
+                    },
+                    {
+                        "type" : "UInt16",
+                        "member_type" : "property",
+                        "member_name" : "CMBCBNEODPD_HomeBgId",
+                        "member_cryptedName" : "CMBCBNEODPD",
+                        "member_realName"    : "HomeBgId",
+                        "member_reader"      : "CMBCBNEODPD"
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "field",
+                        "member_name" : "DOAJJALOKLI_Month",
+                        "member_cryptedName" : "DOAJJALOKLI",
+                        "member_realName"    : "Month",
+                        "member_reader"      : "KLCMKLPIDDJ"
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "field",
+                        "member_name" : "PKNONBBKCCP_Day",
+                        "member_cryptedName" : "PKNONBBKCCP",
+                        "member_realName"    : "Day",
+                        "member_reader"      : "BAOFEFFADPD"
+                    },
+                    {
+                        "type" : "list",
+                        "innerType" : {
+                            "type" : "class",
+                            "name" : "EPPOHFLMDBC_DivaStats",
+                            "cryptedName" : "EPPOHFLMDBC",
+                            "realName"    : "DivaStats",
+                            "members"     : [
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "property",
+                                    "member_name" : "ANAJIAENLNB_Level",
+                                    "member_cryptedName" : "ANAJIAENLNB",
+                                    "member_realName"    : "Level",
+                                    "member_reader"      : ""
+                                },
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "property",
+                                    "member_name" : "HFIDCMNFBJG_Life",
+                                    "member_cryptedName" : "HFIDCMNFBJG",
+                                    "member_realName"    : "Life",
+                                    "member_reader"      : "BCCOMAODPJI"
+                                },
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "property",
+                                    "member_name" : "PFJCOCPKABN_Soul",
+                                    "member_cryptedName" : "PFJCOCPKABN",
+                                    "member_realName"    : "Soul",
+                                    "member_reader"      : "LJELGFAFGAB"
+                                },
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "property",
+                                    "member_name" : "JFJDLEMNKFE_Vocal",
+                                    "member_cryptedName" : "JFJDLEMNKFE",
+                                    "member_realName"    : "Vocal",
+                                    "member_reader"      : "KNEDJFLCCLN"
+                                },
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "property",
+                                    "member_name" : "GDOLPGBLMEA_Charm",
+                                    "member_cryptedName" : "GDOLPGBLMEA",
+                                    "member_realName"    : "Charm",
+                                    "member_reader"      : "MBAMIOJNGBD"
+                                },
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "property",
+                                    "member_name" : "ONDFNOOICLE_Fold",
+                                    "member_cryptedName" : "ONDFNOOICLE",
+                                    "member_realName"    : "Fold",
+                                    "member_reader"      : "ADLGKMBIPCA"
+                                },
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "property",
+                                    "member_name" : "HCFOMFDPGEC_Support",
+                                    "member_cryptedName" : "HCFOMFDPGEC",
+                                    "member_realName"    : "Support",
+                                    "member_reader"      : "PIPCIMIALOO"
+                                }
+                            ]
+                        },
+                        "member_type" : "field",
+                        "member_name" : "CMCKNKKCNDK_StatsByLevel",
+                        "member_cryptedName" : "CMCKNKKCNDK",
+                        "member_realName"    : "StatsByLevel",
+                        "member_reader"      : "DFEDIAPLFHN"
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "CDENCMNHNGA_Divas",
+            "member_cryptedName" : "CDENCMNHNGA",
+            "member_realName"    : "Divas",
+            "member_reader"      : "INPCGKFIMIG"
+        }
+    ]
+}

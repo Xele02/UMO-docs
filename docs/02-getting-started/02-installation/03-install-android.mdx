@@ -1,0 +1,153 @@
+---
+sidebar_label: Android
+description: Installation instructions for running the game on Android.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Install on Android
+
+## Requirement
+
+There is 3 possible method to install the game. Select the one that fit the most your case.
+
+<Tabs groupId="methods">
+  <TabItem value="method1" label="Method 1" default>
+    Use a PC to copy the needed files on the phone. This should be the easiest, but some newer vesion of Android don't allow to access the game directory on the phone.
+  </TabItem>
+  <TabItem value="method2" label="Method 2">
+    Use a PC to act as a download server. The game will connect to it to get the files. Once it's done, you don't need the server anymore.
+  </TabItem>
+  <TabItem value="method3" label="Method 3">
+    Only use a android Phone. If you don't have a PC, you can use this. It will download the data from the UMO server through internet.
+:::info
+Use it when your phone is connected to Wifi. There will be 14GB to download.
+:::
+  </TabItem>
+</Tabs>
+
+### Android game
+
+Download the apk from the [lastest release](https://github.com/Xele02/UMO/releases) on github.
+
+### UMO Server
+
+<Tabs groupId="methods">
+  <TabItem value="method1" label="Method 1" default>
+Not used
+  </TabItem>
+  <TabItem value="method2" label="Method 2">
+Download the Windows (UMOServer_vXX_Windows.zip) or Linux (UMOServer_vXX_Linux.zip) version on the server in the [lastest release](https://github.com/Xele02/UMO/releases) on github.
+  </TabItem>
+  <TabItem value="method3" label="Method 3">
+Not used
+  </TabItem>
+</Tabs>
+
+### Game datas
+
+<Tabs groupId="methods">
+  <TabItem value="method1" label="Method 1" default>
+The original game datas. You can download them here:
+  * [Torrent file](https://www.xele.org/UMO_ZipFiles.torrent)
+  * Google Drive : [UtaMacrossDataArchive.zip](https://drive.google.com/file/d/1DkJTZTH7w4zVNdJGkZZZeSwrPAi-MqTx/view?usp=drive_link)
+
+:::warning
+There is a download limit on google drive. Prefer the torrent.
+:::
+  </TabItem>
+  <TabItem value="method2" label="Method 2">
+The original game datas. You can download them here:
+  * [Torrent file](https://www.xele.org/UMO_ZipFiles.torrent)
+  * Google Drive : [UtaMacrossDataArchive.zip](https://drive.google.com/file/d/1DkJTZTH7w4zVNdJGkZZZeSwrPAi-MqTx/view?usp=drive_link) +
+[UtaMacrossDataArchivePCPatch.zip](https://drive.google.com/file/d/1AVh205ldMWKijHWwbE-M1FN8d0kg0w-6/view?usp=drive_link)
+:::warning
+There is a download limit on google drive. Prefer the torrent.
+:::
+  </TabItem>
+  <TabItem value="method3" label="Method 3">
+Not used. The game will download the data on UMO server.
+  </TabItem>
+</Tabs>
+
+### Android phone
+
+:::warning
+UMO is only natively compatible with ARM phone (ARM7/ARM64). Some emulators or x86 phones can possibly run it too if they use libhoudini.
+:::
+
+<details>
+
+<summary>Known phone compatibility</summary>
+
+* **One Plus**
+  * 🟢 One Plus Nord AC2003. Android 12
+  * 🟢 One Plus 9 5G. Android 14
+  * 🟢 One Plus 3. Android 9
+* **Redmi**
+  * 🟠 Redmi Note 12 Turbo. Android 13. Some lag
+  * 🟠 Redmi Note 10T A101XM. Android 11. Some lag
+* **Google Pixel**
+  * 🟢 Google Pixel 6. Android 14
+* **Samsung**
+  * 🟢 Samsung Galaxy ZFold 5. Android 13. Some problem exists when the phone is closed.
+  * 🟢 Samsung Galaxy Tab S5e
+* **Amazon**
+  * 🟢 Kindle Fire 11 Max. Android 11
+
+</details>
+
+## Installation
+
+### Install the game
+
+Install the game apk on your Android device. Your device may require you to allow the installation of untrusted apks.
+
+### Install the game data
+
+<Tabs groupId="methods">
+  <TabItem value="method1" label="Method 1" default>
+* Extract and copy the data & mx folders directly to your device at this location: Android/data/com.UtaMacrossOffline.UtaMacrossOffline/files/
+![image](https://github.com/Xele02/UMO/assets/2817631/1219fe8c-7c7a-43b6-b742-402a7c24aac4)
+
+:::warning
+You may not be able to use this method on Android 11 and above because the data folder is locked. If this is the case, try `Method 2` or `Method 3`.
+:::
+  </TabItem>
+  <TabItem value="method2" label="Method 2">
+* **On your PC**:
+  * Extract the game data dump called UtaMacrossDataArchive.zip
+  * Extract the files from UtaMacrossDataArchivePCPatch.zip and copy the db folder into the data folder of the game data dump, so you have the android and db folders as follows:  
+![image](https://github.com/Xele02/UMO/assets/2817631/1035d499-624c-4f00-809b-51f3ed9a363d)
+  * Extract the UMO Server zip file.
+  * Run the UMOServer executable.
+  * In the input box at the top of the UMOServer window, input the file path where you put the game data (the folder containing the android & db folders).
+Use this format: `drive letter`:/`folder name`/data (See the next screenshot below for an example)
+  * Click the Start Server button. On Windows, you may need to accept the firewall security. (The server uses port 8000, set server discovery by broadcast to use port 8001).  
+![image](https://github.com/Xele02/UMO/assets/2817631/b48f62f3-de5b-4493-b2e5-3bc2c8d1ee15)
+  * The log underneath should display 'Ready'.
+* **On your Android device** :
+  * Start the game. The first time you run the game, it will need to download the resource files from the data dump that you downloaded and extracted to your PC.
+A pop-up will open telling you to run the server.
+  * **Your Android device and the server (your PC) should be on the same local network.** If they are, your device should auto-detect the server and download the data.
+Once the download is finished and the main screen appears, you can close the server.
+  * If the game doesn't find the server, click the cancel button and enter the local IP of the PC running the server.
+  * The game can freeze during download, just restart it.
+
+&nbsp;
+  </TabItem>
+  <TabItem value="method3" label="Method 3">
+  * Start the game. The first time you run the game, it will need to download the resource files.
+  * When the popup telling you to run the server, click on the cancel button.
+  * Enter in the input text box in place of 0.0.0.0 this url : `umo.xele.org` and validate the popup. The data will start to download.
+  * Redo it everytime the game ask for it.
+  * The game can freeze during download, just restart it.
+  </TabItem>
+</Tabs>
+
+## Troubleshooting :
+* The game might crash or stuff might display incorrectly because there was an error when downloading the data dump file. 
+If you used an encrypted version of the data, you can force a recheck of the files by tapping on the game controller icon on the title screen, 
+and selecting the option to force recheck and start the game. It will recheck all files (which takes a long time). If you use the decrypted version of the data, 
+all the files will be redownloaded. This is because the game expects the encrypted data for data comparison. This will be fixed at a later date.

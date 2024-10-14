@@ -1,0 +1,59 @@
+---
+sidebar_label: PC (Windows/Linux)
+description: Installation instructions for running the game on PC.
+---
+
+# Install on PC (Windows/Linux)
+
+## Requirement
+
+* The project zip (Source code.zip) from [lastest release](https://github.com/Xele02/UMO/releases) on github.
+* The game data dump with android and db directories. You can download it here :
+The original game datas. You can download them here:
+  * [Torrent file](https://www.xele.org/UMO_ZipFiles.torrent)
+  * Google Drive : [UtaMacrossDataArchive.zip](https://drive.google.com/file/d/1DkJTZTH7w4zVNdJGkZZZeSwrPAi-MqTx/view?usp=drive_link) +
+[UtaMacrossDataArchivePCPatch.zip](https://drive.google.com/file/d/1AVh205ldMWKijHWwbE-M1FN8d0kg0w-6/view?usp=drive_link)
+* Unity Editor version 2018.4.23f1 or 2018.4.24f1 : https://unity.com/releases/editor/whats-new/2018.4.23
+* **For linux user** : FFMpeg installed to convert movies. If not installed, check "Disable movies" in the options.
+
+## Installation
+* Clone git the project or extract the release zip (If you extract the zip on a older installation, remove the Unity directory before doing so).
+* Extract the game data dump UtaMacrossDataArchive.zip.
+* Extract UtaMacrossDataArchivePCPatch.zip an copy the db directory into the data directory of the game datadump, so you have android and db directory like that :  
+![image](https://github.com/Xele02/UMO/assets/2817631/1035d499-624c-4f00-809b-51f3ed9a363d)
+* For automatic game data detection, you can copy android and db directory from the game dump into the Tools/Data/ directory of the project. But don't delete it when you update the version.
+* Launch Unity Hub and add the Project : Open > Add Project From Disk. Browse to the Unity Directory.  
+![image](https://github.com/Xele02/UMO/assets/2817631/78e8cfb9-2a10-42b6-8486-08f3ab31e4ce)
+* Click on the Unity Project line which was added to launch the editor and load the project. Accept the upgrade version popup if it is displayed.
+:::tip
+**Linux user** : You can convert all the movies in advance with the menu UMO > Convert all movies. This use FFMpeg and take a long time.
+:::
+* Start the game using the menu UMO > Start Game.  
+![image](https://github.com/Xele02/UMO/assets/2817631/0bb5d2d4-a51e-45e4-93a5-b64de5543614)
+* The game will search game data in Tools/Data or Data directory (default directories when using python script to download from game server).
+If you put your game data elsewhere, select the directory containing "android" and "db" directories in the next popup. For advanced configuration, you can check the options.
+
+## PC specials options
+
+### Menu UMO
+
+* Start Game : Start the game.
+* Start Auto SLive Viewer : Start the game in automatic mode, randomply selecting songs and diva costumes.
+* Options : Open a window with UMO specific options
+  * Profile
+    * Force tuto skip : Unused actually
+  * Live
+    * Force Live Valkyrie Mode : Force going in valkyrie mode even if gauge is not filled
+    * Force Live Diva Mode : Force going in standard diva mode
+    * Force Live Awaken Diva Mode : Force going on awaken diva mode
+    * Touch* : Select the key to use for each lane and the active skill button.
+  * S-Live
+    * Disable Movies : Disable playing movies
+  * Data Directory : Local directory where game data was downloaded.
+  * Data Web server URL : URL Where to download data (this require uploading the data somewhere accessible on a web server)
+  * Debug : Debug options for dev.
+* Copy song setup for bug report : Allow to generate the song infos to help doing the report.
+* Create song notes data : Allow to generate a log of a song play to help doing a bug report when tapping note is broken.
+* (Linux user) Convert all movies. Allow to convert all movies at once.
+
+

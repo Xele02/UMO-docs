@@ -1,0 +1,53 @@
+# Divas
+
+The game has 10 playable characters comming from 4 Macross series.
+
+import Link from '@docusaurus/Link';
+import { DivaImage } from "@umo-generator/components/Diva";
+import clsx from 'clsx';
+import styles from './styles.module.css';
+import { getLinkById } from "@umo-generator/js/link"
+
+export const DivaClick = ({ids}) => {
+
+    const list = ids.map(k => {
+    const url = getLinkById("documentation/game-info/divas/diva-"+(k.toString().padStart(2, '0'))+"/index");
+    return (
+<article class="col col--4 margin-bottom--lg"><Link
+        href={url}
+        className={clsx('card padding--lg', styles.cardContainer)}>
+        <DivaImage type="l_size_crop" divaId={k} />
+        </Link></article>
+    );
+})
+
+    return <>{list}</>;
+}
+
+export const DivaLists = [
+    [1, 2, 3, 4, 5], [6, 7], [8, 9], [10]
+]
+
+## Macross Delta
+
+<section class="row">
+<DivaClick ids={DivaLists[0]} />
+</section>
+
+## Macross Frontier
+
+<section class="row">
+<DivaClick ids={DivaLists[1]} />
+</section>
+
+## Macross 7
+
+<section class="row">
+<DivaClick ids={DivaLists[2]} />
+</section>
+
+## Macross
+
+<section class="row">
+<DivaClick ids={DivaLists[3]} />
+</section>

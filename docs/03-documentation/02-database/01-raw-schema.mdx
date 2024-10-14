@@ -1,0 +1,104 @@
+
+import Schema from "./schema.json";
+
+# Flatbuffer schema
+
+export const SchemaObjectValues = ({schema}) =>
+{
+    const items = Object.entries(schema.properties).map(([key, value]) => {
+        value.title = key;
+        return <SchemaGroup schema={value} />
+    });
+    return <>{items}</>;
+}
+
+export const SchemaObject = ({schema}) =>
+{
+    const items = <SchemaObjectValues schema={schema} />
+    
+    const detail = items;
+
+    return (
+        <details>
+        <summary>{getTitle(schema)}</summary>
+
+        {detail}
+
+        </details>
+    );
+}
+
+export const SchemaGroup = ({schema}) =>
+{
+    const type = schema["type"];
+    if(type == "array")
+    {
+        return <><SchemaArray schema={schema} /></>
+    }
+    else if(type == "object")
+    {
+        return <><SchemaObject schema={schema} /></>
+    }
+    return <p>{getTitle(schema, null)}</p>;
+}
+
+export const SchemaArrayValues = ({schema}) =>
+{
+    const items = schema.map(k => <SchemaGroup schema={k} />)
+    return (<>{items}</>);
+}
+
+export function getTitle(data, inner_data)
+{
+    const type = data["type"]
+    const mainTitle = data["real_title"] ? <><strong>{data["real_title"]}</strong> </> : <></>;
+    const subTitle = data["title"] ? <><code>{data["title"]}</code></> : <></>;
+
+    if(inner_data)
+    {
+        return <>{mainTitle}{subTitle} ({type}) =&gt; {getTitle(inner_data, null)}</>
+    }
+
+    return <>{mainTitle}{subTitle} ({type})</>
+}
+
+export const SchemaArray = ({schema}) =>
+{
+    var title = getTitle(schema);
+    var detail = "";
+    var innerType = "";
+    if(schema.items.length == 1)
+    {
+        detail = "";
+        const item = schema.items[0];
+        title = getTitle(schema, item);
+        if(item["type"] == "object")
+        {
+            detail = <SchemaObjectValues schema={item} />;
+        }
+        else
+            return <p>{title}</p>;
+    }
+    else
+    {
+        detail = <SchemaArrayValues schema={schema["items"]} />;
+        innerType = "";
+    }
+
+    return (
+        <details>
+        <summary>{title}</summary>
+
+        {detail}
+
+        </details>
+    );
+}
+
+export const SchemaDisplay = ({schema}) =>
+{
+    schema.title = "Database schema";
+    return <SchemaArray schema={schema} />
+}
+
+<SchemaDisplay schema={Schema} />
