@@ -78,14 +78,14 @@ export default async function umoGeneratorPlugin(context, options) {
             }
           })
         });
+        const db_names = ["diva"];
         await this.generateFiles({
           template: path.join(tmplDir, 'database_template.mdx'),
-          toGenerate: divaIds.map(k => {
-            const idx = (k - 1).toString().padStart(2, '0');
+          toGenerate: db_names.map(k => {
             return {
-              destName: path.join(docsDir, '03-documentation/02-database/01-divas/'+idx+'-diva-'+idx+'.mdx'),
+              destName: path.join(docsDir, '03-documentation/02-database/_db_'+k+'.mdx'),
               replace: [
-                ["_#_DIVA_IDX_#_", k - 1]
+                ["_#_DB_NAME_#_", k]
               ]
             }
           })

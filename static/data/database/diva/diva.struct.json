@@ -4,6 +4,7 @@
     "name" : "HPBPIOPPDCB_Diva",
     "cryptedName" : "HPBPIOPPDCB",
     "realName"    : "Diva",
+    "readerClass" : null,
     "members"     : [
         {
             "type" : "list",
@@ -12,6 +13,7 @@
                 "name" : "BJPLLEBHAGO_DivaInfo",
                 "cryptedName" : "BJPLLEBHAGO",
                 "realName"    : "DivaInfo",
+                "readerClass" : "MALFJMBMCLG",
                 "members"     : [
                     {
                         "type" : "SByte",
@@ -19,7 +21,10 @@
                         "member_name" : "AIHCEGFANAM_Attr",
                         "member_cryptedName" : "AIHCEGFANAM",
                         "member_realName"    : "Attr",
-                        "member_reader"      : "JPFMJHLCMJL"
+                        "member_reader"      : "JPFMJHLCMJL",
+                        "member_readableName" : "Attribute",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Refer to the series where the diva belongs."
                     },
                     {
                         "type" : "SByte",
@@ -27,7 +32,10 @@
                         "member_name" : "AHHJLDLAPAN_DivaId",
                         "member_cryptedName" : "AHHJLDLAPAN",
                         "member_realName"    : "DivaId",
-                        "member_reader"      : "PPFNGGCBJKC"
+                        "member_reader"      : "PPFNGGCBJKC",
+                        "member_readableName" : "Diva Id",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Id of the diva, used to reference it from other data."
                     },
                     {
                         "type" : "SByte",
@@ -35,7 +43,10 @@
                         "member_name" : "IDDHKOEFJFB_BodyId",
                         "member_cryptedName" : "IDDHKOEFJFB",
                         "member_realName"    : "BodyId",
-                        "member_reader"      : "JIBNPJCIALH"
+                        "member_reader"      : "JIBNPJCIALH",
+                        "member_readableName" : "Body Id",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null
                     },
                     {
                         "type" : "SByte",
@@ -43,7 +54,10 @@
                         "member_name" : "FPMGHDKACOF_PersonalityId",
                         "member_cryptedName" : "FPMGHDKACOF",
                         "member_realName"    : "PersonalityId",
-                        "member_reader"      : "OKADDOIJGNB"
+                        "member_reader"      : "OKADDOIJGNB",
+                        "member_readableName" : "Personality Id",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null
                     },
                     {
                         "type" : "SByte",
@@ -51,7 +65,10 @@
                         "member_name" : "PPEGAKEIEGM_Enabled",
                         "member_cryptedName" : "PPEGAKEIEGM",
                         "member_realName"    : "Enabled",
-                        "member_reader"      : "IJEKNCDIIAE|PLALNIIBLOF"
+                        "member_reader"      : "IJEKNCDIIAE|PLALNIIBLOF",
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Availabe in game if value = 2"
                     },
                     {
                         "type" : "UInt16",
@@ -59,7 +76,10 @@
                         "member_name" : "LIOGKHIGJKN_FreeMusicId",
                         "member_cryptedName" : "LIOGKHIGJKN",
                         "member_realName"    : "FreeMusicId",
-                        "member_reader"      : "LIOGKHIGJKN"
+                        "member_reader"      : "LIOGKHIGJKN",
+                        "member_readableName" : "Free Music Id",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null
                     },
                     {
                         "type" : "UInt16",
@@ -67,7 +87,10 @@
                         "member_name" : "CMBCBNEODPD_HomeBgId",
                         "member_cryptedName" : "CMBCBNEODPD",
                         "member_realName"    : "HomeBgId",
-                        "member_reader"      : "CMBCBNEODPD"
+                        "member_reader"      : "CMBCBNEODPD",
+                        "member_readableName" : "Home Bg Id",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Default home background for the diva"
                     },
                     {
                         "type" : "SByte",
@@ -75,7 +98,10 @@
                         "member_name" : "DOAJJALOKLI_Month",
                         "member_cryptedName" : "DOAJJALOKLI",
                         "member_realName"    : "Month",
-                        "member_reader"      : "KLCMKLPIDDJ"
+                        "member_reader"      : "KLCMKLPIDDJ",
+                        "member_readableName" : "Birthday month",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null
                     },
                     {
                         "type" : "SByte",
@@ -83,7 +109,10 @@
                         "member_name" : "PKNONBBKCCP_Day",
                         "member_cryptedName" : "PKNONBBKCCP",
                         "member_realName"    : "Day",
-                        "member_reader"      : "BAOFEFFADPD"
+                        "member_reader"      : "BAOFEFFADPD",
+                        "member_readableName" : "Birthday day",
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null
                     },
                     {
                         "type" : "list",
@@ -92,6 +121,7 @@
                             "name" : "EPPOHFLMDBC_DivaStats",
                             "cryptedName" : "EPPOHFLMDBC",
                             "realName"    : "DivaStats",
+                            "readerClass" : "DCHENGJKOKI",
                             "members"     : [
                                 {
                                     "type" : "Int32",
@@ -99,7 +129,10 @@
                                     "member_name" : "ANAJIAENLNB_Level",
                                     "member_cryptedName" : "ANAJIAENLNB",
                                     "member_realName"    : "Level",
-                                    "member_reader"      : ""
+                                    "member_reader"      : "",
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "DivaStat",
+                                    "member_desc"          : null
                                 },
                                 {
                                     "type" : "Int32",
@@ -107,7 +140,10 @@
                                     "member_name" : "HFIDCMNFBJG_Life",
                                     "member_cryptedName" : "HFIDCMNFBJG",
                                     "member_realName"    : "Life",
-                                    "member_reader"      : "BCCOMAODPJI"
+                                    "member_reader"      : "BCCOMAODPJI|OEOIHIIIMCK",
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "DivaStat_1",
+                                    "member_desc"          : null
                                 },
                                 {
                                     "type" : "Int32",
@@ -115,7 +151,10 @@
                                     "member_name" : "PFJCOCPKABN_Soul",
                                     "member_cryptedName" : "PFJCOCPKABN",
                                     "member_realName"    : "Soul",
-                                    "member_reader"      : "LJELGFAFGAB"
+                                    "member_reader"      : "LJELGFAFGAB|OEOIHIIIMCK",
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "DivaStat_2",
+                                    "member_desc"          : null
                                 },
                                 {
                                     "type" : "Int32",
@@ -123,7 +162,10 @@
                                     "member_name" : "JFJDLEMNKFE_Vocal",
                                     "member_cryptedName" : "JFJDLEMNKFE",
                                     "member_realName"    : "Vocal",
-                                    "member_reader"      : "KNEDJFLCCLN"
+                                    "member_reader"      : "KNEDJFLCCLN|OEOIHIIIMCK",
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "DivaStat_3",
+                                    "member_desc"          : null
                                 },
                                 {
                                     "type" : "Int32",
@@ -131,7 +173,10 @@
                                     "member_name" : "GDOLPGBLMEA_Charm",
                                     "member_cryptedName" : "GDOLPGBLMEA",
                                     "member_realName"    : "Charm",
-                                    "member_reader"      : "MBAMIOJNGBD"
+                                    "member_reader"      : "MBAMIOJNGBD|OEOIHIIIMCK",
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "DivaStat_4",
+                                    "member_desc"          : null
                                 },
                                 {
                                     "type" : "Int32",
@@ -139,7 +184,10 @@
                                     "member_name" : "ONDFNOOICLE_Fold",
                                     "member_cryptedName" : "ONDFNOOICLE",
                                     "member_realName"    : "Fold",
-                                    "member_reader"      : "ADLGKMBIPCA"
+                                    "member_reader"      : "ADLGKMBIPCA|OEOIHIIIMCK",
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "DivaStat_5",
+                                    "member_desc"          : null
                                 },
                                 {
                                     "type" : "Int32",
@@ -147,7 +195,10 @@
                                     "member_name" : "HCFOMFDPGEC_Support",
                                     "member_cryptedName" : "HCFOMFDPGEC",
                                     "member_realName"    : "Support",
-                                    "member_reader"      : "PIPCIMIALOO"
+                                    "member_reader"      : "PIPCIMIALOO|OEOIHIIIMCK",
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "DivaStat_6",
+                                    "member_desc"          : null
                                 }
                             ]
                         },
@@ -155,7 +206,11 @@
                         "member_name" : "CMCKNKKCNDK_StatsByLevel",
                         "member_cryptedName" : "CMCKNKKCNDK",
                         "member_realName"    : "StatsByLevel",
-                        "member_reader"      : "DFEDIAPLFHN"
+                        "member_reader"      : "",
+                        "member_reader_child" : "DFEDIAPLFHN",
+                        "member_readableName" : "Stats by level",
+                        "member_readerDisplay" : "PropagateReader",
+                        "member_desc"          : "Diva stat for each level.\nLevel 0 has the base value, then for each level, add a stat.\nAdditional values are stored in alternative type/value. Types are : \n* 1:Life\n* 2:Sould\n* 3:Vocal\n* 4:Charm\n* 5:Fold\n* 6:Support"
                     }
                 ]
             },
@@ -163,7 +218,10 @@
             "member_name" : "CDENCMNHNGA_Divas",
             "member_cryptedName" : "CDENCMNHNGA",
             "member_realName"    : "Divas",
-            "member_reader"      : "INPCGKFIMIG"
+            "member_reader"      : "INPCGKFIMIG",
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null
         }
     ]
 }
