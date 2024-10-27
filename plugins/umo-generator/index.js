@@ -1,6 +1,10 @@
 import path from 'path';
 import fs from 'fs-extra';
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 export default async function umoGeneratorPlugin(context, options) {
     const docsDir = path.join(context.siteDir, 'docs');
     const staticDir = path.join(context.siteDir, 'static');
@@ -29,12 +33,14 @@ export default async function umoGeneratorPlugin(context, options) {
         };
       },
 
-      async updateFile(outputfile, content)
+      async updateFile(outputfile, content, onlyNew)
       {
         const fileExists = await fs.exists(outputfile);
         var fileExistContent = "";
         if(fileExists)
         {
+          if(onlyNew)
+            return;
           fileExistContent = await fs.readFile(outputfile, 'utf-8');
         }
         if(fileExistContent != content)
@@ -51,7 +57,7 @@ export default async function umoGeneratorPlugin(context, options) {
           {
             newFileContent = newFileContent.replaceAll(rep[0], rep[1]);
           };
-          await this.updateFile(outPage.destName, newFileContent);
+          await this.updateFile(outPage.destName, newFileContent, outPage.onlyNew);
         };
       },
 
@@ -78,15 +84,28 @@ export default async function umoGeneratorPlugin(context, options) {
             }
           })
         });
-        const db_names = ["diva"];
+        const db_names = await import(path.join(staticDir,"data/database/db_struct.json"));
         await this.generateFiles({
-          template: path.join(tmplDir, 'database_template.mdx'),
+          template: path.join(tmplDir, 'database-template.mdx'),
           toGenerate: db_names.map(k => {
             return {
               destName: path.join(docsDir, '03-documentation/02-database/_db_'+k+'.mdx'),
               replace: [
                 ["_#_DB_NAME_#_", k]
               ]
+            }
+          })
+        });
+        await this.generateFiles({
+          template: path.join(tmplDir, 'database-template-base.mdx'),
+          toGenerate: db_names.map(k => {
+            return {
+              destName: path.join(docsDir, '03-documentation/02-database/01-data-content/'+k+'.mdx'),
+              replace: [
+                ["_#_DB_NAME_#_", k],
+                ["_#_DB_NAME_UPPERCASE_#_", capitalizeFirstLetter(k)]
+              ],
+              onlyNew: true
             }
           })
         });

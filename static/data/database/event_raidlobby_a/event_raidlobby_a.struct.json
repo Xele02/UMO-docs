@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "LDEBIBGHCGD_EventRaidLobby",
+    "cryptedName" : "LDEBIBGHCGD",
+    "realName"    : "EventRaidLobby",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

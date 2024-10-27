@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "LGHIPHEDCNC_Offer",
+    "cryptedName" : "LGHIPHEDCNC",
+    "realName"    : "Offer",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

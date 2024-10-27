@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "NDBFKHKMMCE_DecoItem",
+    "cryptedName" : "NDBFKHKMMCE",
+    "realName"    : "DecoItem",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

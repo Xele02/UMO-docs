@@ -4,8 +4,20 @@
     "name" : "HPBPIOPPDCB_Diva",
     "cryptedName" : "HPBPIOPPDCB",
     "realName"    : "Diva",
-    "readerClass" : null,
+    "readerClass" : "MHKHMCAPDKK",
     "members"     : [
+        {
+            "type" : "Int32",
+            "member_type" : "field",
+            "member_name" : "AGNCAAFGLBE_MaxLevels",
+            "member_cryptedName" : "AGNCAAFGLBE",
+            "member_realName"    : "MaxLevels",
+            "member_reader"      : null,
+            "member_reader_child" : null,
+            "member_readableName" : "Maximum levels",
+            "member_readerDisplay" : null,
+            "member_desc"          : "Maximum levels for the divas"
+        },
         {
             "type" : "list",
             "innerType" : {
@@ -22,6 +34,7 @@
                         "member_cryptedName" : "AIHCEGFANAM",
                         "member_realName"    : "Attr",
                         "member_reader"      : "JPFMJHLCMJL",
+                        "member_reader_child" : null,
                         "member_readableName" : "Attribute",
                         "member_readerDisplay" : null,
                         "member_desc"          : "Refer to the series where the diva belongs."
@@ -33,6 +46,7 @@
                         "member_cryptedName" : "AHHJLDLAPAN",
                         "member_realName"    : "DivaId",
                         "member_reader"      : "PPFNGGCBJKC",
+                        "member_reader_child" : null,
                         "member_readableName" : "Diva Id",
                         "member_readerDisplay" : null,
                         "member_desc"          : "Id of the diva, used to reference it from other data."
@@ -44,6 +58,7 @@
                         "member_cryptedName" : "IDDHKOEFJFB",
                         "member_realName"    : "BodyId",
                         "member_reader"      : "JIBNPJCIALH",
+                        "member_reader_child" : null,
                         "member_readableName" : "Body Id",
                         "member_readerDisplay" : null,
                         "member_desc"          : null
@@ -55,6 +70,7 @@
                         "member_cryptedName" : "FPMGHDKACOF",
                         "member_realName"    : "PersonalityId",
                         "member_reader"      : "OKADDOIJGNB",
+                        "member_reader_child" : null,
                         "member_readableName" : "Personality Id",
                         "member_readerDisplay" : null,
                         "member_desc"          : null
@@ -66,6 +82,7 @@
                         "member_cryptedName" : "PPEGAKEIEGM",
                         "member_realName"    : "Enabled",
                         "member_reader"      : "IJEKNCDIIAE|PLALNIIBLOF",
+                        "member_reader_child" : null,
                         "member_readableName" : null,
                         "member_readerDisplay" : null,
                         "member_desc"          : "Availabe in game if value = 2"
@@ -77,6 +94,7 @@
                         "member_cryptedName" : "LIOGKHIGJKN",
                         "member_realName"    : "FreeMusicId",
                         "member_reader"      : "LIOGKHIGJKN",
+                        "member_reader_child" : null,
                         "member_readableName" : "Free Music Id",
                         "member_readerDisplay" : null,
                         "member_desc"          : null
@@ -88,6 +106,7 @@
                         "member_cryptedName" : "CMBCBNEODPD",
                         "member_realName"    : "HomeBgId",
                         "member_reader"      : "CMBCBNEODPD",
+                        "member_reader_child" : null,
                         "member_readableName" : "Home Bg Id",
                         "member_readerDisplay" : null,
                         "member_desc"          : "Default home background for the diva"
@@ -99,6 +118,7 @@
                         "member_cryptedName" : "DOAJJALOKLI",
                         "member_realName"    : "Month",
                         "member_reader"      : "KLCMKLPIDDJ",
+                        "member_reader_child" : null,
                         "member_readableName" : "Birthday month",
                         "member_readerDisplay" : null,
                         "member_desc"          : null
@@ -110,6 +130,7 @@
                         "member_cryptedName" : "PKNONBBKCCP",
                         "member_realName"    : "Day",
                         "member_reader"      : "BAOFEFFADPD",
+                        "member_reader_child" : null,
                         "member_readableName" : "Birthday day",
                         "member_readerDisplay" : null,
                         "member_desc"          : null
@@ -130,6 +151,7 @@
                                     "member_cryptedName" : "ANAJIAENLNB",
                                     "member_realName"    : "Level",
                                     "member_reader"      : "",
+                                    "member_reader_child" : null,
                                     "member_readableName" : null,
                                     "member_readerDisplay" : "DivaStat",
                                     "member_desc"          : null
@@ -141,6 +163,7 @@
                                     "member_cryptedName" : "HFIDCMNFBJG",
                                     "member_realName"    : "Life",
                                     "member_reader"      : "BCCOMAODPJI|OEOIHIIIMCK",
+                                    "member_reader_child" : null,
                                     "member_readableName" : null,
                                     "member_readerDisplay" : "DivaStat_1",
                                     "member_desc"          : null
@@ -152,6 +175,7 @@
                                     "member_cryptedName" : "PFJCOCPKABN",
                                     "member_realName"    : "Soul",
                                     "member_reader"      : "LJELGFAFGAB|OEOIHIIIMCK",
+                                    "member_reader_child" : null,
                                     "member_readableName" : null,
                                     "member_readerDisplay" : "DivaStat_2",
                                     "member_desc"          : null
@@ -163,6 +187,7 @@
                                     "member_cryptedName" : "JFJDLEMNKFE",
                                     "member_realName"    : "Vocal",
                                     "member_reader"      : "KNEDJFLCCLN|OEOIHIIIMCK",
+                                    "member_reader_child" : null,
                                     "member_readableName" : null,
                                     "member_readerDisplay" : "DivaStat_3",
                                     "member_desc"          : null
@@ -174,6 +199,7 @@
                                     "member_cryptedName" : "GDOLPGBLMEA",
                                     "member_realName"    : "Charm",
                                     "member_reader"      : "MBAMIOJNGBD|OEOIHIIIMCK",
+                                    "member_reader_child" : null,
                                     "member_readableName" : null,
                                     "member_readerDisplay" : "DivaStat_4",
                                     "member_desc"          : null
@@ -185,6 +211,7 @@
                                     "member_cryptedName" : "ONDFNOOICLE",
                                     "member_realName"    : "Fold",
                                     "member_reader"      : "ADLGKMBIPCA|OEOIHIIIMCK",
+                                    "member_reader_child" : null,
                                     "member_readableName" : null,
                                     "member_readerDisplay" : "DivaStat_5",
                                     "member_desc"          : null
@@ -196,6 +223,7 @@
                                     "member_cryptedName" : "HCFOMFDPGEC",
                                     "member_realName"    : "Support",
                                     "member_reader"      : "PIPCIMIALOO|OEOIHIIIMCK",
+                                    "member_reader_child" : null,
                                     "member_readableName" : null,
                                     "member_readerDisplay" : "DivaStat_6",
                                     "member_desc"          : null
@@ -206,7 +234,7 @@
                         "member_name" : "CMCKNKKCNDK_StatsByLevel",
                         "member_cryptedName" : "CMCKNKKCNDK",
                         "member_realName"    : "StatsByLevel",
-                        "member_reader"      : "",
+                        "member_reader"      : null,
                         "member_reader_child" : "DFEDIAPLFHN",
                         "member_readableName" : "Stats by level",
                         "member_readerDisplay" : "PropagateReader",
@@ -219,6 +247,7 @@
             "member_cryptedName" : "CDENCMNHNGA",
             "member_realName"    : "Divas",
             "member_reader"      : "INPCGKFIMIG",
+            "member_reader_child" : null,
             "member_readableName" : null,
             "member_readerDisplay" : null,
             "member_desc"          : null

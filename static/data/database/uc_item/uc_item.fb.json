@@ -1,0 +1,34 @@
+{
+  "FHPGFDAILOG": [
+    {
+      "BBPHAPFBFHK": 1,
+      "ODBPKGJPLMD": 1,
+      "KJFEBMBHKOC": 1
+    },
+    {
+      "BBPHAPFBFHK": 2,
+      "ODBPKGJPLMD": 1,
+      "KJFEBMBHKOC": 5
+    },
+    {
+      "BBPHAPFBFHK": 3,
+      "ODBPKGJPLMD": 2,
+      "KJFEBMBHKOC": 50
+    },
+    {
+      "BBPHAPFBFHK": 4,
+      "ODBPKGJPLMD": 3,
+      "KJFEBMBHKOC": 500
+    },
+    {
+      "BBPHAPFBFHK": 5,
+      "ODBPKGJPLMD": 3,
+      "KJFEBMBHKOC": 1000
+    },
+    {
+      "BBPHAPFBFHK": 6,
+      "ODBPKGJPLMD": 3,
+      "KJFEBMBHKOC": 5000
+    }
+  ]
+}

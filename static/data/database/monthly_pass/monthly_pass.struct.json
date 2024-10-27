@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "KBCCGHLCFNO_MonthlyPass",
+    "cryptedName" : "KBCCGHLCFNO",
+    "realName"    : "MonthlyPass",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

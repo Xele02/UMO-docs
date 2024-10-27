@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "JEPMHCPBIGD_DecoItemInit",
+    "cryptedName" : "JEPMHCPBIGD",
+    "realName"    : "DecoItemInit",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

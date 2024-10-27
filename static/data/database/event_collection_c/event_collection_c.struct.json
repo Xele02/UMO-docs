@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "PHBACNMCMHG_EventCollection",
+    "cryptedName" : "PHBACNMCMHG",
+    "realName"    : "EventCollection",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

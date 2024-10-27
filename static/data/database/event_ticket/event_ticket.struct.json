@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "ABBOEIPOBLJ_EventTicket",
+    "cryptedName" : "ABBOEIPOBLJ",
+    "realName"    : "EventTicket",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

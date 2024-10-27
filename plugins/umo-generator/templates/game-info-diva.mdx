@@ -11,6 +11,7 @@ import { createContext, useContext, useState } from 'react';
 import { LanguageContext, LanguageContext_ } from "@umo-generator/components/LanguageContext";
 import { DivaIdContext_, DivaLanguageLink, DivaString, DivaIdContext, DivaImage } from "@umo-generator/components/Diva";
 import { getLinkById } from "@umo-generator/js/link"
+import { getDatabaseValue, DatabaseValue } from "@umo-generator/components/Database";
 
 export const DivaInfoProfileTableRow = ({data, language}) =>
 {
@@ -79,7 +80,13 @@ export const languagesFiles = [
 
 ## Linked datas
 
-* <!--<Link href={getLinkById("documentation/database/diva/diva"+(_#_DIVA_ID_#_ - 1).toString().padStart(2, '0'))} >Database</Link>-->
+* <Link href={getLinkById("documentation/database/data-content/diva")} >Database</Link>
+
+## Basic infos
+
+* Id : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/AHHJLDLAPAN_DivaId"} />
+* Serie : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/AIHCEGFANAM_Attr"} />
+* Birthday : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/DOAJJALOKLI_Month"} /> / <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/PKNONBBKCCP_Day"} />
 
 ## Profil
 
@@ -94,6 +101,63 @@ export const languagesFiles = [
     <DivaInfoProfileTable language="en" />
   </TabItem>
 </Tabs>
+
+## Stats
+
+export const diva_data_db = require("@site/static/data/database/diva/diva.data.json");
+
+export const DivaStatsRow = ({data, prevData, idx}) =>
+{
+  const list = ["ANAJIAENLNB_Level", "HFIDCMNFBJG_Life", "PFJCOCPKABN_Soul", "JFJDLEMNKFE_Vocal", "GDOLPGBLMEA_Charm", "ONDFNOOICLE_Fold", "HCFOMFDPGEC_Support"]
+  const col = list.map(c => {
+    const prevVal = prevData?.[c];
+    const val = data[c];
+    const _path = "CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/CMCKNKKCNDK_StatsByLevel/"+idx+"/"+c;
+    return <td><DatabaseValue database_name="diva" path={_path} />{(c != "ANAJIAENLNB_Level" && prevVal && prevVal != val) ? " (+"+(val-prevVal)+")" : ""}</td>
+  });
+  return (<><tr>
+    {col}
+  </tr></>);
+}
+
+export const maxLevels = parseInt(getDatabaseValue("diva", "AGNCAAFGLBE_MaxLevels"));
+
+export const DivaStatsRows = ({values_list}) =>
+{
+  const stats = diva_data_db.CDENCMNHNGA_Divas[(_#_DIVA_ID_#_ - 1)].CMCKNKKCNDK_StatsByLevel;
+  var prev = undefined;
+  return stats.map((k, idx) => {
+    const _p = prev;
+    const lvl = parseInt(k.ANAJIAENLNB_Level);
+    if(!values_list || values_list.includes(lvl))
+      prev = k;
+    if(lvl <= maxLevels && (!values_list || values_list.includes(lvl)))
+      return <DivaStatsRow data={k} prevData={_p} idx={idx} />
+    else
+      return null;
+  });
+}
+
+export const DivaStats = ({values_list}) =>
+{
+  return (
+  <table>
+  <thead>
+  <tr><td>Level</td><td>Life</td><td>Soul</td><td>Vocal</td><td>Charm</td><td>Fold</td><td>Support</td></tr>
+  </thead>
+  <tbody>
+  <DivaStatsRows values_list={values_list} />
+  </tbody>
+  </table>);
+}
+
+
+<DivaStats values_list={[0, maxLevels]} />
+
+<details>
+<summary>Full list of diva stats by level</summary>
+<DivaStats />
+</details>
 
 ## Icons
 

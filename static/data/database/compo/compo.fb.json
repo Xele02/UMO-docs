@@ -1,0 +1,204 @@
+{
+  "PKMCMIBBNDO": [
+    {
+      "BBPHAPFBFHK": 1,
+      "LEFPIGNDJNC": [
+        70001,
+        70004,
+        70007,
+        70010,
+        70013
+      ],
+      "BNCIPLKECMC": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "CDNLIGMMGBA": 2
+    },
+    {
+      "BBPHAPFBFHK": 2,
+      "LEFPIGNDJNC": [
+        70002,
+        70005,
+        70008,
+        70011,
+        70014
+      ],
+      "BNCIPLKECMC": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "CDNLIGMMGBA": 3
+    },
+    {
+      "BBPHAPFBFHK": 3,
+      "LEFPIGNDJNC": [
+        70003,
+        70006,
+        70009,
+        70012,
+        70015
+      ],
+      "BNCIPLKECMC": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "CDNLIGMMGBA": 4
+    },
+    {
+      "BBPHAPFBFHK": 4,
+      "LEFPIGNDJNC": [
+        70016,
+        70019,
+        70022
+      ],
+      "BNCIPLKECMC": [
+        1,
+        1,
+        1
+      ],
+      "CDNLIGMMGBA": 3
+    },
+    {
+      "BBPHAPFBFHK": 5,
+      "LEFPIGNDJNC": [
+        70017,
+        70020,
+        70023
+      ],
+      "BNCIPLKECMC": [
+        1,
+        1,
+        1
+      ],
+      "CDNLIGMMGBA": 4
+    },
+    {
+      "BBPHAPFBFHK": 6,
+      "LEFPIGNDJNC": [
+        70018,
+        70021,
+        70024
+      ],
+      "BNCIPLKECMC": [
+        1,
+        1,
+        1
+      ],
+      "CDNLIGMMGBA": 5
+    },
+    {
+      "BBPHAPFBFHK": 7,
+      "LEFPIGNDJNC": [
+        70001
+      ],
+      "BNCIPLKECMC": [
+        1
+      ],
+      "CDNLIGMMGBA": 4
+    },
+    {
+      "BBPHAPFBFHK": 8,
+      "LEFPIGNDJNC": [
+        70001
+      ],
+      "BNCIPLKECMC": [
+        1
+      ],
+      "CDNLIGMMGBA": 4
+    },
+    {
+      "BBPHAPFBFHK": 9,
+      "LEFPIGNDJNC": [
+        70001
+      ],
+      "BNCIPLKECMC": [
+        1
+      ],
+      "CDNLIGMMGBA": 4
+    },
+    {
+      "BBPHAPFBFHK": 10,
+      "LEFPIGNDJNC": [
+        70001
+      ],
+      "BNCIPLKECMC": [
+        1
+      ],
+      "CDNLIGMMGBA": 4
+    },
+    {
+      "BBPHAPFBFHK": 11,
+      "LEFPIGNDJNC": [
+        70001,
+        70002,
+        70003,
+        70004,
+        70005,
+        70006,
+        70007,
+        70008,
+        70009,
+        70010,
+        70011,
+        70012,
+        70013,
+        70014,
+        70015
+      ],
+      "BNCIPLKECMC": [
+        100,
+        50,
+        15,
+        40,
+        20,
+        5,
+        40,
+        20,
+        5,
+        40,
+        20,
+        5,
+        40,
+        20,
+        5
+      ],
+      "CDNLIGMMGBA": 4
+    },
+    {
+      "BBPHAPFBFHK": 12,
+      "LEFPIGNDJNC": [
+        70016,
+        70017,
+        70018,
+        70019,
+        70020,
+        70021,
+        70022,
+        70023,
+        70024
+      ],
+      "BNCIPLKECMC": [
+        5,
+        4,
+        2,
+        5,
+        4,
+        2,
+        5,
+        4,
+        2
+      ],
+      "CDNLIGMMGBA": 5
+    }
+  ]
+}

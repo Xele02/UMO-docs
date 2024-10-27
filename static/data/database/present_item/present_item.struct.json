@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "MDACFBPPIHD_PresentItem",
+    "cryptedName" : "MDACFBPPIHD",
+    "realName"    : "PresentItem",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

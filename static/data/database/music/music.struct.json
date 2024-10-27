@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "LPPGENBEECK_MusicMaster",
+    "cryptedName" : "LPPGENBEECK",
+    "realName"    : "MusicMaster",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}
