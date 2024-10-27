@@ -5,18 +5,18 @@ The game has 10 playable characters comming from 4 Macross series.
 import Link from '@docusaurus/Link';
 import { DivaImage } from "@umo-generator/components/Diva";
 import clsx from 'clsx';
-import styles from './styles.module.css';
+import styles from '@umo-generator/css/styles.module.css';
 import { getLinkById } from "@umo-generator/js/link"
 import { DatabaseValue } from "@umo-generator/components/Database";
 
 export const DivaClick = ({ids}) => {
 
     const list = ids.map(k => {
-    const url = getLinkById("documentation/game-info/divas/diva-"+(k.toString().padStart(2, '0'))+"/index");
+    const url = getLinkById("documentation_game_diva_"+k.toString());
     return (
-<article class="col col--4 margin-bottom--lg"><Link
+<article class="col col--3 margin-bottom--lg"><Link
         href={url}
-        className={clsx('card padding--lg', styles.cardContainer)}>
+        className={clsx('card ', styles.cardContainer)}>
         <DivaImage type="l_size_crop" divaId={k} />
         </Link></article>
     );

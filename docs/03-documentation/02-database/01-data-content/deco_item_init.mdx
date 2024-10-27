@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Deco_item_init
 
-import DbPage from "../_db_deco_item_init.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/deco_item_init/deco_item_init.struct.json";
+import db_data from "@site/static/data/database/deco_item_init/deco_item_init.data.json";
+import fb_data from "@site/static/data/database/deco_item_init/deco_item_init.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

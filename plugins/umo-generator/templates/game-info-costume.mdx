@@ -1,0 +1,115 @@
+
+import { CostumeLanguageLink, CostumeString, CostumeIdContext, CostumeIdContext_, CostumeImage } from "@umo-generator/components/Costume";
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import { getDatabaseValue, DatabaseValue } from "@umo-generator/components/Database";
+import { DivaLink } from "@umo-generator/components/Diva";
+import { useContext } from 'react';
+
+export const languagesFiles = [
+    //{ name:"common", lang:["ja", "fr", "en"] },
+    //{ name:"menu", lang:["ja", "fr", "en"] },
+    { name:"master", lang:["ja", "fr", "en"] },
+  ];
+
+export const CostumeTextTableRow = ({data, language}) =>
+{
+  return (
+    <tr>
+    <td>{data.name}</td>
+    <td><CostumeLanguageLink bank={data.bank} id={data.id} language={language} /></td>
+    <td><CostumeString bank={data.bank} id={data.id} language={language} /></td>
+    </tr>
+  );
+};
+
+export const CostumeTextTable = ({language}) =>
+{
+  const data = 
+  [
+    {
+      name:"Name",
+      id:"cos_##ID4##",
+      bank:"master"
+    },
+  ]
+  const items = data.map(k => (<CostumeTextTableRow data={k} language={language} />));
+  return (
+    <table>
+    <thead>
+    <tr>
+    <th>Name</th>
+    <th>String Id</th>
+    <th>Text</th>
+    </tr>
+    </thead>
+    <tbody>
+    {items}
+    </tbody>
+    </table>
+  );
+};
+
+
+<LanguageContext files={languagesFiles}>
+
+<CostumeIdContext costumeId={{id:props.costumeId}}>
+
+<div style={{position:'relative'}}><div style={{position: 'absolute',top:'0px', right:'-10%', width:'40%'}}><CostumeImage type="costume" /></div></div>
+
+
+## Basic infos
+
+* Id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/JPIDIENBGKH_CostumeId"} />
+* Diva : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId"} /> <DivaLink divaId={getDatabaseValue("costume", "CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId")} />
+* Diva costume id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/DAJGPBLEEOB_PrismCostumeModelId"} />
+
+## Texts
+
+<Tabs groupId="language">
+  <TabItem value="ja" label="Japanese" default>
+    <CostumeTextTable language="ja" />
+  </TabItem>
+  <TabItem value="fr" label="French">
+    <CostumeTextTable language="fr" />
+  </TabItem>
+  <TabItem value="en" label="English">
+    <CostumeTextTable language="en" />
+  </TabItem>
+</Tabs>
+
+## Icons
+
+export const CostumeImageWithColor = (p) =>
+{
+  const cosId = useContext(CostumeIdContext_);
+  const cos = getDatabaseValue("costume", "CDENCMNHNGA_Costumes").find(c => c.JPIDIENBGKH_CostumeId == cosId.id);
+  const hasColor = cos.BJGNGNPHCBA_LevelsInfo.find(l => l.INDDJNMPONH_UnlockType == 4) != undefined;
+  if(hasColor)
+    return <><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} /></div><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} colorId="1" /></div></>
+  return <><CostumeImage type={p.type} /></>
+}
+
+<Tabs groupId="costumeIcon">
+  <TabItem value="costume" label="Costume" default>
+    <CostumeImageWithColor type="costume" />
+  </TabItem>
+  <TabItem value="s_size" label="S size" default>
+    <CostumeImageWithColor type="s_size" />
+  </TabItem>
+  <TabItem value="m_size" label="M size" default>
+    <CostumeImageWithColor type="m_size" />
+  </TabItem>
+  <TabItem value="l_size" label="L size" default>
+    <CostumeImageWithColor type="l_size" />
+  </TabItem>
+  <TabItem value="ps" label="PS" default>
+    <CostumeImageWithColor type="ps" />
+  </TabItem>
+</Tabs>
+
+
+</CostumeIdContext>
+
+</LanguageContext>

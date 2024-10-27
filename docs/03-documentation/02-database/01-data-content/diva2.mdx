@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Diva2
 
-import DbPage from "../_db_diva2.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/diva2/diva2.struct.json";
+import db_data from "@site/static/data/database/diva2/diva2.data.json";
+import fb_data from "@site/static/data/database/diva2/diva2.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Event_box_gacha_d
 
-import DbPage from "../_db_event_box_gacha_d.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/event_box_gacha_d/event_box_gacha_d.struct.json";
+import db_data from "@site/static/data/database/event_box_gacha_d/event_box_gacha_d.data.json";
+import fb_data from "@site/static/data/database/event_box_gacha_d/event_box_gacha_d.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

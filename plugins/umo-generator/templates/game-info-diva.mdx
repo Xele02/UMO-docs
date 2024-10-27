@@ -1,17 +1,15 @@
----
-slug: _#_SLUG_#_
----
-
-# _#_DIVA_NAME_#_
 
 import Link from '@docusaurus/Link';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import { createContext, useContext, useState } from 'react';
-import { LanguageContext, LanguageContext_ } from "@umo-generator/components/LanguageContext";
-import { DivaIdContext_, DivaLanguageLink, DivaString, DivaIdContext, DivaImage } from "@umo-generator/components/Diva";
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { DivaLanguageLink, DivaString, DivaIdContext, DivaIdContext_, DivaImage } from "@umo-generator/components/Diva";
+import { CostumeImage, CostumeName } from "@umo-generator/components/Costume";
 import { getLinkById } from "@umo-generator/js/link"
 import { getDatabaseValue, DatabaseValue } from "@umo-generator/components/Database";
+import clsx from 'clsx';
+import styles from '@umo-generator/css/styles.module.css';
 
 export const DivaInfoProfileTableRow = ({data, language}) =>
 {
@@ -74,7 +72,7 @@ export const languagesFiles = [
 
 <LanguageContext files={languagesFiles}>
 
-<DivaIdContext divaId="_#_DIVA_ID_#_">
+<DivaIdContext divaId={props.divaId}>
 
 <div style={{position:'relative'}}><div style={{position: 'absolute',top:'-140px', right:'-50px', width:'40%'}}><DivaImage type="l_size" /></div></div>
 
@@ -84,9 +82,9 @@ export const languagesFiles = [
 
 ## Basic infos
 
-* Id : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/AHHJLDLAPAN_DivaId"} />
-* Serie : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/AIHCEGFANAM_Attr"} />
-* Birthday : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/DOAJJALOKLI_Month"} /> / <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/PKNONBBKCCP_Day"} />
+* Id : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/AHHJLDLAPAN_DivaId"} />
+* Serie : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/AIHCEGFANAM_Attr"} />
+* Birthday : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/DOAJJALOKLI_Month"} /> / <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/PKNONBBKCCP_Day"} />
 
 ## Profil
 
@@ -108,11 +106,12 @@ export const diva_data_db = require("@site/static/data/database/diva/diva.data.j
 
 export const DivaStatsRow = ({data, prevData, idx}) =>
 {
+  const divaId = useContext(DivaIdContext_);
   const list = ["ANAJIAENLNB_Level", "HFIDCMNFBJG_Life", "PFJCOCPKABN_Soul", "JFJDLEMNKFE_Vocal", "GDOLPGBLMEA_Charm", "ONDFNOOICLE_Fold", "HCFOMFDPGEC_Support"]
   const col = list.map(c => {
     const prevVal = prevData?.[c];
     const val = data[c];
-    const _path = "CDENCMNHNGA_Divas/"+(_#_DIVA_ID_#_ - 1)+"/CMCKNKKCNDK_StatsByLevel/"+idx+"/"+c;
+    const _path = "CDENCMNHNGA_Divas/"+(divaId - 1)+"/CMCKNKKCNDK_StatsByLevel/"+idx+"/"+c;
     return <td><DatabaseValue database_name="diva" path={_path} />{(c != "ANAJIAENLNB_Level" && prevVal && prevVal != val) ? " (+"+(val-prevVal)+")" : ""}</td>
   });
   return (<><tr>
@@ -124,7 +123,8 @@ export const maxLevels = parseInt(getDatabaseValue("diva", "AGNCAAFGLBE_MaxLevel
 
 export const DivaStatsRows = ({values_list}) =>
 {
-  const stats = diva_data_db.CDENCMNHNGA_Divas[(_#_DIVA_ID_#_ - 1)].CMCKNKKCNDK_StatsByLevel;
+  const divaId = useContext(DivaIdContext_);
+  const stats = diva_data_db.CDENCMNHNGA_Divas[(divaId - 1)].CMCKNKKCNDK_StatsByLevel;
   var prev = undefined;
   return stats.map((k, idx) => {
     const _p = prev;
@@ -218,5 +218,33 @@ export const DivaStats = ({values_list}) =>
 
   </TabItem>
 </Tabs>
+
+## Costumes
+
+export const CostumeClick = ({divaId}) => {
+
+    const cos = getDatabaseValue("costume", "CDENCMNHNGA_Costumes").filter(c => c.AHHJLDLAPAN_PrismDivaId == divaId && c.PPEGAKEIEGM_Enabled == 2);
+    const list = cos.map(k => {
+      const id = k.JPIDIENBGKH_CostumeId;
+      const hasColor = k.BJGNGNPHCBA_LevelsInfo.find(l => l.INDDJNMPONH_UnlockType == 4) != undefined;
+      const url = getLinkById("documentation_game_costume_"+id.toString());
+      const colorImg = hasColor && (<><span style={{position:'absolute', maxWidth:'50%', right:'0', bottom:'0', backgroundColor:'#FFBBBBAA', borderRadius:'50%'}}><CostumeImage type="costume" costumeId={{id:id, color:1}} /></span></>);
+      return (
+          <article class="col col--2 margin-bottom--lg"><Link
+          href={url}
+          className={clsx('card ', styles.cardContainer)}>
+          <div style={{position:'relative'}}><CostumeImage type="costume" costumeId={{id:id}} />
+          {colorImg}</div>
+          <CostumeName costumeId={{id:id}} />
+          </Link></article>
+      );
+  });
+  return <>{list}</>;
+}
+
+<section class="row">
+<CostumeClick divaId={props.divaId} />
+</section>
+
 </DivaIdContext>
 </LanguageContext>

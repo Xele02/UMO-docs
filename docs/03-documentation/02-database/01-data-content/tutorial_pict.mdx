@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Tutorial_pict
 
-import DbPage from "../_db_tutorial_pict.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/tutorial_pict/tutorial_pict.struct.json";
+import db_data from "@site/static/data/database/tutorial_pict/tutorial_pict.data.json";
+import fb_data from "@site/static/data/database/tutorial_pict/tutorial_pict.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

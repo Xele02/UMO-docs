@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Deco_stamp
 
-import DbPage from "../_db_deco_stamp.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/deco_stamp/deco_stamp.struct.json";
+import db_data from "@site/static/data/database/deco_stamp/deco_stamp.data.json";
+import fb_data from "@site/static/data/database/deco_stamp/deco_stamp.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

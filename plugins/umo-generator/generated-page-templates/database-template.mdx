@@ -1,0 +1,13 @@
+---
+hide_table_of_contents: true
+---
+
+# _#_DB_NAME_UPPERCASE_#_
+
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
+
+import db_struct from "@site/static/data/database/_#_DB_NAME_#_/_#_DB_NAME_#_.struct.json";
+import db_data from "@site/static/data/database/_#_DB_NAME_#_/_#_DB_NAME_#_.data.json";
+import fb_data from "@site/static/data/database/_#_DB_NAME_#_/_#_DB_NAME_#_.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Asset
 
-import DbPage from "../_db_asset.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/asset/asset.struct.json";
+import db_data from "@site/static/data/database/asset/asset.data.json";
+import fb_data from "@site/static/data/database/asset/asset.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

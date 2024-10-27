@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Event_collection_b
 
-import DbPage from "../_db_event_collection_b.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/event_collection_b/event_collection_b.struct.json";
+import db_data from "@site/static/data/database/event_collection_b/event_collection_b.data.json";
+import fb_data from "@site/static/data/database/event_collection_b/event_collection_b.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

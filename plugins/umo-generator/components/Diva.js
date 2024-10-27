@@ -2,7 +2,10 @@ import { createContext, useContext } from 'react';
 import { LanguageLink } from "@umo-generator/components/LanguageLink";
 import { TranslatedString } from "@umo-generator/components/TranslatedString";
 import useBaseUrl from '@docusaurus/useBaseUrl';
-
+import Link from '@docusaurus/Link';
+import { getLinkById } from "@umo-generator/js/link"
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import { Tooltip } from 'primereact/tooltip';
 
 export const DivaIdContext_ = createContext(0);
 
@@ -30,14 +33,17 @@ export const DivaString = (props) =>
     return (<><TranslatedString {...props} id={str} /></>);
 }
     
-export const DivaLink = ({id, handleClick_}) =>
+export const DivaLink = ({divaId}) =>
 {
-    function handleClick(e) {
-        e.preventDefault();
-        handleClick_(id);
-    }
-    const divaStr = "diva_" + id.toString().padStart(2, '0');
-    return (<a href="#" onClick={handleClick} ><TranslatedString bank="master" id={divaStr} language="en" /></a>);
+    const divaIdStr = divaId.toString().padStart(2, '0');
+    const divaStr = "diva_" + divaIdStr;
+    return (<>
+        <Tooltip target={".diva_link_"+divaId} ><DivaImage divaId={divaId} /></Tooltip>
+        <Link href={getLinkById("documentation_game_diva_"+divaId)} className={"diva_link_"+divaId}
+        data-pr-position="top"
+        data-pr-at="center top-6"
+        data-pr-my="center bottom" ><TranslatedString bank="master" id={divaStr} language="en" /></Link>
+    </>);
 };
 
 export const DivaImage = (props) =>

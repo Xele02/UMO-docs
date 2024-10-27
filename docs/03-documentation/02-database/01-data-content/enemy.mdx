@@ -4,6 +4,10 @@ hide_table_of_contents: true
 
 # Enemy
 
-import DbPage from "../_db_enemy.mdx"
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-<DbPage />
+import db_struct from "@site/static/data/database/enemy/enemy.struct.json";
+import db_data from "@site/static/data/database/enemy/enemy.data.json";
+import fb_data from "@site/static/data/database/enemy/enemy.fb.json";
+
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />

@@ -4,8 +4,10 @@ hide_table_of_contents: true
 
 # Diva
 
-The diva section of the database contains the infos of the divas.
+import DatabaseDisplayContent from '@umo-generator/templates/database-template.mdx'
 
-import DbPage from "../_db_diva.mdx"
+import db_struct from "@site/static/data/database/diva/diva.struct.json";
+import db_data from "@site/static/data/database/diva/diva.data.json";
+import fb_data from "@site/static/data/database/diva/diva.fb.json";
 
-<DbPage />
+<DatabaseDisplayContent db_struct={db_struct} db_data={db_data} fb_data={fb_data} />
