@@ -118,13 +118,15 @@ export default async function umoGeneratorPlugin(context, options) {
             const l_id = k.l_id.toString().padStart(4, '0');
             const d_id = k.d_id.toString().padStart(2, '0');
             const costumeName = (master_en["cos_" + id] && master_en["cos_" + id] != "") ? master_en["cos_" + id] : master["cos_" + id];
+            const hasColor = costumesDb.CDENCMNHNGA_Costumes[k.id - 1].BJGNGNPHCBA_LevelsInfo.find(c => c.INDDJNMPONH_UnlockType == "4") != null;
+            const coloCostumeName = hasColor ? " / " + ((master_en["cos_" + id + "_01"] && master_en["cos_" + id + "_01"] != "") ? master_en["cos_" + id + "_01"] : master["cos_" + id + "_01"]) : "";
             const divaName = master_en["diva_" + d_id];
             return {
               destName: path.join(docsDir, '03-documentation/01-game-info/01-divas/'+d_id+'-diva-'+d_id+'/costume/'+l_id+'-costume-'+id+'.mdx'),
               replace: [
                 ["_#_SLUG_#_", "/documentation/game-info/divas/"+(divaName.replaceAll(" ", "-").toLowerCase())+"/costume/"+id],
                 ["_#_COSTUME_ID_#_", k.id],
-                ["_#_COSTUME_NAME_#_", costumeName]
+                ["_#_COSTUME_NAME_#_", costumeName + coloCostumeName]
               ]
             }
           })

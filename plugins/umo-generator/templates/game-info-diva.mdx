@@ -4,25 +4,27 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import { createContext, useContext, useState } from 'react';
 import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { LanguageTabs } from "@umo-generator/components/LanguageLink";
 import { DivaLanguageLink, DivaString, DivaIdContext, DivaIdContext_, DivaImage } from "@umo-generator/components/Diva";
 import { CostumeImage, CostumeName } from "@umo-generator/components/Costume";
 import { getLinkById } from "@umo-generator/js/link"
 import { getDatabaseValue, DatabaseValue } from "@umo-generator/components/Database";
+import { TranslatedTextTable } from "@umo-generator/components/TranslatedString";
 import clsx from 'clsx';
 import styles from '@umo-generator/css/styles.module.css';
 
-export const DivaInfoProfileTableRow = ({data, language}) =>
+export const DivaInfoProfileTableRow = ({data}) =>
 {
   return (
     <tr>
     <td>{data.name}</td>
-    <td><DivaLanguageLink bank="common" id={data.id} language={language} /></td>
-    <td><DivaString bank="common" id={data.id} language={language} /></td>
+    <td><DivaLanguageLink bank="common" id={data.id} /></td>
+    <td><DivaString bank="common" id={data.id} /></td>
     </tr>
   );
 };
 
-export const DivaInfoProfileTable = ({language}) =>
+export const DivaInfoProfileTable = () =>
 {
   const data = 
   [
@@ -47,7 +49,7 @@ export const DivaInfoProfileTable = ({language}) =>
       id:"profile_diva0##ID##_description"
     }
   ]
-  const items = data.map(k => (<DivaInfoProfileTableRow data={k} language={language} />));
+  const items = data.map(k => (<DivaInfoProfileTableRow data={k} />));
   return (
     <table>
     <thead>
@@ -88,17 +90,39 @@ export const languagesFiles = [
 
 ## Profil
 
-<Tabs groupId="language">
-  <TabItem value="ja" label="Japanese" default>
-    <DivaInfoProfileTable language="ja" />
-  </TabItem>
-  <TabItem value="fr" label="French">
-    <DivaInfoProfileTable language="fr" />
-  </TabItem>
-  <TabItem value="en" label="English">
-    <DivaInfoProfileTable language="en" />
-  </TabItem>
-</Tabs>
+<LanguageTabs>
+  <DivaInfoProfileTable />
+</LanguageTabs>
+
+export const DivaTextTable = () =>
+{
+  const divaId = useContext(DivaIdContext_);
+  const data = 
+  [
+    {
+      name:"Name",
+      id:"diva_##ID##",
+      bank:"master"
+    },
+    {
+      name:"Name short",
+      id:"diva_s_##ID##",
+      bank:"master"
+    },
+  ]
+  return (
+    <TranslatedTextTable datas={data}
+      templateLink={(data, language) => { return <DivaLanguageLink bank={data.bank} id={data.id} language={language} />}} 
+      templateString={(data, language) => { return <DivaString bank={data.bank} id={data.id} language={language} />}} 
+    />
+  );
+};
+
+## Texts
+
+<LanguageTabs>
+  <DivaTextTable />
+</LanguageTabs>
 
 ## Stats
 
@@ -195,29 +219,10 @@ export const DivaStats = ({values_list}) =>
 
 ## Story description
 
-<Tabs groupId="language">
-  <TabItem value="ja" label="Japanese" default>
-
-<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" language="ja" />  
-
-<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" language="ja" /></blockquote>
-
-  </TabItem>
-  <TabItem value="fr" label="French">
-
-<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" language="fr" />  
-
-<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" language="fr" /></blockquote>
-
-  </TabItem>
-  <TabItem value="en" label="English">
-
-<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" language="en" />  
-
-<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" language="en" /></blockquote>
-
-  </TabItem>
-</Tabs>
+<LanguageTabs>
+<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" />  
+<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" /></blockquote>
+</LanguageTabs>
 
 ## Costumes
 
@@ -228,14 +233,15 @@ export const CostumeClick = ({divaId}) => {
       const id = k.JPIDIENBGKH_CostumeId;
       const hasColor = k.BJGNGNPHCBA_LevelsInfo.find(l => l.INDDJNMPONH_UnlockType == 4) != undefined;
       const url = getLinkById("documentation_game_costume_"+id.toString());
-      const colorImg = hasColor && (<><span style={{position:'absolute', maxWidth:'50%', right:'0', bottom:'0', backgroundColor:'#FFBBBBAA', borderRadius:'50%'}}><CostumeImage type="costume" costumeId={{id:id, color:1}} /></span></>);
+      const colorImg = hasColor && (<><span style={{position:'absolute', maxWidth:'50%', right:'0', bottom:'0', backgroundColor:'#FFBBBBAA', borderRadius:'50%'}}><CostumeImage type="costume" costumeId={{id:id}} colorId="1" /></span></>);
+      const colorName = hasColor ? (<>/ <CostumeName costumeId={{id:id}} colorId="1" /></>) : "";
       return (
           <article class="col col--2 margin-bottom--lg"><Link
           href={url}
           className={clsx('card ', styles.cardContainer)}>
           <div style={{position:'relative'}}><CostumeImage type="costume" costumeId={{id:id}} />
           {colorImg}</div>
-          <CostumeName costumeId={{id:id}} />
+          <CostumeName costumeId={{id:id}} />{colorName}
           </Link></article>
       );
   });

@@ -10,8 +10,14 @@ export function getDatabaseValue(database_name, path)
     {
         if(p == ".")
             continue;
-        if(typeof(value) == "array")
+        if(Array.isArray(value))
         {
+            if(typeof(value[0]) == "object" && "key" in value[0] && "value" in value[0])
+            {
+                // dict
+                value = value.find(c => c.key == p).value;
+                continue;
+            }
             const idx = parseInt(p);
             value = value[p];
             continue;
@@ -40,8 +46,14 @@ export const DatabaseValue = ({database_name, path}) =>
         if(p == ".")
             continue;
         tooltip_class.push(p);
-        if(typeof(value) == "array")
+        if(Array.isArray(value))
         {
+            if(typeof(value[0]) == "object" && "key" in value[0] && "value" in value[0])
+            {
+                // dict
+                value = value.find(c => c.key == p).value;
+                continue;
+            }
             const idx = parseInt(p);
             value = value[p];
             continue;
@@ -61,5 +73,5 @@ export const DatabaseValue = ({database_name, path}) =>
         data-pr-position="top"
         data-pr-at="center top-6"
         data-pr-my="center bottom"
-        style={{ cursor: 'pointer' }}>{value}</code></>);
+        style={{ cursor: 'pointer' }}>{typeof(value) == "object" ? JSON.stringify(value) : value}</code></>);
 }

@@ -7,45 +7,60 @@ import db_data from "@site/static/data/database/costume/costume.data.json";
 export const CostumeIdContext_ = createContext({});
 
 
+export function getCostumeInfo(cosInfo)
+{
+    if(!cosInfo)
+        return null;
+    const cosData = db_data.CDENCMNHNGA_Costumes.find(c => {
+        if(cosInfo.id) 
+            return c.JPIDIENBGKH_CostumeId == cosInfo.id;
+        return c.AHHJLDLAPAN_PrismDivaId == cosInfo.divaId && c.DAJGPBLEEOB_PrismCostumeModelId == cosInfo.cosId;
+    });
+    if(!cosData)
+        return undefined;
+    return {
+        id:cosData.JPIDIENBGKH_CostumeId, 
+        divaId: cosData?.AHHJLDLAPAN_PrismDivaId, 
+        cosId:cosData?.DAJGPBLEEOB_PrismCostumeModelId, 
+        hasColor:cosData?.BJGNGNPHCBA_LevelsInfo.find(c => c.INDDJNMPONH_UnlockType == "4") != null,
+        data:cosData
+    }
+}
+
 export const CostumeIdContext = ({children, costumeId}) => {
+    const cosInfo = getCostumeInfo(costumeId)
     return (<>
-        <CostumeIdContext_.Provider value={costumeId}>
+        <CostumeIdContext_.Provider value={cosInfo}>
         {children}
         </CostumeIdContext_.Provider>
     </>);
 };
 
-export function getCostumeIdsFromGlobalId(cosId, colorId)
-{
-    const cosData = db_data.CDENCMNHNGA_Costumes.find(c => c.JPIDIENBGKH_CostumeId == cosId);
-    return {divaId: cosData?.AHHJLDLAPAN_PrismDivaId, cosId:cosData?.DAJGPBLEEOB_PrismCostumeModelId, color:colorId ?? 0 }
-}
-
 export const CostumeLanguageLink = (props) =>
 {
-    var costumeId = props.costumeId ?? useContext(CostumeIdContext_);
-    const str = props.id.replace("##ID##", costumeId.id.toString().padStart(2, '0'))
-                    .replace("##ID4##", costumeId.id.toString().padStart(4, '0'));
+    const costumeInfo = getCostumeInfo(props.costumeId) ?? useContext(CostumeIdContext_);
+    const str = props.id.replace("##ID##", costumeInfo.id.toString().padStart(2, '0'))
+                    .replace("##ID4##", costumeInfo.id.toString().padStart(4, '0'));
     return (<LanguageLink {...props} id={str} />);
 };
 
 export const CostumeString = (props) =>
 {
-    var costumeId = props.costumeId ?? useContext(CostumeIdContext_);
-    const str = props.id.replace("##ID##", costumeId.id.toString().padStart(2, '0'))
-                    .replace("##ID4##", costumeId.id.toString().padStart(4, '0'));
+    const costumeInfo = getCostumeInfo(props.costumeId) ?? useContext(CostumeIdContext_);
+    const str = props.id.replace("##ID##", costumeInfo.id.toString().padStart(2, '0'))
+                    .replace("##ID4##", costumeInfo.id.toString().padStart(4, '0'));
     return (<><TranslatedString {...props} id={str} /></>);
 }
 
 export const CostumeImage = (props) =>
 {
     const type = props.type ?? "costume";
-    var costumeId = props.costumeId ?? useContext(CostumeIdContext_);
-    if(costumeId.id)
-        costumeId = getCostumeIdsFromGlobalId(costumeId.id, costumeId.color ?? props.colorId ?? 0);
-    const divaId = costumeId.divaId ?? 1;
-    const cosId = costumeId.cosId ?? 1;
-    const colId = costumeId.color ?? props.colorId ?? 0;
+    const costumeInfo = getCostumeInfo(props.costumeId, props.colorId) ?? useContext(CostumeIdContext_);
+    const divaId = costumeInfo.divaId ?? 1;
+    const cosId = costumeInfo.cosId ?? 1;
+    const colId = props.colorId ?? 0;
+    if(colId != 0 && !costumeInfo.hasColor)
+        return <></>;
     const imgList = {
         s_size:             colId == 0 ? "##ID##_##COS##_diva-s-size.png" : "##ID##_##COS##_##COLOR##_diva-s-size-in-color.png",
         m_size:             colId == 0 ? "##ID##_##COS##_diva-m-size.png" : "##ID##_##COS##_##COLOR##_diva-m-size-in-color.png",
@@ -65,10 +80,11 @@ export const CostumeImage = (props) =>
 
 export const CostumeName = (props) =>
 {
-    var costumeId = props.costumeId ?? useContext(CostumeIdContext_);
-    const id = costumeId.id.toString().padStart(4, '0');
-    const costumeName = getTranslatedString("master", "cos_"+id, "en");
+    var costumeInfo = getCostumeInfo(props.costumeId) ?? useContext(CostumeIdContext_);
+    const id = costumeInfo.id.toString().padStart(4, '0');
+    const idStr = props.colorId ? "cos_"+id+"_01" : "cos_"+id;
+    const costumeName = getTranslatedString("master", idStr, "en");
     if(costumeName == "")
-        return getTranslatedString("master", "cos_"+id, "ja");
+        return getTranslatedString("master", idStr, "ja");
     return costumeName;
 }

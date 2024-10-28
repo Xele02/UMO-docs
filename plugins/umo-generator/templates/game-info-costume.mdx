@@ -6,26 +6,19 @@ import TabItem from '@theme/TabItem';
 import { getDatabaseValue, DatabaseValue } from "@umo-generator/components/Database";
 import { DivaLink } from "@umo-generator/components/Diva";
 import { useContext } from 'react';
+import { LanguageLink, LanguageTabs } from "@umo-generator/components/LanguageLink";
+import { TranslatedStringLink, TranslatedTextTable } from "@umo-generator/components/TranslatedString";
 
 export const languagesFiles = [
     //{ name:"common", lang:["ja", "fr", "en"] },
-    //{ name:"menu", lang:["ja", "fr", "en"] },
+   //{ name:"stringlitterals", lang:["ja", "fr", "en"] },
+    { name:"menu", lang:["ja", "fr", "en"] },
     { name:"master", lang:["ja", "fr", "en"] },
   ];
 
-export const CostumeTextTableRow = ({data, language}) =>
+export const CostumeTextTable = () =>
 {
-  return (
-    <tr>
-    <td>{data.name}</td>
-    <td><CostumeLanguageLink bank={data.bank} id={data.id} language={language} /></td>
-    <td><CostumeString bank={data.bank} id={data.id} language={language} /></td>
-    </tr>
-  );
-};
-
-export const CostumeTextTable = ({language}) =>
-{
+  const costumeInfo = useContext(CostumeIdContext_);
   const data = 
   [
     {
@@ -33,21 +26,174 @@ export const CostumeTextTable = ({language}) =>
       id:"cos_##ID4##",
       bank:"master"
     },
+    {
+      name:"Skill name",
+      id:"cs_nm_"+(costumeInfo.data.HGHFFJKGNCO_SkillId)?.padStart(4, '0'),
+      bank:"master",
+      params:[
+        "Skill value"
+      ]
+    },
+    {
+      name:"Skill desc",
+      id:"cs_dsc_"+(costumeInfo.data.HGHFFJKGNCO_SkillId)?.padStart(4, '0'),
+      bank:"master",
+      params:[
+        "Skill value"
+      ]
+    },
   ]
-  const items = data.map(k => (<CostumeTextTableRow data={k} language={language} />));
+  const data_unlock = costumeInfo.data.BJGNGNPHCBA_LevelsInfo.filter(c => c.INDDJNMPONH_UnlockType != "0").flatMap(c_ => 
+    {
+      const c = c_.INDDJNMPONH_UnlockType;
+      if(c == "1")
+      {
+        return [
+          {
+            name:"Unlock skill reward",
+            id:"cos_reward_"+(c).padStart(4, '0'),
+            bank:"master",
+            order:10
+          },
+          {
+            name:"Unlock suffixe",
+            id:"StringLiteral_12297",
+            bank:"stringliterals"
+          },
+          {
+            name:"Unlock suffixe",
+            id:"StringLiteral_12298",
+            bank:"stringliterals"
+          },
+          {
+            name:"Unlock suffixe",
+            id:"StringLiteral_12300",
+            bank:"stringliterals"
+          },
+          {
+            name:"Unlock skill get",
+            id:"costume_upgrade_item_detail_costume_skillget",
+            bank:"menu",
+            order:13,
+            params:[
+              "Next skill level desc"
+            ]
+          },
+          {
+            name:"Unlock skill upgrade",
+            id:"costume_upgrade_item_detail_costume_skillup",
+            bank:"menu",
+            order:14,
+            params:[
+              "Next skill level desc"
+            ]
+          }
+        ];
+      }
+      else if(c == "2" || c == "3")
+      {
+      }
+      else if(c == "4")
+      {
+        return [
+          {
+            name:"Unlock costume color reward",
+            id:"cos_reward_"+(c).padStart(4, '0'),
+            bank:"master",
+            order:20
+          },
+          {
+            name:"Unlock costume color explain",
+            id:"costume_upgrade_item_detail_costume_color",
+            bank:"menu",
+            order:21,
+            params:[
+              "Costume color name",
+              "Costume name"
+            ]
+          },
+          {
+            name:"Unlock costume color name",
+            id:"cos_##ID4##_01",
+            bank:"master",
+            order:22
+          },
+        ];
+      }
+      else if(c == "5")
+      {
+        return [
+          {
+            name:"Unlock stat reward",
+            id:"cos_reward_"+(c).padStart(4, '0'),
+            bank:"master",
+            order:50
+          },
+          {
+            name:"Unlock stat up",
+            id:"costume_upgrade_item_detail_diva_status_up",
+            bank:"menu",
+            order:51,
+            params:[
+              "Diva short name",
+              "Stat name",
+              "Stat value"
+            ]
+          },
+          {
+            name:"Unlock stat up title",
+            id:"costume_upgrade_item_detail_diva_status_up_title",
+            bank:"menu",
+            order:52
+          },
+          {
+            name:"Unlock stat name",
+            id:"cos_reward_status_"+(c_.PIBLLGLCJEO_Value[0]).padStart(4, '0'),
+            bank:"master",
+            order:53
+          },
+        ];
+      }
+      else if(c == "6")
+      {
+        return [
+          {
+            name:"Unlock support plate reward",
+            id:"cos_reward_"+(c).padStart(4, '0'),
+            bank:"master",
+            order:60
+          },
+          {
+            name:"Unlock support plate attribut name",
+            id:"cos_subplate_attr_"+(c_.PIBLLGLCJEO_Value[0]).padStart(4, '0'),
+            bank:"master",
+            order:61
+          },
+          {
+            name:"Unlock support plate status name",
+            id:"cos_subplate_status_"+(c_.PIBLLGLCJEO_Value[0]).padStart(4, '0'),
+            bank:"master",
+            order:62
+          },
+          {
+            name:"Unlock support plate explain",
+            id:"costume_upgrade_item_detail_sub_plate",
+            bank:"menu",
+            order:63,
+            params:[
+              "Attribute name + Status name"
+            ]
+          },
+        ];
+      }
+      return [];
+    }
+  ).filter((c, idx, self) => self.findIndex(c_ => c_.id == c.id) == idx).sort((a, b) => a.order - b.order);
   return (
-    <table>
-    <thead>
-    <tr>
-    <th>Name</th>
-    <th>String Id</th>
-    <th>Text</th>
-    </tr>
-    </thead>
-    <tbody>
-    {items}
-    </tbody>
-    </table>
+    <TranslatedTextTable datas={data.concat(data_unlock)} 
+      templateLink={(data, language) => { return <CostumeLanguageLink bank={data.bank} id={data.id} language={language} />}} 
+      templateString={(data, language) => { return <CostumeString bank={data.bank} id={data.id} language={language} />}} 
+    />
   );
 };
 
@@ -56,7 +202,7 @@ export const CostumeTextTable = ({language}) =>
 
 <CostumeIdContext costumeId={{id:props.costumeId}}>
 
-<div style={{position:'relative'}}><div style={{position: 'absolute',top:'0px', right:'-10%', width:'40%'}}><CostumeImage type="costume" /></div></div>
+<div style={{position:'relative'}}><div style={{position: 'absolute',top:'0px', right:'0'}}><div style={{position:'relative'}}><CostumeImage type="costume" /><span style={{position:'absolute', maxWidth:'40%', right:'0', bottom:'0', backgroundColor:'#FFBBBBAA', borderRadius:'50%'}}><CostumeImage type="costume" colorId="1" /></span></div></div></div>
 
 
 ## Basic infos
@@ -64,20 +210,131 @@ export const CostumeTextTable = ({language}) =>
 * Id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/JPIDIENBGKH_CostumeId"} />
 * Diva : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId"} /> <DivaLink divaId={getDatabaseValue("costume", "CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId")} />
 * Diva costume id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/DAJGPBLEEOB_PrismCostumeModelId"} />
+* Has special effect (wind and glow) : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/EGLDFPILJLG_HasSpecialEffects"} />
+
+## Upgrade
+
+export const ObjectName = (prop) =>
+{
+  return prop.itemId;
+}
+
+export const StatBonus = (prop) =>
+{
+  const statType = ["Soul", "Voice", "Charm", "Life", "Support", "Bio-fold"];
+  return statType[parseInt(prop.type) - 1]+" +"+prop.value;
+}
+
+export const SupportPlate = (prop) =>
+{
+  const attr = ["Star", "Love", "Life"];
+  const status = ["Soul", "Voice", "Charm"];
+  return attr[parseInt(prop.attr)-1]+"/"+status[parseInt(prop.status) - 1];
+}
+
+export const UpgradeRowUnlock = (prop) =>
+{
+  const costumeInfo = useContext(CostumeIdContext_);
+  const levelPath = "CDENCMNHNGA_Costumes/"+(costumeInfo.id - 1)+"/BJGNGNPHCBA_LevelsInfo/"+prop.index;
+  switch(prop.level.INDDJNMPONH_UnlockType)
+  {
+    case "0":
+      return "None";
+    case "1":
+      return (<>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Costume Effect, skill level <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} /> </>);
+    case "2":
+    case "3":
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Get Object : <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/1'} />x <ObjectName itemId={prop.level.PIBLLGLCJEO_Value[0]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} />)</>;
+    case "4":
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Unlock costume color <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} /></>;
+    case "5":
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Add stat : <StatBonus type={prop.level.PIBLLGLCJEO_Value[0]} value={prop.level.PIBLLGLCJEO_Value[1]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} />/<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/1'} />)</>;
+    case "6":
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Unlock support plate <SupportPlate attr={prop.level.PIBLLGLCJEO_Value[0]} status={prop.level.PIBLLGLCJEO_Value[1]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} />/<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/1'} />)</>;
+  }
+  return <></>;
+}
+
+import db_data from "@site/static/data/database/costume/costume.data.json";
+import { TranslatedString } from "../components/TranslatedString";
+
+export const UpgradeRowCond = (prop) =>
+{
+  const basePath = "FDNBEPCEHBH_UnlocksConditions/"+(prop.k)+"/NKNBKLHCAFD_UnlocksConditions/"+(prop.index);
+  switch(prop.cond.INDDJNMPONH_Condition)
+  {
+    case "1":
+      return <><li>(<DatabaseValue database_name="costume" path={basePath+"/INDDJNMPONH_Condition"} />)Own <DatabaseValue database_name="costume" path={basePath+"/PIBLLGLCJEO_Value/1"} /> costumes at level <DatabaseValue database_name="costume" path={basePath+"/PIBLLGLCJEO_Value/0"} />+</li></>;
+    case "2":
+      return <><li>(<DatabaseValue database_name="costume" path={basePath+"/INDDJNMPONH_Condition"} />)Use <DatabaseValue database_name="costume" path={basePath+"/PIBLLGLCJEO_Value/0"} /> costume items</li></>;
+    case "3":
+      return <><li>(<DatabaseValue database_name="costume" path={basePath+"/INDDJNMPONH_Condition"} />)Have the owning diva with an affection of <DatabaseValue database_name="costume" path={basePath+"/PIBLLGLCJEO_Value/0"} />+</li></>;
+  }
+  return <></>;
+}
+
+export const UpgradeRowConds = (prop) =>
+{
+  if(prop.condIdx == "0")
+    return "None";
+  const unlockData = db_data.FDNBEPCEHBH_UnlocksConditions.find(c => c.key == prop.condIdx).value;
+  const conds = unlockData.NKNBKLHCAFD_UnlocksConditions.map((c, idx) => <UpgradeRowCond k={prop.condIdx} index={idx} cond={c} />);
+  return (<>
+    <ul>
+    {conds}
+    </ul>
+  </>);
+}
+
+export const UpgradeRow = (prop) =>
+{
+  const cos = useContext(CostumeIdContext_);
+  const basePathPoints = "MBLNIECELNK_UnlockPoints/"+(cos.data.AGBPBDODKBK_UnlockPointIdx)+"/"+(prop.idx);
+  const baseCostPoints = "AKKDOIJNMBH_UcCostByPoint/"+(cos.data.AGBPBDODKBK_UnlockPointIdx)+"/"+(prop.idx);
+  const unlockPoints = db_data.MBLNIECELNK_UnlockPoints.find(c => c.key == cos.data.AGBPBDODKBK_UnlockPointIdx).value;
+  const unlockCost = db_data.AKKDOIJNMBH_UcCostByPoint.find(c => c.key == cos.data.AGBPBDODKBK_UnlockPointIdx).value;
+  return (<tr>
+    <td>{prop.idx + 1}</td>
+    <td><UpgradeRowUnlock index={prop.idx} level={prop.level} /></td>
+    <td><UpgradeRowConds condIdx={prop.level.KBOLNIBLIND} /></td>
+    <td><DatabaseValue database_name="costume" path={basePathPoints} /></td>
+    <td><DatabaseValue database_name="costume" path={baseCostPoints} /> ({unlockCost[prop.idx] * unlockPoints[prop.idx]})</td>
+    </tr>);
+}
+
+export const UpgradeTable = (prop) =>
+{
+  const cos = useContext(CostumeIdContext_);
+  const items = cos.data.BJGNGNPHCBA_LevelsInfo.filter(l => l.INDDJNMPONH_UnlockType != "0").map((l, idx) => (
+    <UpgradeRow level={l} idx={idx} />
+  ));
+  if(items.length == 0)
+    return "No upgrade";
+  return (
+    <table>
+    <thead>
+    <tr>
+    <th>Level</th>
+    <th>Unlock bonus</th>
+    <th>Unlock conditions</th>
+    <th>Point needed</th>
+    <th>Uc Cost per point (Total)</th>
+    </tr>
+    </thead>
+    <tbody>
+    {items}
+    </tbody>
+    </table>
+  );
+}
+
+<UpgradeTable />
 
 ## Texts
 
-<Tabs groupId="language">
-  <TabItem value="ja" label="Japanese" default>
-    <CostumeTextTable language="ja" />
-  </TabItem>
-  <TabItem value="fr" label="French">
-    <CostumeTextTable language="fr" />
-  </TabItem>
-  <TabItem value="en" label="English">
-    <CostumeTextTable language="en" />
-  </TabItem>
-</Tabs>
+<LanguageTabs>
+  <CostumeTextTable />
+</LanguageTabs>
 
 ## Icons
 
@@ -85,7 +342,7 @@ export const CostumeImageWithColor = (p) =>
 {
   const cosId = useContext(CostumeIdContext_);
   const cos = getDatabaseValue("costume", "CDENCMNHNGA_Costumes").find(c => c.JPIDIENBGKH_CostumeId == cosId.id);
-  const hasColor = cos.BJGNGNPHCBA_LevelsInfo.find(l => l.INDDJNMPONH_UnlockType == 4) != undefined;
+  const hasColor = cosId.hasColor;
   if(hasColor)
     return <><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} /></div><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} colorId="1" /></div></>
   return <><CostumeImage type={p.type} /></>
