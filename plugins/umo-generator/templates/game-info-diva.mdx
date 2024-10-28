@@ -8,8 +8,9 @@ import { LanguageTabs } from "@umo-generator/components/LanguageLink";
 import { DivaLanguageLink, DivaString, DivaIdContext, DivaIdContext_, DivaImage } from "@umo-generator/components/Diva";
 import { CostumeImage, CostumeName } from "@umo-generator/components/Costume";
 import { getLinkById } from "@umo-generator/js/link"
-import { getDatabaseValue, DatabaseValue } from "@umo-generator/components/Database";
+import { getDatabaseValue, DatabaseValue, getFBValue } from "@umo-generator/components/Database";
 import { TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+import { GameVersion } from "@umo-generator/components/Game";
 import clsx from 'clsx';
 import styles from '@umo-generator/css/styles.module.css';
 
@@ -84,9 +85,11 @@ export const languagesFiles = [
 
 ## Basic infos
 
+
 * Id : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/AHHJLDLAPAN_DivaId"} />
 * Serie : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/AIHCEGFANAM_Attr"} />
 * Birthday : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/DOAJJALOKLI_Month"} /> / <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/PKNONBBKCCP_Day"} />
+* Added in version : <GameVersion version={getFBValue("diva","NCMGOKNHGNL/"+(props.divaId - 1)+"/OFMGALJGDAO")} />
 
 ## Profil
 

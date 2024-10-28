@@ -1,0 +1,88 @@
+
+# Game versions
+
+import { Timeline } from 'primereact/timeline';
+import { Card } from 'primereact/card';
+import { DivaLink } from "@umo-generator/components/Diva";
+import { CostumeLink } from "@umo-generator/components/Costume";
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+
+import fb_version from "@site/static/data/database/version/version.fb.json"
+import diva_data from "@site/static/data/database/diva/diva.data.json"
+import data_fb from "@site/static/data/database/diva/diva.fb.json"
+import cos_data from "@site/static/data/database/costume/costume.data.json"
+import cos_fb from "@site/static/data/database/costume/costume.fb.json"
+
+export const GameTimeline = () => 
+{
+    const addedDiva = diva_data.CDENCMNHNGA_Divas.reduce((self, c) => {
+        if(c.PPEGAKEIEGM_Enabled == "2")
+        {
+            const v = data_fb.NCMGOKNHGNL[c.AHHJLDLAPAN_DivaId - 1].OFMGALJGDAO;
+            self[v] = self[v] || [];
+            self[v].push(c.AHHJLDLAPAN_DivaId);
+        }
+        return self;
+    }, Object.create(null));
+    const addedCostume = cos_data.CDENCMNHNGA_Costumes.reduce((self, c) => {
+        if(c.PPEGAKEIEGM_Enabled == "2")
+        {
+            const v = cos_fb.AMNNIENGDHI[c.JPIDIENBGKH_CostumeId - 1].OFMGALJGDAO;
+            self[v] = self[v] || [];
+            self[v].push(c.JPIDIENBGKH_CostumeId);
+        }
+        return self;
+    }, Object.create(null));
+    const events = fb_version.MFLNKKKEGJH.map(k => 
+    { 
+        return {
+            name:k.IIDCFMHCPLJ,
+            version:k.OFMGALJGDAO,
+            date:new Date(k.IBDFJIDNDJH * 1000),
+            added_data:
+            {
+                divas:addedDiva[k.OFMGALJGDAO] || undefined,
+                costumes:addedCostume[k.OFMGALJGDAO] || undefined
+            }
+        }; 
+    });
+
+    const customizedMarker = (item) => {
+        return (
+            <span className="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1" style={{ backgroundColor: item.color }}>
+                <i>{item.version}</i>
+            </span>
+        );
+        return <></>;
+    };
+
+    const customizedContent = (item) => {
+        return (
+            <Card title={item.name} subTitle={item.date.toLocaleDateString(undefined, {dateStyle:'short'})}>
+                {item.added_data.divas && (<>Added Diva : <br /><ul>{item.added_data.divas.map(c => <><li><DivaLink divaId={c} /></li></>)}</ul></>)}
+                {item.added_data.costumes && (<>Added Costume : <br /><ul>{item.added_data.costumes.map(c => <><li><CostumeLink costumeId={c} /></li></>)}</ul></>)}
+            </Card>
+        );
+    };
+        
+    return (
+        <div className="card">
+            <Timeline value={events} align="alternate" className="customized-timeline" marker={customizedMarker} content={customizedContent} />
+        </div>
+    )
+}
+
+export const languagesFiles = [
+    //{ name:"common", lang:["ja", "fr", "en"] },
+    //{ name:"string_literals", lang:["ja", "fr", "en"] },
+    //{ name:"menu", lang:["ja", "fr", "en"] },
+    { name:"master", lang:["ja", "fr", "en"] },
+  ];
+
+
+<LanguageContext files={languagesFiles}>
+
+    <GameTimeline />
+
+</LanguageContext>
+

@@ -7,7 +7,7 @@ export function LoadLanguage(def)
         res[bank.name] = {}
         for(const lang of bank.lang)
         {
-            const langExt = (lang == "ja" ? "" : "_"+lang);
+            const langExt = (lang == "ja" ? "_jp" : "_"+lang);
             const data = require("@site/static/data/texts/"+bank.name+langExt+".data.js");
             res[bank.name][lang] = data[bank.name + langExt];
         }

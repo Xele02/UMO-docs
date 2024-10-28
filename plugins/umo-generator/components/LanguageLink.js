@@ -8,7 +8,7 @@ export const LanguageLink = ({bank, id, language}) =>
 {
     const languageStr = useContext(LanguageContext_);
     const language_ = language ?? languageStr.currentLanguage;
-    const href = bank == "stringliterals" ? "https://umo-translate.xele.org/translate/umo/code/stringliterals/"+language_+"/?q="+id : "https://umo-translate.xele.org/translate/umo/database/"+bank+"/"+language_+"/?q="+id;
+    const href = bank == "string_literals" ? "https://umo-translate.xele.org/translate/umo/code/stringliterals/"+language_+"/?q="+id : "https://umo-translate.xele.org/translate/umo/database/"+bank+"/"+language_+"/?q="+id;
     return (
         <a href={href} target="_blank" rel="noopener noreferrer">
             <code>{bank}</code> <code>{id}</code>

@@ -3,15 +3,18 @@ import { CostumeLanguageLink, CostumeString, CostumeIdContext, CostumeIdContext_
 import { LanguageContext } from "@umo-generator/components/LanguageContext";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import { getDatabaseValue, DatabaseValue } from "@umo-generator/components/Database";
+import { getDatabaseValue, DatabaseValue, getFBValue } from "@umo-generator/components/Database";
 import { DivaLink } from "@umo-generator/components/Diva";
 import { useContext } from 'react';
 import { LanguageLink, LanguageTabs } from "@umo-generator/components/LanguageLink";
-import { TranslatedStringLink, TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+import { TranslatedStringLink, TranslatedString, TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+import { GameVersion } from "@umo-generator/components/Game";
+import db_data from "@site/static/data/database/costume/costume.data.json";
+
 
 export const languagesFiles = [
     //{ name:"common", lang:["ja", "fr", "en"] },
-   //{ name:"stringlitterals", lang:["ja", "fr", "en"] },
+    { name:"string_literals", lang:["ja", "fr", "en"] },
     { name:"menu", lang:["ja", "fr", "en"] },
     { name:"master", lang:["ja", "fr", "en"] },
   ];
@@ -58,17 +61,17 @@ export const CostumeTextTable = () =>
           {
             name:"Unlock suffixe",
             id:"StringLiteral_12297",
-            bank:"stringliterals"
+            bank:"string_literals"
           },
           {
             name:"Unlock suffixe",
             id:"StringLiteral_12298",
-            bank:"stringliterals"
+            bank:"string_literals"
           },
           {
             name:"Unlock suffixe",
             id:"StringLiteral_12300",
-            bank:"stringliterals"
+            bank:"string_literals"
           },
           {
             name:"Unlock skill get",
@@ -189,8 +192,56 @@ export const CostumeTextTable = () =>
       return [];
     }
   ).filter((c, idx, self) => self.findIndex(c_ => c_.id == c.id) == idx).sort((a, b) => a.order - b.order);
+  const dataCond = costumeInfo.data.BJGNGNPHCBA_LevelsInfo.filter(c => c.INDDJNMPONH_UnlockType != "0" && c.KBOLNIBLIND_UnlockCondIdx != "0").flatMap(c_ => 
+    {
+      const condList = db_data.FDNBEPCEHBH_UnlocksConditions.find(d => d.key == c_.KBOLNIBLIND_UnlockCondIdx).value;
+      return condList.NKNBKLHCAFD_UnlocksConditions.filter(d => d.INDDJNMPONH_Condition != "0").flatMap(d => {
+        if(d.INDDJNMPONH_Condition == "1")
+        {
+          return [{
+            name:"Unlock condition costume level",
+            id:"cos_unlock_"+(d.INDDJNMPONH_Condition).padStart(4, '0'),
+            bank:"master",
+            params:[
+              "Level to have",
+              "Number of required costume",
+              "Current costume at level"
+            ],
+            order:parseInt(10)
+          }];
+        }
+        else if(d.INDDJNMPONH_Condition == "2")
+        {
+          return [{
+            name:"Unlock condition item consume",
+            id:"cos_unlock_"+(d.INDDJNMPONH_Condition).padStart(4, '0'),
+            bank:"master",
+            params:[
+              "Items",
+              "Number of items"
+            ],
+            order:parseInt(20)
+          }];
+        }
+        else if(d.INDDJNMPONH_Condition == "3")
+        {
+          return [{
+            name:"Unlock condition affection level",
+            id:"cos_unlock_"+(d.INDDJNMPONH_Condition).padStart(4, '0'),
+            bank:"master",
+            params:[
+              "Affection target",
+              "Current diva affection",
+              "Diva name"
+            ],
+            order:parseInt(30)
+          }];
+        }
+      });
+    }
+  ).filter((c, idx, self) => self.findIndex(c_ => c_.id == c.id) == idx).sort((a, b) => a.order - b.order);
   return (
-    <TranslatedTextTable datas={data.concat(data_unlock)} 
+    <TranslatedTextTable datas={data.concat(data_unlock).concat(dataCond)} 
       templateLink={(data, language) => { return <CostumeLanguageLink bank={data.bank} id={data.id} language={language} />}} 
       templateString={(data, language) => { return <CostumeString bank={data.bank} id={data.id} language={language} />}} 
     />
@@ -211,6 +262,8 @@ export const CostumeTextTable = () =>
 * Diva : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId"} /> <DivaLink divaId={getDatabaseValue("costume", "CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId")} />
 * Diva costume id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/DAJGPBLEEOB_PrismCostumeModelId"} />
 * Has special effect (wind and glow) : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/EGLDFPILJLG_HasSpecialEffects"} />
+* Added in version : <GameVersion version={getFBValue("costume","AMNNIENGDHI/"+(props.costumeId - 1)+"/OFMGALJGDAO")} />
+* Deco added in version : <GameVersion version={getFBValue("costume","AMNNIENGDHI/"+(props.costumeId - 1)+"/JMADKJNCBCO")} />
 
 ## Upgrade
 
@@ -255,9 +308,6 @@ export const UpgradeRowUnlock = (prop) =>
   return <></>;
 }
 
-import db_data from "@site/static/data/database/costume/costume.data.json";
-import { TranslatedString } from "../components/TranslatedString";
-
 export const UpgradeRowCond = (prop) =>
 {
   const basePath = "FDNBEPCEHBH_UnlocksConditions/"+(prop.k)+"/NKNBKLHCAFD_UnlocksConditions/"+(prop.index);
@@ -296,7 +346,7 @@ export const UpgradeRow = (prop) =>
   return (<tr>
     <td>{prop.idx + 1}</td>
     <td><UpgradeRowUnlock index={prop.idx} level={prop.level} /></td>
-    <td><UpgradeRowConds condIdx={prop.level.KBOLNIBLIND} /></td>
+    <td><UpgradeRowConds condIdx={prop.level.KBOLNIBLIND_UnlockCondIdx} /></td>
     <td><DatabaseValue database_name="costume" path={basePathPoints} /></td>
     <td><DatabaseValue database_name="costume" path={baseCostPoints} /> ({unlockCost[prop.idx] * unlockPoints[prop.idx]})</td>
     </tr>);

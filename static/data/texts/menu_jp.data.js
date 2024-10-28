@@ -1,4 +1,4 @@
-export const menu = 
+export const menu_jp = 
 {
     "popup_title_00" : "\u304A\u77E5\u3089\u305B",
     "popup_title_01" : "\u30E6\u30CB\u30C3\u30C8\u540D\u7DE8\u96C6",

@@ -11,9 +11,11 @@ export function getTranslatedString(bank, id, language)
   return languageStr.files[bank][language ?? languageStr.currentLanguage][id];
 }
 
-export const TranslatedString = ({bank, id, language}) =>
+export const TranslatedString = ({bank, id, language, fallback}) =>
 {
-  const str = getTranslatedString(bank, id, language);
+  var str = getTranslatedString(bank, id, language);
+  if(!str && fallback)
+    str = getTranslatedString(bank, id, "ja");
   return (
       <>{str}</>
   );

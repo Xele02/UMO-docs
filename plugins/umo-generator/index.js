@@ -67,7 +67,7 @@ export default async function umoGeneratorPlugin(context, options) {
 
       async loadContent() {
         const { master_en } = await import(path.join(staticDir,"data/texts/master_en.data.js"));
-        const { master } = await import(path.join(staticDir,"data/texts/master.data.js"));
+        const { master_jp } = await import(path.join(staticDir,"data/texts/master_jp.data.js"));
 
         // Divas
         const divaIds = []
@@ -117,9 +117,9 @@ export default async function umoGeneratorPlugin(context, options) {
             const id = k.id.toString().padStart(4, '0');
             const l_id = k.l_id.toString().padStart(4, '0');
             const d_id = k.d_id.toString().padStart(2, '0');
-            const costumeName = (master_en["cos_" + id] && master_en["cos_" + id] != "") ? master_en["cos_" + id] : master["cos_" + id];
+            const costumeName = (master_en["cos_" + id] && master_en["cos_" + id] != "") ? master_en["cos_" + id] : master_jp["cos_" + id];
             const hasColor = costumesDb.CDENCMNHNGA_Costumes[k.id - 1].BJGNGNPHCBA_LevelsInfo.find(c => c.INDDJNMPONH_UnlockType == "4") != null;
-            const coloCostumeName = hasColor ? " / " + ((master_en["cos_" + id + "_01"] && master_en["cos_" + id + "_01"] != "") ? master_en["cos_" + id + "_01"] : master["cos_" + id + "_01"]) : "";
+            const coloCostumeName = hasColor ? " / " + ((master_en["cos_" + id + "_01"] && master_en["cos_" + id + "_01"] != "") ? master_en["cos_" + id + "_01"] : master_jp["cos_" + id + "_01"]) : "";
             const divaName = master_en["diva_" + d_id];
             return {
               destName: path.join(docsDir, '03-documentation/01-game-info/01-divas/'+d_id+'-diva-'+d_id+'/costume/'+l_id+'-costume-'+id+'.mdx'),

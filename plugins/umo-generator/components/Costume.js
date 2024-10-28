@@ -3,6 +3,9 @@ import { LanguageLink } from "@umo-generator/components/LanguageLink";
 import { getTranslatedString, TranslatedString } from "@umo-generator/components/TranslatedString";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import db_data from "@site/static/data/database/costume/costume.data.json";
+import { Tooltip } from 'primereact/tooltip';
+import Link from '@docusaurus/Link';
+import { getLinkById } from "@umo-generator/js/link"
 
 export const CostumeIdContext_ = createContext({});
 
@@ -52,6 +55,19 @@ export const CostumeString = (props) =>
     return (<><TranslatedString {...props} id={str} /></>);
 }
 
+export const CostumeLink = ({costumeId}) =>
+    {
+        const cosIdStr = costumeId.toString().padStart(4, '0');
+        const cosStr = "cos_" + cosIdStr;
+        return (<>
+            <Tooltip target={".cos_link_"+costumeId} ><CostumeImage costumeId={{id:costumeId}} /></Tooltip>
+            <Link href={getLinkById("documentation_game_costume_"+costumeId)} className={"cos_link_"+costumeId}
+            data-pr-position="top"
+            data-pr-at="center top-6"
+            data-pr-my="center bottom" ><TranslatedString bank="master" id={cosStr} language="en" fallback="1" /></Link>
+        </>);
+    };
+    
 export const CostumeImage = (props) =>
 {
     const type = props.type ?? "costume";

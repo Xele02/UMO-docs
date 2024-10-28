@@ -198,9 +198,9 @@
                                 {
                                     "type" : "Int32",
                                     "member_type" : "field",
-                                    "member_name" : "KBOLNIBLIND",
-                                    "member_cryptedName" : "",
-                                    "member_realName"    : "KBOLNIBLIND",
+                                    "member_name" : "KBOLNIBLIND_UnlockCondIdx",
+                                    "member_cryptedName" : "KBOLNIBLIND",
+                                    "member_realName"    : "UnlockCondIdx",
                                     "member_reader"      : "GMKDHMPGLFL",
                                     "member_reader_child" : null,
                                     "member_readableName" : null,
@@ -288,9 +288,9 @@
                     {
                         "type" : "Int32",
                         "member_type" : "field",
-                        "member_name" : "PPFNGGCBJKC",
-                        "member_cryptedName" : "",
-                        "member_realName"    : "PPFNGGCBJKC",
+                        "member_name" : "PPFNGGCBJKC_Id",
+                        "member_cryptedName" : "PPFNGGCBJKC",
+                        "member_realName"    : "Id",
                         "member_reader"      : "CHOIMHCMAHG",
                         "member_reader_child" : null,
                         "member_readableName" : null,
@@ -363,14 +363,14 @@
                 "type" : "Int32"
             },
             "member_type" : "property",
-            "member_name" : "OLNFADCCMIG",
-            "member_cryptedName" : "",
-            "member_realName"    : "OLNFADCCMIG",
+            "member_name" : "OLNFADCCMIG_RateBySupportPlate",
+            "member_cryptedName" : "OLNFADCCMIG",
+            "member_realName"    : "RateBySupportPlate",
             "member_reader"      : "ODKFBJEOCGB/[IDX]/HFIFHDCJFPM",
             "member_reader_child" : null,
             "member_readableName" : null,
             "member_readerDisplay" : null,
-            "member_desc"          : null
+            "member_desc"          : "Rate by number of support plate"
         }
     ]
 }

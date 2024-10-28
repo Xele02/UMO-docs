@@ -35,6 +35,34 @@ export function getDatabaseValue(database_name, path)
     return value;
 }
 
+export function getFBValue(database_name, path)
+{
+    const data = require("@site/static/data/database/"+database_name+"/"+database_name+".fb.json");
+    const splitPath = path.toString().split('/');
+    var value = data;
+    for(var p of splitPath)
+    {
+        if(p == ".")
+            continue;
+        if(Array.isArray(value))
+        {
+            const idx = parseInt(p);
+            value = value[p];
+            continue;
+        }
+        else if(typeof(value) == "object")
+        {
+            if(p in value)
+            {
+                value = value[p];
+                continue;
+            }
+        }
+        return undefined;
+    }
+    return value;
+}
+
 export const DatabaseValue = ({database_name, path}) =>
 {
     const data = require("@site/static/data/database/"+database_name+"/"+database_name+".data.json");
