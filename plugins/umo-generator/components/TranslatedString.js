@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { LanguageContext_ } from "@umo-generator/components/LanguageContext";
+import { LanguageLink } from "@umo-generator/components/LanguageLink";
 
 export function getTranslatedString(bank, id, language)
 {

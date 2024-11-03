@@ -79,7 +79,12 @@ export const DatabaseValue = ({database_name, path}) =>
             if(typeof(value[0]) == "object" && "key" in value[0] && "value" in value[0])
             {
                 // dict
-                value = value.find(c => c.key == p).value;
+                const dictData = value.find(c => c.key == p);
+                if(dictData === undefined)
+                {
+                    return <>Value {p} not found for {path}</>;
+                }
+                value = dictData.value;
                 continue;
             }
             const idx = parseInt(p);

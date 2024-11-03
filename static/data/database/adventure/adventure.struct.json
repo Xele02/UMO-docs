@@ -4,7 +4,64 @@
     "name" : "GPMHOAKFALE_Adventure",
     "cryptedName" : "GPMHOAKFALE",
     "realName"    : "Adventure",
-    "readerClass" : null,
+    "readerClass" : "NJBPFPMDKHN",
     "members"     : [
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "NGDBKCKMDHE_AdventureData",
+                "cryptedName" : "NGDBKCKMDHE",
+                "realName"    : "AdventureData",
+                "readerClass" : "LLFEFBAPGCH",
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "BPNKGDGBBFG",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "BPNKGDGBBFG",
+                        "member_reader"      : "PPFNGGCBJKC",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Adventure id"
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "KKPPFAHFOJI_FileId",
+                        "member_cryptedName" : "KKPPFAHFOJI",
+                        "member_realName"    : "FileId",
+                        "member_reader"      : "CEHGGKDLAFA",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Id of the file to read for the adv setup (/adv/xxx.dat)"
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "PPEGAKEIEGM_Enabled",
+                        "member_cryptedName" : "PPEGAKEIEGM",
+                        "member_realName"    : "Enabled",
+                        "member_reader"      : "IJEKNCDIIAE|PLALNIIBLOF",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Availabe in game if value = 2"
+                    }
+                ]
+            },
+            "member_type" : "property",
+            "member_name" : "CDENCMNHNGA_List",
+            "member_cryptedName" : "CDENCMNHNGA",
+            "member_realName"    : "List",
+            "member_reader"      : "CEEPNGEADMG",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of the adventures"
+        }
     ]
 }

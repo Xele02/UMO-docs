@@ -1,1 +1,393 @@
-{}
+
+{
+    "OHJFBLFELNK_CryptedIntValues" : [
+        {
+            "key" : "search_cooling_time",
+            "value" : 3
+        },
+        {
+            "key" : "scene_view_inf_panel_max",
+            "value" : 9999
+        },
+        {
+            "key" : "scene_internal_inf_panel_max",
+            "value" : 99999
+        },
+        {
+            "key" : "scene_multi_max",
+            "value" : 100025
+        },
+        {
+            "key" : "delay_install_autowait",
+            "value" : 300
+        },
+        {
+            "key" : "get_rank_cooling_time",
+            "value" : 60
+        },
+        {
+            "key" : "friend_api_cooling_time",
+            "value" : 60
+        },
+        {
+            "key" : "show_change_home_bg_day",
+            "value" : 2
+        },
+        {
+            "key" : "agree_tos_ver",
+            "value" : 1
+        },
+        {
+            "key" : "select_player_hide_time",
+            "value" : 60
+        },
+        {
+            "key" : "gacha_list_avail_time",
+            "value" : 1200
+        },
+        {
+            "key" : "fixed_scene",
+            "value" : 3
+        },
+        {
+            "key" : "other_item_show",
+            "value" : 1
+        },
+        {
+            "key" : "server_time_auto_update",
+            "value" : 1
+        },
+        {
+            "key" : "review_show",
+            "value" : 1
+        },
+        {
+            "key" : "review_ver",
+            "value" : 1
+        },
+        {
+            "key" : "review_player_level",
+            "value" : 8
+        },
+        {
+            "key" : "review_combo_rank",
+            "value" : 1
+        },
+        {
+            "key" : "review_score_rank",
+            "value" : 3
+        },
+        {
+            "key" : "prism_player_level",
+            "value" : 15
+        },
+        {
+            "key" : "mv_player_level",
+            "value" : 10
+        },
+        {
+            "key" : "mv_sup_es",
+            "value" : 1200
+        },
+        {
+            "key" : "mv_sup_nm",
+            "value" : 1400
+        },
+        {
+            "key" : "mv_sup_hd",
+            "value" : 1500
+        },
+        {
+            "key" : "mv_sup_vh",
+            "value" : 1700
+        },
+        {
+            "key" : "mv_sup_ex",
+            "value" : 1800
+        },
+        {
+            "key" : "mv_sup_es_l6",
+            "value" : 1200
+        },
+        {
+            "key" : "mv_sup_nm_l6",
+            "value" : 1400
+        },
+        {
+            "key" : "mv_sup_hd_l6",
+            "value" : 1500
+        },
+        {
+            "key" : "mv_sup_vh_l6",
+            "value" : 1700
+        },
+        {
+            "key" : "mv_sup_ex_l6",
+            "value" : 1800
+        },
+        {
+            "key" : "mv_vk_atk",
+            "value" : 200
+        },
+        {
+            "key" : "mv_vk_hit",
+            "value" : 200
+        },
+        {
+            "key" : "center_diva_bonus",
+            "value" : 50
+        },
+        {
+            "key" : "aprilfool_free_music_id",
+            "value" : 760
+        },
+        {
+            "key" : "stepup_gacha_enable",
+            "value" : 1
+        },
+        {
+            "key" : "comeback_login_bonus_talk",
+            "value" : 7
+        },
+        {
+            "key" : "ticket_gacha_enable",
+            "value" : 1
+        },
+        {
+            "key" : "comback_push_disable",
+            "value" : 0
+        },
+        {
+            "key" : "costume_upgrade_complete_offer_num",
+            "value" : 10
+        },
+        {
+            "key" : "vfo_diva_unlock_complete_offer_num",
+            "value" : 10
+        },
+        {
+            "key" : "disable_event_battle_strength_sort",
+            "value" : 1
+        },
+        {
+            "key" : "costume_upgrade_vc_count",
+            "value" : 5
+        },
+        {
+            "key" : "line6_unlock_uta_rate",
+            "value" : 250
+        },
+        {
+            "key" : "weekday_event_end_threshold_time",
+            "value" : 3600
+        },
+        {
+            "key" : "weekday_event_play_count_heal",
+            "value" : 3
+        },
+        {
+            "key" : "deco_player_level",
+            "value" : 5
+        },
+        {
+            "key" : "multi_dance_player_level",
+            "value" : 1
+        },
+        {
+            "key" : "vfo_player_level",
+            "value" : 7
+        },
+        {
+            "key" : "intimacy_player_level",
+            "value" : 8
+        },
+        {
+            "key" : "valkyrietuneup_player_level",
+            "value" : 9
+        },
+        {
+            "key" : "valkyrietuneup_first_adv_id",
+            "value" : 109
+        },
+        {
+            "key" : "mcrslobby_first_adv_id",
+            "value" : 111
+        },
+        {
+            "key" : "decolturemode_first_adv_id",
+            "value" : 110
+        },
+        {
+            "key" : "favorite_player_max",
+            "value" : 30
+        },
+        {
+            "key" : "blacklist_max",
+            "value" : 50
+        },
+        {
+            "key" : "cannon_enable_master_version",
+            "value" : 1950
+        },
+        {
+            "key" : "ap_recovery_enable_master_version",
+            "value" : 1950
+        },
+        {
+            "key" : "blocklist_enable_master_version",
+            "value" : 1
+        },
+        {
+            "key" : "rarity_up_item_id",
+            "value" : 230001
+        },
+        {
+            "key" : "secret_board_item_id",
+            "value" : 70027
+        },
+        {
+            "key" : "rareup_item_forced_convert_count",
+            "value" : 120
+        },
+        {
+            "key" : "rareup_item_show_warning_popup_count",
+            "value" : 100
+        },
+        {
+            "key" : "rareup_item_convert_count",
+            "value" : 100
+        },
+        {
+            "key" : "live_skip_count_per_day",
+            "value" : 18
+        },
+        {
+            "key" : "live_skip_ticket_present_count",
+            "value" : 9
+        },
+        {
+            "key" : "disable_decul_gacha_kakutei_4",
+            "value" : 1
+        },
+        {
+            "key" : "sns_coop_popup_disable",
+            "value" : 0
+        },
+        {
+            "key" : "facebook_disable",
+            "value" : 1
+        },
+        {
+            "key" : "interval_time_change_serif_window",
+            "value" : 1000
+        },
+        {
+            "key" : "score_gauge_rate_margin",
+            "value" : 10
+        },
+        {
+            "key" : "score_gauge_rate_max",
+            "value" : 700
+        },
+        {
+            "key" : "limited_gacha_ticket_item_id",
+            "value" : 240001
+        },
+        {
+            "key" : "limited_item_show_warning_time",
+            "value" : 3
+        },
+        {
+            "key" : "gacha_period_show_warning_time",
+            "value" : 0
+        },
+        {
+            "key" : "rare_break_adv_id",
+            "value" : 172
+        },
+        {
+            "key" : "interval_time_gacha_bg",
+            "value" : 5000
+        },
+        {
+            "key" : "disable_game_start_multi_voices",
+            "value" : 0
+        },
+        {
+            "key" : "quest_lump_receive_max_num",
+            "value" : 30
+        },
+        {
+            "key" : "free_score_max_limit_score",
+            "value" : 50000000
+        },
+        {
+            "key" : "gacha_ticket_presentbox_period",
+            "value" : 15552000
+        },
+        {
+            "key" : "godiva_max_level",
+            "value" : 120
+        },
+        {
+            "key" : "story_finish_id",
+            "value" : 85
+        },
+        {
+            "key" : "godiva_fold_correction_value",
+            "value" : 300
+        },
+        {
+            "key" : "godiva_support_correction_value",
+            "value" : 300
+        },
+        {
+            "key" : "default_autoset_music_length",
+            "value" : 95626
+        },
+        {
+            "key" : "default_autoset_full_combo",
+            "value" : 234
+        },
+        {
+            "key" : "default_autoset_diva_note",
+            "value" : 85
+        },
+        {
+            "key" : "default_autoset_diva_start_time",
+            "value" : 66763
+        },
+        {
+            "key" : "default_autoset_valkyrie_start_time",
+            "value" : 49490
+        },
+        {
+            "key" : "music_level_limitmin",
+            "value" : 1
+        },
+        {
+            "key" : "music_level_limitmax",
+            "value" : 25
+        },
+        {
+            "key" : "unit5_enable_master_version",
+            "value" : 6140
+        },
+        {
+            "key" : "episode_filter_enable_bg_master_version",
+            "value" : 6140
+        },
+        {
+            "key" : "verticalmusicselect_master_version",
+            "value" : 0
+        },
+        {
+            "key" : "verticalmusicselect_music_type_threshold",
+            "value" : 96000
+        },
+        {
+            "key" : "playrecord_master_version",
+            "value" : 7790
+        }
+    ]
+}

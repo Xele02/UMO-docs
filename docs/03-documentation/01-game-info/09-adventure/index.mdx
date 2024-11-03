@@ -1,0 +1,71 @@
+import { DatabaseValue, getDatabaseValue } from "@umo-generator/components/Database"
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import event_story from "@site/static/data/database/event_story/event_story.data.json"
+
+# Adventure
+
+Adventures in the game are the scene where character talk to each others. They are used in the tutorial, in events intro/outro and in some cards episodes.
+
+## List of Adventures
+
+### Tutorial
+
+* Adventure 1 : Start of the tutorial, then go in the <code>RhythmAdjust</code> scene.
+* Adventure 2 : After the first song. Move to the tuto gacha after.
+* Adventure 3 : After the gacha and plate setup. Start the second song after and go to adventure 4 after.
+* Adventure 4 : After the second song. Follow to adventure 5.
+* Adventure 5 : Player setup. Go to <code>DivaSelect</code> scene after.
+* Adventure 6 : After the diva select. End the tutorial.
+
+Others adventure :
+
+* Valkyrie upgrade unlock : From db value <DatabaseValue database_name="system" path="OHJFBLFELNK_CryptedIntValues/valkyrietuneup_first_adv_id" /> : Adventure <DatabaseValue database_name="adventure" path={"CDENCMNHNGA_List/"+(getDatabaseValue("system", "OHJFBLFELNK_CryptedIntValues/valkyrietuneup_first_adv_id") - 1)+"/KKPPFAHFOJI_FileId"} />.
+* First VOP : Should read "first_adv_id" from db System, fallback on the <DatabaseValue database_name="adventure" path="CDENCMNHNGA_List/87/KKPPFAHFOJI_FileId" />.
+* RareBreak Adventure : From db value <DatabaseValue database_name="system" path="OHJFBLFELNK_CryptedIntValues/rare_break_adv_id" /> : Adventure <DatabaseValue database_name="adventure" path={"CDENCMNHNGA_List/"+(getDatabaseValue("system", "OHJFBLFELNK_CryptedIntValues/rare_break_adv_id") - 1)+"/KKPPFAHFOJI_FileId"} />.
+* Deco room unlock : From db value <DatabaseValue database_name="system" path="OHJFBLFELNK_CryptedIntValues/decolturemode_first_adv_id" /> : Adventure <DatabaseValue database_name="adventure" path={"CDENCMNHNGA_List/"+(getDatabaseValue("system", "OHJFBLFELNK_CryptedIntValues/decolturemode_first_adv_id") - 1)+"/KKPPFAHFOJI_FileId"} />.
+
+### Events
+
+When an event is live, the first adventure to play is in the member <code>GFIBLLLHMPD_AdventureId</code>, <code>CAKEOPLJDAF</code>, or <code>BAEPGOAMBDK("adv_id", 0)</code> call of the <code>IKDICBBFBMI_EventBase</code> class depending of the event.
+
+A full list of past events adventures can be seen from the settings menu.
+
+export const EventBanner = ({id}) =>
+{
+    return <div style={{overflow:"hidden"}}><img style={{marginTop:"-90px", marginBottom:"-70px"}} src={useBaseUrl("data/images/event/banner/"+id.padStart(4, '0')+".png")} /></div>;
+}
+
+<section class="row">
+{event_story.ILEJEJKNOBN_StoryList.filter(story => story.PPEGAKEIEGM_Enabled == "2").map(story => {
+    const parts = event_story.JPIGOBGOMON_StoryPartsList.filter(part => part.OAFJONPIFGM_EventId == story.OAFJONPIFGM_EventId && part.PPEGAKEIEGM_Enabled == "2" && (part.JDJNNJEJDAJ_Type == "JFEDIMKFDNH_Prologue" || part.JDJNNJEJDAJ_Type == "OEDCONLFLHD_Epilogue" || part.JDJNNJEJDAJ_Type == "DCDEBCIMEMM_Opening"));
+    if(parts.length == 0)
+        return "";
+    return <><article class=" margin-bottom--lg"><h3>{/*story.PPFNGGCBJKC_Id*/} Event {story.OAFJONPIFGM_EventId}</h3><EventBanner id={story.OAFJONPIFGM_EventId} />{parts.map(p => <>* {/*p.LOHMKCPKBON_AdvId*/} <DatabaseValue database_name="adventure" path={"CDENCMNHNGA_List/"+(p.LOHMKCPKBON_AdvId - 1)+"/KKPPFAHFOJI_FileId"} /><br /></>)}</article></>;
+})}
+</section>
+
+### Cards
+
+For cards that unlock an episode adventure. Event id in Story Scene DB is 1000000 + <code>SceneId</code>.
+
+<section class="row">
+{event_story.ILEJEJKNOBN_StoryList.filter(story => story.PPEGAKEIEGM_Enabled == "2" && parseInt(story.OAFJONPIFGM_EventId) > 1000000).map(story => {
+    const parts = event_story.JPIGOBGOMON_StoryPartsList.filter(part => part.OAFJONPIFGM_EventId == story.OAFJONPIFGM_EventId && part.PPEGAKEIEGM_Enabled == "2" && part.JDJNNJEJDAJ_Type == "MOPAEGFEGCB_5_EpisodeStory");
+    if(parts.length == 0)
+        return "";
+    return <><article class=" margin-bottom--lg"><h3>Card {parseInt(story.OAFJONPIFGM_EventId)%1000000}</h3><EventBanner id={story.OAFJONPIFGM_EventId} /><br />{parts.map(p => <>* {/*p.LOHMKCPKBON_AdvId*/} <DatabaseValue database_name="adventure" path={"CDENCMNHNGA_List/"+(p.LOHMKCPKBON_AdvId - 1)+"/KKPPFAHFOJI_FileId"} /><br /></>)}<br /></article></>;
+})}
+</section>
+
+### Others event
+
+
+<section class="row">
+{event_story.ILEJEJKNOBN_StoryList.filter(story => story.PPEGAKEIEGM_Enabled == "2" && parseInt(story.OAFJONPIFGM_EventId) <= 1000000).map(story => {
+    const parts = event_story.JPIGOBGOMON_StoryPartsList.filter(part => part.OAFJONPIFGM_EventId == story.OAFJONPIFGM_EventId && part.PPEGAKEIEGM_Enabled == "2" && part.JDJNNJEJDAJ_Type == "MOPAEGFEGCB_5_EpisodeStory");
+    if(parts.length == 0)
+        return "";
+    return <><article class=" margin-bottom--lg"><h3>{story.PPFNGGCBJKC_Id} {story.OAFJONPIFGM_EventId}</h3><EventBanner id={story.OAFJONPIFGM_EventId} />{parts.map(p => <>* {/*p.LOHMKCPKBON_AdvId*/} <DatabaseValue database_name="adventure" path={"CDENCMNHNGA_List/"+(p.LOHMKCPKBON_AdvId - 1)+"/KKPPFAHFOJI_FileId"} /><br /></>)}<br /></article></>;
+})}
+</section>
+

@@ -1,0 +1,53 @@
+
+# SNS
+
+The SNS setup is in the Sns part of the database for the characters, colors, room and basic talk settings, 
+then in the <code>message_room_text</code> loaded in the <code>SNSRoomTextDatabase</code> for the content of each talk.
+
+## Datas in <code>SNSRoomTextDatabase</code>
+
+The data in the <code>SNSRoomTextDatabase</code> are loaded in the <code>SNSRoomTextData</code> class. This class contain 
+a list of header, a list of talk datas and a list of messages.
+
+### Header
+
+The header data use the class <code>SNSRoomTextData.Header</code>
+
+#### <code>talkId</code>
+
+<blockquote>An id used to retrieve the header. The <code>AJIDLAGFPGM_TalkId</code> member in the Sns DB refer to this.</blockquote>
+
+#### <code>startIndex / endIndex</code>
+
+<blockquote>Start and end (inclusive) index of the data in the talk data array.</blockquote>
+
+#### <code>headMessageIndex</code>
+
+<blockquote>Not used in code, looks like refering to a talk title.</blockquote>
+
+### Talk Data
+
+The talk data use the class <code>SNSRoomTextData.TalkData</code>
+
+#### <code>charaId</code>
+
+<blockquote>The character id of the speaker. Refer to the Sns database <code>KHCACDIKJLG_Characters</code> list.</blockquote>
+
+#### <code>windowShapeId</code>
+
+<blockquote>Shape of the dialog text window.</blockquote>
+
+### <code>windowSizeId</code>
+
+<blockquote>Size of the dialog text window.</blockquote>
+
+### <code>messageIndex</code>
+
+<blockquote>Message index in the message list.</blockquote>
+
+### <code>timeOffset</code>
+
+<blockquote>Time delay to show after the pervious text in seconds.</blockquote>
+
+
+

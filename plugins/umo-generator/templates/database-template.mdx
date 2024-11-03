@@ -51,7 +51,9 @@ export function getReaders(iterator_owner, path, replace_)
                     return null;
                 }
                 newRet.fb_struct = tmpStruct;
-                newRet.fb_data = readerRet.fb_data[tmpStruct[0]];
+                newRet.fb_data = readerRet.fb_data?.[tmpStruct[0]];
+                if(newRet.fb_data === undefined)
+                    newRet.fb_error = "No data for member "+tmpStruct[0];
                 newRet.fb_path += "/"+readerRet.fb_struct[1].reader_prop;
             }
             else if(readerRet.fb_struct?.[1].type == "array")
@@ -64,7 +66,10 @@ export function getReaders(iterator_owner, path, replace_)
                 newRet.fb_struct = [rp, {...readerRet.fb_struct[1].items[0]}];
                 newRet.fb_struct[1].reader_prop = rp;
                 if(readerRet.fb_data[rp] == undefined)
-                    throw new Error("no data for "+rp+" in path "+path+" "+JSON.stringify(readerRet));
+                {    
+                    //throw new Error("no data for "+rp+" in path "+path+" "+JSON.stringify(readerRet));
+                    newRet.fb_error = "Array idx "+rp+" not in reader";
+                }
                 newRet.fb_data = readerRet.fb_data[rp];
                 newRet.fb_path += "/"+rp;
             }
@@ -123,13 +128,16 @@ export function iterator_move(iterator, path)
                     fbIdx = parentIdx * prev.db_data.length + idx;
                 }
                 res.readers = getReaders(prev, fbIdx, {IDX:idx});
-                res.fb_path = prev.fb_path + res.readers[0].fb_path;
-                res.fb_data = res.readers[0].fb_data;
-                //res.fb_struct = {...prev.fb_struct.items[0]};
-                res.fb_struct = res.readers[0].fb_struct[1];
-                if(res.readers[0].db_child_reader)
+                if(res.readers && res.readers[0])
                 {
-                    res.db_struct.innerType.member_reader = res.readers[0].db_child_reader;
+                    res.fb_path = prev.fb_path + res.readers[0].fb_path;
+                    res.fb_data = res.readers[0].fb_data;
+                    //res.fb_struct = {...prev.fb_struct.items[0]};
+                    res.fb_struct = res.readers[0].fb_struct[1];
+                    if(res.readers[0].db_child_reader)
+                    {
+                        res.db_struct.innerType.member_reader = res.readers[0].db_child_reader;
+                    }
                 }
             }
             res.db_path = prev.db_path+"/"+p;
@@ -319,12 +327,23 @@ export const DbPropSource = ({member_data, key_}) =>
         if(!reader.fb_struct?.[1].reader_prop)
             return "";
         const fbStructProp = reader.fb_struct;
-        const subData = reader.fb_data_forced ?? (typeof(reader.fb_data) != "array" && typeof(reader.fb_data) != "object" ? reader.fb_data : /*JSON.stringify*/typeof(reader.fb_data));
+        var subData = reader.fb_data_forced ?? (typeof(reader.fb_data) != "array" && typeof(reader.fb_data) != "object" ? reader.fb_data : /*JSON.stringify*/typeof(reader.fb_data));
+        if(member_data.db_struct.member_display == "Date")
+            subData += " ("+(new Date(parseInt(subData) * 1000).toLocaleDateString(undefined, {dateStyle:'short'}))+")";
         return (<><br /><strong>Reader</strong> : {fbStructProp?.[1].reader_prop}<br />
             <strong>Database property</strong> : {fbStructProp?.[0] || ""}<br />
             <strong>Raw value</strong> : {subData}
         </>);
     });
+}
+
+export function getValueDisplay(value, member_it)
+{
+    if(member_it.db_struct.member_display == "Date")
+    {
+        return value+" ("+(new Date(parseInt(value) * 1000).toLocaleDateString(undefined, {dateStyle:'short'}))+")";
+    }
+    return value;
 }
 
 export function generateNodesObject(iterator, prefix)
@@ -358,7 +377,7 @@ export function generateNodesObject(iterator, prefix)
         else if(member_it.db_struct.type == "dict")
             return {key:key, data: {name:name, desc:desc, prop:{full:k[0]}}, type:'data', children:generateNodesDict(member_it, prefix_)};
         else
-            return {key:key, data: {name:name, desc:desc, prop:{full:k[0]}, value:k[1] }, type:'data'};
+            return {key:key, data: {name:name, desc:desc, prop:{full:k[0]}, value:getValueDisplay(k[1], member_it) }, type:'data'};
     }
     );
 }

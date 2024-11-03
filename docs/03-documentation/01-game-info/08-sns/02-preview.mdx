@@ -1,0 +1,76 @@
+import React, { Fragment, useState } from "react";
+import sns_data from "@site/static/data/database/sns/sns.data.json"
+import sns_talk_data from "@site/static/data/sns/snslist.json"
+import { Dropdown } from 'primereact/dropdown';
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { LanguageTabs } from "@umo-generator/components/LanguageLink";
+import { TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Preview
+
+export const SNSPreview = () =>
+{
+    const [selectedSns, setSelectedSns] = useState([null, null]);
+
+    const snsRoomList = sns_data.NPKPBDIDBBG_Rooms.filter(r => r.PPEGAKEIEGM_Enabled == "2").map(r =>
+    {
+        return {name:r.OPFGFINHFCE_Name, data:r}
+    });
+    const snsTalkList = sns_data.CDENCMNHNGA_Talks.filter(r => r.PPEGAKEIEGM_Enabled == "2" && r.MALFHCHNEFN_RoomId == selectedSns[0]?.data.MALFHCHNEFN_Room).map(r =>
+    {
+        return {name:r.AJIDLAGFPGM_TalkId, data:r}
+    });
+    const talk_data = selectedSns[1] ? sns_talk_data[selectedSns[1].data.AJIDLAGFPGM_TalkId]: undefined;
+    const baseUrl = useBaseUrl("/");
+    return (
+    <>
+    <div className="card flex justify-content-center">
+        <Dropdown value={selectedSns[0]} onChange={(e) => setSelectedSns([e.value, null])} options={snsRoomList} optionLabel="name" filter
+            placeholder="Select an SNS room" className="w-full md:w-14rem" />
+    </div>
+    {selectedSns[0] && <><div className="card flex justify-content-center">
+        <Dropdown value={selectedSns[1]} onChange={(e) => setSelectedSns([selectedSns[0], e.value])} options={snsTalkList} optionLabel="name" filter
+            placeholder="Select an SNS topic" className="w-full md:w-14rem" />
+    </div></>}
+    {selectedSns[1] &&
+        <>
+        <h2>{selectedSns[1].data.AJIDLAGFPGM_TalkId} ({selectedSns[1].data.AIPLIEMLHGC_SnsId})</h2>
+        TalkData from index <code>{talk_data.startIndex.toString()}</code> to <code>{talk_data.endIndex.toString()}</code><br />
+        {talk_data.headMessageIndex != 0 && (<LanguageTabs><TranslatedTextTable datas={[{
+                name:"Head message",
+                id:"message_"+talk_data.headMessageIndex.toString().padStart(4, '0')+"_txt",
+                bank:"room_text"
+            }]} /></LanguageTabs>)}
+        {talk_data.snsTalkDatas.map(d => {
+            const txt_data = [{
+                name:"Message",
+                id:"message_"+d.messageIndex.toString().padStart(4, '0')+"_txt",
+                bank:"room_text"
+            }];
+
+            return (<>
+            <h3>{d.index}</h3>
+            Character : {d.charaId} <img src={baseUrl + "data/images/sns/character/"+(sns_data.KHCACDIKJLG_Characters[d.charaId - 1].EAHPLCJMPHD_PicId.padStart(2, '0'))+".png"} /><br />
+            Window shape id : {d.windowShapeId}<br />
+            Window size id : {d.windowSizeId}<br />
+            Time offset : {d.timeOffset}<br />
+            <LanguageTabs><TranslatedTextTable datas={txt_data} /></LanguageTabs>
+            </>);
+        })}
+        </>
+    }
+    </>);
+}
+
+export const languagesFiles = [
+    { name:"room_text", lang:["ja", "fr", "en"] },
+  ];
+
+
+<LanguageContext files={languagesFiles}>
+
+<SNSPreview />
+
+</LanguageContext>

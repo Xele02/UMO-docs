@@ -1,0 +1,58 @@
+import chara_list from "@site/static/data/images/adv/chara/charaList.json"
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import { foreachAdventure } from "@umo-generator/components/Adventure"
+import { TranslatedString } from "@umo-generator/components/TranslatedString"
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+
+# Characters
+
+export const CharaItem = ({id, poseId, advs}) =>
+{
+    const url = useBaseUrl("/data/images/adv/chara/"+id.toString().padStart(4, '0')+"_"+poseId.toString().padStart(3, '0')+".png");
+    return (<>
+    <article class="col col--5 margin-bottom--lg" >
+    <h3>Pose {poseId}</h3>
+    <img src={url} />
+    {advs?.map((c, idx) => <>{!!idx && " - "}{c}</>)}
+    </article>
+    </>);
+}
+
+export const CharaList = () =>
+{
+    var advByChara = {}
+    foreachAdventure((advData, advDb) =>
+    {
+        for(var c of advData.PIIOHCJFHBD)
+        {
+            for(var c2 of c.IIBAJDOLFBM)
+            {
+                if(c2.BNFLNMGOJCM == "1" || c2.BNFLNMGOJCM == "9")
+                {
+                    advByChara[c2.BPODDGNIDBG[0]+"_"+c2.BPODDGNIDBG[1]] = advByChara[c2.BPODDGNIDBG[0]+"_"+c2.BPODDGNIDBG[1]] || [];
+                    advByChara[c2.BPODDGNIDBG[0]+"_"+c2.BPODDGNIDBG[1]].push(advDb);
+                } 
+            }
+        }
+    });
+    
+    //IMMAOANGPNK.HHCJCDFCLOB.NKEBMCIMJND_Database.OMGFKMANMAB_Sns.KHCACDIKJLG_Characters[speakerId - 1].OPFGFINHFCE_Name
+    //chara_name_{0:D4}_txt
+    return Object.entries(chara_list).map(([id, poses], idx, self) => (
+        <><h2><TranslatedString bank="snsDb_text" id={"chara_name_"+((id - 1).toString().padStart(4, '0'))+"_txt"} language="fr" fallback="1" /></h2><section class="row">{poses.map(p => (
+            <CharaItem id={id} poseId={p} key={id+"_"+p} advs={advByChara[id+"_"+p]?.sort((a, b) => parseInt(a) - parseInt(b))} />
+        ))}</section></>
+    ));
+}
+
+
+export const languagesFiles = [
+    { name:"snsDb_text", lang:["fr", "ja"] },
+  ];
+
+
+<LanguageContext files={languagesFiles}>
+
+<CharaList />
+
+</LanguageContext>

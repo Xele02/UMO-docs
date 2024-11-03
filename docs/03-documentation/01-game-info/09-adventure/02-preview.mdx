@@ -1,0 +1,17 @@
+import { AventureList } from "@umo-generator/components/Adventure"
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+
+# Preview
+
+
+export const languagesFiles = [
+    { name:"snsDb_text", lang:["ja", "fr"] },
+    { name:"adv_text", lang:["ja", "fr", "en"] },
+  ];
+
+
+<LanguageContext files={languagesFiles}>
+
+<AventureList />
+
+</LanguageContext>

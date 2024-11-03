@@ -1,0 +1,35 @@
+import sns_data from "@site/static/data/database/sns/sns.data.json"
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import { DatabaseValue } from "@umo-generator/components/Database"
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { LanguageTabs } from "@umo-generator/components/LanguageLink";
+import { TranslatedString, TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+
+# Characters
+
+
+export const languagesFiles = [
+    { name:"snsDb_text", lang:["ja", "fr", "en"] },
+  ];
+
+
+<LanguageContext files={languagesFiles}>
+
+{sns_data.KHCACDIKJLG_Characters.filter(c => c.PPEGAKEIEGM_Enabled == "2").map((c, cidx) => {
+    const txt_data = [{
+        name:"Name",
+        id:"chara_name_"+cidx.toString().padStart(4, '0')+"_txt",
+        bank:"snsDb_text"
+    }];
+    const col = sns_data.LOCEHOMKJEI_ColorConfigs[c.HEHKNMCDBJJ_ColorId - 1].DOKKMMFKLJI_Color;
+    return (
+        <><h2><TranslatedString bank="snsDb_text" id={"chara_name_"+cidx.toString().padStart(4, '0')+"_txt"} language="fr" fallback="1" />{c.HAPAFECPFEK_AtName}</h2>
+        <img src={useBaseUrl("data/images/sns/character/"+(c.EAHPLCJMPHD_PicId.padStart(2, '0'))+".png")} /><br />
+        <LanguageTabs><TranslatedTextTable datas={txt_data} /></LanguageTabs>
+        Serie : <DatabaseValue database_name="sns" path={"KHCACDIKJLG_Characters/"+cidx+"/CPKMLLNADLJ_Serie"} /><br />
+        Color : <DatabaseValue database_name="sns" path={"KHCACDIKJLG_Characters/"+cidx+"/HEHKNMCDBJJ_ColorId"} /> <span style={{backgroundColor:"#"+col}}>#{col}</span>
+        </>
+    );
+})}
+
+</LanguageContext>

@@ -4,7 +4,25 @@
     "name" : "PEBFNABDJDI_System",
     "cryptedName" : "PEBFNABDJDI",
     "realName"    : "System",
-    "readerClass" : null,
+    "readerClass" : "IAIDGBJGDBH",
     "members"     : [
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "String"
+            },
+            "innerTypeValue" : {
+                "type" : "Int32"
+            },
+            "member_type"    : "property",
+            "member_name"    : "OHJFBLFELNK_CryptedIntValues",
+            "member_cryptedName" : "OHJFBLFELNK",
+            "member_realName"    : "CryptedIntValues",
+            "member_reader"      : "BHGDNGHDDAC/[IDX]/LJNAKDMILMC|BHGDNGHDDAC/[IDX]/JBGEEPFKIGG",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of integer settings of the game"
+        }
     ]
 }
