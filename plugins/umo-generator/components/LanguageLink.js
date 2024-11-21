@@ -26,13 +26,18 @@ export const LanguageTabs = ({children}) =>
             {children}
             </LanguageContext_.Provider>
         </TabItem>
+        <TabItem value="en" label="English">
+            <LanguageContext_.Provider value={{...languageStr, currentLanguage:"en"}}>
+            {children}
+            </LanguageContext_.Provider>
+        </TabItem>
         <TabItem value="fr" label="French">
             <LanguageContext_.Provider value={{...languageStr, currentLanguage:"fr"}}>
             {children}
             </LanguageContext_.Provider>
         </TabItem>
-        <TabItem value="en" label="English">
-            <LanguageContext_.Provider value={{...languageStr, currentLanguage:"en"}}>
+        <TabItem value="zh_Hans" label="Chinese">
+            <LanguageContext_.Provider value={{...languageStr, currentLanguage:"zh_Hans"}}>
             {children}
             </LanguageContext_.Provider>
         </TabItem>
