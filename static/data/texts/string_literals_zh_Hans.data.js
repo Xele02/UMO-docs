@@ -1,12 +1,12 @@
 export const string_literals_zh_Hans = 
 {
     "StringLiteral_367" : "",
-    "StringLiteral_1374" : "",
-    "StringLiteral_1376" : "",
-    "StringLiteral_1378" : "",
-    "StringLiteral_5812" : "",
+    "StringLiteral_1374" : "\u5E74",
+    "StringLiteral_1376" : "\u6708",
+    "StringLiteral_1378" : "\u65E5",
+    "StringLiteral_5812" : "\n",
     "StringLiteral_8278" : "",
-    "StringLiteral_8280" : "",
+    "StringLiteral_8280" : "\u521D\u59CB\u5316\u5931\u8D25\u3002",
     "StringLiteral_8676" : "",
     "StringLiteral_8686" : "",
     "StringLiteral_9360" : "",

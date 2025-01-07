@@ -45,7 +45,7 @@ export const diva009_en =
     "touch_reaction_07" : "",
     "touch_reaction_08" : "",
     "login_reaction_01" : "",
-    "login_reaction_02" : "Here's something called a present\nUse it however you want",
+    "login_reaction_02" : "Hey, Here's a present,\nKeep listening to my songs, OK?",
     "simulation_result_01" : "",
     "go_diva_result_01"    : "",
     "go_diva_result_02"    : "",

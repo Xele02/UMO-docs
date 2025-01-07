@@ -51,7 +51,7 @@ export function getReaders(iterator_owner, path, replace_)
                     return null;
                 }
                 newRet.fb_struct = tmpStruct;
-                newRet.fb_data = readerRet.fb_data?.[tmpStruct[0]];
+                newRet.fb_data = readerRet.fb_data?.[tmpStruct?.[0]];
                 if(newRet.fb_data === undefined)
                     newRet.fb_error = "No data for member "+tmpStruct[0];
                 newRet.fb_path += "/"+readerRet.fb_struct[1].reader_prop;
@@ -65,12 +65,12 @@ export function getReaders(iterator_owner, path, replace_)
                 }
                 newRet.fb_struct = [rp, {...readerRet.fb_struct[1].items[0]}];
                 newRet.fb_struct[1].reader_prop = rp;
-                if(readerRet.fb_data[rp] == undefined)
+                if(readerRet.fb_data?.[rp] == undefined)
                 {    
                     //throw new Error("no data for "+rp+" in path "+path+" "+JSON.stringify(readerRet));
                     newRet.fb_error = "Array idx "+rp+" not in reader";
                 }
-                newRet.fb_data = readerRet.fb_data[rp];
+                newRet.fb_data = readerRet.fb_data?.[rp];
                 newRet.fb_path += "/"+rp;
             }
             else
@@ -106,16 +106,17 @@ export function iterator_move(iterator, path)
                 res.fb_struct = {...prev.fb_struct};
                 res.fb_struct.reader_prop = undefined;
             }
-            else
+            else if(prev.fb_struct != undefined)
             {
                 if(!prev.fb_struct.items)
                 {
                     throw new Error("Current fb struct doesn't contain item field for "+p+" in path "+prev.db_path+" "+prev.fb_path+" "+JSON.stringify(prev.fb_struct));
                     return null;
                 }
-                var fbIdx = idx;
-                if(prev.db_struct.member_reader)
+                var fbIdx = undefined;
+                if(prev.db_struct.member_reader && prev.db_struct.member_reader != "")
                 {
+                    fbIdx = idx;
                     if(prev.db_struct.member_reader.includes("[IDX]"))
                     {
                         fbIdx = prev.db_struct.member_reader
@@ -127,16 +128,19 @@ export function iterator_move(iterator, path)
                     const parentIdx = parseInt(path_[path_.length - 2]);
                     fbIdx = parentIdx * prev.db_data.length + idx;
                 }
-                res.readers = getReaders(prev, fbIdx, {IDX:idx});
-                if(res.readers && res.readers[0])
+                if(fbIdx != undefined)
                 {
-                    res.fb_path = prev.fb_path + res.readers[0].fb_path;
-                    res.fb_data = res.readers[0].fb_data;
-                    //res.fb_struct = {...prev.fb_struct.items[0]};
-                    res.fb_struct = res.readers[0].fb_struct[1];
-                    if(res.readers[0].db_child_reader)
+                    res.readers = getReaders(prev, fbIdx, {IDX:idx});
+                    if(res.readers && res.readers[0])
                     {
-                        res.db_struct.innerType.member_reader = res.readers[0].db_child_reader;
+                        res.fb_path = prev.fb_path + res.readers[0].fb_path;
+                        res.fb_data = res.readers[0].fb_data;
+                        //res.fb_struct = {...prev.fb_struct.items[0]};
+                        res.fb_struct = res.readers[0].fb_struct[1];
+                        if(res.readers[0].db_child_reader)
+                        {
+                            res.db_struct.innerType.member_reader = res.readers[0].db_child_reader;
+                        }
                     }
                 }
             }
@@ -168,9 +172,12 @@ export function iterator_move(iterator, path)
             res.db_struct = db_struct;
 
             // Setup fb
-            res.fb_path = prev.fb_path;
-            res.fb_struct = prev.fb_struct;
-            res.fb_data = prev.fb_data;
+            if(res.db_struct.member_readerDisplay == "PropagateReader")
+            {
+                res.fb_path = prev.fb_path;
+                res.fb_struct = prev.fb_struct;
+                res.fb_data = prev.fb_data;
+            }
             if(res.db_struct.member_reader && res.db_struct.member_reader != "")
             {
                 res.readers = getReaders(prev, res.db_struct.member_reader);

@@ -5,7 +5,7 @@ import { Dropdown } from 'primereact/dropdown';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { LanguageContext } from "@umo-generator/components/LanguageContext";
 import { LanguageTabs } from "@umo-generator/components/LanguageLink";
-import { TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+import { TranslatedTextTable, getTranslatedString } from "@umo-generator/components/TranslatedString";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Preview
@@ -14,16 +14,40 @@ export const SNSPreview = () =>
 {
     const [selectedSns, setSelectedSns] = useState([null, null]);
 
+    //data.OPFGFINHFCE_Name = bk.GetMessageByLabel("sns_nm_"+ NDFIEMPPMLF.AIPLIEMLHGC_SnsId.ToString("D4"));
+    //data.LJGOOOMOMMA_Desc = bk.GetMessageByLabel("sns_dsc_" + NDFIEMPPMLF.AIPLIEMLHGC_SnsId.ToString("D4"));
+
     const snsRoomList = sns_data.NPKPBDIDBBG_Rooms.filter(r => r.PPEGAKEIEGM_Enabled == "2").map(r =>
     {
         return {name:r.OPFGFINHFCE_Name, data:r}
     });
     const snsTalkList = sns_data.CDENCMNHNGA_Talks.filter(r => r.PPEGAKEIEGM_Enabled == "2" && r.MALFHCHNEFN_RoomId == selectedSns[0]?.data.MALFHCHNEFN_Room).map(r =>
     {
-        return {name:r.AJIDLAGFPGM_TalkId, data:r}
+        const s_name = r.AJIDLAGFPGM_TalkId+" - "+getTranslatedString("master", "sns_nm_"+r.AIPLIEMLHGC_SnsId.toString().padStart(4, '0'), "ja");
+        return {name:s_name, data:r}
     });
     const talk_data = selectedSns[1] ? sns_talk_data[selectedSns[1].data.AJIDLAGFPGM_TalkId]: undefined;
     const baseUrl = useBaseUrl("/");
+    const display_sns_texts = (selectedSns, talk_data) => {
+        const sns_text_data = [{
+            name:"Name",
+            id:"sns_nm_"+selectedSns[1].data.AIPLIEMLHGC_SnsId.toString().padStart(4, '0'),
+            bank:"master"
+        }, {
+            name:"Description",
+            id:"sns_dsc_"+selectedSns[1].data.AIPLIEMLHGC_SnsId.toString().padStart(4, '0'),
+            bank:"master"
+        }];
+        if(talk_data.headMessageIndex != 0)
+        {
+            sns_text_data.append({
+                name:"Head message",
+                id:"message_"+talk_data.headMessageIndex.toString().padStart(4, '0')+"_txt",
+                bank:"room_text"
+            });
+        }
+        return <LanguageTabs><TranslatedTextTable datas={sns_text_data} /></LanguageTabs>
+    }
     return (
     <>
     <div className="card flex justify-content-center">
@@ -38,11 +62,7 @@ export const SNSPreview = () =>
         <>
         <h2>{selectedSns[1].data.AJIDLAGFPGM_TalkId} ({selectedSns[1].data.AIPLIEMLHGC_SnsId})</h2>
         TalkData from index <code>{talk_data.startIndex.toString()}</code> to <code>{talk_data.endIndex.toString()}</code><br />
-        {talk_data.headMessageIndex != 0 && (<LanguageTabs><TranslatedTextTable datas={[{
-                name:"Head message",
-                id:"message_"+talk_data.headMessageIndex.toString().padStart(4, '0')+"_txt",
-                bank:"room_text"
-            }]} /></LanguageTabs>)}
+        {display_sns_texts(selectedSns, talk_data)}
         {talk_data.snsTalkDatas.map(d => {
             const txt_data = [{
                 name:"Message",
@@ -66,6 +86,7 @@ export const SNSPreview = () =>
 
 export const languagesFiles = [
     { name:"room_text", lang:["ja", "fr", "en", "zh_Hans"] },
+    { name:"master", lang:["ja", "fr", "en", "zh_Hans"] },
   ];
 
 

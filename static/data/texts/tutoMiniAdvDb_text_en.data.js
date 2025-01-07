@@ -13,7 +13,7 @@ export const tutoMiniAdvDb_text_en =
     "tuto_miniadv_0006_0000_msg" : "Is this...\nIs this from the day I passed my audition?",
     "tuto_miniadv_0006_0001_msg" : "Apparently, the images that emerge from Episode\nPlates come from memories related to us.",
     "tuto_miniadv_0007_0000_msg" : "We Divas are the first to harness the powers\nof Episode Plates by equipping them.\nI'll explain how to do that now.",
-    "tuto_miniadv_0008_0000_msg" : "Start with tapping Edit Teams.",
+    "tuto_miniadv_0008_0000_msg" : "Start with tapping Unit Settings.",
     "tuto_miniadv_0009_0000_msg" : "Teams consist of a combination of\nDivas and their Episode Plates.",
     "tuto_miniadv_0009_0001_msg" : "OK, let's try powering up the Episode Plate you got.",
     "tuto_miniadv_0010_0000_msg" : "The Episode Plate raised your song power!\nI think you'll be able to generate stronger\nBio-Fold Waves now.",

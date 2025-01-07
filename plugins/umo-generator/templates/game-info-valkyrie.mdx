@@ -1,0 +1,89 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { DatabaseValue, getFBValue } from "@umo-generator/components/Database";
+import { GameVersion } from "@umo-generator/components/Game";
+import { LanguageTabs } from "@umo-generator/components/LanguageLink";
+import { TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+import { useContext } from 'react';
+import { ValkyrieLanguageLink, ValkyrieString, ValkyrieIdContext, ValkyrieIdContext_, ValkyrieImage } from "@umo-generator/components/Valkyrie";
+
+import clsx from 'clsx';
+import styles from '@umo-generator/css/styles.module.css';
+
+export const languagesFiles = [
+    { name:"master", lang:["ja", "fr", "en", "zh_Hans"] },
+];
+
+<LanguageContext files={languagesFiles}>
+
+<ValkyrieIdContext valkId={props.valkId}>
+
+<div style={{position:'relative'}}><div style={{position: 'absolute',top:'-140px', right:'-50px', width:'40%'}}><ValkyrieImage /></div></div>
+
+## Basic infos
+
+* Id : <DatabaseValue database_name="valkyrie" path={"CDENCMNHNGA_ValkyrieList/"+(props.valkId - 1)+"/GPPEFLKGGGJ_Id"} />
+* Serie : <DatabaseValue database_name="valkyrie" path={"CDENCMNHNGA_ValkyrieList/"+(props.valkId - 1)+"/AIHCEGFANAM_Sa"} />
+* Pilot : <DatabaseValue database_name="valkyrie" path={"CDENCMNHNGA_ValkyrieList/"+(props.valkId - 1)+"/PFGJJLGLPAC_PilotId"} />
+* Model : <DatabaseValue database_name="valkyrie" path={"CDENCMNHNGA_ValkyrieList/"+(props.valkId - 1)+"/DAJGPBLEEOB_ModelId"} />
+* Added in version : <GameVersion version={getFBValue("valkyrie","HLBFAIIOKBI/"+(props.valkId - 1)+"/OFMGALJGDAO")} />
+* Deco added in version : <GameVersion version={getFBValue("valkyrie","HLBFAIIOKBI/"+(props.valkId - 1)+"/GBJKMHDILHH")} />
+
+## Battle infos
+
+* Attack : <DatabaseValue database_name="valkyrie" path={"CDENCMNHNGA_ValkyrieList/"+(props.valkId - 1)+"/KINFGHHNFCF_Atk"} />
+* Hit : <DatabaseValue database_name="valkyrie" path={"CDENCMNHNGA_ValkyrieList/"+(props.valkId - 1)+"/NONBCCLGBAO_Hit"} />
+* Skill : <DatabaseValue database_name="valkyrie" path={"CDENCMNHNGA_ValkyrieList/"+(props.valkId - 1)+"/BMIJDLBGFNP_SkillId"} />
+
+
+export const DivaTextTable = () =>
+{
+  const valkId = useContext(ValkyrieIdContext_);
+  const data = 
+  [
+    {
+      name:"Name",
+      id:"vn_##ID##",
+      bank:"master"
+    },
+    {
+      name:"Description",
+      id:"v_dsc_##ID##",
+      bank:"master"
+    },
+    {
+      name:"Pilot",
+      id:"v_pn_##ID##",
+      bank:"master"
+    },
+  ]
+  return (
+    <TranslatedTextTable datas={data}
+      templateLink={(data, language) => { return <ValkyrieLanguageLink bank={data.bank} id={data.id} language={language} />}} 
+      templateString={(data, language) => { return <ValkyrieString bank={data.bank} id={data.id} language={language} />}} 
+    />
+  );
+};
+
+## Texts
+
+<LanguageTabs>
+  <DivaTextTable />
+</LanguageTabs>
+
+## Icons
+
+
+<Tabs groupId="valkIcon">
+  <TabItem value="icon" label="Icon" default>
+    <ValkyrieImage type="icon" />
+  </TabItem>
+  <TabItem value="portrait" label="Portrait" default>
+    <ValkyrieImage type="portrait" />
+  </TabItem>
+</Tabs>
+
+
+</ValkyrieIdContext>
+</LanguageContext>

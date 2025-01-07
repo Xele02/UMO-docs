@@ -1,0 +1,357 @@
+
+{
+    "type" : "class",
+    "name" : "AREventMasterData",
+    "cryptedName" : "",
+    "realName"    : "AREventMasterData",
+    "readerClass" : "IINMAJAFDIF",
+    "members"     : [
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "String"
+            },
+            "innerTypeValue" : {
+                "type" : "String"
+            },
+            "member_type"    : "property",
+            "member_name"    : "m_stringParam",
+            "member_cryptedName" : "",
+            "member_realName"    : "m_stringParam",
+            "member_reader"      : null,
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "String"
+            },
+            "innerTypeValue" : {
+                "type" : "Int32"
+            },
+            "member_type"    : "property",
+            "member_name"    : "m_intParam",
+            "member_cryptedName" : "",
+            "member_realName"    : "m_intParam",
+            "member_reader"      : null,
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "Data",
+                "cryptedName" : "",
+                "realName"    : "Data",
+                "readerClass" : "LFHPPKNLGLJ",
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "no",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "no",
+                        "member_reader"      : "IKPIDCFOFEA",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "enable",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "enable",
+                        "member_reader"      : "PLALNIIBLOF",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "String",
+                        "member_type" : "field",
+                        "member_name" : "eventId",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "eventId",
+                        "member_reader"      : "DNJLJMKKDNA",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "String",
+                        "member_type" : "field",
+                        "member_name" : "eventName",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "eventName",
+                        "member_reader"      : "OFJIBKAOMKO",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "list",
+                        "innerType" : {
+                            "type" : "String"
+                        },
+                        "member_type" : "field",
+                        "member_name" : "snsTemplateTable",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "snsTemplateTable",
+                        "member_reader"      : null,
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "class",
+                        "name" : "Campaign",
+                        "cryptedName" : "Campaign",
+                        "realName"    : "",
+                        "readerClass" : null,
+                        "members"     : [
+                            {
+                                "type" : "String",
+                                "member_type" : "field",
+                                "member_name" : "eventId",
+                                "member_cryptedName" : "",
+                                "member_realName"    : "eventId",
+                                "member_reader"      : "DNJLJMKKDNA",
+                                "member_reader_child" : null,
+                                "member_readableName" : null,
+                                "member_readerDisplay" : null,
+                                "member_desc"          : null,
+                                "member_display"       : null
+                            },
+                            {
+                                "type" : "Int64",
+                                "member_type" : "field",
+                                "member_name" : "startTime",
+                                "member_cryptedName" : "",
+                                "member_realName"    : "startTime",
+                                "member_reader"      : "KIGNIOGKEGD",
+                                "member_reader_child" : null,
+                                "member_readableName" : null,
+                                "member_readerDisplay" : null,
+                                "member_desc"          : null,
+                                "member_display"       : "Date"
+                            },
+                            {
+                                "type" : "Int64",
+                                "member_type" : "field",
+                                "member_name" : "endTime",
+                                "member_cryptedName" : "",
+                                "member_realName"    : "endTime",
+                                "member_reader"      : "AKCAHAKHIPI",
+                                "member_reader_child" : null,
+                                "member_readableName" : null,
+                                "member_readerDisplay" : null,
+                                "member_desc"          : null,
+                                "member_display"       : "Date"
+                            },
+                            {
+                                "type" : "Int32",
+                                "member_type" : "field",
+                                "member_name" : "bannerId",
+                                "member_cryptedName" : "bannerId",
+                                "member_realName"    : "",
+                                "member_reader"      : "LCCDKCPBJAK",
+                                "member_reader_child" : null,
+                                "member_readableName" : null,
+                                "member_readerDisplay" : null,
+                                "member_desc"          : null,
+                                "member_display"       : null
+                            },
+                            {
+                                "type" : "Int32",
+                                "member_type" : "field",
+                                "member_name" : "imageCount",
+                                "member_cryptedName" : "",
+                                "member_realName"    : "imageCount",
+                                "member_reader"      : "LLAGMIDPGFP",
+                                "member_reader_child" : null,
+                                "member_readableName" : null,
+                                "member_readerDisplay" : null,
+                                "member_desc"          : null,
+                                "member_display"       : null
+                            }
+                        ],
+                        "member_type" : "field",
+                        "member_name" : "campaign",
+                        "member_cryptedName" : "campaign",
+                        "member_realName"    : "",
+                        "member_reader"      : null,
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : "PropagateReader",
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "m_eventList",
+            "member_cryptedName" : "",
+            "member_realName"    : "m_eventList",
+            "member_reader"      : "GHGFEFIAIFC",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "Chenge_bg",
+                "cryptedName" : "",
+                "realName"    : "Chenge_bg",
+                "readerClass" : "ABNJFHAAANG",
+                "members"     : [
+                    {
+                        "type" : "Int64",
+                        "member_type" : "field",
+                        "member_name" : "startTime",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "startTime",
+                        "member_reader"      : "KBPENAAJPHN",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : "Date"
+                    },
+                    {
+                        "type" : "Int64",
+                        "member_type" : "field",
+                        "member_name" : "endTime",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "endTime",
+                        "member_reader"      : "AKKDBALDNAN",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : "Date"
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "enable",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "enable",
+                        "member_reader"      : "PLALNIIBLOF",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "bgId",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "bgId",
+                        "member_reader"      : "OENPCNBFPDA",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "m_chengeBg",
+            "member_cryptedName" : "",
+            "member_realName"    : "m_chengeBg",
+            "member_reader"      : "DEJCELHJKHN",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "EventTime",
+                "cryptedName" : "",
+                "realName"    : "EventTime",
+                "readerClass" : "FBPGKNMGGKF",
+                "members"     : [
+                    {
+                        "type" : "Int64",
+                        "member_type" : "field",
+                        "member_name" : "startTime",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "startTime",
+                        "member_reader"      : "JLIPMPMDEHI",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : "Date"
+                    },
+                    {
+                        "type" : "Int64",
+                        "member_type" : "field",
+                        "member_name" : "endTime",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "endTime",
+                        "member_reader"      : "LOPHEKJBJKD",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : "Date"
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "enable",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "enable",
+                        "member_reader"      : "PLALNIIBLOF",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "m_eventTime",
+            "member_cryptedName" : "",
+            "member_realName"    : "m_eventTime",
+            "member_reader"      : "GCKNBNMLCEF",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        }
+    ]
+}

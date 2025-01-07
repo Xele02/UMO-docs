@@ -139,7 +139,7 @@ export const tipsDb_text_fr =
     "tips_0068_title" : "C'est quoi la section Delta\u202F?",
     "tips_0068_msg"   : "Une escouade de valkyries escorte les \nWalk\u00FCre, qui sont \u00E9galement \ndes artistes",
     "tips_0069_title" : "C'est quoi le S.M.S\u202F?",
-    "tips_0069_msg"   : "Le S.M.S. est un group militaire priv\u00E9, \net effectue des tests d'\u00E9valuation sur \nles nouveaux avions",
+    "tips_0069_msg"   : "Le S.M.S. est un groupe militaire priv\u00E9, \net effectue des tests d'\u00E9valuation sur \nles nouveaux avions",
     "tips_0070_title" : "C'est quoi le Nyan-Nyan\u202F?",
     "tips_0070_msg"   : "C'est un restaurant chinois tenu par un \nveil homme et tout les plats \nsont d\u00E9licieux\u202F!",
     "tips_0071_title" : "C'est quoi les Zentradi\u202F?",

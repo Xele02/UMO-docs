@@ -63,7 +63,7 @@ export function getFBValue(database_name, path)
     return value;
 }
 
-export const DatabaseValue = ({database_name, path}) =>
+export const DatabaseValue = ({database_name, path, display_type}) =>
 {
     const data = require("@site/static/data/database/"+database_name+"/"+database_name+".data.json");
     const splitPath = path.toString().split('/');
@@ -102,9 +102,17 @@ export const DatabaseValue = ({database_name, path}) =>
         return <>Value {p} not found for {path}</>;
     }
     tooltip_class = tooltip_class.join("_");
+    if(typeof(value) == "object")
+    {
+        value = JSON.stringify(value)
+    }
+    else if(display_type == "date")
+    {
+        value = new Date(parseInt(value) * 1000).toLocaleDateString(undefined, {dateStyle:'short'});
+    }
     return (<><Tooltip target={"."+tooltip_class} >database://{database_name}/{path}</Tooltip><code className={tooltip_class}
         data-pr-position="top"
         data-pr-at="center top-6"
         data-pr-my="center bottom"
-        style={{ cursor: 'pointer' }}>{typeof(value) == "object" ? JSON.stringify(value) : value}</code></>);
+        style={{ cursor: 'pointer' }}>{value}</code></>);
 }

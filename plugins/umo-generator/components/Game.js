@@ -15,5 +15,5 @@ export const GameVersion = ({version}) =>
         }
     }
   }
-  return <>[{version}] {new Date(versionData.IBDFJIDNDJH * 1000).toLocaleDateString(undefined, {dateStyle:'short'})} : {versionData.IIDCFMHCPLJ}</>;
+  return <>[{version}] {versionData && new Date(versionData.IBDFJIDNDJH * 1000).toLocaleDateString(undefined, {dateStyle:'short'})} : {versionData && versionData.IIDCFMHCPLJ}</>;
 }

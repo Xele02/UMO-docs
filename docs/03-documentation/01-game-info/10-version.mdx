@@ -4,14 +4,23 @@
 import { Timeline } from 'primereact/timeline';
 import { Card } from 'primereact/card';
 import { DivaLink } from "@umo-generator/components/Diva";
+import { ValkyrieLink } from "@umo-generator/components/Valkyrie";
 import { CostumeLink } from "@umo-generator/components/Costume";
+import { AdventureLink } from "@umo-generator/components/Adventure";
 import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { SnsRoomLink, SnsTalkLink } from "@umo-generator/components/Sns";
 
 import fb_version from "@site/static/data/database/version/version.fb.json"
 import diva_data from "@site/static/data/database/diva/diva.data.json"
 import data_fb from "@site/static/data/database/diva/diva.fb.json"
 import cos_data from "@site/static/data/database/costume/costume.data.json"
 import cos_fb from "@site/static/data/database/costume/costume.fb.json"
+import adventure_data from "@site/static/data/database/adventure/adventure.data.json"
+import adventure_fb from "@site/static/data/database/adventure/adventure.fb.json"
+import sns_data from "@site/static/data/database/sns/sns.data.json"
+import sns_fb from "@site/static/data/database/sns/sns.fb.json"
+import valk_data from "@site/static/data/database/valkyrie/valkyrie.data.json"
+import valk_fb from "@site/static/data/database/valkyrie/valkyrie.fb.json"
 
 export const GameTimeline = () => 
 {
@@ -33,6 +42,42 @@ export const GameTimeline = () =>
         }
         return self;
     }, Object.create(null));
+    const addedAdventure = adventure_data.CDENCMNHNGA_List.reduce((self, c) => {
+        if(c.PPEGAKEIEGM_Enabled == "2")
+        {
+            const v = adventure_fb.EJNIGLEDAFJ[c.BPNKGDGBBFG - 1].OFMGALJGDAO;
+            self[v] = self[v] || [];
+            self[v].push(c.BPNKGDGBBFG);
+        }
+        return self;
+    }, Object.create(null));
+    const addedSnsRoom = sns_data.NPKPBDIDBBG_Rooms.reduce((self, c) => {
+        if(c.PPEGAKEIEGM_Enabled == "2")
+        {
+            const v = sns_fb.ADNNNAFIBLD[c.MALFHCHNEFN_Room].OFMGALJGDAO;
+            self[v] = self[v] || [];
+            self[v].push(c.MALFHCHNEFN_Room);
+        }
+        return self;
+    }, Object.create(null));
+    const addedSnsTalk = sns_data.CDENCMNHNGA_Talks.reduce((self, c) => {
+        if(c.PPEGAKEIEGM_Enabled == "2")
+        {
+            const v = sns_fb.NEPBOHLLOGM[c.AIPLIEMLHGC_SnsId - 1].OFMGALJGDAO;
+            self[v] = self[v] || [];
+            self[v].push(c.AIPLIEMLHGC_SnsId);
+        }
+        return self;
+    }, Object.create(null));
+    const addedValkyrie = valk_data.CDENCMNHNGA_ValkyrieList.reduce((self, c) => {
+        if(c.PPEGAKEIEGM_Enabled == "2")
+        {
+            const v = valk_fb.HLBFAIIOKBI[c.GPPEFLKGGGJ_Id - 1].OFMGALJGDAO;
+            self[v] = self[v] || [];
+            self[v].push(c.GPPEFLKGGGJ_Id);
+        }
+        return self;
+    }, Object.create(null));
     const events = fb_version.MFLNKKKEGJH.map(k => 
     { 
         return {
@@ -42,7 +87,11 @@ export const GameTimeline = () =>
             added_data:
             {
                 divas:addedDiva[k.OFMGALJGDAO] || undefined,
-                costumes:addedCostume[k.OFMGALJGDAO] || undefined
+                costumes:addedCostume[k.OFMGALJGDAO] || undefined,
+                adventure:addedAdventure[k.OFMGALJGDAO] || undefined,
+                snsRoom:addedSnsRoom[k.OFMGALJGDAO] || undefined,
+                snsTalk:addedSnsTalk[k.OFMGALJGDAO] || undefined,
+                valkyrie:addedValkyrie[k.OFMGALJGDAO] || undefined
             }
         }; 
     });
@@ -61,6 +110,11 @@ export const GameTimeline = () =>
             <Card title={item.name} subTitle={item.date.toLocaleDateString(undefined, {dateStyle:'short'})}>
                 {item.added_data.divas && (<>Added Diva : <br /><ul>{item.added_data.divas.map(c => <><li><DivaLink divaId={c} /></li></>)}</ul></>)}
                 {item.added_data.costumes && (<>Added Costume : <br /><ul>{item.added_data.costumes.map(c => <><li><CostumeLink costumeId={c} /></li></>)}</ul></>)}
+                {item.added_data.valkyrie && (<>Added Valkyrie : <br /><ul>{item.added_data.valkyrie.map(c => <><li><ValkyrieLink valkId={c} /></li></>)}</ul></>)}
+                {item.added_data.adventure && (<>Added Adventure : <br /><ul>{item.added_data.adventure.map(c => <><li><AdventureLink advId={c} /></li></>)}</ul></>)}
+                {item.added_data.snsRoom && (<>Added SNS Room : <br /><ul>{item.added_data.snsRoom.map(c => <><li><SnsRoomLink roomId={c} /></li></>)}</ul></>)}
+                {item.added_data.snsTalk && (<>Added SNS Talk : <br /><ul>{item.added_data.snsTalk.map(c => <><li><SnsTalkLink talkId={c} /></li></>)}</ul></>)}
+                
             </Card>
         );
     };

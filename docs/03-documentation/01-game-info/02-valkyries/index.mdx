@@ -1,0 +1,66 @@
+# Valkyrie
+
+import Link from '@docusaurus/Link';
+import { ValkyrieImage } from "@umo-generator/components/Valkyrie";
+import clsx from 'clsx';
+import styles from '@umo-generator/css/styles.module.css';
+import { getLinkById } from "@umo-generator/js/link"
+import { DatabaseValue } from "@umo-generator/components/Database";
+import valk_data from "@site/static/data/database/valkyrie/valkyrie.data.json"
+import { TranslatedString } from "@umo-generator/components/TranslatedString";
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+
+export const ValkyrieClick = ({ids}) => {
+
+    const list = ids.map(k => {
+        const url = getLinkById("documentation_game_valkyrie_"+k.toString());
+        return (
+            <article class="col col--3 margin-bottom--lg">
+            <Link href={url} className={clsx('card ', styles.cardContainer)}>
+                <ValkyrieImage valkId={k} /><br />
+                <TranslatedString bank="master" id={"vn_" + k.toString().padStart(4, '0')} language="ja" />
+            </Link>
+            </article>
+    );
+})
+
+    return <>{list}</>;
+}
+
+export const languagesFiles = [
+    { name:"master", lang:["ja"] },
+];
+
+<LanguageContext files={languagesFiles}>
+
+## Macross Delta
+
+<section class="row">
+<ValkyrieClick ids={valk_data.CDENCMNHNGA_ValkyrieList.filter(k => k.PPEGAKEIEGM_Enabled == "2" && k.AIHCEGFANAM_Sa == "1").map(k => k.GPPEFLKGGGJ_Id)} />
+</section>
+
+## Macross Frontier
+
+<section class="row">
+<ValkyrieClick ids={valk_data.CDENCMNHNGA_ValkyrieList.filter(k => k.PPEGAKEIEGM_Enabled == "2" && k.AIHCEGFANAM_Sa == "2").map(k => k.GPPEFLKGGGJ_Id)} />
+</section>
+
+## Macross 7
+
+<section class="row">
+<ValkyrieClick ids={valk_data.CDENCMNHNGA_ValkyrieList.filter(k => k.PPEGAKEIEGM_Enabled == "2" && k.AIHCEGFANAM_Sa == "3").map(k => k.GPPEFLKGGGJ_Id)} />
+</section>
+
+## Macross
+
+<section class="row">
+<ValkyrieClick ids={valk_data.CDENCMNHNGA_ValkyrieList.filter(k => k.PPEGAKEIEGM_Enabled == "2" && k.AIHCEGFANAM_Sa == "4").map(k => k.GPPEFLKGGGJ_Id)} />
+</section>
+
+## Others
+
+<section class="row">
+<ValkyrieClick ids={valk_data.CDENCMNHNGA_ValkyrieList.filter(k => k.PPEGAKEIEGM_Enabled == "2" && k.AIHCEGFANAM_Sa == "5").map(k => k.GPPEFLKGGGJ_Id)} />
+</section>
+
+</LanguageContext>

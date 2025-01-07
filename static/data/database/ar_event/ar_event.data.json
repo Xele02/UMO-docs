@@ -1,0 +1,964 @@
+
+{
+    "m_stringParam" : [
+        {
+            "key" : "Sony SGP512",
+            "value" : "90"
+        },
+        {
+            "key" : "already_read_help_eventid_list",
+            "value" : "ar01,ar02,ar03"
+        }
+    ],
+    "m_intParam"    : [
+        {
+            "key" : "smart_ar_init_mode",
+            "value" : 0
+        },
+        {
+            "key" : "master_sw",
+            "value" : 1
+        },
+        {
+            "key" : "enable_ios_ar",
+            "value" : 1
+        }
+    ],
+    "m_eventList"   : [
+        {
+            "no" : "1",
+            "enable" : "2",
+            "eventId" : "ar01",
+            "eventName" : "\u6771\u4EAC\u30B9\u30AB\u30A4\u30C4\u30EA\u30FC\u00AE\u30B3\u30E9\u30DC",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9 #\u6771\u4EAC\u30B9\u30AB\u30A4\u30C4\u30EA\u30FC",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar01",
+                "startTime" : "1506819600",
+                "endTime"   : "1519829999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "2",
+            "enable" : "2",
+            "eventId" : "ar02",
+            "eventName" : "\u5287\u5834\u7248\u30DE\u30AF\u30ED\u30B9\u0394\u30B3\u30E9\u30DC",
+            "snsTemplateTable" : [
+                "",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar02",
+                "startTime" : "1506819600",
+                "endTime"   : "1519829999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "3",
+            "enable" : "2",
+            "eventId" : "ar03",
+            "eventName" : "\u30EF\u30EB\u30AD\u30E5\u30FC\u30EC3rd LIVE",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar03",
+                "startTime" : "1506819600",
+                "endTime"   : "1519829999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "4",
+            "enable" : "2",
+            "eventId" : "ar04",
+            "eventName" : "\u30A2\u30CB\u30E1\u30B8\u30E3\u30D1\u30F3",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar04",
+                "startTime" : "1506819600",
+                "endTime"   : "1519829999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "5",
+            "enable" : "2",
+            "eventId" : "ar05",
+            "eventName" : "\u5287\u5834\u7248\u30DE\u30AF\u30ED\u30B9\u0394Blu-ray&DVD\u5C01\u5165\u7279\u5178",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar05",
+                "startTime" : "1506819600",
+                "endTime"   : "1519829999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "6",
+            "enable" : "2",
+            "eventId" : "ar06",
+            "eventName" : "\u300CVF-31C\u300D\u5C01\u5165\u7279\u5178",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar06",
+                "startTime" : "1506819600",
+                "endTime"   : "1519829999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "7",
+            "enable" : "2",
+            "eventId" : "ar07",
+            "eventName" : "\u6B4C\u30DE\u30AF\u30ED\u30B9\u516C\u5F0F\u751F\u653E\u9001\u30D4\u30BF\u30EA\u8CDE",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar07",
+                "startTime" : "1550458800",
+                "endTime"   : "1556636399",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "8",
+            "enable" : "2",
+            "eventId" : "ar08",
+            "eventName" : "\u300CVF-31J \u300D\u5C01\u5165\u7279\u5178",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar08",
+                "startTime" : "1555945200",
+                "endTime"   : "1572533999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "9",
+            "enable" : "2",
+            "eventId" : "ar09",
+            "eventName" : "\u30AF\u30ED\u30B9\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30D6",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar09",
+                "startTime" : "1558882800",
+                "endTime"   : "1575125999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "10",
+            "enable" : "2",
+            "eventId" : "ar10",
+            "eventName" : "\u6CB3\u68EEEXPO",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar10",
+                "startTime" : "1558882800",
+                "endTime"   : "1561906799",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "11",
+            "enable" : "2",
+            "eventId" : "ar11",
+            "eventName" : "\u300CVF-31F\u300D\u5C01\u5165\u7279\u5178",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar11",
+                "startTime" : "1564066800",
+                "endTime"   : "1582988399",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "12",
+            "enable" : "2",
+            "eventId" : "ar12",
+            "eventName" : "\u3055\u304C\u307F\u6E56\u30A4\u30EB\u30DF\u30EA\u30AA\u30F3",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar12",
+                "startTime" : "1572447600",
+                "endTime"   : "1578409199",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "13",
+            "enable" : "2",
+            "eventId" : "ar13",
+            "eventName" : "\u3055\u304C\u307F\u6E56\u30A4\u30EB\u30DF\u30EA\u30AA\u30F3 \u3010WEB\u914D\u5E03\u7248\u3011",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar13",
+                "startTime" : "1572447600",
+                "endTime"   : "1573657199",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "14",
+            "enable" : "2",
+            "eventId" : "ar14",
+            "eventName" : "\u3055\u304C\u307F\u6E56\u30A4\u30EB\u30DF\u30EA\u30AA\u30F3\uFF08\u30D1\u30F3\u30D5\uFF09",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar14",
+                "startTime" : "1575126000",
+                "endTime"   : "1578409199",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "15",
+            "enable" : "2",
+            "eventId" : "ar15",
+            "eventName" : "\u300CVF-31E\u300D\u5C01\u5165\u7279\u5178",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar15",
+                "startTime" : "1574694000",
+                "endTime"   : "1582988399",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        },
+        {
+            "no" : "16",
+            "enable" : "2",
+            "eventId" : "ar16",
+            "eventName" : "\u300CVF-31S\u300D\u5C01\u5165\u7279\u5178",
+            "snsTemplateTable" : [
+                "#\u6B4C\u30DE\u30AF\u30ED\u30B9AR #\u6B4C\u30DE\u30AF\u30ED\u30B9",
+                ""
+            ],
+            "campaign"         : {
+                "eventId" : "ar16",
+                "startTime" : "1581130800",
+                "endTime"   : "1585493999",
+                "bannerId"  : "0",
+                "imageCount" : "0"
+            }
+        }
+    ],
+    "m_chengeBg"    : [
+        {
+            "startTime" : "1515423600",
+            "endTime"   : "1518101999",
+            "enable"    : "2",
+            "bgId"      : "1"
+        },
+        {
+            "startTime" : "1518102000",
+            "endTime"   : "1519397999",
+            "enable"    : "2",
+            "bgId"      : "2"
+        },
+        {
+            "startTime" : "1519398000",
+            "endTime"   : "1519570799",
+            "enable"    : "2",
+            "bgId"      : "3"
+        },
+        {
+            "startTime" : "1519570800",
+            "endTime"   : "1519829999",
+            "enable"    : "2",
+            "bgId"      : "1"
+        },
+        {
+            "startTime" : "1519830000",
+            "endTime"   : "1521521999",
+            "enable"    : "2",
+            "bgId"      : "4"
+        },
+        {
+            "startTime" : "1525068000",
+            "endTime"   : "1527746399",
+            "enable"    : "2",
+            "bgId"      : "5"
+        },
+        {
+            "startTime" : "1529560800",
+            "endTime"   : "1530284399",
+            "enable"    : "2",
+            "bgId"      : "6"
+        },
+        {
+            "startTime" : "1533222000",
+            "endTime"   : "1535695199",
+            "enable"    : "2",
+            "bgId"      : "7"
+        },
+        {
+            "startTime" : "1535695200",
+            "endTime"   : "1538200799",
+            "enable"    : "2",
+            "bgId"      : "8"
+        },
+        {
+            "startTime" : "1544940000",
+            "endTime"   : "1545544799",
+            "enable"    : "2",
+            "bgId"      : "9"
+        },
+        {
+            "startTime" : "1545544800",
+            "endTime"   : "1545976799",
+            "enable"    : "2",
+            "bgId"      : "10"
+        },
+        {
+            "startTime" : "1546268400",
+            "endTime"   : "1548914399",
+            "enable"    : "2",
+            "bgId"      : "11"
+        },
+        {
+            "startTime" : "1548914400",
+            "endTime"   : "1551333599",
+            "enable"    : "2",
+            "bgId"      : "12"
+        },
+        {
+            "startTime" : "1554044400",
+            "endTime"   : "1554130799",
+            "enable"    : "2",
+            "bgId"      : "13"
+        },
+        {
+            "startTime" : "1556204400",
+            "endTime"   : "1557241199",
+            "enable"    : "2",
+            "bgId"      : "14"
+        },
+        {
+            "startTime" : "1558796400",
+            "endTime"   : "1561863599",
+            "enable"    : "2",
+            "bgId"      : "15"
+        },
+        {
+            "startTime" : "1562770800",
+            "endTime"   : "1563375599",
+            "enable"    : "2",
+            "bgId"      : "16"
+        },
+        {
+            "startTime" : "1563375600",
+            "endTime"   : "1564066799",
+            "enable"    : "2",
+            "bgId"      : "17"
+        },
+        {
+            "startTime" : "1564066800",
+            "endTime"   : "1564585199",
+            "enable"    : "2",
+            "bgId"      : "18"
+        },
+        {
+            "startTime" : "1564585200",
+            "endTime"   : "1567263599",
+            "enable"    : "2",
+            "bgId"      : "19"
+        },
+        {
+            "startTime" : "1569898800",
+            "endTime"   : "1570849200",
+            "enable"    : "2",
+            "bgId"      : "20"
+        },
+        {
+            "startTime" : "1570849200",
+            "endTime"   : "1571367600",
+            "enable"    : "2",
+            "bgId"      : "21"
+        },
+        {
+            "startTime" : "1571367600",
+            "endTime"   : "1571972400",
+            "enable"    : "2",
+            "bgId"      : "22"
+        },
+        {
+            "startTime" : "1571972400",
+            "endTime"   : "1572534000",
+            "enable"    : "2",
+            "bgId"      : "23"
+        },
+        {
+            "startTime" : "1572534000",
+            "endTime"   : "1573829999",
+            "enable"    : "2",
+            "bgId"      : "24"
+        },
+        {
+            "startTime" : "1573873200",
+            "endTime"   : "1575125999",
+            "enable"    : "2",
+            "bgId"      : "25"
+        },
+        {
+            "startTime" : "1575126000",
+            "endTime"   : "1576594799",
+            "enable"    : "2",
+            "bgId"      : "26"
+        },
+        {
+            "startTime" : "1576638000",
+            "endTime"   : "1577285999",
+            "enable"    : "2",
+            "bgId"      : "27"
+        },
+        {
+            "startTime" : "1577804400",
+            "endTime"   : "1578236399",
+            "enable"    : "2",
+            "bgId"      : "28"
+        },
+        {
+            "startTime" : "1578236400",
+            "endTime"   : "1578668399",
+            "enable"    : "2",
+            "bgId"      : "29"
+        },
+        {
+            "startTime" : "1578668400",
+            "endTime"   : "1579359599",
+            "enable"    : "2",
+            "bgId"      : "30"
+        },
+        {
+            "startTime" : "1580310000",
+            "endTime"   : "1581130799",
+            "enable"    : "2",
+            "bgId"      : "31"
+        },
+        {
+            "startTime" : "1581130800",
+            "endTime"   : "1581735599",
+            "enable"    : "2",
+            "bgId"      : "32"
+        },
+        {
+            "startTime" : "1581735600",
+            "endTime"   : "1582297199",
+            "enable"    : "2",
+            "bgId"      : "33"
+        },
+        {
+            "startTime" : "1582815600",
+            "endTime"   : "1583582399",
+            "enable"    : "2",
+            "bgId"      : "34"
+        },
+        {
+            "startTime" : "1585540800",
+            "endTime"   : "1585666799",
+            "enable"    : "2",
+            "bgId"      : "35"
+        },
+        {
+            "startTime" : "1585666800",
+            "endTime"   : "1585753199",
+            "enable"    : "2",
+            "bgId"      : "36"
+        },
+        {
+            "startTime" : "1585753200",
+            "endTime"   : "1586260799",
+            "enable"    : "2",
+            "bgId"      : "35"
+        },
+        {
+            "startTime" : "1587884400",
+            "endTime"   : "1588474799",
+            "enable"    : "2",
+            "bgId"      : "37"
+        },
+        {
+            "startTime" : "1588474800",
+            "endTime"   : "1589111999",
+            "enable"    : "2",
+            "bgId"      : "38"
+        },
+        {
+            "startTime" : "1589112000",
+            "endTime"   : "1590764399",
+            "enable"    : "2",
+            "bgId"      : "37"
+        },
+        {
+            "startTime" : "1590764400",
+            "endTime"   : "1591282799",
+            "enable"    : "2",
+            "bgId"      : "39"
+        },
+        {
+            "startTime" : "1591282800",
+            "endTime"   : "1591790399",
+            "enable"    : "2",
+            "bgId"      : "40"
+        },
+        {
+            "startTime" : "1591790400",
+            "endTime"   : "1593485999",
+            "enable"    : "2",
+            "bgId"      : "37"
+        },
+        {
+            "startTime" : "1593486000",
+            "endTime"   : "1594295999",
+            "enable"    : "2",
+            "bgId"      : "41"
+        },
+        {
+            "startTime" : "1594296000",
+            "endTime"   : "1596034799",
+            "enable"    : "2",
+            "bgId"      : "37"
+        },
+        {
+            "startTime" : "1596034800",
+            "endTime"   : "1596466799",
+            "enable"    : "2",
+            "bgId"      : "42"
+        },
+        {
+            "startTime" : "1596466800",
+            "endTime"   : "1596985199",
+            "enable"    : "2",
+            "bgId"      : "43"
+        },
+        {
+            "startTime" : "1596985200",
+            "endTime"   : "1598799599",
+            "enable"    : "2",
+            "bgId"      : "37"
+        },
+        {
+            "startTime" : "1598799600",
+            "endTime"   : "1599922799",
+            "enable"    : "2",
+            "bgId"      : "44"
+        },
+        {
+            "startTime" : "1599922800",
+            "endTime"   : "1601352000",
+            "enable"    : "2",
+            "bgId"      : "45"
+        },
+        {
+            "startTime" : "1601352001",
+            "endTime"   : "1603983599",
+            "enable"    : "2",
+            "bgId"      : "46"
+        },
+        {
+            "startTime" : "1603983600",
+            "endTime"   : "1605020399",
+            "enable"    : "2",
+            "bgId"      : "47"
+        },
+        {
+            "startTime" : "1605020400",
+            "endTime"   : "1606661999",
+            "enable"    : "2",
+            "bgId"      : "48"
+        },
+        {
+            "startTime" : "1606662000",
+            "endTime"   : "1609253999",
+            "enable"    : "2",
+            "bgId"      : "49"
+        },
+        {
+            "startTime" : "1609254000",
+            "endTime"   : "1609426799",
+            "enable"    : "2",
+            "bgId"      : "50"
+        },
+        {
+            "startTime" : "1609426800",
+            "endTime"   : "1610377199",
+            "enable"    : "2",
+            "bgId"      : "51"
+        },
+        {
+            "startTime" : "1610377200",
+            "endTime"   : "1611413999",
+            "enable"    : "2",
+            "bgId"      : "52"
+        },
+        {
+            "startTime" : "1611414000",
+            "endTime"   : "1612018799",
+            "enable"    : "2",
+            "bgId"      : "53"
+        },
+        {
+            "startTime" : "1612018800",
+            "endTime"   : "1612882799",
+            "enable"    : "2",
+            "bgId"      : "54"
+        },
+        {
+            "startTime" : "1612882800",
+            "endTime"   : "1613833199",
+            "enable"    : "2",
+            "bgId"      : "55"
+        },
+        {
+            "startTime" : "1613833200",
+            "endTime"   : "1614437999",
+            "enable"    : "2",
+            "bgId"      : "56"
+        },
+        {
+            "startTime" : "1614438000",
+            "endTime"   : "1615042799",
+            "enable"    : "2",
+            "bgId"      : "57"
+        },
+        {
+            "startTime" : "1615042800",
+            "endTime"   : "1615647599",
+            "enable"    : "2",
+            "bgId"      : "58"
+        },
+        {
+            "startTime" : "1617076800",
+            "endTime"   : "1617202799",
+            "enable"    : "2",
+            "bgId"      : "59"
+        },
+        {
+            "startTime" : "1617202800",
+            "endTime"   : "1617289199",
+            "enable"    : "2",
+            "bgId"      : "60"
+        },
+        {
+            "startTime" : "1617289200",
+            "endTime"   : "1617893999",
+            "enable"    : "2",
+            "bgId"      : "59"
+        },
+        {
+            "startTime" : "1617894000",
+            "endTime"   : "1619621999",
+            "enable"    : "2",
+            "bgId"      : "61"
+        },
+        {
+            "startTime" : "1619622000",
+            "endTime"   : "1622300399",
+            "enable"    : "2",
+            "bgId"      : "62"
+        },
+        {
+            "startTime" : "1622300400",
+            "endTime"   : "1623941999",
+            "enable"    : "2",
+            "bgId"      : "63"
+        },
+        {
+            "startTime" : "1624978800",
+            "endTime"   : "1625756399",
+            "enable"    : "2",
+            "bgId"      : "64"
+        },
+        {
+            "startTime" : "1623942000",
+            "endTime"   : "1624201199",
+            "enable"    : "2",
+            "bgId"      : "66"
+        },
+        {
+            "startTime" : "1624201200",
+            "endTime"   : "1624460399",
+            "enable"    : "2",
+            "bgId"      : "67"
+        },
+        {
+            "startTime" : "1624460400",
+            "endTime"   : "1624978799",
+            "enable"    : "2",
+            "bgId"      : "68"
+        },
+        {
+            "startTime" : "1625756400",
+            "endTime"   : "1626447599",
+            "enable"    : "2",
+            "bgId"      : "65"
+        },
+        {
+            "startTime" : "1626447600",
+            "endTime"   : "1627657199",
+            "enable"    : "2",
+            "bgId"      : "69"
+        },
+        {
+            "startTime" : "1627657200",
+            "endTime"   : "1628348399",
+            "enable"    : "2",
+            "bgId"      : "70"
+        },
+        {
+            "startTime" : "1628348400",
+            "endTime"   : "1628953199",
+            "enable"    : "2",
+            "bgId"      : "71"
+        },
+        {
+            "startTime" : "1628953200",
+            "endTime"   : "1630335599",
+            "enable"    : "2",
+            "bgId"      : "72"
+        },
+        {
+            "startTime" : "1630335600",
+            "endTime"   : "1631113199",
+            "enable"    : "2",
+            "bgId"      : "73"
+        },
+        {
+            "startTime" : "1631113200",
+            "endTime"   : "1632927599",
+            "enable"    : "2",
+            "bgId"      : "74"
+        },
+        {
+            "startTime" : "1632927600",
+            "endTime"   : "1633705199",
+            "enable"    : "2",
+            "bgId"      : "75"
+        },
+        {
+            "startTime" : "1633705200",
+            "endTime"   : "1635605999",
+            "enable"    : "2",
+            "bgId"      : "76"
+        },
+        {
+            "startTime" : "1635606000",
+            "endTime"   : "1636383599",
+            "enable"    : "2",
+            "bgId"      : "77"
+        },
+        {
+            "startTime" : "1636383600",
+            "endTime"   : "1638197999",
+            "enable"    : "2",
+            "bgId"      : "78"
+        },
+        {
+            "startTime" : "1638198000",
+            "endTime"   : "1638975599",
+            "enable"    : "2",
+            "bgId"      : "79"
+        },
+        {
+            "startTime" : "1638975600",
+            "endTime"   : "1640876399",
+            "enable"    : "2",
+            "bgId"      : "80"
+        },
+        {
+            "startTime" : "1640876400",
+            "endTime"   : "1641221999",
+            "enable"    : "2",
+            "bgId"      : "81"
+        },
+        {
+            "startTime" : "1641222000",
+            "endTime"   : "1641653999",
+            "enable"    : "2",
+            "bgId"      : "82"
+        },
+        {
+            "startTime" : "1641654000",
+            "endTime"   : "1642345199",
+            "enable"    : "2",
+            "bgId"      : "83"
+        },
+        {
+            "startTime" : "1642345200",
+            "endTime"   : "1642863599",
+            "enable"    : "2",
+            "bgId"      : "84"
+        },
+        {
+            "startTime" : "1642863600",
+            "endTime"   : "1643209199",
+            "enable"    : "2",
+            "bgId"      : "81"
+        },
+        {
+            "startTime" : "1643209200",
+            "endTime"   : "1643554799",
+            "enable"    : "2",
+            "bgId"      : "82"
+        },
+        {
+            "startTime" : "1643554800",
+            "endTime"   : "1644332399",
+            "enable"    : "2",
+            "bgId"      : "85"
+        },
+        {
+            "startTime" : "1644332400",
+            "endTime"   : "1645973999",
+            "enable"    : "2",
+            "bgId"      : "86"
+        },
+        {
+            "startTime" : "1645974000",
+            "endTime"   : "1646319599",
+            "enable"    : "2",
+            "bgId"      : "87"
+        },
+        {
+            "startTime" : "1646319600",
+            "endTime"   : "1646751599",
+            "enable"    : "2",
+            "bgId"      : "88"
+        },
+        {
+            "startTime" : "1646751600",
+            "endTime"   : "1647356399",
+            "enable"    : "2",
+            "bgId"      : "89"
+        },
+        {
+            "startTime" : "1647356400",
+            "endTime"   : "1647788399",
+            "enable"    : "2",
+            "bgId"      : "90"
+        },
+        {
+            "startTime" : "1647788400",
+            "endTime"   : "1648047599",
+            "enable"    : "2",
+            "bgId"      : "91"
+        },
+        {
+            "startTime" : "1648047600",
+            "endTime"   : "1648652399",
+            "enable"    : "2",
+            "bgId"      : "92"
+        },
+        {
+            "startTime" : "1648652400",
+            "endTime"   : "1648738799",
+            "enable"    : "2",
+            "bgId"      : "94"
+        },
+        {
+            "startTime" : "1648738800",
+            "endTime"   : "1649170799",
+            "enable"    : "2",
+            "bgId"      : "93"
+        },
+        {
+            "startTime" : "1649170800",
+            "endTime"   : "1649429999",
+            "enable"    : "2",
+            "bgId"      : "94"
+        },
+        {
+            "startTime" : "1649430000",
+            "endTime"   : "1651330799",
+            "enable"    : "2",
+            "bgId"      : "95"
+        },
+        {
+            "startTime" : "1654354800",
+            "endTime"   : "1654873199",
+            "enable"    : "2",
+            "bgId"      : "96"
+        },
+        {
+            "startTime" : "1654873200",
+            "endTime"   : "1655391599",
+            "enable"    : "2",
+            "bgId"      : "97"
+        },
+        {
+            "startTime" : "1655391600",
+            "endTime"   : "1655909999",
+            "enable"    : "2",
+            "bgId"      : "98"
+        },
+        {
+            "startTime" : "1655910000",
+            "endTime"   : "1656255599",
+            "enable"    : "2",
+            "bgId"      : "99"
+        }
+    ],
+    "m_eventTime"   : [
+        {
+            "startTime" : "1515423600",
+            "endTime"   : "1924873199",
+            "enable"    : "2"
+        }
+    ]
+}

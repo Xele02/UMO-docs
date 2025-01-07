@@ -1,0 +1,118 @@
+
+import { DatabaseValue, getDatabaseValue } from "@umo-generator/components/Database";
+import { CostumeLink } from "@umo-generator/components/Costume";
+import { DivaLink } from "@umo-generator/components/Diva";
+import ar_marker_db_data from "@site/static/data/database/ar_marker/ar_marker.data.json";
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+export const languagesFiles = [
+    { name:"master", lang:["ja", "fr", "en", "zh_Hans"] },
+  ];
+
+
+<LanguageContext files={languagesFiles}>
+
+## Informations
+
+* Start date : <DatabaseValue database_name="ar_event" path={"m_eventList/"+props.eventIdx+"/campaign/startTime"} display_type="date" />
+* End date : <DatabaseValue database_name="ar_event" path={"m_eventList/"+props.eventIdx+"/campaign/endTime"} display_type="date" />
+* Id : <DatabaseValue database_name="ar_event" path={"m_eventList/"+props.eventIdx+"/campaign/eventId"} />
+* Sns post text : <DatabaseValue database_name="ar_event" path={"m_eventList/"+props.eventIdx+"/snsTemplateTable/0"} /> / <DatabaseValue database_name="ar_event" path={"m_eventList/"+props.eventIdx+"/snsTemplateTable/1"} />
+
+## Markers
+
+export const MarkerImages = {
+    "AR010002" : ["01_0102_stamp.png", "AR010002_2.jpg"],
+    "AR010003" : ["01_0103_stamp.png", "AR010003_2.jpg"],
+    "AR010004" : ["01_0104_stamp.png", "AR010004_2.jpg"],
+    "AR010005" : ["01_0105_stamp.png", "AR010005_2.jpg"],
+    "AR010006" : ["01_0106_stamp.png"],
+    "AR010007" : ["01_0107_stamp.png"],
+    "AR010008" : ["01_0108_stamp.png"],
+    "AR010009" : ["01_0109_stamp.png"],
+    "AR010010" : ["01_0110_stamp.png"],
+    "AR010011" : ["01_0111_stamp.png"],
+    "AR010017" : ["01_0117_stamp.png", "AR010017.jpg"],
+    "AR010018" : ["01_0118_stamp.png", "AR010018.jpg"],
+    "AR020022" : ["AR020022.jpg"],
+    "AR010023" : ["01_0101_stamp.png", "AR010023.jpg"],
+    "AR030024" : ["AR030024.jpg"],
+    "AR030025" : ["AR030025.jpg"],
+    "AR030026" : ["AR030026.jpg"],
+    "AR030027" : ["AR030027.jpg"],
+    "AR050028" : ["AR050028.jpg"],
+    "AR060029" : ["AR060029.jpg"],
+    "AR070030" : ["AR070030.jpg"],
+    "AR080031" : ["AR080031.jpg"],
+    "AR090032" : ["AR090032.jpg"],
+    "AR090033" : ["AR090033.jpg"],
+    "AR090034" : ["AR090034.jpg"],
+    "AR090035" : ["AR090035.jpg"],
+    "AR090036" : ["AR090036.jpg"],
+    "AR090037" : ["AR090037.jpg"],
+    "AR100038" : ["AR100038.jfif"],
+    "AR100039" : ["AR100039.jfif"],
+    "AR110040" : ["AR110040.jpg"],
+    "AR120041" : ["AR120041.jpg"],
+    "AR120042" : ["AR120042.jpg", "AR120042_2.jpg"],
+    "AR120043" : ["AR120043.jpg", "AR120043_2.jpg"],
+    "AR120044" : ["AR120044.jpg", "AR120044_2.jpg"],
+    "AR120045" : ["AR120045.jpg"],
+    "AR120046" : ["AR120046.jpg", "AR120046_2.jpg"],
+    "AR120047" : ["AR120047.jpg", "AR120047_2.jpg"],
+    "AR130048" : ["AR130048.jpg"],
+    "AR130049" : ["AR130049.jpg"],
+    "AR130050" : ["AR130050.jpg"],
+    "AR130051" : ["AR130051.jpg"],
+    "AR130052" : ["AR130052.jpg"],
+    "AR130053" : ["AR130053.jpg"],
+    "AR130054" : ["AR130054.jpg"],
+    "AR130055" : ["AR130055.jpg"],
+    "AR130056" : ["AR130056.jpg"],
+    "AR130057" : ["AR130057.jpg"],
+    "AR140058" : ["AR140058.jpg"],
+    "AR150059" : ["AR150059.jpg"]
+}
+
+export const MarkerDisplay = ({data}) =>
+{
+    const markersImage = MarkerImages[data.markerId]?.map(k => {
+        const imgSrc = useBaseUrl("/data/images/ar/" + k);
+        return <img src={imgSrc} />;
+    });
+
+    return <>
+    <h3>{data.enable == "2" && data.markerId != "AR160060" ? "" : "[Disabled] "}{data.markerId}</h3>
+    <ul>
+    <li>Pattern : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/pattern"} /></li>
+    <li>Diva/Costume : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/divaId"} /> <DivaLink divaId={getDatabaseValue("ar_marker", "m_markerList/"+(data.no - 1)+"/divaId")} /> / <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/costumeId"} /> <CostumeLink costumeId={getDatabaseValue("ar_marker", "m_markerList/"+(data.no - 1)+"/costumeId")} /></li>
+    <li>Position : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/position"} /></li>
+    <li>Rotation : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/rotation"} /></li>
+    <li>Image width : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/imageWidth"} /></li>
+    <li>Diva height : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/divaHeight"} /></li>
+    <li>Stamp Id : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/stampId"} /></li>
+    <li>Angle limit : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/angleLimit"} /></li>
+    <li>Marker start date : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/markerStart"} display_type="date" /></li>
+    <li>Marker end date : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/markerEnd"} display_type="date" /></li>
+    <li>Emblem Id : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/emblemId"} /></li>
+    <li>Tracking type : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/trackingType"} /></li>
+    <li>Motion type : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/motionId"} /></li>
+    <li>Sound name : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/cueSheetList/0/cueSheetId"} /></li>
+    <li>Sound start date : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/cueSheetList/0/soundStart"} display_type="date" /></li>
+    <li>Sound end date : <DatabaseValue database_name="ar_marker" path={"m_markerList/"+(data.no - 1)+"/cueSheetList/0/soundEnd"} display_type="date" /></li>
+    </ul>
+    {markersImage}
+    </>;
+}
+
+
+export const MarkersDisplay = ({id}) =>
+{
+    const markers = ar_marker_db_data.m_markerList.filter(k => k.eventId == id);
+    return markers.map(k => <MarkerDisplay data={k} />);
+}
+
+<MarkersDisplay id={props.eventId} />
+
+</LanguageContext>

@@ -1,13 +1,14 @@
 import { Dropdown } from 'primereact/dropdown';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import React, { Fragment, useState } from "react";
-import { getDatabaseValue } from "@umo-generator/components/Database"
+import { getDatabaseValue, getFBValue } from "@umo-generator/components/Database"
 import { Tooltip } from 'primereact/tooltip';
 import styles from '@umo-generator/css/styles.module.css';
 import { TranslatedString } from "@umo-generator/components/TranslatedString";
 import { LanguageLink, LanguageTabs } from "@umo-generator/components/LanguageLink"
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import advList from "@site/static/data/adv/advList.json"
+import { GameVersion } from "@umo-generator/components/Game";
 
 export const labels = {
     "0" : {name:"Nop", desc:"Do nothing"},
@@ -150,7 +151,11 @@ export const AdventureData = ({data}) =>
         {c.IAHNDJDBCAJ != "" && <>Message : <LanguageTabs><LanguageLink bank="adv_text" id={"adv_"+data.name.padStart(6, '0')+"_"+(c.BBPHAPFBFHK - 1).toString().padStart(4, '0')+"_msg"} /><TranslatedString bank="adv_text" id={"adv_"+data.name.padStart(6, '0')+"_"+(c.BBPHAPFBFHK - 1).toString().padStart(4, '0')+"_msg"} /></LanguageTabs>< br /></>}
         {commands}
         </React.Fragment>)})
-    return <><h2>{data.name}</h2>{content}</>;
+    const advDbVersion = getFBValue("adventure","EJNIGLEDAFJ").find(k => k.JCIIGMCDKAH == data.name)?.OFMGALJGDAO;
+    return (<>
+        <h2>{data.name}</h2>
+        {advDbVersion && <>* Added in version : <GameVersion version={advDbVersion} /></>}
+        {content}</>);
     /*
     PIIOHCJFHBD / HEHPAMADHGC []
         BBPHAPFBFHK / PPFNGGCBJKC int
@@ -211,4 +216,9 @@ export const CommandTooltip = ({commandId}) =>
     return (<><Tooltip target={".adv_command_"+commandId} >
         <div className={styles.tooltipOverride}><CommandEntry id={commandId} /></div>
         </Tooltip></>);
+}
+
+export const AdventureLink = ({advId}) =>
+{
+    return advId;
 }

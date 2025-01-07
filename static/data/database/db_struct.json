@@ -116,5 +116,7 @@
     "valkyrie",
     "vc_item",
     "highscore_rating",
-    "limited_compo_item"
+    "limited_compo_item",
+    "ar_marker",
+    "ar_event"
 ]
