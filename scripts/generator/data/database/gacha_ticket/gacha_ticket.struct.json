@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "PMDCIJMMNGK_GachaTicket",
+    "cryptedName" : "PMDCIJMMNGK",
+    "realName"    : "GachaTicket",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

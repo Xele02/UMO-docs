@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "NKBOMKGFGIO_EventRaidItem",
+    "cryptedName" : "NKBOMKGFGIO",
+    "realName"    : "EventRaidItem",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

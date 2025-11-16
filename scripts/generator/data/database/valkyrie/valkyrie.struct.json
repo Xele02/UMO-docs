@@ -1,0 +1,162 @@
+
+{
+    "type" : "class",
+    "name" : "JPIANKEOOMB_Valkyrie",
+    "cryptedName" : "JPIANKEOOMB",
+    "realName"    : "Valkyrie",
+    "readerClass" : "NJOFJDHEGIK",
+    "members"     : [
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "KJPIDJOMODA_ValkyrieInfo",
+                "cryptedName" : "KJPIDJOMODA",
+                "realName"    : "ValkyrieInfo",
+                "readerClass" : "KDNFKHOKMJL",
+                "members"     : [
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "GPPEFLKGGGJ_ValkyrieId",
+                        "member_cryptedName" : "GPPEFLKGGGJ",
+                        "member_realName"    : "ValkyrieId",
+                        "member_reader"      : "PPFNGGCBJKC_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Valkyrie id",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "PFGJJLGLPAC_PilotId",
+                        "member_cryptedName" : "PFGJJLGLPAC",
+                        "member_realName"    : "PilotId",
+                        "member_reader"      : "HDEBAGHEIKD_plt",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Pilot id",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "DAJGPBLEEOB_ModelId",
+                        "member_cryptedName" : "DAJGPBLEEOB",
+                        "member_realName"    : "ModelId",
+                        "member_reader"      : "FLNJLKKAFPB_mdl",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Model id",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "KINFGHHNFCF_Atk",
+                        "member_cryptedName" : "KINFGHHNFCF",
+                        "member_realName"    : "Atk",
+                        "member_reader"      : "FCBJFKGDINH_atk",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Battle attack stat",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "NONBCCLGBAO_hit",
+                        "member_cryptedName" : "NONBCCLGBAO",
+                        "member_realName"    : "hit",
+                        "member_reader"      : "NONBCCLGBAO_hit",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Battle hit stat",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "BMIJDLBGFNP_skill",
+                        "member_cryptedName" : "BMIJDLBGFNP",
+                        "member_realName"    : "skill",
+                        "member_reader"      : "BMIJDLBGFNP_skill",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Battle skill id",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "MIHAHCEANII",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "MIHAHCEANII",
+                        "member_reader"      : "BFCBGDOICCO",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Version when enabled in deco room",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "field",
+                        "member_name" : "PPEGAKEIEGM_Enabled",
+                        "member_cryptedName" : "PPEGAKEIEGM",
+                        "member_realName"    : "Enabled",
+                        "member_reader"      : "IJEKNCDIIAE_mver|PLALNIIBLOF_en",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Availabe in game if value = 2",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "field",
+                        "member_name" : "AIHCEGFANAM_SerieAttr",
+                        "member_cryptedName" : "AIHCEGFANAM",
+                        "member_realName"    : "SerieAttr",
+                        "member_reader"      : "JPFMJHLCMJL_sa",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Serie",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "field",
+                        "member_name" : "CMAJHIMEIAC",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "CMAJHIMEIAC",
+                        "member_reader"      : "GMELAKNFKMG",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Bitfield for each enabled form",
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "property",
+            "member_name" : "CDENCMNHNGA_table",
+            "member_cryptedName" : "CDENCMNHNGA",
+            "member_realName"    : "table",
+            "member_reader"      : "PIEGAMCFGGL",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        }
+    ]
+}

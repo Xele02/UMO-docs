@@ -1,11 +1,11 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext, useEffect } from 'react';
 import { LanguageLink } from "@umo-generator/components/LanguageLink";
 import { getTranslatedString, TranslatedString } from "@umo-generator/components/TranslatedString";
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import db_data from "@site/static/data/database/costume/costume.data.json";
 import { Tooltip } from 'primereact/tooltip';
 import Link from '@docusaurus/Link';
 import { getLinkById } from "@umo-generator/js/link"
+import { getPageData, useReportError } from './PageContext';
 
 export const CostumeIdContext_ = createContext({});
 
@@ -14,18 +14,30 @@ export function getCostumeInfo(cosInfo)
 {
     if(!cosInfo)
         return null;
-    const cosData = db_data.CDENCMNHNGA_Costumes.find(c => {
+    const data = getPageData();
+    const cosData = Object.entries(data?.database?.costume?.CDENCMNHNGA)?.find(([idx, c]) => {
         if(cosInfo.id) 
-            return c.JPIDIENBGKH_CostumeId == cosInfo.id;
-        return c.AHHJLDLAPAN_PrismDivaId == cosInfo.divaId && c.DAJGPBLEEOB_PrismCostumeModelId == cosInfo.cosId;
-    });
+            return c.JPIDIENBGKH == cosInfo.id;
+        return c.AHHJLDLAPAN == cosInfo.divaId && c.DAJGPBLEEOB == cosInfo.cosId;
+    })[1];
     if(!cosData)
+    {
+        const reportError = useReportError();
+        useEffect(() => {
+            if(!data?.database?.costume?.CDENCMNHNGA)
+                reportError('Missing data.database.costume.CDENCMNHNGA');
+            else if(cosInfo.id)
+                reportError('Missing data.database.costume.CDENCMNHNGA.'+cosInfo.id);
+            else
+                reportError('Missing costume in database for diva '+cosInfo.divaId+' and prism '+cosInfo.cosId);
+        }, [cosData, reportError]);
         return undefined;
+    }
     return {
-        id:cosData.JPIDIENBGKH_CostumeId, 
-        divaId: cosData?.AHHJLDLAPAN_PrismDivaId, 
-        cosId:cosData?.DAJGPBLEEOB_PrismCostumeModelId, 
-        hasColor:cosData?.BJGNGNPHCBA_LevelsInfo.find(c => c.INDDJNMPONH_UnlockType == "4") != null,
+        id:cosData.JPIDIENBGKH, 
+        divaId: cosData.AHHJLDLAPAN, 
+        cosId:cosData.DAJGPBLEEOB, 
+        hasColor:cosData._has_color,
         data:cosData
     }
 }
@@ -42,16 +54,16 @@ export const CostumeIdContext = ({children, costumeId}) => {
 export const CostumeLanguageLink = (props) =>
 {
     const costumeInfo = getCostumeInfo(props.costumeId) ?? useContext(CostumeIdContext_);
-    const str = props.id.replace("##ID##", costumeInfo.id.toString().padStart(2, '0'))
-                    .replace("##ID4##", costumeInfo.id.toString().padStart(4, '0'));
+    const str = props.id.replace("##ID##", costumeInfo?.id.toString().padStart(2, '0'))
+                    .replace("##ID4##", costumeInfo?.id.toString().padStart(4, '0'));
     return (<LanguageLink {...props} id={str} />);
 };
 
 export const CostumeString = (props) =>
 {
     const costumeInfo = getCostumeInfo(props.costumeId) ?? useContext(CostumeIdContext_);
-    const str = props.id.replace("##ID##", costumeInfo.id.toString().padStart(2, '0'))
-                    .replace("##ID4##", costumeInfo.id.toString().padStart(4, '0'));
+    const str = props.id.replace("##ID##", costumeInfo?.id.toString().padStart(2, '0'))
+                    .replace("##ID4##", costumeInfo?.id.toString().padStart(4, '0'));
     return (<><TranslatedString {...props} id={str} /></>);
 }
 
@@ -72,10 +84,18 @@ export const CostumeImage = (props) =>
 {
     const type = props.type ?? "costume";
     const costumeInfo = getCostumeInfo(props.costumeId, props.colorId) ?? useContext(CostumeIdContext_);
-    const divaId = costumeInfo.divaId ?? 1;
-    const cosId = costumeInfo.cosId ?? 1;
+    if(!costumeInfo)
+    {
+        const reportError = useReportError();
+        useEffect(() => {
+            reportError('Missing costume info for '+props.costumeId+' '+props.colorId+' or costume context '+CostumeName);
+        }, [costumeInfo, reportError]);
+        return "";
+    }
+    const divaId = costumeInfo?.divaId ?? 1;
+    const cosId = costumeInfo?.cosId ?? 1;
     const colId = props.colorId ?? 0;
-    if(colId != 0 && !costumeInfo.hasColor)
+    if(colId != 0 && !costumeInfo?.hasColor)
         return <></>;
     const imgList = {
         s_size:             colId == 0 ? "##ID##_##COS##_diva-s-size.png" : "##ID##_##COS##_##COLOR##_diva-s-size-in-color.png",
@@ -97,10 +117,18 @@ export const CostumeImage = (props) =>
 export const CostumeName = (props) =>
 {
     var costumeInfo = getCostumeInfo(props.costumeId) ?? useContext(CostumeIdContext_);
-    const id = costumeInfo.id.toString().padStart(4, '0');
+    if(!costumeInfo)
+    {
+        const reportError = useReportError();
+        useEffect(() => {
+            reportError('Missing costume info for '+props.costumeId+' or costume context '+CostumeName);
+        }, [costumeInfo, reportError]);
+        return "";
+    }
+    const id = costumeInfo.id?.toString().padStart(4, '0');
     const idStr = props.colorId ? "cos_"+id+"_01" : "cos_"+id;
     const costumeName = getTranslatedString("master", idStr, "en");
     if(costumeName == "")
-        return getTranslatedString("master", idStr, "ja");
+        return getTranslatedString("master", idStr, "jp");
     return costumeName;
 }

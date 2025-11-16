@@ -1,0 +1,48 @@
+{
+  "OPBPOOKODJK": {
+    "IIDCFMHCPLJ": "\u6B4C\u59EB\u30A4\u30D9\u30F3\u30C8\u5E38\u8A2D\u30E9\u30F3\u30AD\u30F3\u30B0",
+    "HAEJDOGGKPC": "\u6B4C\u59EB\u30A4\u30D9\u30F3\u30C8\u5E38\u8A2D\u30E9\u30F3\u30AD\u30F3\u30B0 {0}",
+    "MAIJBDCJPNJ": 14999,
+    "MKDFHLALNAF": "diva_ranking_14999",
+    "NLPMPPCENKD": [
+      "diva_ranking_14999_01",
+      "diva_ranking_14999_02",
+      "diva_ranking_14999_03",
+      "diva_ranking_14999_04",
+      "diva_ranking_14999_05",
+      "diva_ranking_14999_06",
+      "diva_ranking_14999_07",
+      "diva_ranking_14999_08",
+      "diva_ranking_14999_09",
+      "diva_ranking_14999_10"
+    ],
+    "LLJNABNBDMN": 1593529200,
+    "DJHKCHMBGHC": 1751295600,
+    "BCKOLCDDIAG": 1751295600,
+    "LKIBIHGHEMA": 1751299200,
+    "ANELKJCGJJL": 1751986799,
+    "AEOKLKJAKHB": 1751986799,
+    "KNDBMPNNCGG": [
+      1,
+      101,
+      501
+    ]
+  },
+  "NJJINHMIOHN": [
+    {
+      "AGOIMGHMGOH": "ranking_range_max",
+      "KJFEBMBHKOC": 9999
+    },
+    {
+      "AGOIMGHMGOH": "ranking_login_elapsed_day",
+      "KJFEBMBHKOC": 90
+    },
+    {
+      "AGOIMGHMGOH": "total_point_limit",
+      "KJFEBMBHKOC": 99999
+    }
+  ],
+  "NPFBHGKLIOM": [
+
+  ]
+}

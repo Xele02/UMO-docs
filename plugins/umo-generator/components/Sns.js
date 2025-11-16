@@ -9,6 +9,6 @@ export const SnsRoomLink = ({roomId}) =>
     
 export const SnsTalkLink = ({talkId}) =>
 {
-    return sns_data.NPKPBDIDBBG_Rooms[sns_data.CDENCMNHNGA_Talks[talkId - 1].MALFHCHNEFN_RoomId].OPFGFINHFCE_Name + "/"+ getTranslatedString("master", "sns_nm_"+sns_data.CDENCMNHNGA_Talks[talkId - 1].AIPLIEMLHGC_SnsId.toString().padStart(4, '0'), "ja");
+    return sns_data.NPKPBDIDBBG_Rooms[sns_data.CDENCMNHNGA_Talks[talkId - 1].MALFHCHNEFN_RoomId].OPFGFINHFCE_Name + "/"+ getTranslatedString("master", "sns_nm_"+sns_data.CDENCMNHNGA_Talks[talkId - 1].AIPLIEMLHGC_SnsId.toString().padStart(4, '0'), "jp");
 }
     

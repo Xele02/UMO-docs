@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "INDEPDKCJDD_ValItem",
+    "cryptedName" : "INDEPDKCJDD",
+    "realName"    : "ValItem",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

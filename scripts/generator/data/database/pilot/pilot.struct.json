@@ -1,0 +1,71 @@
+
+{
+    "type" : "class",
+    "name" : "MPOEMCEBBJH_Pilot",
+    "cryptedName" : "MPOEMCEBBJH",
+    "realName"    : "Pilot",
+    "readerClass" : "LBMIEHAHNFD",
+    "members"     : [
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "KOAKMNKEHDE_PilotInfo",
+                "cryptedName" : "KOAKMNKEHDE",
+                "realName"    : "PilotInfo",
+                "readerClass" : "BPIFDOECJPH",
+                "members"     : [
+                    {
+                        "type" : "Int16",
+                        "member_type" : "field",
+                        "member_name" : "PFGJJLGLPAC_PilotId",
+                        "member_cryptedName" : "PFGJJLGLPAC",
+                        "member_realName"    : "PilotId",
+                        "member_reader"      : "PPFNGGCBJKC_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Id in the list",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "SByte",
+                        "member_type" : "field",
+                        "member_name" : "AIHCEGFANAM_SerieAttr",
+                        "member_cryptedName" : "AIHCEGFANAM",
+                        "member_realName"    : "SerieAttr",
+                        "member_reader"      : "JPFMJHLCMJL_sa",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Serie",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "field",
+                        "member_name" : "CHIMPKJDCPP_Pid",
+                        "member_cryptedName" : "CHIMPKJDCPP",
+                        "member_realName"    : "Pid",
+                        "member_reader"      : "MJMPANIBFED_pid",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "",
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "property",
+            "member_name" : "CDENCMNHNGA_table",
+            "member_cryptedName" : "CDENCMNHNGA",
+            "member_realName"    : "table",
+            "member_reader"      : "NNCNIHFAPBO",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of pilots",
+            "member_display"       : null
+        }
+    ]
+}

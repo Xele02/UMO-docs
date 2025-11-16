@@ -1,0 +1,20 @@
+
+{
+    "anketo_0000_question" : "A quel point aimes-tu la s\u00E9rie Macross\u202F?",
+    "anketo_0000_0000_choice" : "Je l'aime beaucoup.",
+    "anketo_0000_0001_choice" : "Je l'aime moyennement.",
+    "anketo_0000_0002_choice" : "Je ne l'aime pas beaucoup.",
+    "anketo_0000_0003_choice" : "Je n'en sais pas.",
+    "anketo_0001_question"    : "As-tu d\u00E9j\u00E0 jou\u00E9 \u00E0 d'autres jeux de rythme\u202F?",
+    "anketo_0001_0000_choice" : "Oui, beaucoup.",
+    "anketo_0001_0001_choice" : "Oui, un certain nombre.",
+    "anketo_0001_0002_choice" : "Oui, quelques-uns.",
+    "anketo_0001_0003_choice" : "Uta Macross est le premier.",
+    "anketo_0002_question"    : "Parmi les \u00E9l\u00E9ments suivants, lesquels aimerais-tu voir dans Uta Macross\u202F?",
+    "anketo_0002_0000_choice" : "J'esp\u00E8re voir les h\u00E9ros de la s\u00E9rie.",
+    "anketo_0002_0001_choice" : "J'esp\u00E8re en apprendre plus sur l'histoire.",
+    "anketo_0002_0002_choice" : "Je viens pour les musiques.",
+    "anketo_0002_0003_choice" : "Je viens pour les chor\u00E9graphies.",
+    "anketo_0002_0004_choice" : "Je veux voir les Valkyries.",
+    "anketo_0002_0005_choice" : "Je suis l\u00E0 juste pour le jeu de rythme."
+}

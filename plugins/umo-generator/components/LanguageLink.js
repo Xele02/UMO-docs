@@ -21,8 +21,8 @@ export const LanguageTabs = ({children}) =>
     const languageStr = useContext(LanguageContext_);
     return (
         <Tabs groupId="language">
-        <TabItem value="ja" label="Japanese" default>
-            <LanguageContext_.Provider value={{...languageStr, currentLanguage:"ja"}}>
+        <TabItem value="jp" label="Japanese" default>
+            <LanguageContext_.Provider value={{...languageStr, currentLanguage:"jp"}}>
             {children}
             </LanguageContext_.Provider>
         </TabItem>

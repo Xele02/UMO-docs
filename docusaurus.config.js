@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 function filterSidebar(items)
 {
@@ -145,6 +146,16 @@ const config = {
   themes: ["docusaurus-json-schema-plugin"],
   plugins: [
     './plugins/umo-generator',
+    function webpackAnalyzer() {
+      return {
+        name: 'webpack-analyzer',
+        configureWebpack() {
+          return {
+            plugins: [new BundleAnalyzerPlugin({ analyzerMode: 'static', openAnalyzer:false })],
+          };
+        },
+      };
+    },
   ],
 };
 

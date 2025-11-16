@@ -1,0 +1,401 @@
+
+{
+    "type" : "class",
+    "name" : "LCLCCHLDNHJ_Costume",
+    "cryptedName" : "LCLCCHLDNHJ",
+    "realName"    : "Costume",
+    "readerClass" : "IBCDCBLBJKE",
+    "members"     : [
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "ILODJKFJJDO_CostumeInfo",
+                "cryptedName" : "ILODJKFJJDO",
+                "realName"    : "CostumeInfo",
+                "readerClass" : "FGABLOBFLHC",
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "JPIDIENBGKH_CostumeId",
+                        "member_cryptedName" : "JPIDIENBGKH",
+                        "member_realName"    : "CostumeId",
+                        "member_reader"      : "PPFNGGCBJKC_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Global costume id in the database",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "AHHJLDLAPAN_DivaId",
+                        "member_cryptedName" : "AHHJLDLAPAN",
+                        "member_realName"    : "DivaId",
+                        "member_reader"      : "OCAMDLMPBGA_dv",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Diva id which own the costume. [Database:Diva]",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int16",
+                        "member_type" : "property",
+                        "member_name" : "DAJGPBLEEOB_ModelId",
+                        "member_cryptedName" : "DAJGPBLEEOB",
+                        "member_realName"    : "ModelId",
+                        "member_reader"      : "LKMHPJKIFDN_md",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Costume id relative to the diva costume list",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "PPEGAKEIEGM_Enabled",
+                        "member_cryptedName" : "PPEGAKEIEGM",
+                        "member_realName"    : "Enabled",
+                        "member_reader"      : "IJEKNCDIIAE_mver|PLALNIIBLOF_en|DBHPPMPNCKF",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Availabe in game if value = 2",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "HGHFFJKGNCO_SkillId",
+                        "member_cryptedName" : "HGHFFJKGNCO",
+                        "member_realName"    : "SkillId",
+                        "member_reader"      : "DLAIGBEOGNN_ex",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Costume skill id. [Database:Skill/BIOEJKBCIKD_CenterSkillCostume]",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Boolean",
+                        "member_type" : "property",
+                        "member_name" : "EODICFLJAKO",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "EODICFLJAKO",
+                        "member_reader"      : "DBHPPMPNCKF",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "True if reader > 0",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "AGBPBDODKBK_UnlockPointIdx",
+                        "member_cryptedName" : "AGBPBDODKBK",
+                        "member_realName"    : "UnlockPointIdx",
+                        "member_reader"      : "GMOOKMONMMD",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Index of the list of points by levels [Database:Costume/MBLNIECELNK_UnlockPoints]",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "HMCOGDICFNB_UcCostByPointIdx",
+                        "member_cryptedName" : "HMCOGDICFNB",
+                        "member_realName"    : "UcCostByPointIdx",
+                        "member_reader"      : "DOJAMIPOKBD",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Index of the cost of points [Database:Costume/AKKDOIJNMBH_UcCostByPoint]",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "LLLCMHENKKN_LevelMax",
+                        "member_cryptedName" : "LLLCMHENKKN",
+                        "member_realName"    : "LevelMax",
+                        "member_reader"      : "GOFFPLJKIIB|JILNNPKFKEK",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Forced to 0 if JILNNPKFKEK don't match version check",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "HGBJODBCJDA",
+                        "member_cryptedName" : "",
+                        "member_realName"    : "HGBJODBCJDA",
+                        "member_reader"      : "NFEJAAOAFPG",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Could be upgrade level max",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "EGLDFPILJLG_SkillBuffEffect",
+                        "member_cryptedName" : "EGLDFPILJLG",
+                        "member_realName"    : "SkillBuffEffect",
+                        "member_reader"      : "JBPJAGOJMFA",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Boolean",
+                        "member_type" : "property",
+                        "member_name" : "IPJMPBANBPP_Enabled",
+                        "member_cryptedName" : "IPJMPBANBPP",
+                        "member_realName"    : "Enabled",
+                        "member_reader"      : "MDEBEGADHOH",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Min version of the game which enable the costume deco part",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "list",
+                        "innerType" : {
+                            "type" : "class",
+                            "name" : "FBKPFMKPMAF_LevelInfo",
+                            "cryptedName" : "FBKPFMKPMAF",
+                            "realName"    : "LevelInfo",
+                            "readerClass" : null,
+                            "members"     : [
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "field",
+                                    "member_name" : "INDDJNMPONH_type",
+                                    "member_cryptedName" : "INDDJNMPONH",
+                                    "member_realName"    : "type",
+                                    "member_reader"      : "BFIFIDKOJGD",
+                                    "member_reader_child" : null,
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "CostumeArrayData",
+                                    "member_desc"          : "Unlock Type\n* 0 : None\n* 1 : Costume Effect. Value_0 = Costume Skill Level\n* 2 : Object. Value_0 = ItemId, Value_1 = Number get\n* 3 : Object?\n* 4 : Unlock Costume Color. Value_0 : Color Id\n* 5 : Diva Stat. Value_0 : Type ( 1 : Soul, 2 : Voice, 3 : Charm, 4 : Life, 5 : Support, 6 : Bio-Fold ), Value_1 : Value\n* 6 : Unlock support plate. Value_0 : Attribute ( 1 : Star, 2 : Love, 3 : Life ), Value_1 : Status ( 1 : Soul, 2 : Voice, 3 : Charm )",
+                                    "member_display"       : null
+                                },
+                                {
+                                    "type" : "list",
+                                    "innerType" : {
+                                        "type" : "Int32"
+                                    },
+                                    "member_type" : "field",
+                                    "member_name" : "PIBLLGLCJEO_Param",
+                                    "member_cryptedName" : "PIBLLGLCJEO",
+                                    "member_realName"    : "Param",
+                                    "member_reader"      : "AJNPNDIDJLD",
+                                    "member_reader_child" : null,
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "ArrayIdxOwnerMerged",
+                                    "member_desc"          : "Setting values depending of the Unlock Type",
+                                    "member_display"       : null
+                                },
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "field",
+                                    "member_name" : "KBOLNIBLIND_unlock",
+                                    "member_cryptedName" : "KBOLNIBLIND",
+                                    "member_realName"    : "unlock",
+                                    "member_reader"      : "GMKDHMPGLFL",
+                                    "member_reader_child" : null,
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "CostumeArrayData",
+                                    "member_desc"          : "Unlock condition Index [Database:Costume/FDNBEPCEHBH_UnlocksConditions]",
+                                    "member_display"       : null
+                                }
+                            ]
+                        },
+                        "member_type" : "field",
+                        "member_name" : "BJGNGNPHCBA_LevelsInfo",
+                        "member_cryptedName" : "BJGNGNPHCBA",
+                        "member_realName"    : "LevelsInfo",
+                        "member_reader"      : null,
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : "PropagateReader",
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "property",
+            "member_name" : "CDENCMNHNGA_table",
+            "member_cryptedName" : "CDENCMNHNGA",
+            "member_realName"    : "table",
+            "member_reader"      : "MDFBOCBCGGE",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of all costumes",
+            "member_display"       : null
+        },
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "Int32"
+            },
+            "innerTypeValue" : {
+                "type" : "list",
+                "innerType" : {
+                    "type" : "Int32"
+                }
+            },
+            "member_type"    : "property",
+            "member_name"    : "MBLNIECELNK_UnlockPoints",
+            "member_cryptedName" : "MBLNIECELNK",
+            "member_realName"    : "UnlockPoints",
+            "member_reader"      : "EIDOFLACDGH/[IDX]/MJMPANIBFED_pid|EIDOFLACDGH/[IDX]/KIONHNAPIOM",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of points needed by costume level",
+            "member_display"       : null
+        },
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "Int32"
+            },
+            "innerTypeValue" : {
+                "type" : "list",
+                "innerType" : {
+                    "type" : "Int32"
+                }
+            },
+            "member_type"    : "property",
+            "member_name"    : "AKKDOIJNMBH_UcCostByPoint",
+            "member_cryptedName" : "AKKDOIJNMBH",
+            "member_realName"    : "UcCostByPoint",
+            "member_reader"      : "HJPKLNPDDHN/[IDX]/PGPGPJNBIOH_uid|HJPKLNPDDHN/[IDX]/GNKAPBFMIDE",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of Uc cost for each points",
+            "member_display"       : null
+        },
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "Int32"
+            },
+            "innerTypeValue" : {
+                "type" : "class",
+                "name" : "JMEHNBGDEBD",
+                "cryptedName" : "",
+                "realName"    : "JMEHNBGDEBD",
+                "readerClass" : null,
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "PPFNGGCBJKC_id",
+                        "member_cryptedName" : "PPFNGGCBJKC",
+                        "member_realName"    : "id",
+                        "member_reader"      : "CHOIMHCMAHG_TypeId",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "list",
+                        "innerType" : {
+                            "type" : "class",
+                            "name" : "PGGEBICEDGH",
+                            "cryptedName" : "",
+                            "realName"    : "PGGEBICEDGH",
+                            "readerClass" : null,
+                            "members"     : [
+                                {
+                                    "type" : "Int32",
+                                    "member_type" : "field",
+                                    "member_name" : "INDDJNMPONH_type",
+                                    "member_cryptedName" : "INDDJNMPONH",
+                                    "member_realName"    : "type",
+                                    "member_reader"      : "IKKKOBGCPGN",
+                                    "member_reader_child" : null,
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "ArrayIdxOwnerMerged",
+                                    "member_desc"          : "Unlock Condition\n* 1 : Own {Value_1} costume of level {Value_0}+\n* 2 : Use {Value_0} costume item\n*3 : Have the owning diva an affection of {Value_0}+",
+                                    "member_display"       : null
+                                },
+                                {
+                                    "type" : "list",
+                                    "innerType" : {
+                                        "type" : "Int32"
+                                    },
+                                    "member_type" : "field",
+                                    "member_name" : "PIBLLGLCJEO_Param",
+                                    "member_cryptedName" : "PIBLLGLCJEO",
+                                    "member_realName"    : "Param",
+                                    "member_reader"      : "CHIFFONJIAD",
+                                    "member_reader_child" : null,
+                                    "member_readableName" : null,
+                                    "member_readerDisplay" : "ArrayIdxOwnerMerged",
+                                    "member_desc"          : null,
+                                    "member_display"       : null
+                                }
+                            ]
+                        },
+                        "member_type" : "field",
+                        "member_name" : "NKNBKLHCAFD_UnlocksConditions",
+                        "member_cryptedName" : "NKNBKLHCAFD",
+                        "member_realName"    : "UnlocksConditions",
+                        "member_reader"      : null,
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : "PropagateReader",
+                        "member_desc"          : "List of unlock conditions",
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type"    : "property",
+            "member_name"    : "FDNBEPCEHBH_UnlocksConditions",
+            "member_cryptedName" : "FDNBEPCEHBH",
+            "member_realName"    : "UnlocksConditions",
+            "member_reader"      : "MMCDFGKCEPO/[IDX]/CHOIMHCMAHG_TypeId|MMCDFGKCEPO/[IDX]",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of unlocks conditions",
+            "member_display"       : null
+        },
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "Int32"
+            },
+            "member_type" : "property",
+            "member_name" : "OLNFADCCMIG_RateBySupportPlate",
+            "member_cryptedName" : "OLNFADCCMIG",
+            "member_realName"    : "RateBySupportPlate",
+            "member_reader"      : "ODKFBJEOCGB/[IDX]/HFIFHDCJFPM",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "Rate by number of support plate",
+            "member_display"       : null
+        }
+    ]
+}

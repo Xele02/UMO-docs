@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "NEGELNMPEPH_DecoSpSetting",
+    "cryptedName" : "NEGELNMPEPH",
+    "realName"    : "DecoSpSetting",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

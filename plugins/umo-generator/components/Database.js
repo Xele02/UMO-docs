@@ -1,9 +1,15 @@
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { Tooltip } from 'primereact/tooltip';
+import React, { useEffect } from 'react';
+import { getPageData, useReportError } from './PageContext';
 
 export function getDatabaseValue(database_name, path)
 {
     const data = require("@site/static/data/database/"+database_name+"/"+database_name+".data.json");
+    return getDatabaseValueFromData(data, path)
+}
+export function getDatabaseValueFromData(data, path, return_error_func)
+{
     const splitPath = path.toString().split('/');
     var value = data;
     for(var p of splitPath)
@@ -29,7 +35,20 @@ export function getDatabaseValue(database_name, path)
                 value = value[p];
                 continue;
             }
+            else
+            {
+                const matchingKey = Object.keys(value).find(key =>
+                    key.startsWith(p)
+                );
+                if(matchingKey)
+                {
+                    value = value[matchingKey]
+                    continue;
+                }
+            }
         }
+        if(return_error_func)
+            return_error_func([p, path]);
         return undefined;
     }
     return value;
@@ -38,6 +57,11 @@ export function getDatabaseValue(database_name, path)
 export function getFBValue(database_name, path)
 {
     const data = require("@site/static/data/database/"+database_name+"/"+database_name+".fb.json");
+    return getFBValueFromData(data, path)
+}
+
+export function getFBValueFromData(data, path, return_error_func)
+{
     const splitPath = path.toString().split('/');
     var value = data;
     for(var p of splitPath)
@@ -58,6 +82,8 @@ export function getFBValue(database_name, path)
                 continue;
             }
         }
+        if(return_error_func)
+            return_error_func([p, path]);
         return undefined;
     }
     return value;
@@ -65,7 +91,21 @@ export function getFBValue(database_name, path)
 
 export const DatabaseValue = ({database_name, path, display_type}) =>
 {
-    const data = require("@site/static/data/database/"+database_name+"/"+database_name+".data.json");
+    const data_ = getPageData();
+    const reportError = useReportError();
+
+    useEffect(() => {
+        if(!data_)
+            reportError('Missing data');
+        else if(!data_.database)
+            reportError('Missing data.database'+JSON.stringify(data_)); //  
+        else if(!data_.database[database_name])
+            reportError('Missing data.database['+database_name+']');
+    }, [data_, reportError]);
+
+    const data = data_?.database?.[database_name];
+
+    //const data = require("@site/static/data/database/"+database_name+"/"+database_name+".data.json");
     const splitPath = path.toString().split('/');
     var value = data;
     var tooltip_class = []
@@ -79,10 +119,17 @@ export const DatabaseValue = ({database_name, path, display_type}) =>
             if(typeof(value[0]) == "object" && "key" in value[0] && "value" in value[0])
             {
                 // dict
-                const dictData = value.find(c => c.key == p);
+                let dictData = value.find(c => c.key == p);
                 if(dictData === undefined)
                 {
-                    return <>Value {p} not found for {path}</>;
+                    dictData = value.find(c => c.key == p.substring(0, 11))
+                    if(dictData === undefined)
+                    {
+                        useEffect(() => {
+                            reportError('Missing database value '+p+' in data.database.'+database_name+'.'+path);
+                        }, [dictData, reportError]);
+                        return <>Value {p} not found for {path}</>;
+                    }
                 }
                 value = dictData.value;
                 continue;
@@ -99,6 +146,10 @@ export const DatabaseValue = ({database_name, path, display_type}) =>
                 continue;
             }
         }
+        useEffect(() => {
+            reportError('Missing database value '+p+' in data.database.'+database_name+'.'+path);
+        }, [data, reportError]);
+
         return <>Value {p} not found for {path}</>;
     }
     tooltip_class = tooltip_class.join("_");

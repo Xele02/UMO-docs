@@ -10706,6 +10706,6087 @@
     }
    },
    "reader_class": "LPKFACLGIMO"
+  },
+  {
+   "title": "OIMNNAPBCGG",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "LJKBFOAOAJG",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "NNCGCDNLJEE": {
+       "type": "string",
+       "reader_prop": "IDGAEEJLGIK"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "LIBHMBEONKC": {
+       "type": "string",
+       "reader_prop": "OGMGLOFKKPA"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DEPHCHOBAJG": {
+       "type": "uint",
+       "reader_prop": "EHHFFKAFOMC"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "IDMMPIIIPLL": {
+       "type": "uint",
+       "reader_prop": "JBFDHOIKAIK"
+      },
+      "HKPPDACCCOH": {
+       "type": "uint",
+       "reader_prop": "KHIKEGLBGAF"
+      },
+      "NAMFJMCKFIF": {
+       "type": "uint",
+       "reader_prop": "DPJCFLKFEPN"
+      },
+      "EBFEIMNOLHP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "EEOGPJJCKHH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "PPCOEAIPHKA": {
+       "type": "string",
+       "reader_prop": "PJBILOFOCIC"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "KNDBMPNNCGG": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JHPCPNJJHLI"
+      },
+      "JFKBEBPJGBH": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "HIAMHLLHAON"
+      },
+      "OJBCAEPBACP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JKFPADIAKCK"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      },
+      "KPCNGKDBMHA": {
+       "type": "int",
+       "reader_prop": "AHKPNPNOAMO"
+      },
+      "NIPICAKPCOJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "LJENLHCBLEL"
+      },
+      "HDHNOMIENLO": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "PLGNGKNPNCN"
+      },
+      "HFKHLKGAJEL": {
+       "type": "int",
+       "reader_prop": "EKJFNHHKBPL"
+      }
+     },
+     "reader_class": "NKCJNCELIJN",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "KJFDCEGGPPH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DPJIIOJHIDD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "HJNPKHJJDBB": {
+         "type": "uint",
+         "reader_prop": "FOILNHKHHDF"
+        },
+        "LEFPIGNDJNC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "AIHOJKFNEEN"
+        },
+        "BNCIPLKECMC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "BFINGCJHOHI"
+        },
+        "OOJBHHPJONJ": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "ALPALMJMJJK": {
+         "type": "int",
+         "reader_prop": "JOPPFEHKNFO"
+        },
+        "PODPGCKCBEO": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "FPJPKBBOICF"
+      }
+     ],
+     "reader_prop": "MCHFABAKPMH"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "FEGHFAKKEGO",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JGAGKFPAAIB": {
+         "type": "string",
+         "reader_prop": "BGBJPGEIEDE"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "GPBKFHCJEPD": {
+         "type": "uint",
+         "reader_prop": "KOACGMPOIGN"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        },
+        "HBHEHJDPEBI": {
+         "type": "uint",
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "JGHDNNFHEHC"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "AOANPDIPJJI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "IICAOBEAJHF",
+       "type": "object",
+       "properties": {
+        "CHIFDEGOIBH": {
+         "type": "int",
+         "reader_prop": "EEAPIKNJNDB"
+        },
+        "CCIHMCAPHCB": {
+         "type": "int",
+         "reader_prop": "NNDBJGDFEEM"
+        },
+        "GEJGMBBCFEE": {
+         "type": "int",
+         "reader_prop": "DOOGFEGEKLG"
+        },
+        "LKLFOCIFLIE": {
+         "type": "int",
+         "reader_prop": "HNDOLKNBOIJ"
+        },
+        "MENLAOCDKFD": {
+         "type": "int",
+         "reader_prop": "HHGFOIMIGED"
+        },
+        "PBANPANLNFF": {
+         "type": "int",
+         "reader_prop": "IBCMDICBGHH"
+        },
+        "JGIPHJMJPEI": {
+         "type": "int",
+         "reader_prop": "HKAILALAFDG"
+        },
+        "DMNNOAFOPFI": {
+         "type": "int",
+         "reader_prop": "DJJGNDCMNHF"
+        }
+       },
+       "reader_class": "EBDMGCHHCFD"
+      }
+     ],
+     "reader_prop": "DDIGKGINBKL"
+    },
+    "OFDNIJAEIIF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MGJAIDMKMCE",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "int",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IIDCFMHCPLJ": {
+         "type": "string",
+         "reader_prop": "OPFGFINHFCE"
+        },
+        "IKILGDOHAFC": {
+         "type": "int",
+         "reader_prop": "GOIKCKHMBDL"
+        },
+        "CLPPHJAOKPA": {
+         "type": "int",
+         "reader_prop": "AKNELONELJK"
+        },
+        "IHBIEFNEPMC": {
+         "type": "int",
+         "reader_prop": "KNIFCANOHOC"
+        },
+        "NMBMENKFDCE": {
+         "type": "int",
+         "reader_prop": "EDJMDDAGCEJ"
+        },
+        "PDIBMFKEJMM": {
+         "type": "int",
+         "reader_prop": "HEFPAIOLBAG"
+        },
+        "DPKCMAHGHNI": {
+         "type": "int",
+         "reader_prop": "DIPKCALNIII"
+        },
+        "BMONGFPOEOB": {
+         "type": "int",
+         "reader_prop": "JFFOEAANFPG"
+        },
+        "FMJMJIKOLFL": {
+         "type": "int",
+         "reader_prop": "HEBKEJBDCBH"
+        },
+        "AACHELNDICD": {
+         "type": "int",
+         "reader_prop": "GLILAGLJLEP"
+        },
+        "FKLPAEODOCH": {
+         "type": "int",
+         "reader_prop": "ECOLMPLOPFM"
+        },
+        "FPHHEKLGANL": {
+         "type": "int",
+         "reader_prop": "CFCIMKOHLIG"
+        },
+        "KELLGKFABLD": {
+         "type": "int",
+         "reader_prop": "IPPNCOHEEOD"
+        },
+        "CENBENCHADM": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "MJNMPAKBNKB"
+        },
+        "LBMKEILIGBG": {
+         "type": "int",
+         "reader_prop": "BDLNMOIOMHK"
+        },
+        "NBDEBEPOLOB": {
+         "type": "int",
+         "reader_prop": "NLKEBAOBJCM"
+        },
+        "NPIBNFGMMEK": {
+         "type": "int",
+         "reader_prop": "ENNCJKLIGKE"
+        },
+        "HAMEBHALAEN": {
+         "type": "int",
+         "reader_prop": "PALEGNNHIKH"
+        },
+        "OEGNNNEFAAK": {
+         "type": "int",
+         "reader_prop": "JCDEDIOAGKE"
+        }
+       },
+       "reader_class": "BAJEBICKGPF"
+      }
+     ],
+     "reader_prop": "MDMKOGDHCIC"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "FKOAKLHPCHP",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "OBMEFONPANB"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "KKJAMCMMILC",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "CNMODGDHGHA"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "FBAHAFKCMMH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CFPOOLLFNPL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "MCJNHPMBPIJ": {
+         "type": "int",
+         "reader_prop": "KFCIJBLDHOK"
+        },
+        "MGJKFKDICGC": {
+         "type": "int",
+         "reader_prop": "JLEIHOEGMOP"
+        }
+       },
+       "reader_class": "PDEFFJNHFOE"
+      }
+     ],
+     "reader_prop": "KIEKMCKCMGD"
+    },
+    "GGKDJGGAFKA": {
+     "type": "array",
+     "items": [
+      {
+       "title": "BPAAICMLPOI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "LPJPOOHJKAE": {
+         "type": "int",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "LAIEPFCPDLK": {
+         "type": "int",
+         "reader_prop": "MAFAIIHJAFG"
+        }
+       },
+       "reader_class": "EGFGKMKLEFG"
+      }
+     ],
+     "reader_prop": "MHKNGJMEGFI"
+    },
+    "AJMKEFMPKHB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "KBACMNEFKPH",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IAPFGOHKAGE": {
+         "type": "uint",
+         "reader_prop": "MPLGPBNJDJB"
+        },
+        "HBMAMCJNDIH": {
+         "type": "uint",
+         "reader_prop": "CPBFAMJEODF"
+        },
+        "PMPNFFNPDPJ": {
+         "type": "uint",
+         "reader_prop": "MGHPJNNDCIG"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "IJFIMCBAJDJ"
+      }
+     ],
+     "reader_prop": "GHIHAGAOPNC"
+    },
+    "MBCMHJLOICP": {
+     "type": "array",
+     "items": [
+      {
+       "title": "NGMAEKGBJCM",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "NMDCNDPDNMM": {
+         "type": "uint",
+         "reader_prop": "KOJMEPJBOJM"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "HJEKNHMEPBP"
+      }
+     ],
+     "reader_prop": "PLHPEOKOMHH"
+    },
+    "PONHONIGHOO": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DFOHOJKKKDJ",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "MJGMLHPCJKL": {
+         "type": "uint",
+         "reader_prop": "APGKOJKNNGP"
+        },
+        "KEJFLGLANOM": {
+         "type": "uint",
+         "reader_prop": "AFKHNFBOMKI"
+        },
+        "KKIOBDILLGC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "HHOFENIINIJ"
+        },
+        "GCPGKNHOELA": {
+         "type": "uint",
+         "reader_prop": "LNNOCPJLNFD"
+        },
+        "OINHNODKGMO": {
+         "type": "uint",
+         "reader_prop": "GCPKJPNENJJ"
+        },
+        "PDMFOEDKBPM": {
+         "type": "uint",
+         "reader_prop": "FLOAHHHAOLE"
+        },
+        "DKLGCNIKBNO": {
+         "type": "uint",
+         "reader_prop": "COJMPBFFJFI"
+        },
+        "CAOMFEHHCJO": {
+         "type": "uint",
+         "reader_prop": "KPFDEBIEAME"
+        },
+        "NGHNHBKONEK": {
+         "type": "uint",
+         "reader_prop": "MCBDCDLKACL"
+        },
+        "AAEFDGPJPDH": {
+         "type": "uint",
+         "reader_prop": "JLDNDNNDEEH"
+        },
+        "BPOBCDFADPN": {
+         "type": "uint",
+         "reader_prop": "LIIIGJFLAAB"
+        },
+        "BDPKAIDKLBB": {
+         "type": "uint",
+         "reader_prop": "NGNKKFNDEPD"
+        },
+        "PKAOKEACOEE": {
+         "type": "uint",
+         "reader_prop": "MKOKEGGPFBC"
+        }
+       },
+       "reader_class": "HIGMGCAKFAN"
+      }
+     ],
+     "reader_prop": "NIPMOFJPFJG"
+    },
+    "JHDOILHEBOG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ONKCPJNPOHI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        }
+       },
+       "reader_class": "FMPMFOBJNCM"
+      }
+     ],
+     "reader_prop": "IHNBOEPLJKE"
+    },
+    "HDNMEPFHLNF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "BDHHMNFDCJO",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "DPFDOIIOICA": {
+         "type": "int",
+         "reader_prop": "CNKFPJCGNFE"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "NFEINLOIPEP"
+      }
+     ],
+     "reader_prop": "OLACFKILCFD"
+    },
+    "OLLJCDPOAAI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CGCBGGNEJKJ",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "PHNMAKOGBKJ"
+      }
+     ],
+     "reader_prop": "MIOCOKLMLBD"
+    },
+    "BHNBMLKMLGN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CKLOMKMJBLL",
+       "type": "object",
+       "properties": {
+        "OEBLGFLPMNE": {
+         "type": "int",
+         "reader_prop": "KHPHAAMGMJP"
+        },
+        "BJELMJJFMBI": {
+         "type": "int",
+         "reader_prop": "OFIAENKCJME"
+        },
+        "IHNCJBFCAAI": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "JMLCLHHLJHM"
+        }
+       },
+       "reader_class": "FJOLJGPGDGD"
+      }
+     ],
+     "reader_prop": "IEJLJIHIDJC"
+    }
+   },
+   "reader_class": "OPHFFGFJIBJ"
+  },
+  {
+   "title": "NMCBIDLKHED",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "NDELGBLMJJO",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "HEMLBADKAOA": {
+       "type": "uint",
+       "reader_prop": "HFNIHKOAMGC"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "NLPMPPCENKD": {
+       "type": "array",
+       "items": [
+        {
+         "type": "string"
+        }
+       ],
+       "reader_prop": "MPCAGEPEJJJ"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DEPHCHOBAJG": {
+       "type": "uint",
+       "reader_prop": "EHHFFKAFOMC"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "IDMMPIIIPLL": {
+       "type": "uint",
+       "reader_prop": "JBFDHOIKAIK"
+      },
+      "HKPPDACCCOH": {
+       "type": "uint",
+       "reader_prop": "KHIKEGLBGAF"
+      },
+      "NAMFJMCKFIF": {
+       "type": "uint",
+       "reader_prop": "DPJCFLKFEPN"
+      },
+      "EBFEIMNOLHP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "EEOGPJJCKHH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "PPCOEAIPHKA": {
+       "type": "string",
+       "reader_prop": "PJBILOFOCIC"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "ALNLBALBCJK": {
+       "type": "uint",
+       "reader_prop": "MPKNCMEAMLO"
+      },
+      "KPCNGKDBMHA": {
+       "type": "uint",
+       "reader_prop": "AHKPNPNOAMO"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "KNDBMPNNCGG": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JHPCPNJJHLI"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      },
+      "HFKHLKGAJEL": {
+       "type": "int",
+       "reader_prop": "EKJFNHHKBPL"
+      }
+     },
+     "reader_class": "LJBDGKFPGHH",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "KJFDCEGGPPH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "JPHCKOHCJKL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "HJNPKHJJDBB": {
+         "type": "uint",
+         "reader_prop": "FOILNHKHHDF"
+        },
+        "LEFPIGNDJNC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "AIHOJKFNEEN"
+        },
+        "BNCIPLKECMC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "BFINGCJHOHI"
+        },
+        "OOJBHHPJONJ": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "ALPALMJMJJK": {
+         "type": "int",
+         "reader_prop": "JOPPFEHKNFO"
+        },
+        "PODPGCKCBEO": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "PODNPHFIDHP"
+      }
+     ],
+     "reader_prop": "MCHFABAKPMH"
+    },
+    "AJMKEFMPKHB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MOEAENJLEGI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IAPFGOHKAGE": {
+         "type": "uint",
+         "reader_prop": "MPLGPBNJDJB"
+        },
+        "NJLJEKDBPCH": {
+         "type": "int",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "int",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "AFEHHCKJJGB"
+      }
+     ],
+     "reader_prop": "GHIHAGAOPNC"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MINHCKEGNDL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JGAGKFPAAIB": {
+         "type": "string",
+         "reader_prop": "BGBJPGEIEDE"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "GPBKFHCJEPD": {
+         "type": "uint",
+         "reader_prop": "KOACGMPOIGN"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        },
+        "HBHEHJDPEBI": {
+         "type": "uint",
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "KIJLAHILELO"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "EMBEBHJKMNC": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HLJHIMHEACC",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "uint",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "NJLJEKDBPCH": {
+         "type": "int",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "int",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "EOBMLPFEJLM"
+      }
+     ],
+     "reader_prop": "DGBJMMJALMH"
+    },
+    "POCJDCJLODD": {
+     "type": "array",
+     "items": [
+      {
+       "title": "KDDOEACKIHA",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "FHLKEIBOFNN": {
+         "type": "uint",
+         "reader_prop": "LJELGFAFGAB"
+        },
+        "EGEFMJCLNDM": {
+         "type": "uint",
+         "reader_prop": "KNEDJFLCCLN"
+        },
+        "KDPKPOBKKMJ": {
+         "type": "uint",
+         "reader_prop": "MBAMIOJNGBD"
+        }
+       },
+       "reader_class": "DBLFDPNEFPM"
+      }
+     ],
+     "reader_prop": "MPPGCHJPPKM"
+    },
+    "LFKGJNLPMAE": {
+     "type": "array",
+     "items": [
+      {
+       "title": "IDOIMCLBFJA",
+       "type": "object",
+       "properties": {
+        "JKDAMKCJMLD": {
+         "type": "uint",
+         "reader_prop": "LKIFDCEKDCK"
+        },
+        "DJBJGNJAHHP": {
+         "type": "uint",
+         "reader_prop": "DKHIHHMOIKM"
+        }
+       },
+       "reader_class": "GLABDNJIHCE"
+      }
+     ],
+     "reader_prop": "EENKKKDBABF"
+    },
+    "FHJIGCFBFEN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "JFGEKMJJBAO",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "AOLCNACKIBK": {
+         "type": "uint",
+         "reader_prop": "ECLAOLBGCDD"
+        },
+        "AECGHGOLNKL": {
+         "type": "uint",
+         "reader_prop": "OMCOIBDHOCF"
+        },
+        "KJFEBMBHKOC": {
+         "type": "uint",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "BIBCILCCAAD"
+      }
+     ],
+     "reader_prop": "DHDJOPFCOPP"
+    },
+    "OOMKKGEMBMO": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CIJEJAKKDMB",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "KJFEBMBHKOC": {
+         "type": "uint",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "IBDFJIDNDJH": {
+         "type": "int",
+         "reader_prop": "BEBJKJKBOGH"
+        },
+        "GLIIHLOLPEF": {
+         "type": "int",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "int",
+         "reader_prop": "EICJBAEDMNM"
+        }
+       },
+       "reader_class": "PLPBLFHKOGP"
+      }
+     ],
+     "reader_prop": "GICHIKNDMHE"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HDMKPCIFCKM",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "GHNFKHHNJFP"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "POCLCIIAOED",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "AEANCDLNPNA"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "FBAHAFKCMMH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "GIENJNNNCMN",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "MCJNHPMBPIJ": {
+         "type": "int",
+         "reader_prop": "KFCIJBLDHOK"
+        },
+        "MGJKFKDICGC": {
+         "type": "int",
+         "reader_prop": "JLEIHOEGMOP"
+        }
+       },
+       "reader_class": "LDJDFLHGBFG"
+      }
+     ],
+     "reader_prop": "KIEKMCKCMGD"
+    },
+    "GGKDJGGAFKA": {
+     "type": "array",
+     "items": [
+      {
+       "title": "FNEOAPMLFFD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "LPJPOOHJKAE": {
+         "type": "int",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "LAIEPFCPDLK": {
+         "type": "int",
+         "reader_prop": "MAFAIIHJAFG"
+        }
+       },
+       "reader_class": "NEEFDIIDPHK"
+      }
+     ],
+     "reader_prop": "MHKNGJMEGFI"
+    },
+    "JHDOILHEBOG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ICAMEMFMEPB",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        }
+       },
+       "reader_class": "LCFFJMJPPFI"
+      }
+     ],
+     "reader_prop": "IHNBOEPLJKE"
+    },
+    "HDNMEPFHLNF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "EPOOCHGHFNI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "DPFDOIIOICA": {
+         "type": "int",
+         "reader_prop": "CNKFPJCGNFE"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "JGBFIHBFBDA"
+      }
+     ],
+     "reader_prop": "OLACFKILCFD"
+    },
+    "OLLJCDPOAAI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PCEMLBKHFFI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "KPHKMOFOFAO"
+      }
+     ],
+     "reader_prop": "MIOCOKLMLBD"
+    },
+    "BHNBMLKMLGN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MANCFDNPDOD",
+       "type": "object",
+       "properties": {
+        "OEBLGFLPMNE": {
+         "type": "int",
+         "reader_prop": "KHPHAAMGMJP"
+        },
+        "BJELMJJFMBI": {
+         "type": "int",
+         "reader_prop": "OFIAENKCJME"
+        },
+        "IHNCJBFCAAI": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "JMLCLHHLJHM"
+        }
+       },
+       "reader_class": "CDPDAALCOAE"
+      }
+     ],
+     "reader_prop": "IEJLJIHIDJC"
+    }
+   },
+   "reader_class": "FOKPKJFHNLO"
+  },
+  {
+   "title": "NBIKKFDBOFF",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "GMNMPFMGIBP",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DEPHCHOBAJG": {
+       "type": "uint",
+       "reader_prop": "EHHFFKAFOMC"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "PPCOEAIPHKA": {
+       "type": "string",
+       "reader_prop": "PJBILOFOCIC"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "KNDBMPNNCGG": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JHPCPNJJHLI"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      },
+      "KPCNGKDBMHA": {
+       "type": "int",
+       "reader_prop": "AHKPNPNOAMO"
+      }
+     },
+     "reader_class": "DGALLBPNAMN",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "AJMKEFMPKHB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PPANHLHGDLD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IAPFGOHKAGE": {
+         "type": "uint",
+         "reader_prop": "MPLGPBNJDJB"
+        },
+        "KAIMDDPJEON": {
+         "type": "uint",
+         "reader_prop": "HMHHNHEPAPP"
+        },
+        "NJLJEKDBPCH": {
+         "type": "int",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "int",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "CJHLABKGKAA"
+      }
+     ],
+     "reader_prop": "GHIHAGAOPNC"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ODMKHCAIAAI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JGAGKFPAAIB": {
+         "type": "string",
+         "reader_prop": "BGBJPGEIEDE"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "GPBKFHCJEPD": {
+         "type": "uint",
+         "reader_prop": "KOACGMPOIGN"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        }
+       },
+       "reader_class": "MJDMKEIPOLH"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "AMCNEEPKDOP",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "MMFFEFPBLCJ"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MLHMMHEPMJC",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "FKPLJBFLKAG"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "JHDOILHEBOG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "FIPKKAHPFHG",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        }
+       },
+       "reader_class": "EPICOEPILEJ"
+      }
+     ],
+     "reader_prop": "IHNBOEPLJKE"
+    },
+    "NDFKGEGBOCE": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HKOLBHENPFE",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "IIDCFMHCPLJ": {
+         "type": "string",
+         "reader_prop": "OPFGFINHFCE"
+        },
+        "LMLNKHMPOIG": {
+         "type": "int",
+         "reader_prop": "CPKMLLNADLJ"
+        },
+        "GKLHNNBMGKH": {
+         "type": "int",
+         "reader_prop": "PIPCIMIALOO"
+        },
+        "OJPOLKBHIKP": {
+         "type": "int",
+         "reader_prop": "NNLAMKCDMEL"
+        },
+        "PGIKNMMIPKG": {
+         "type": "int",
+         "reader_prop": "FCDNMBBPBKI"
+        },
+        "JGLECHJPIGM": {
+         "type": "int",
+         "reader_prop": "EPMCPGDIBHI"
+        },
+        "OFELDHPINMB": {
+         "type": "int",
+         "reader_prop": "AKBHPFBDDOL"
+        }
+       },
+       "reader_class": "KCFGJMAMFCH"
+      }
+     ],
+     "reader_prop": "EENBPAPDNBP"
+    },
+    "NNACKFOABOK": {
+     "type": "array",
+     "items": [
+      {
+       "title": "JEOHKMOBFEM",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CNNEAFFOPAO": {
+         "type": "int",
+         "reader_prop": "LLNDMKBBNIJ"
+        },
+        "KMFBIBCCHJL": {
+         "type": "int",
+         "reader_prop": "OMIEMNDOPKA"
+        },
+        "NCLDIBJIDLJ": {
+         "type": "uint",
+         "reader_prop": "ICLFADEFBIH"
+        },
+        "BDGDHOAJDFM": {
+         "type": "uint",
+         "reader_prop": "FJOLNJLLJEJ"
+        },
+        "ECNCFBDPGCL": {
+         "type": "uint",
+         "reader_prop": "OJLDNEGBFFG"
+        },
+        "KNIIBDJOCJI": {
+         "type": "uint",
+         "reader_prop": "DIDNBKKKEDK"
+        },
+        "NHNKCJFGAKN": {
+         "type": "uint",
+         "reader_prop": "CAFDIAFJDKP"
+        },
+        "JAFADBHMNJL": {
+         "type": "uint",
+         "reader_prop": "EHOBDMHPMHB"
+        },
+        "EPPCOIEJIJA": {
+         "type": "uint",
+         "reader_prop": "DIGJFGFKEJC"
+        },
+        "KGPEKKEIMCH": {
+         "type": "uint",
+         "reader_prop": "JJELLPDAAEI"
+        }
+       },
+       "reader_class": "LJIJADDCDBE"
+      }
+     ],
+     "reader_prop": "JLKPDLCFEIM"
+    },
+    "PBGAHBOELGL": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PEGCLNAOLBG",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "MKLGLNCCAJF": {
+         "type": "uint",
+         "reader_prop": "JIMJHIDEHNM"
+        },
+        "NPCAIBOAGGO": {
+         "type": "uint",
+         "reader_prop": "KMHIOCCFPEM"
+        },
+        "KLMIFFAAGOD": {
+         "type": "uint",
+         "reader_prop": "PIABNPEFLEJ"
+        },
+        "JINBBAJGKGI": {
+         "type": "uint",
+         "reader_prop": "BMAHHKLNOGA"
+        },
+        "MDAGNDELGJC": {
+         "type": "uint",
+         "reader_prop": "DHGAILOFNIP"
+        }
+       },
+       "reader_class": "KLBFLPLFPNF"
+      }
+     ],
+     "reader_prop": "JFLFHONDDNM"
+    },
+    "LLDECIJKIGF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "NLMDFJFJBFA",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        }
+       },
+       "reader_class": "JHBMNFIHGBI"
+      }
+     ],
+     "reader_prop": "PNMLJIPOOPO"
+    },
+    "DFEAJAJHEBP": {
+     "type": "array",
+     "items": [
+      {
+       "title": "AHDFDKOLGIN",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "LEFPIGNDJNC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "AIHOJKFNEEN"
+        },
+        "BNCIPLKECMC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "BFINGCJHOHI"
+        },
+        "NGGAJCBPGFI": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "EHKJFNAABMC"
+        },
+        "NMEEJNHKPCN": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "DOOGFEGEKLG"
+        },
+        "DOLNFDOMJBC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "DCFAPPHINAO"
+        }
+       },
+       "reader_class": "KGNNHHFGLBG"
+      }
+     ],
+     "reader_prop": "DOKBJLFIGDM"
+    },
+    "FIKNJBFFMGG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CHCOHLNPLMJ",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "KGJOEPEIDMO": {
+         "type": "uint",
+         "reader_prop": "MDNKAFNHNDJ"
+        },
+        "JMFEAOOLOEG": {
+         "type": "uint",
+         "reader_prop": "MAAGBAOIFFA"
+        },
+        "FOOEBKAHMCM": {
+         "type": "uint",
+         "reader_prop": "AIMACNHIPMG"
+        },
+        "DMNNOAFOPFI": {
+         "type": "uint",
+         "reader_prop": "DJJGNDCMNHF"
+        },
+        "ACIJELOAHHD": {
+         "type": "uint",
+         "reader_prop": "MCNEIJAOLNO"
+        },
+        "EFOBFEHCBHJ": {
+         "type": "uint",
+         "reader_prop": "PENMGPNPHHG"
+        },
+        "LOJKHFENCOJ": {
+         "type": "uint",
+         "reader_prop": "PDJJELPFMJB"
+        }
+       },
+       "reader_class": "DFPOGOFGFBN"
+      }
+     ],
+     "reader_prop": "HBMGNHBFPHC"
+    },
+    "HDNMEPFHLNF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CKMBIDDOCEP",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "DPFDOIIOICA": {
+         "type": "int",
+         "reader_prop": "CNKFPJCGNFE"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "ALFLHDKBNIB"
+      }
+     ],
+     "reader_prop": "OLACFKILCFD"
+    },
+    "OLLJCDPOAAI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "GPLJGOGMCNP",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "CNDLLOPINDF"
+      }
+     ],
+     "reader_prop": "MIOCOKLMLBD"
+    },
+    "BHNBMLKMLGN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "BDLNCCBHPAD",
+       "type": "object",
+       "properties": {
+        "OEBLGFLPMNE": {
+         "type": "int",
+         "reader_prop": "KHPHAAMGMJP"
+        },
+        "BJELMJJFMBI": {
+         "type": "int",
+         "reader_prop": "OFIAENKCJME"
+        },
+        "IHNCJBFCAAI": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "JMLCLHHLJHM"
+        }
+       },
+       "reader_class": "MDDFBKANJDJ"
+      }
+     ],
+     "reader_prop": "IEJLJIHIDJC"
+    }
+   },
+   "reader_class": "NPAJGBIFLHB"
+  },
+  {
+   "title": "FDGDGGHOJBP",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "HGBICHMJHMI",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "APJPCEEAANA": {
+       "type": "uint",
+       "reader_prop": "NIMLIMFPNJP"
+      },
+      "KPMGJEELOEI": {
+       "type": "uint",
+       "reader_prop": "KCBGBFMGHPA"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      }
+     },
+     "reader_class": "IFKGBHNLKLK",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "BEINKIKDHCO": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PNLDFJMHBJH",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "IIDCFMHCPLJ": {
+         "type": "string",
+         "reader_prop": "OPFGFINHFCE"
+        },
+        "HAEJDOGGKPC": {
+         "type": "string",
+         "reader_prop": "HEDAGCNPHGD"
+        },
+        "NHNLGCMFBNC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "OCDBMHBNLEF"
+        }
+       },
+       "reader_class": "BFOKFIJNCJJ"
+      }
+     ],
+     "reader_prop": "KBFEMKJBHBL"
+    },
+    "MMKDCMGIEKM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "IABACDAGDAP",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "GGJFACAIOBF": {
+         "type": "uint",
+         "reader_prop": "GJNIPHMPMIC"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "PIFAMBCEMKL": {
+         "type": "uint",
+         "reader_prop": "FDBOPFEOENF"
+        },
+        "COPFAKAHEMN": {
+         "type": "uint",
+         "reader_prop": "MJMPANIBFED"
+        },
+        "IMOOHKAFLPP": {
+         "type": "string",
+         "reader_prop": "LICPCDCLOIO"
+        }
+       },
+       "reader_class": "PALCPDPGOPC"
+      }
+     ],
+     "reader_prop": "CEPBAOMAHNH"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "IGPIHCHKGPE",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JGAGKFPAAIB": {
+         "type": "string",
+         "reader_prop": "BGBJPGEIEDE"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "GPBKFHCJEPD": {
+         "type": "uint",
+         "reader_prop": "KOACGMPOIGN"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        }
+       },
+       "reader_class": "COAOCGOFFHK"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ALMNNMCFOHL",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "JBNGBDJIHLG"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "GMBEOADAJAE",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "CKDNHLACCOP"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    }
+   },
+   "reader_class": "MAGFOKIIPPD"
+  },
+  {
+   "title": "KBPJMHKBEAJ",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "EGJJJNCPNPD",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "NNCGCDNLJEE": {
+       "type": "string",
+       "reader_prop": "IDGAEEJLGIK"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "HEMLBADKAOA": {
+       "type": "uint",
+       "reader_prop": "HFNIHKOAMGC"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "LIBHMBEONKC": {
+       "type": "string",
+       "reader_prop": "OGMGLOFKKPA"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DEPHCHOBAJG": {
+       "type": "uint",
+       "reader_prop": "EHHFFKAFOMC"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "IDMMPIIIPLL": {
+       "type": "uint",
+       "reader_prop": "JBFDHOIKAIK"
+      },
+      "HKPPDACCCOH": {
+       "type": "uint",
+       "reader_prop": "KHIKEGLBGAF"
+      },
+      "NAMFJMCKFIF": {
+       "type": "uint",
+       "reader_prop": "DPJCFLKFEPN"
+      },
+      "EBFEIMNOLHP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "EEOGPJJCKHH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "PPCOEAIPHKA": {
+       "type": "string",
+       "reader_prop": "PJBILOFOCIC"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "ALNLBALBCJK": {
+       "type": "uint",
+       "reader_prop": "MPKNCMEAMLO"
+      },
+      "GPCEIBGOEGB": {
+       "type": "string",
+       "reader_prop": "KOHMHBGOFFI"
+      },
+      "KPCNGKDBMHA": {
+       "type": "uint",
+       "reader_prop": "AHKPNPNOAMO"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "IAOHBNNABEA": {
+       "type": "string",
+       "reader_prop": "HKEAFPNNAPC"
+      },
+      "GPGAAMAIPOA": {
+       "type": "string",
+       "reader_prop": "MCDPPHKEMJI"
+      },
+      "CKPGPEBLNFH": {
+       "type": "string",
+       "reader_prop": "BJHHDGCOACI"
+      },
+      "MCBLMLBNNJJ": {
+       "type": "string",
+       "reader_prop": "JDDIOIMOFDE"
+      },
+      "LCDPKHOIDJH": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "DMDHPBNAPKI"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "KNDBMPNNCGG": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JHPCPNJJHLI"
+      },
+      "KMDIENAOMLH": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "GHIKEPLBHHG"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      },
+      "HFKHLKGAJEL": {
+       "type": "int",
+       "reader_prop": "EKJFNHHKBPL"
+      }
+     },
+     "reader_class": "LFFAKLJILCM",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "KJFDCEGGPPH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "NKAGFIBDIJL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "HJNPKHJJDBB": {
+         "type": "uint",
+         "reader_prop": "FOILNHKHHDF"
+        },
+        "LEFPIGNDJNC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "AIHOJKFNEEN"
+        },
+        "BNCIPLKECMC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "BFINGCJHOHI"
+        },
+        "OOJBHHPJONJ": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "ALPALMJMJJK": {
+         "type": "int",
+         "reader_prop": "JOPPFEHKNFO"
+        },
+        "PODPGCKCBEO": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "MCFPAFGFPJC"
+      }
+     ],
+     "reader_prop": "MCHFABAKPMH"
+    },
+    "AJMKEFMPKHB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "AEDNLIGLDLI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IAPFGOHKAGE": {
+         "type": "uint",
+         "reader_prop": "MPLGPBNJDJB"
+        },
+        "DJBJGNJAHHP": {
+         "type": "uint",
+         "reader_prop": "DKHIHHMOIKM"
+        },
+        "NJLJEKDBPCH": {
+         "type": "int",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "int",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "ENAEMKEKAOE"
+      }
+     ],
+     "reader_prop": "GHIHAGAOPNC"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HNIEJMNIBMD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JGAGKFPAAIB": {
+         "type": "string",
+         "reader_prop": "BGBJPGEIEDE"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "GPBKFHCJEPD": {
+         "type": "uint",
+         "reader_prop": "KOACGMPOIGN"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        },
+        "HBHEHJDPEBI": {
+         "type": "uint",
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "OFFLOKADBGI"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MAAGLHIIMOK",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "DPCNINPPGFC"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "EKBIGBOIGPH",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "KNLJCIJAAME"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "FBAHAFKCMMH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "KAGKHJNAHHL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "MCJNHPMBPIJ": {
+         "type": "int",
+         "reader_prop": "KFCIJBLDHOK"
+        },
+        "MGJKFKDICGC": {
+         "type": "int",
+         "reader_prop": "JLEIHOEGMOP"
+        }
+       },
+       "reader_class": "CBFHDJAILAO"
+      }
+     ],
+     "reader_prop": "KIEKMCKCMGD"
+    },
+    "GGKDJGGAFKA": {
+     "type": "array",
+     "items": [
+      {
+       "title": "EEBNFEADGDN",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "LPJPOOHJKAE": {
+         "type": "int",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "LAIEPFCPDLK": {
+         "type": "int",
+         "reader_prop": "MAFAIIHJAFG"
+        }
+       },
+       "reader_class": "KKDKCGPPEJD"
+      }
+     ],
+     "reader_prop": "MHKNGJMEGFI"
+    },
+    "JHDOILHEBOG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PHLPHMPPNON",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        }
+       },
+       "reader_class": "CMLHFCEIABD"
+      }
+     ],
+     "reader_prop": "IHNBOEPLJKE"
+    },
+    "HDNMEPFHLNF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DGPHIEINKFP",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "DPFDOIIOICA": {
+         "type": "int",
+         "reader_prop": "CNKFPJCGNFE"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "KPFPLABANJG"
+      }
+     ],
+     "reader_prop": "OLACFKILCFD"
+    },
+    "OLLJCDPOAAI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DMAHJEKCGNM",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "CNFAHCDJNKD"
+      }
+     ],
+     "reader_prop": "MIOCOKLMLBD"
+    },
+    "BHNBMLKMLGN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MAJJICHLHLP",
+       "type": "object",
+       "properties": {
+        "OEBLGFLPMNE": {
+         "type": "int",
+         "reader_prop": "KHPHAAMGMJP"
+        },
+        "BJELMJJFMBI": {
+         "type": "int",
+         "reader_prop": "OFIAENKCJME"
+        },
+        "IHNCJBFCAAI": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "JMLCLHHLJHM"
+        }
+       },
+       "reader_class": "CFFKBKJMNNN"
+      }
+     ],
+     "reader_prop": "IEJLJIHIDJC"
+    }
+   },
+   "reader_class": "HMNJADGBKFA"
+  },
+  {
+   "title": "LDCIDAKFJPH",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "GDOALKDMNGG",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "HEMLBADKAOA": {
+       "type": "uint",
+       "reader_prop": "HFNIHKOAMGC"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "KPJEPCJKIJJ": {
+       "type": "uint",
+       "reader_prop": "FCNKIKOOFKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      },
+      "MHPCFPIINFL": {
+       "type": "int",
+       "reader_prop": "GMFNMNOIJHI"
+      },
+      "JFNKDHPAEGD": {
+       "type": "uint",
+       "reader_prop": "OHGDNJLFDFF"
+      },
+      "KIPKMBIKLDO": {
+       "type": "uint",
+       "reader_prop": "PHKLJGNMFBL"
+      }
+     },
+     "reader_class": "DBFNFOEABBH",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "PDIOIJHGJHG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PHJEGIBPDAG",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "OFMGALJGDAO": {
+         "type": "int",
+         "reader_prop": "IJEKNCDIIAE"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "GDLJMMPFINH": {
+         "type": "uint",
+         "reader_prop": "IHGDLBBPKFI"
+        },
+        "IIDCFMHCPLJ": {
+         "type": "string",
+         "reader_prop": "OPFGFINHFCE"
+        },
+        "MBBJMJAAODG": {
+         "type": "int",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "BCJCBHDMCDP": {
+         "type": "int",
+         "reader_prop": "NDNHKMJPBCM"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "LICOJMAJDAF"
+      }
+     ],
+     "reader_prop": "GCMONMILNMH"
+    },
+    "HHBHEKNMBHF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "OPEBPLACKMA",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "PJPIKBPCCMD": {
+         "type": "uint",
+         "reader_prop": "IMMDGJAOPCD"
+        },
+        "HKGPNPMBJCP": {
+         "type": "int",
+         "reader_prop": "AEDMJLGNDHN"
+        },
+        "MBBJMJAAODG": {
+         "type": "int",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "LFFMNLEJJMH": {
+         "type": "uint",
+         "reader_prop": "ADPPAIPFHML"
+        }
+       },
+       "reader_class": "FLMCFOFFDMM"
+      }
+     ],
+     "reader_prop": "BNHMOENHDFB"
+    },
+    "ABLEGKPGGIE": {
+     "type": "array",
+     "items": [
+      {
+       "title": "KLOLAGHEOOM",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "EGPGKNLIBCG": {
+         "type": "int",
+         "reader_prop": "GPJKJCBPBIP"
+        },
+        "KAOJJKIALDA": {
+         "type": "int",
+         "reader_prop": "OAFPGJLCNFM"
+        },
+        "LPJPOOHJKAE": {
+         "type": "int",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AJBJHLGIHIP": {
+         "type": "uint",
+         "reader_prop": "NKNAECHNACI"
+        }
+       },
+       "reader_class": "AMMILNMBOPC"
+      }
+     ],
+     "reader_prop": "EBJIGPIKKNB"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DJCKPLICDIP",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "AIAIHJGIAOI"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "IFMBFGKPIBG",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "DKPFILODEHL"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    }
+   },
+   "reader_class": "KBFIJHDHOGA"
+  },
+  {
+   "title": "EDNGOONFHEO",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "CLPHCGNHCGC",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      }
+     },
+     "reader_class": "ADBHLCDDPHK",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MBMMPMLDACB",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "OEAFJBOBDHE"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CLLJHAIJMHD",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "NAABOMBLCMK"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "HHBHEKNMBHF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "IONNGNNIKOG",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "HFJLPAOGLEH": {
+         "type": "int",
+         "reader_prop": "HMFFHLPNMPH"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "EPHHJONMFBP": {
+         "type": "string",
+         "reader_prop": "MCNPILDHLEE"
+        },
+        "IIGJOMDOEDO": {
+         "type": "string",
+         "reader_prop": "OJHJLJLCKAC"
+        },
+        "NHMKEMIMBML": {
+         "type": "int",
+         "reader_prop": "PNFGDBDNODC"
+        },
+        "BJBNCHAIOHH": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "COCEIPAKJKF"
+        },
+        "BNCIPLKECMC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "BFINGCJHOHI"
+        },
+        "IBIAJNFJICN": {
+         "type": "int",
+         "reader_prop": "KCGJGPOFOCD"
+        }
+       },
+       "reader_class": "PDDHLCIJPOK"
+      }
+     ],
+     "reader_prop": "BNHMOENHDFB"
+    },
+    "AAAINBAEOFD": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PAEHJMNAOKB",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "IALIGIAJJGP": {
+         "type": "int",
+         "reader_prop": "KLCMKLPIDDJ"
+        },
+        "FKGLOPMFMCP": {
+         "type": "int",
+         "reader_prop": "BAOFEFFADPD"
+        },
+        "LAONNJLHPCF": {
+         "type": "int",
+         "reader_prop": "FKPEAGGKNLC"
+        },
+        "BNDAHALMIPE": {
+         "type": "int",
+         "reader_prop": "KOMKKBDABJP"
+        }
+       },
+       "reader_class": "POEILNNBDEE"
+      }
+     ],
+     "reader_prop": "MAHEBNDELHE"
+    }
+   },
+   "reader_class": "CEGMAIDIKLC"
+  },
+  {
+   "title": "KCMFPGDPCIG",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "LMAOEFHMHNN",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "HEMLBADKAOA": {
+       "type": "uint",
+       "reader_prop": "HFNIHKOAMGC"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "JFPEOBHPALH": {
+       "type": "uint",
+       "reader_prop": "BCPHKGGOEKA"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "PPCOEAIPHKA": {
+       "type": "string",
+       "reader_prop": "PJBILOFOCIC"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "JFNKDHPAEGD": {
+       "type": "uint",
+       "reader_prop": "OHGDNJLFDFF"
+      },
+      "KIPKMBIKLDO": {
+       "type": "uint",
+       "reader_prop": "PHKLJGNMFBL"
+      }
+     },
+     "reader_class": "BJMFBPEMGCD",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "POKLHFPANOF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "LNEJLNKGPNE",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "OFMGALJGDAO": {
+         "type": "int",
+         "reader_prop": "IJEKNCDIIAE"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IAANELFBMJA": {
+         "type": "uint",
+         "reader_prop": "MGLJCOMOGLO"
+        },
+        "OEHNJJEPMJI": {
+         "type": "uint",
+         "reader_prop": "PNDEAHGLJIC"
+        },
+        "MEBNLBGNNPP": {
+         "type": "int",
+         "reader_prop": "LPDLBACJKIB"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        },
+        "BBINGFKGFPB": {
+         "type": "uint",
+         "reader_prop": "GNOFNIOLPPC"
+        },
+        "JBCDDOFEDEP": {
+         "type": "uint",
+         "reader_prop": "BOJCOPAALNC"
+        }
+       },
+       "reader_class": "GHAFLMIOHKM"
+      }
+     ],
+     "reader_prop": "OPIDLGADBPE"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "NFMLBJAPPIO",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "PEGBGEGKCGA": {
+         "type": "uint",
+         "reader_prop": "KGICDMIJGDF"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JGAGKFPAAIB": {
+         "type": "string",
+         "reader_prop": "BGBJPGEIEDE"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "GPBKFHCJEPD": {
+         "type": "uint",
+         "reader_prop": "KOACGMPOIGN"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        }
+       },
+       "reader_class": "OMLNDNBOGBM"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "NHANJELFBGJ": {
+     "type": "array",
+     "items": [
+      {
+       "title": "NCIJKPJKNNJ",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "HHFEPINGMEI": {
+         "type": "uint",
+         "reader_prop": "BDEOMEBFDFF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "KGBNJLAIFFN"
+      }
+     ],
+     "reader_prop": "AFMPLCMMPHO"
+    },
+    "NEBBOBFGPPC": {
+     "type": "array",
+     "items": [
+      {
+       "title": "JBCLJHNMAEL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "HHFEPINGMEI": {
+         "type": "uint",
+         "reader_prop": "BDEOMEBFDFF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "PDKLCAEOOLD"
+      }
+     ],
+     "reader_prop": "IEMKMPDAJCM"
+    },
+    "AFJJPJKCDCM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HCIHHMAFHBD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IDHMHHMGAHM": {
+         "type": "uint",
+         "reader_prop": "DNJLJMKKDNA"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "JJBOBCDGNOP"
+      }
+     ],
+     "reader_prop": "MHCBBBFJALG"
+    },
+    "MPLCLCLBJPA": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MIICCHHAGJF",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "MOMCBJDJDIA": {
+         "type": "uint",
+         "reader_prop": "OENPCNBFPDA"
+        },
+        "PEGBGEGKCGA": {
+         "type": "uint",
+         "reader_prop": "KGICDMIJGDF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "LADKNAIOJBK"
+      }
+     ],
+     "reader_prop": "KKENLPIJOBN"
+    },
+    "DDLMFMGDBIL": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ECDHHNAFLCJ",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "NNCHHHGHAKJ": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "ALMEBFDEGBG"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "PPAOPCHAFDP"
+      }
+     ],
+     "reader_prop": "BPFJNIGNLEJ"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DNHBOHGLGHF",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "LKDADIMPPHE"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "EFEDOIIDFEC",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "NHONHLOEGEF"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "FHLMJLCFFFK": {
+     "type": "array",
+     "items": [
+      {
+       "title": "GHKANHJNIJD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "HHFEPINGMEI": {
+         "type": "uint",
+         "reader_prop": "BDEOMEBFDFF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "AGOFNEFMGJC"
+      }
+     ],
+     "reader_prop": "OCCJOGGPJIB"
+    },
+    "CJCGFACIGEG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "LFNFJEBKHGL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "JBHNPKHLOBI": {
+         "type": "uint",
+         "reader_prop": "KDGJBBFKLGI"
+        },
+        "CEPBOFBJBKB": {
+         "type": "uint",
+         "reader_prop": "OIAAFFHGBBD"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        }
+       },
+       "reader_class": "OLMOJDOOIOM"
+      }
+     ],
+     "reader_prop": "HHIGONDIHDF"
+    },
+    "NCLHKEHIJJC": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MOFHLFIPPNP",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        },
+        "FIABJKGEJFF": {
+         "type": "uint",
+         "reader_prop": "EJBGHLOOLBC"
+        }
+       },
+       "reader_class": "AHDABPFAHNL"
+      }
+     ],
+     "reader_prop": "JHJNMGPFAKA"
+    },
+    "HLCDDAGIMLE": {
+     "type": "array",
+     "items": [
+      {
+       "title": "LHNCOEINPJB",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "GPELFPEHLMD": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "OPKCNBFBBKP"
+        },
+        "EODLLIMCLLH": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "BEBJKJKBOGH"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "DIFGDAIFPKN"
+      }
+     ],
+     "reader_prop": "BOBEIHMGCEC"
+    },
+    "NNIGHPIKHNJ": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MKOEIFFJPKH",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "JOGGPOAOLOI": {
+         "type": "uint",
+         "reader_prop": "OPKCNBFBBKP"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "JAJIKIPGDOK"
+      }
+     ],
+     "reader_prop": "DJEBGHFEOKG"
+    },
+    "IEGBGJGGNJI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PKBJAHIOPOM",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IDHMHHMGAHM": {
+         "type": "uint",
+         "reader_prop": "DNJLJMKKDNA"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "HPKKBOBEMMB"
+      }
+     ],
+     "reader_prop": "PDIINOHFNGF"
+    },
+    "KMDPJKDLAAH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "GIGLCNHCNEN",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IDHMHHMGAHM": {
+         "type": "uint",
+         "reader_prop": "DNJLJMKKDNA"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "KFKHGNCCMCH"
+      }
+     ],
+     "reader_prop": "EODGIMADEGI"
+    },
+    "PKKCHMEBNOK": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ILCAGMDDGIO",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "HHFEPINGMEI": {
+         "type": "uint",
+         "reader_prop": "BDEOMEBFDFF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "MGJDMEPNMOD"
+      }
+     ],
+     "reader_prop": "OMLANIGCHDA"
+    },
+    "KCOMOLJANNE": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ELJJEFEIEIK",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "ELEEMMNLBEM"
+      }
+     ],
+     "reader_prop": "GFKENIPCEKK"
+    },
+    "PEJBPICDONN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PGFKEJKOOJD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "ELOPBNCMDBH"
+      }
+     ],
+     "reader_prop": "FEMIKAOHGPL"
+    }
+   },
+   "reader_class": "ANCFFLNKINL"
+  },
+  {
+   "title": "MMLADLKNMEL",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "PPAELFNIFMJ",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DEPHCHOBAJG": {
+       "type": "uint",
+       "reader_prop": "EHHFFKAFOMC"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "IDMMPIIIPLL": {
+       "type": "uint",
+       "reader_prop": "JBFDHOIKAIK"
+      },
+      "HKPPDACCCOH": {
+       "type": "uint",
+       "reader_prop": "KHIKEGLBGAF"
+      },
+      "NAMFJMCKFIF": {
+       "type": "uint",
+       "reader_prop": "DPJCFLKFEPN"
+      },
+      "EBFEIMNOLHP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "EEOGPJJCKHH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "PPCOEAIPHKA": {
+       "type": "string",
+       "reader_prop": "PJBILOFOCIC"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "OJBCAEPBACP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JKFPADIAKCK"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "KNDBMPNNCGG": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JHPCPNJJHLI"
+      },
+      "JNBJODMLPMO": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EPHAKDAPAHE"
+      },
+      "JFKBEBPJGBH": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "HIAMHLLHAON"
+      },
+      "BPBBMFCKGGP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "BKBEPOFJOJG"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      },
+      "KPCNGKDBMHA": {
+       "type": "int",
+       "reader_prop": "AHKPNPNOAMO"
+      },
+      "HFKHLKGAJEL": {
+       "type": "int",
+       "reader_prop": "EKJFNHHKBPL"
+      },
+      "LFDLHFLPCNC": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "HEABAENHIDE"
+      }
+     },
+     "reader_class": "MPLELGEBGIC",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "KJFDCEGGPPH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "EMBHNHBBIEE",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "HJNPKHJJDBB": {
+         "type": "uint",
+         "reader_prop": "FOILNHKHHDF"
+        },
+        "LEFPIGNDJNC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "AIHOJKFNEEN"
+        },
+        "BNCIPLKECMC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "BFINGCJHOHI"
+        },
+        "OOJBHHPJONJ": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "ALPALMJMJJK": {
+         "type": "int",
+         "reader_prop": "JOPPFEHKNFO"
+        },
+        "PODPGCKCBEO": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "HLEBFGMOJNJ"
+      }
+     ],
+     "reader_prop": "MCHFABAKPMH"
+    },
+    "AJMKEFMPKHB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "KIJJEOFMFDL",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "IAPFGOHKAGE": {
+         "type": "uint",
+         "reader_prop": "MPLGPBNJDJB"
+        },
+        "CJDFEPMMFPL": {
+         "type": "int",
+         "reader_prop": "CJFEGGPILMF"
+        },
+        "NNAPKHKNMMF": {
+         "type": "int",
+         "reader_prop": "GBJBMBEABOP"
+        },
+        "DJBJGNJAHHP": {
+         "type": "uint",
+         "reader_prop": "DKHIHHMOIKM"
+        },
+        "NJLJEKDBPCH": {
+         "type": "int",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "int",
+         "reader_prop": "FDBNFFNFOND"
+        }
+       },
+       "reader_class": "OFJIGCDEOFA"
+      }
+     ],
+     "reader_prop": "GHIHAGAOPNC"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "JIDBNKEHLEN",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JGAGKFPAAIB": {
+         "type": "string",
+         "reader_prop": "BGBJPGEIEDE"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "GPBKFHCJEPD": {
+         "type": "uint",
+         "reader_prop": "KOACGMPOIGN"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        },
+        "HBHEHJDPEBI": {
+         "type": "uint",
+         "reader_prop": "HJAFPEBIBOP"
+        }
+       },
+       "reader_class": "OLOFKHNOGGD"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "FIKNJBFFMGG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CDEBJDGDBCI",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "KGJOEPEIDMO": {
+         "type": "uint",
+         "reader_prop": "MDNKAFNHNDJ"
+        },
+        "EKJOIJJOKGE": {
+         "type": "uint",
+         "reader_prop": "KIOMMPKIKMK"
+        },
+        "JMFEAOOLOEG": {
+         "type": "uint",
+         "reader_prop": "MAAGBAOIFFA"
+        },
+        "FOOEBKAHMCM": {
+         "type": "uint",
+         "reader_prop": "AIMACNHIPMG"
+        },
+        "ADBLMDKLCEA": {
+         "type": "uint",
+         "reader_prop": "AICKAFKFKAF"
+        },
+        "EIAIGCOIECH": {
+         "type": "uint",
+         "reader_prop": "IBLOAGPANIB"
+        }
+       },
+       "reader_class": "HHKHNKHLEPF"
+      }
+     ],
+     "reader_prop": "HBMGNHBFPHC"
+    },
+    "FCEJEOGMFNN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "KEOGNGPEGMH",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "BKKAFNHOJFE": {
+         "type": "uint",
+         "reader_prop": "FCBDGLEPGFJ"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "EFFICDBHCCH": {
+         "type": "uint",
+         "reader_prop": "MLKFDMFDFCE"
+        },
+        "FOHAACCBBOP": {
+         "type": "uint",
+         "reader_prop": "DKOPDNHDLIA"
+        }
+       },
+       "reader_class": "HFAHCMKLNBI"
+      }
+     ],
+     "reader_prop": "GAKHDIGGJNO"
+    },
+    "LADBGAPHEHB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "GANHIMHLHLJ",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "AEHGIANDFOD": {
+         "type": "uint",
+         "reader_prop": "MKNDAOHGOAK"
+        },
+        "AEJMLNBHEMI": {
+         "type": "uint",
+         "reader_prop": "BGFPMGPHGJJ"
+        },
+        "IDCGACFOAAM": {
+         "type": "uint",
+         "reader_prop": "KEEHMNJCONJ"
+        },
+        "AFPJFEKONDG": {
+         "type": "uint",
+         "reader_prop": "CFMIPHDGCAG"
+        },
+        "BJPPPPAKBFG": {
+         "type": "uint",
+         "reader_prop": "JKAEKMMOJMF"
+        },
+        "LGNAOHMECOJ": {
+         "type": "uint",
+         "reader_prop": "DHDBOPKADII"
+        },
+        "BAJIIIIOPHO": {
+         "type": "uint",
+         "reader_prop": "OPNNCHMFEBH"
+        }
+       },
+       "reader_class": "IMEGMKJJBML"
+      }
+     ],
+     "reader_prop": "JKMOLCDPLMI"
+    },
+    "LFKGJNLPMAE": {
+     "type": "array",
+     "items": [
+      {
+       "title": "JHOLPEOPHGG",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "JMPGJENBPGH": {
+         "type": "uint",
+         "reader_prop": "NANNGLGOFKH"
+        }
+       },
+       "reader_class": "ACLIHCONIEL"
+      }
+     ],
+     "reader_prop": "EENKKKDBABF"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "GBKFBHBJBDH",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "LDDDBDOMONG"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "LGOJMLICAHI",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "BLIHNDLMGMB"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "FBAHAFKCMMH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PGENPGDDLGA",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "MCJNHPMBPIJ": {
+         "type": "int",
+         "reader_prop": "KFCIJBLDHOK"
+        },
+        "MGJKFKDICGC": {
+         "type": "int",
+         "reader_prop": "JLEIHOEGMOP"
+        }
+       },
+       "reader_class": "PJPJMCEDCIC"
+      }
+     ],
+     "reader_prop": "KIEKMCKCMGD"
+    },
+    "GGKDJGGAFKA": {
+     "type": "array",
+     "items": [
+      {
+       "title": "ANABNLMBIEB",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "LPJPOOHJKAE": {
+         "type": "int",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "LAIEPFCPDLK": {
+         "type": "int",
+         "reader_prop": "MAFAIIHJAFG"
+        }
+       },
+       "reader_class": "CACPKGLIBEL"
+      }
+     ],
+     "reader_prop": "MHKNGJMEGFI"
+    },
+    "JHDOILHEBOG": {
+     "type": "array",
+     "items": [
+      {
+       "title": "OJHENJDBLNC",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "NJLJEKDBPCH": {
+         "type": "uint",
+         "reader_prop": "PDBPFJJCADD"
+        },
+        "MAOAGDBDBIB": {
+         "type": "uint",
+         "reader_prop": "FDBNFFNFOND"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        }
+       },
+       "reader_class": "BCDAHNEFGFF"
+      }
+     ],
+     "reader_prop": "IHNBOEPLJKE"
+    },
+    "HDNMEPFHLNF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DCKKAECHDNC",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "DPFDOIIOICA": {
+         "type": "int",
+         "reader_prop": "CNKFPJCGNFE"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "BPLJDGIFPNH"
+      }
+     ],
+     "reader_prop": "OLACFKILCFD"
+    },
+    "OLLJCDPOAAI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "MAKNLEOLNKN",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "LCDGEKPFHLD"
+      }
+     ],
+     "reader_prop": "MIOCOKLMLBD"
+    },
+    "BHNBMLKMLGN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "NGDDDOFKPFI",
+       "type": "object",
+       "properties": {
+        "OEBLGFLPMNE": {
+         "type": "int",
+         "reader_prop": "KHPHAAMGMJP"
+        },
+        "BJELMJJFMBI": {
+         "type": "int",
+         "reader_prop": "OFIAENKCJME"
+        },
+        "IHNCJBFCAAI": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "JMLCLHHLJHM"
+        }
+       },
+       "reader_class": "JOBECEGAHID"
+      }
+     ],
+     "reader_prop": "IEJLJIHIDJC"
+    }
+   },
+   "reader_class": "EDHLNJNFNDN"
+  },
+  {
+   "title": "MCCEAMFIECM",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "APGJGCCJNJF",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "HKPPDACCCOH": {
+       "type": "uint",
+       "reader_prop": "KHIKEGLBGAF"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "GPCEIBGOEGB": {
+       "type": "string",
+       "reader_prop": "KOHMHBGOFFI"
+      },
+      "KPCNGKDBMHA": {
+       "type": "uint",
+       "reader_prop": "AHKPNPNOAMO"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "KNDBMPNNCGG": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JHPCPNJJHLI"
+      }
+     },
+     "reader_class": "HNGLACEEHKJ",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HFNALPGCIFB",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "IJPMFNGFABJ"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CNOCBANEBIK",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "GEANDMOANHJ"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "FBAHAFKCMMH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DMNHOBFBIJD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "MCJNHPMBPIJ": {
+         "type": "int",
+         "reader_prop": "KFCIJBLDHOK"
+        },
+        "MGJKFKDICGC": {
+         "type": "int",
+         "reader_prop": "JLEIHOEGMOP"
+        }
+       },
+       "reader_class": "LNBFCFMMHCN"
+      }
+     ],
+     "reader_prop": "KIEKMCKCMGD"
+    }
+   },
+   "reader_class": "PMPDPNDJBLB"
+  },
+  {
+   "title": "HJOPMDDAIDF",
+   "type": "object",
+   "properties": {
+    "OPBPOOKODJK": {
+     "title": "EPBCNHDGFCB",
+     "type": "object",
+     "properties": {
+      "IIDCFMHCPLJ": {
+       "type": "string",
+       "reader_prop": "OPFGFINHFCE"
+      },
+      "HAEJDOGGKPC": {
+       "type": "string",
+       "reader_prop": "HEDAGCNPHGD"
+      },
+      "MAIJBDCJPNJ": {
+       "type": "uint",
+       "reader_prop": "OBGBAOLONDD"
+      },
+      "MKDFHLALNAF": {
+       "type": "string",
+       "reader_prop": "OCGFKMHNEOF"
+      },
+      "MCHOEAGDGJP": {
+       "type": "uint",
+       "reader_prop": "MOEKELIIDEO"
+      },
+      "LLJNABNBDMN": {
+       "type": "uint",
+       "reader_prop": "BONDDBOFBND"
+      },
+      "DEPHCHOBAJG": {
+       "type": "uint",
+       "reader_prop": "EHHFFKAFOMC"
+      },
+      "DJHKCHMBGHC": {
+       "type": "uint",
+       "reader_prop": "HPNOGLIFJOP"
+      },
+      "BCKOLCDDIAG": {
+       "type": "uint",
+       "reader_prop": "LNFKGHNHJKE"
+      },
+      "LKIBIHGHEMA": {
+       "type": "uint",
+       "reader_prop": "JGMDAOACOJF"
+      },
+      "ANELKJCGJJL": {
+       "type": "uint",
+       "reader_prop": "IDDBFFBPNGI"
+      },
+      "AEOKLKJAKHB": {
+       "type": "uint",
+       "reader_prop": "KNLGKBBIBOH"
+      },
+      "HKPPDACCCOH": {
+       "type": "uint",
+       "reader_prop": "KHIKEGLBGAF"
+      },
+      "NAMFJMCKFIF": {
+       "type": "uint",
+       "reader_prop": "DPJCFLKFEPN"
+      },
+      "EBFEIMNOLHP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "EEOGPJJCKHH"
+      },
+      "OGBOPHDAMCI": {
+       "type": "uint",
+       "reader_prop": "JMJDLDEIFKE"
+      },
+      "HGFJBAJCFNF": {
+       "type": "uint",
+       "reader_prop": "AHKNMANFILO"
+      },
+      "HAEMDABJFJF": {
+       "type": "string",
+       "reader_prop": "OCDMGOGMHGE"
+      },
+      "BNOHOIBDHLP": {
+       "type": "int",
+       "reader_prop": "MJBKGOJBPAD"
+      },
+      "NNKLANONDOM": {
+       "type": "string",
+       "reader_prop": "FEMMDNIELFC"
+      },
+      "KJPLOBLDNHJ": {
+       "type": "int",
+       "reader_prop": "JKFPADIAKCK"
+      },
+      "LENBJLOPKLE": {
+       "type": "uint",
+       "reader_prop": "HKKNEAGCIEB"
+      },
+      "KNDBMPNNCGG": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "JHPCPNJJHLI"
+      },
+      "JNBJODMLPMO": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EPHAKDAPAHE"
+      },
+      "JFKBEBPJGBH": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "HIAMHLLHAON"
+      },
+      "BPBBMFCKGGP": {
+       "type": "array",
+       "items": [
+        {
+         "type": "uint"
+        }
+       ],
+       "reader_prop": "BKBEPOFJOJG"
+      },
+      "EMNAOOMCCGD": {
+       "type": "string",
+       "reader_prop": "OMCAOJJGOGG"
+      },
+      "ODMLFHELAJK": {
+       "type": "int",
+       "reader_prop": "HIOOGLEJBKM"
+      },
+      "JOIACOFCFAA": {
+       "type": "int",
+       "reader_prop": "FJCADCDNPMP"
+      },
+      "CLEFGBLBDGJ": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "EJBGHLOOLBC"
+      },
+      "KPCNGKDBMHA": {
+       "type": "int",
+       "reader_prop": "AHKPNPNOAMO"
+      },
+      "HFKHLKGAJEL": {
+       "type": "int",
+       "reader_prop": "EKJFNHHKBPL"
+      },
+      "LFDLHFLPCNC": {
+       "type": "array",
+       "items": [
+        {
+         "type": "int"
+        }
+       ],
+       "reader_prop": "HEABAENHIDE"
+      }
+     },
+     "reader_class": "ECHMLLNAIHK",
+     "reader_prop": "HMBHNLCFDIH"
+    },
+    "KJFDCEGGPPH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PAPIGFKKFAK",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "HJNPKHJJDBB": {
+         "type": "uint",
+         "reader_prop": "FOILNHKHHDF"
+        },
+        "LEFPIGNDJNC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "AIHOJKFNEEN"
+        },
+        "BNCIPLKECMC": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "BFINGCJHOHI"
+        },
+        "OOJBHHPJONJ": {
+         "type": "array",
+         "items": [
+          {
+           "type": "uint"
+          }
+         ],
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "ALPALMJMJJK": {
+         "type": "int",
+         "reader_prop": "JOPPFEHKNFO"
+        }
+       },
+       "reader_class": "AHBGKGEOGMD"
+      }
+     ],
+     "reader_prop": "MCHFABAKPMH"
+    },
+    "OIJINAJFMCB": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DLDBBNOCCJD",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "uint",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "uint",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "LPJPOOHJKAE": {
+         "type": "uint",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "AEAKMMJLLDK": {
+         "type": "uint",
+         "reader_prop": "FPOMEEJFBIG"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "uint",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "uint",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "uint",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "GAHFANCNFIH": {
+         "type": "uint",
+         "reader_prop": "JBECECBFFBF"
+        },
+        "ANOHJLDOAAK": {
+         "type": "uint",
+         "reader_prop": "LDOMFAMFGLM"
+        },
+        "GJJPLLHMMAF": {
+         "type": "uint",
+         "reader_prop": "BMDGADMKOIH"
+        },
+        "AJHANMOKKDF": {
+         "type": "uint",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "uint",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "uint",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "uint",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "uint",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "uint",
+         "reader_prop": "MBJIFDBEDAC"
+        },
+        "OADMJNEOKLC": {
+         "type": "uint",
+         "reader_prop": "HLOBFDBFINJ"
+        },
+        "EGCKDOIIACL": {
+         "type": "uint",
+         "reader_prop": "JJHPDDPKBHF"
+        },
+        "EBBBDFADIPN": {
+         "type": "uint",
+         "reader_prop": "ADCKKAFCIAC"
+        },
+        "GLIIHLOLPEF": {
+         "type": "uint",
+         "reader_prop": "FNEIADJMHHO"
+        },
+        "KMEODDMBHHE": {
+         "type": "uint",
+         "reader_prop": "EICJBAEDMNM"
+        }
+       },
+       "reader_class": "MLIOEHFFKOL"
+      }
+     ],
+     "reader_prop": "MDDOGIAFDEI"
+    },
+    "LEDCBACGIDD": {
+     "type": "array",
+     "items": [
+      {
+       "title": "OFIGAJKJFPF",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "CFLMCGOJJJD": {
+         "type": "int",
+         "reader_prop": "PLALNIIBLOF"
+        },
+        "NNKLANONDOM": {
+         "type": "string",
+         "reader_prop": "FEMMDNIELFC"
+        },
+        "HAOBOBNDAPL": {
+         "type": "string",
+         "reader_prop": "DCOFJKBIOAH"
+        },
+        "HBOJKLFJGND": {
+         "type": "int",
+         "reader_prop": "JONPKLHMOBL"
+        },
+        "AEHGIANDFOD": {
+         "type": "int",
+         "reader_prop": "MKNDAOHGOAK"
+        },
+        "FEFAFHIGNMA": {
+         "type": "int",
+         "reader_prop": "EIOFPIHABFC"
+        },
+        "FJIECABELGK": {
+         "type": "int",
+         "reader_prop": "IAGDDKLKGJN"
+        },
+        "NMGIFIOPMIJ": {
+         "type": "int",
+         "reader_prop": "BDKFOMGCOOE"
+        },
+        "NFPKGHADCCP": {
+         "type": "int",
+         "reader_prop": "PJGIAKGGHPF"
+        },
+        "PJCPCILBICH": {
+         "type": "int",
+         "reader_prop": "MMCBOJHFDEF"
+        },
+        "AJHANMOKKDF": {
+         "type": "int",
+         "reader_prop": "AIIEBILNLGO"
+        },
+        "PBAJJGLCCDO": {
+         "type": "int",
+         "reader_prop": "JOGDEMBADLO"
+        },
+        "MPMOLHBIKKG": {
+         "type": "int",
+         "reader_prop": "GMJBANCDOJK"
+        },
+        "ENECIEOGIJC": {
+         "type": "int",
+         "reader_prop": "AIEOAMKDHJC"
+        },
+        "MBBJMJAAODG": {
+         "type": "int",
+         "reader_prop": "GLCLFMGPMAN"
+        },
+        "IMCFOKIBEMC": {
+         "type": "int",
+         "reader_prop": "MBJIFDBEDAC"
+        }
+       },
+       "reader_class": "EIEAIKBBMCP"
+      }
+     ],
+     "reader_prop": "DGPHHJCPNOO"
+    },
+    "NJJINHMIOHN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "BMAKMHEEFEF",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "MAMENAIEHJO"
+      }
+     ],
+     "reader_prop": "BHGDNGHDDAC"
+    },
+    "NPFBHGKLIOM": {
+     "type": "array",
+     "items": [
+      {
+       "title": "PBJDMDHLPIP",
+       "type": "object",
+       "properties": {
+        "AGOIMGHMGOH": {
+         "type": "string",
+         "reader_prop": "LJNAKDMILMC"
+        },
+        "KJFEBMBHKOC": {
+         "type": "string",
+         "reader_prop": "JBGEEPFKIGG"
+        }
+       },
+       "reader_class": "JNKMFEONNGF"
+      }
+     ],
+     "reader_prop": "MHGMDJNOLMI"
+    },
+    "FBAHAFKCMMH": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DEOAJNDLLLH",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "MCJNHPMBPIJ": {
+         "type": "int",
+         "reader_prop": "KFCIJBLDHOK"
+        },
+        "MGJKFKDICGC": {
+         "type": "int",
+         "reader_prop": "JLEIHOEGMOP"
+        }
+       },
+       "reader_class": "ALNCCFLCKFE"
+      }
+     ],
+     "reader_prop": "KIEKMCKCMGD"
+    },
+    "GGKDJGGAFKA": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HCNLBIAHFHK",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "LPJPOOHJKAE": {
+         "type": "int",
+         "reader_prop": "GBJFNGCDKPM"
+        },
+        "KJFEBMBHKOC": {
+         "type": "int",
+         "reader_prop": "JBGEEPFKIGG"
+        },
+        "LAIEPFCPDLK": {
+         "type": "int",
+         "reader_prop": "MAFAIIHJAFG"
+        }
+       },
+       "reader_class": "NEDOEMIILFF"
+      }
+     ],
+     "reader_prop": "MHKNGJMEGFI"
+    },
+    "HDNMEPFHLNF": {
+     "type": "array",
+     "items": [
+      {
+       "title": "CHOEGDGADLA",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "DPFDOIIOICA": {
+         "type": "int",
+         "reader_prop": "CNKFPJCGNFE"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "MOBFFIKHKHM"
+      }
+     ],
+     "reader_prop": "OLACFKILCFD"
+    },
+    "OLLJCDPOAAI": {
+     "type": "array",
+     "items": [
+      {
+       "title": "HCMLGJBONGC",
+       "type": "object",
+       "properties": {
+        "BBPHAPFBFHK": {
+         "type": "int",
+         "reader_prop": "PPFNGGCBJKC"
+        },
+        "GEAIPAEKLNF": {
+         "type": "int",
+         "reader_prop": "GNFBMCGMCFO"
+        },
+        "JGILGOILJNK": {
+         "type": "int",
+         "reader_prop": "BFFGFAMJAIG"
+        }
+       },
+       "reader_class": "ECMPIGNKJOK"
+      }
+     ],
+     "reader_prop": "MIOCOKLMLBD"
+    },
+    "BHNBMLKMLGN": {
+     "type": "array",
+     "items": [
+      {
+       "title": "DCBENCFJMOC",
+       "type": "object",
+       "properties": {
+        "OEBLGFLPMNE": {
+         "type": "int",
+         "reader_prop": "KHPHAAMGMJP"
+        },
+        "BJELMJJFMBI": {
+         "type": "int",
+         "reader_prop": "OFIAENKCJME"
+        },
+        "IHNCJBFCAAI": {
+         "type": "array",
+         "items": [
+          {
+           "type": "int"
+          }
+         ],
+         "reader_prop": "JMLCLHHLJHM"
+        }
+       },
+       "reader_class": "NIJKKLJAABL"
+      }
+     ],
+     "reader_prop": "IEJLJIHIDJC"
+    }
+   },
+   "reader_class": "HGHOHICGBEP"
   }
  ]
 }

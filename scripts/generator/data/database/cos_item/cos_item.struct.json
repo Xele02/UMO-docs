@@ -1,0 +1,97 @@
+
+{
+    "type" : "class",
+    "name" : "PLPBJOFICEJ_CosItem",
+    "cryptedName" : "PLPBJOFICEJ",
+    "realName"    : "CosItem",
+    "readerClass" : "MADCJBCGGEE",
+    "members"     : [
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "IBEMFIAFIKH_ItemInfo",
+                "cryptedName" : "IBEMFIAFIKH",
+                "realName"    : "ItemInfo",
+                "readerClass" : "FLNGBOANAGE",
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "PPFNGGCBJKC_id",
+                        "member_cryptedName" : "PPFNGGCBJKC",
+                        "member_realName"    : "id",
+                        "member_reader"      : "PPFNGGCBJKC_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Item id",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "EKLIPGELKCL_Rarity",
+                        "member_cryptedName" : "EKLIPGELKCL",
+                        "member_realName"    : "Rarity",
+                        "member_reader"      : "FBFLDFMFFOH_rar",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Item rarity",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "JBGEEPFKIGG_val",
+                        "member_cryptedName" : "JBGEEPFKIGG",
+                        "member_realName"    : "val",
+                        "member_reader"      : "JBGEEPFKIGG_val",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Point applied when used to upgrade costume.",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "FDBOPFEOENF_diva",
+                        "member_cryptedName" : "FDBOPFEOENF",
+                        "member_realName"    : "diva",
+                        "member_reader"      : "FDBOPFEOENF_diva",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Could be level or diva id",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "property",
+                        "member_name" : "INDDJNMPONH_type",
+                        "member_cryptedName" : "INDDJNMPONH",
+                        "member_realName"    : "type",
+                        "member_reader"      : "GBJFNGCDKPM_typ",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Only cat 2 ?",
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "CDENCMNHNGA_table",
+            "member_cryptedName" : "CDENCMNHNGA",
+            "member_realName"    : "table",
+            "member_reader"      : "GKNGIIHMBOD",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of items",
+            "member_display"       : null
+        }
+    ]
+}

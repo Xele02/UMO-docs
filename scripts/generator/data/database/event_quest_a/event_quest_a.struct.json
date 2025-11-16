@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "LMBBEGIAKAD_EventQuest",
+    "cryptedName" : "LMBBEGIAKAD",
+    "realName"    : "EventQuest",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

@@ -1,0 +1,381 @@
+
+{
+    "type" : "class",
+    "name" : "HIHJGPDLNDN_EventScore",
+    "cryptedName" : "HIHJGPDLNDN",
+    "realName"    : "EventScore",
+    "readerClass" : "PMPDPNDJBLB",
+    "members"     : [
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "String"
+            },
+            "innerTypeValue" : {
+                "type" : "String"
+            },
+            "member_type"    : "property",
+            "member_name"    : "FJOEBCMGDMI_m_stringParam",
+            "member_cryptedName" : "FJOEBCMGDMI",
+            "member_realName"    : "m_stringParam",
+            "member_reader"      : "MHGMDJNOLMI/[IDX]/LJNAKDMILMC|MHGMDJNOLMI/[IDX]/JBGEEPFKIGG",
+            "member_reader_child" : null,
+            "member_readableName" : "String Params",
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "String"
+            },
+            "innerTypeValue" : {
+                "type" : "Int32"
+            },
+            "member_type"    : "property",
+            "member_name"    : "OHJFBLFELNK_m_intParam",
+            "member_cryptedName" : "OHJFBLFELNK",
+            "member_realName"    : "m_intParam",
+            "member_reader"      : "BHGDNGHDDAC/[IDX]/LJNAKDMILMC|BHGDNGHDDAC/[IDX]/JBGEEPFKIGG",
+            "member_reader_child" : null,
+            "member_readableName" : "Int Params",
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "class",
+            "name" : "DKGDLFPELAB",
+            "cryptedName" : "",
+            "realName"    : "DKGDLFPELAB",
+            "readerClass" : "HNGLACEEHKJ",
+            "members"     : [
+                {
+                    "type" : "Int32",
+                    "member_type" : "field",
+                    "member_name" : "OBGBAOLONDD_UniqueId",
+                    "member_cryptedName" : "OBGBAOLONDD",
+                    "member_realName"    : "UniqueId",
+                    "member_reader"      : "OBGBAOLONDD",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Event unique id",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "String",
+                    "member_type" : "field",
+                    "member_name" : "OPFGFINHFCE_name",
+                    "member_cryptedName" : "OPFGFINHFCE",
+                    "member_realName"    : "name",
+                    "member_reader"      : "OPFGFINHFCE",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Name of the event",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "String",
+                    "member_type" : "field",
+                    "member_name" : "HEDAGCNPHGD_RankingName",
+                    "member_cryptedName" : "HEDAGCNPHGD",
+                    "member_realName"    : "RankingName",
+                    "member_reader"      : "HEDAGCNPHGD",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Unused",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "String",
+                    "member_type" : "field",
+                    "member_name" : "OCGFKMHNEOF_name_for_api",
+                    "member_cryptedName" : "OCGFKMHNEOF",
+                    "member_realName"    : "name_for_api",
+                    "member_reader"      : "OCGFKMHNEOF",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Ranking id",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "Int64",
+                    "member_type" : "field",
+                    "member_name" : "BONDDBOFBND_RankingStart",
+                    "member_cryptedName" : "BONDDBOFBND",
+                    "member_realName"    : "RankingStart",
+                    "member_reader"      : "BONDDBOFBND",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : "Date",
+                    "member_desc"          : null,
+                    "member_display"       : "Date"
+                },
+                {
+                    "type" : "Int64",
+                    "member_type" : "field",
+                    "member_name" : "HPNOGLIFJOP_RankingEnd",
+                    "member_cryptedName" : "HPNOGLIFJOP",
+                    "member_realName"    : "RankingEnd",
+                    "member_reader"      : "HPNOGLIFJOP",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : "Date",
+                    "member_desc"          : null,
+                    "member_display"       : "Date"
+                },
+                {
+                    "type" : "Int64",
+                    "member_type" : "field",
+                    "member_name" : "LNFKGHNHJKE_RankingEnd2",
+                    "member_cryptedName" : "LNFKGHNHJKE",
+                    "member_realName"    : "RankingEnd2",
+                    "member_reader"      : "LNFKGHNHJKE",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : "Date",
+                    "member_desc"          : null,
+                    "member_display"       : "Date"
+                },
+                {
+                    "type" : "Int64",
+                    "member_type" : "field",
+                    "member_name" : "JGMDAOACOJF_RewardStart",
+                    "member_cryptedName" : "JGMDAOACOJF",
+                    "member_realName"    : "RewardStart",
+                    "member_reader"      : "JGMDAOACOJF",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : "Date",
+                    "member_desc"          : null,
+                    "member_display"       : "Date"
+                },
+                {
+                    "type" : "Int64",
+                    "member_type" : "field",
+                    "member_name" : "IDDBFFBPNGI_RewardEnd",
+                    "member_cryptedName" : "IDDBFFBPNGI",
+                    "member_realName"    : "RewardEnd",
+                    "member_reader"      : "IDDBFFBPNGI",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : "Date",
+                    "member_desc"          : null,
+                    "member_display"       : "Date"
+                },
+                {
+                    "type" : "Int64",
+                    "member_type" : "field",
+                    "member_name" : "KNLGKBBIBOH_RewardEnd2",
+                    "member_cryptedName" : "KNLGKBBIBOH",
+                    "member_realName"    : "RewardEnd2",
+                    "member_reader"      : "KNLGKBBIBOH",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : "Date",
+                    "member_desc"          : null,
+                    "member_display"       : "Date"
+                },
+                {
+                    "type" : "Int32",
+                    "member_type" : "field",
+                    "member_name" : "KHIKEGLBGAF_RankingRewardScene",
+                    "member_cryptedName" : "KHIKEGLBGAF",
+                    "member_realName"    : "RankingRewardScene",
+                    "member_reader"      : "KHIKEGLBGAF",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Unused",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "SByte",
+                    "member_type" : "field",
+                    "member_name" : "POGEFBMBPCB_MonthOdd",
+                    "member_cryptedName" : "POGEFBMBPCB",
+                    "member_realName"    : "MonthOdd",
+                    "member_reader"      : "JMJDLDEIFKE",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Unused",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "SByte",
+                    "member_type" : "field",
+                    "member_name" : "AHKNMANFILO_DayGroup",
+                    "member_cryptedName" : "AHKNMANFILO",
+                    "member_realName"    : "DayGroup",
+                    "member_reader"      : "AHKNMANFILO",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Unused",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "SByte",
+                    "member_type" : "field",
+                    "member_name" : "MOEKELIIDEO_SaveIdx",
+                    "member_cryptedName" : "MOEKELIIDEO",
+                    "member_realName"    : "SaveIdx",
+                    "member_reader"      : "MOEKELIIDEO",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Index in the player save (3 slot inoriginal game)",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "SByte",
+                    "member_type" : "field",
+                    "member_name" : "AHKPNPNOAMO_ExtreamOpen",
+                    "member_cryptedName" : "AHKPNPNOAMO",
+                    "member_realName"    : "ExtreamOpen",
+                    "member_reader"      : "AHKPNPNOAMO",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Allow the extreme difficulty",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "SByte",
+                    "member_type" : "field",
+                    "member_name" : "HKKNEAGCIEB_RankingSupport",
+                    "member_cryptedName" : "HKKNEAGCIEB",
+                    "member_realName"    : "RankingSupport",
+                    "member_reader"      : "HKKNEAGCIEB",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "True if it has ranking",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "list",
+                    "innerType" : {
+                        "type" : "Int32"
+                    },
+                    "member_type" : "field",
+                    "member_name" : "CAPAPAABKDP_FreeMusic",
+                    "member_cryptedName" : "CAPAPAABKDP",
+                    "member_realName"    : "FreeMusic",
+                    "member_reader"      : "KOHMHBGOFFI",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : "ListString|,",
+                    "member_desc"          : "List of event songs",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "list",
+                    "innerType" : {
+                        "type" : "Int32"
+                    },
+                    "member_type" : "field",
+                    "member_name" : "JHPCPNJJHLI_RankingThreshold",
+                    "member_cryptedName" : "JHPCPNJJHLI",
+                    "member_realName"    : "RankingThreshold",
+                    "member_reader"      : "JHPCPNJJHLI",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "List of ranking threshold for the popup filter",
+                    "member_display"       : null
+                },
+                {
+                    "type" : "String",
+                    "member_type" : "field",
+                    "member_name" : "EBGIDCIIGDO_KeyPrefix",
+                    "member_cryptedName" : "EBGIDCIIGDO",
+                    "member_realName"    : "KeyPrefix",
+                    "member_reader"      : "OCDMGOGMHGE",
+                    "member_reader_child" : null,
+                    "member_readableName" : null,
+                    "member_readerDisplay" : null,
+                    "member_desc"          : "Prefix id for gift box reward",
+                    "member_display"       : null
+                }
+            ],
+            "member_type" : "field",
+            "member_name" : "NGHKJOEDLIP_Settings",
+            "member_cryptedName" : "NGHKJOEDLIP",
+            "member_realName"    : "Settings",
+            "member_reader"      : "HMBHNLCFDIH",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "AAAPPIKNOKB",
+                "cryptedName" : "",
+                "realName"    : "AAAPPIKNOKB",
+                "readerClass" : null,
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "PPFNGGCBJKC_id",
+                        "member_cryptedName" : "PPFNGGCBJKC",
+                        "member_realName"    : "id",
+                        "member_reader"      : "PPFNGGCBJKC",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "KFCIJBLDHOK_v1",
+                        "member_cryptedName" : "KFCIJBLDHOK",
+                        "member_realName"    : "v1",
+                        "member_reader"      : "KFCIJBLDHOK",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "JLEIHOEGMOP_v2",
+                        "member_cryptedName" : "JLEIHOEGMOP",
+                        "member_realName"    : "v2",
+                        "member_reader"      : "JLEIHOEGMOP",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "ADPFKHEMNBL",
+            "member_cryptedName" : "",
+            "member_realName"    : "ADPFKHEMNBL",
+            "member_reader"      : "KIEKMCKCMGD",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "Unused and unread",
+            "member_display"       : null
+        }
+    ]
+}

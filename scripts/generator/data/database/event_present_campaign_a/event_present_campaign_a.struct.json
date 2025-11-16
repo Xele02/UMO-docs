@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "HIADOIECMFP_EventPresentCampaign",
+    "cryptedName" : "HIADOIECMFP",
+    "realName"    : "EventPresentCampaign",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

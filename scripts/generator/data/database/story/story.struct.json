@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "LAEGMENIEDB_Story",
+    "cryptedName" : "LAEGMENIEDB",
+    "realName"    : "Story",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

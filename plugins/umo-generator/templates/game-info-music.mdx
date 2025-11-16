@@ -1,0 +1,95 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { DatabaseValue, getFBValue } from "@umo-generator/components/Database";
+import { GameVersion } from "@umo-generator/components/Game";
+import { LanguageTabs } from "@umo-generator/components/LanguageLink";
+import { TranslatedTextTable } from "@umo-generator/components/TranslatedString";
+import { useContext } from 'react';
+import { MusicLanguageLink, MusicString, MusicIdContext, MusicIdContext_, MusicImage } from "@umo-generator/components/Music";
+
+import clsx from 'clsx';
+import styles from '@umo-generator/css/styles.module.css';
+
+export const MusicTextTableRow = ({data}) =>
+{
+  return (
+    <tr>
+    <td>{data.name}</td>
+    <td><MusicLanguageLink bank="music_text" id={data.id} /></td>
+    <td><MusicString bank="music_text" id={data.id} /></td>
+    </tr>
+  );
+};
+
+export const MusicTextTable = () =>
+{
+  const data = 
+  [
+    {
+      name:"Name",
+      id:"musicName_##ID##_musicname"
+    },
+    {
+      name:"Offcial Name",
+      id:"musicName_##ID##_officialName"
+    },
+    {
+      name:"Vocal Name",
+      id:"musicName_##ID##_vocalName"
+    },
+    {
+      name:"Vocal Name LF",
+      id:"musicName_##ID##_vocalNameLF"
+    },
+    {
+      name:"Description",
+      id:"musicName_##ID##_description"
+    },
+    {
+      name:"Story Desc",
+      id:"musicName_##ID##_storyDesc"
+    },
+    {
+      name:"Story Title",
+      id:"musicName_##ID##_storyTitle"
+    },
+  ]
+  const items = data.map(k => (<MusicTextTableRow data={k} />));
+  return (
+    <table>
+    <thead>
+    <tr>
+    <th>Name</th>
+    <th>String Id</th>
+    <th>Text</th>
+    </tr>
+    </thead>
+    <tbody>
+    {items}
+    </tbody>
+    </table>
+  );
+};
+  
+export const languagesFiles = [
+    //{ name:"master", lang:["ja", "fr", "en", "zh_Hans"] },
+    { name:"music_text", lang:["ja", "fr", "en", "zh_Hans"] },
+];
+
+<LanguageContext files={languagesFiles}>
+
+<MusicIdContext musicId={props.musicId}>
+
+{/*<div style={{position:'relative'}}><div style={{position: 'absolute',top:'-140px', right:'-50px', width:'40%'}}><ValkyrieImage /></div></div>*/}
+
+## Basic infos
+
+## Texts
+
+<LanguageTabs>
+  <MusicTextTable />
+</LanguageTabs>
+
+</MusicIdContext>
+</LanguageContext>

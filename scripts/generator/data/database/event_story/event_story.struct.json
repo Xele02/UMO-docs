@@ -1,0 +1,223 @@
+
+{
+    "type" : "class",
+    "name" : "FBIOJHECAHB_EventStory",
+    "cryptedName" : "FBIOJHECAHB",
+    "realName"    : "EventStory",
+    "readerClass" : "BLOHGJIKLAK",
+    "members"     : [
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "GIEHECAKIFC_StoryInfo",
+                "cryptedName" : "GIEHECAKIFC",
+                "realName"    : "StoryInfo",
+                "readerClass" : "BCCFAPDAFOE",
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "PPFNGGCBJKC_id",
+                        "member_cryptedName" : "PPFNGGCBJKC",
+                        "member_realName"    : "id",
+                        "member_reader"      : "PPFNGGCBJKC_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "PPEGAKEIEGM_Enabled",
+                        "member_cryptedName" : "PPEGAKEIEGM",
+                        "member_realName"    : "Enabled",
+                        "member_reader"      : "IJEKNCDIIAE_mver|PLALNIIBLOF_en",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Availabe in game if value = 2",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "OAFJONPIFGM_EventId",
+                        "member_cryptedName" : "OAFJONPIFGM",
+                        "member_realName"    : "EventId",
+                        "member_reader"      : "BCKCEEMNKCH",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Byte",
+                        "member_type" : "field",
+                        "member_name" : "MGBDCFIKBPM_Serie",
+                        "member_cryptedName" : "MGBDCFIKBPM",
+                        "member_realName"    : "Serie",
+                        "member_reader"      : "BDJMFDKLHPM_s_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int64",
+                        "member_type" : "field",
+                        "member_name" : "PDBPFJJCADD_open_at",
+                        "member_cryptedName" : "PDBPFJJCADD",
+                        "member_realName"    : "open_at",
+                        "member_reader"      : "PDBPFJJCADD_open_at",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : "Date",
+                        "member_desc"          : null,
+                        "member_display"       : "Date"
+                    },
+                    {
+                        "type" : "Int64",
+                        "member_type" : "field",
+                        "member_name" : "FDBNFFNFOND_close_at",
+                        "member_cryptedName" : "FDBNFFNFOND",
+                        "member_realName"    : "close_at",
+                        "member_reader"      : "FDBNFFNFOND_close_at",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : "Date",
+                        "member_desc"          : null,
+                        "member_display"       : "Date"
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "ILEJEJKNOBN_StoryList",
+            "member_cryptedName" : "ILEJEJKNOBN",
+            "member_realName"    : "StoryList",
+            "member_reader"      : "MLJNCEIFECL",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        },
+        {
+            "type" : "list",
+            "innerType" : {
+                "type" : "class",
+                "name" : "ENDMMNNOAIL_StoryPartInfo",
+                "cryptedName" : "ENDMMNNOAIL",
+                "realName"    : "StoryPartInfo",
+                "readerClass" : "MCCFOKHKJIC",
+                "members"     : [
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "PPFNGGCBJKC_id",
+                        "member_cryptedName" : "PPFNGGCBJKC",
+                        "member_realName"    : "id",
+                        "member_reader"      : "PPFNGGCBJKC_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "PPEGAKEIEGM_Enabled",
+                        "member_cryptedName" : "PPEGAKEIEGM",
+                        "member_realName"    : "Enabled",
+                        "member_reader"      : "PLALNIIBLOF_en",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : "Availabe in game if value = 2",
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "OAFJONPIFGM_EventId",
+                        "member_cryptedName" : "OAFJONPIFGM",
+                        "member_realName"    : "EventId",
+                        "member_reader"      : "BCKCEEMNKCH",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "NMIGMCJHAIE_StoryPartType",
+                        "member_type" : "field",
+                        "member_name" : "JDJNNJEJDAJ_Type",
+                        "member_cryptedName" : "JDJNNJEJDAJ",
+                        "member_realName"    : "Type",
+                        "member_reader"      : "PIDAAPMCAML",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "LOHMKCPKBON_AdvId",
+                        "member_cryptedName" : "LOHMKCPKBON",
+                        "member_realName"    : "AdvId",
+                        "member_reader"      : "OIAAFFHGBBD_AdvId",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "CHOFDPDFPDC_ConfigValue",
+                        "member_cryptedName" : "CHOFDPDFPDC",
+                        "member_realName"    : "ConfigValue",
+                        "member_reader"      : "ODNOJKHHEOP_c_id",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    },
+                    {
+                        "type" : "Int32",
+                        "member_type" : "field",
+                        "member_name" : "PFGAKEDKOPD_UnlockCost",
+                        "member_cryptedName" : "PFGAKEDKOPD",
+                        "member_realName"    : "UnlockCost",
+                        "member_reader"      : "DFMOIKJOCGH",
+                        "member_reader_child" : null,
+                        "member_readableName" : null,
+                        "member_readerDisplay" : null,
+                        "member_desc"          : null,
+                        "member_display"       : null
+                    }
+                ]
+            },
+            "member_type" : "field",
+            "member_name" : "JPIGOBGOMON_StoryPartsList",
+            "member_cryptedName" : "JPIGOBGOMON",
+            "member_realName"    : "StoryPartsList",
+            "member_reader"      : "FGAOKKECNIH",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : null,
+            "member_display"       : null
+        }
+    ]
+}

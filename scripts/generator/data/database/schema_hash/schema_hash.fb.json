@@ -1,0 +1,364 @@
+{
+  "AMGOKLNCCPH": [
+    {
+      "IIDCFMHCPLJ": "adventure",
+      "PAPMBEBHHIG": 1138460246
+    },
+    {
+      "IIDCFMHCPLJ": "adv_script",
+      "PAPMBEBHHIG": 1004062764
+    },
+    {
+      "IIDCFMHCPLJ": "anketo",
+      "PAPMBEBHHIG": 1439157703
+    },
+    {
+      "IIDCFMHCPLJ": "ar_event",
+      "PAPMBEBHHIG": 742010266
+    },
+    {
+      "IIDCFMHCPLJ": "ar_marker",
+      "PAPMBEBHHIG": 5673333
+    },
+    {
+      "IIDCFMHCPLJ": "asset",
+      "PAPMBEBHHIG": 1042515637
+    },
+    {
+      "IIDCFMHCPLJ": "bingo",
+      "PAPMBEBHHIG": 1692354280
+    },
+    {
+      "IIDCFMHCPLJ": "board",
+      "PAPMBEBHHIG": 95848609
+    },
+    {
+      "IIDCFMHCPLJ": "bonus_vc",
+      "PAPMBEBHHIG": 1867295771
+    },
+    {
+      "IIDCFMHCPLJ": "campaign_diva",
+      "PAPMBEBHHIG": 1538149485
+    },
+    {
+      "IIDCFMHCPLJ": "compo",
+      "PAPMBEBHHIG": 145605857
+    },
+    {
+      "IIDCFMHCPLJ": "costume",
+      "PAPMBEBHHIG": 1414329090
+    },
+    {
+      "IIDCFMHCPLJ": "cos_item",
+      "PAPMBEBHHIG": 1834108916
+    },
+    {
+      "IIDCFMHCPLJ": "deco_item",
+      "PAPMBEBHHIG": 1882513662
+    },
+    {
+      "IIDCFMHCPLJ": "deco_item_init",
+      "PAPMBEBHHIG": 273222403
+    },
+    {
+      "IIDCFMHCPLJ": "deco_point",
+      "PAPMBEBHHIG": 749830420
+    },
+    {
+      "IIDCFMHCPLJ": "deco_set_item",
+      "PAPMBEBHHIG": 1688995372
+    },
+    {
+      "IIDCFMHCPLJ": "deco_sp_setting",
+      "PAPMBEBHHIG": 772469289
+    },
+    {
+      "IIDCFMHCPLJ": "deco_stamp",
+      "PAPMBEBHHIG": 1094598636
+    },
+    {
+      "IIDCFMHCPLJ": "diva",
+      "PAPMBEBHHIG": 993444952
+    },
+    {
+      "IIDCFMHCPLJ": "diva2",
+      "PAPMBEBHHIG": 1625727123
+    },
+    {
+      "IIDCFMHCPLJ": "drop",
+      "PAPMBEBHHIG": 814049351
+    },
+    {
+      "IIDCFMHCPLJ": "emblem",
+      "PAPMBEBHHIG": 754436925
+    },
+    {
+      "IIDCFMHCPLJ": "enemy",
+      "PAPMBEBHHIG": 291260823
+    },
+    {
+      "IIDCFMHCPLJ": "energy_item",
+      "PAPMBEBHHIG": 547236030
+    },
+    {
+      "IIDCFMHCPLJ": "episode",
+      "PAPMBEBHHIG": 1282182334
+    },
+    {
+      "IIDCFMHCPLJ": "epi_item",
+      "PAPMBEBHHIG": 991796799
+    },
+    {
+      "IIDCFMHCPLJ": "event_april_fool",
+      "PAPMBEBHHIG": 1462232580
+    },
+    {
+      "IIDCFMHCPLJ": "event_battle",
+      "PAPMBEBHHIG": 1893292344
+    },
+    {
+      "IIDCFMHCPLJ": "event_box_gacha",
+      "PAPMBEBHHIG": 763033499
+    },
+    {
+      "IIDCFMHCPLJ": "event_collection",
+      "PAPMBEBHHIG": 2093468022
+    },
+    {
+      "IIDCFMHCPLJ": "event_gacha_ticket",
+      "PAPMBEBHHIG": 694267256
+    },
+    {
+      "IIDCFMHCPLJ": "event_godiva",
+      "PAPMBEBHHIG": 422540368
+    },
+    {
+      "IIDCFMHCPLJ": "event_godiva_ranking",
+      "PAPMBEBHHIG": 1113765148
+    },
+    {
+      "IIDCFMHCPLJ": "event_item",
+      "PAPMBEBHHIG": 232605540
+    },
+    {
+      "IIDCFMHCPLJ": "event_mission",
+      "PAPMBEBHHIG": 1923902135
+    },
+    {
+      "IIDCFMHCPLJ": "event_present_campaign",
+      "PAPMBEBHHIG": 220797851
+    },
+    {
+      "IIDCFMHCPLJ": "event_quest",
+      "PAPMBEBHHIG": 151607690
+    },
+    {
+      "IIDCFMHCPLJ": "event_raid",
+      "PAPMBEBHHIG": 1946796035
+    },
+    {
+      "IIDCFMHCPLJ": "event_raidlobby",
+      "PAPMBEBHHIG": 2057970740
+    },
+    {
+      "IIDCFMHCPLJ": "event_raid_item",
+      "PAPMBEBHHIG": 1499210121
+    },
+    {
+      "IIDCFMHCPLJ": "event_score",
+      "PAPMBEBHHIG": 1383830051
+    },
+    {
+      "IIDCFMHCPLJ": "event_sp",
+      "PAPMBEBHHIG": 1169487013
+    },
+    {
+      "IIDCFMHCPLJ": "event_story",
+      "PAPMBEBHHIG": 15524675
+    },
+    {
+      "IIDCFMHCPLJ": "event_ticket",
+      "PAPMBEBHHIG": 2069620344
+    },
+    {
+      "IIDCFMHCPLJ": "event_weekday",
+      "PAPMBEBHHIG": 1532293276
+    },
+    {
+      "IIDCFMHCPLJ": "exp",
+      "PAPMBEBHHIG": 488761234
+    },
+    {
+      "IIDCFMHCPLJ": "gacha_limit",
+      "PAPMBEBHHIG": 1001924389
+    },
+    {
+      "IIDCFMHCPLJ": "gacha_ticket",
+      "PAPMBEBHHIG": 2099221631
+    },
+    {
+      "IIDCFMHCPLJ": "game",
+      "PAPMBEBHHIG": 1661064387
+    },
+    {
+      "IIDCFMHCPLJ": "grow_item",
+      "PAPMBEBHHIG": 222418875
+    },
+    {
+      "IIDCFMHCPLJ": "help_browser",
+      "PAPMBEBHHIG": 535392506
+    },
+    {
+      "IIDCFMHCPLJ": "highscore_rating",
+      "PAPMBEBHHIG": 138395472
+    },
+    {
+      "IIDCFMHCPLJ": "home_bg",
+      "PAPMBEBHHIG": 844958408
+    },
+    {
+      "IIDCFMHCPLJ": "home_pickup",
+      "PAPMBEBHHIG": 71146795
+    },
+    {
+      "IIDCFMHCPLJ": "home_voice",
+      "PAPMBEBHHIG": 1749073105
+    },
+    {
+      "IIDCFMHCPLJ": "intimacy",
+      "PAPMBEBHHIG": 293169969
+    },
+    {
+      "IIDCFMHCPLJ": "limited_compo_item",
+      "PAPMBEBHHIG": 1783042648
+    },
+    {
+      "IIDCFMHCPLJ": "limited_item",
+      "PAPMBEBHHIG": 1751698244
+    },
+    {
+      "IIDCFMHCPLJ": "limit_over",
+      "PAPMBEBHHIG": 627865254
+    },
+    {
+      "IIDCFMHCPLJ": "medal",
+      "PAPMBEBHHIG": 721518166
+    },
+    {
+      "IIDCFMHCPLJ": "monthly_pass",
+      "PAPMBEBHHIG": 1445561054
+    },
+    {
+      "IIDCFMHCPLJ": "music",
+      "PAPMBEBHHIG": 835129802
+    },
+    {
+      "IIDCFMHCPLJ": "mv_ticket",
+      "PAPMBEBHHIG": 1119566736
+    },
+    {
+      "IIDCFMHCPLJ": "offer",
+      "PAPMBEBHHIG": 1741585292
+    },
+    {
+      "IIDCFMHCPLJ": "pilot",
+      "PAPMBEBHHIG": 976621165
+    },
+    {
+      "IIDCFMHCPLJ": "present_item",
+      "PAPMBEBHHIG": 663369727
+    },
+    {
+      "IIDCFMHCPLJ": "quest",
+      "PAPMBEBHHIG": 2125744445
+    },
+    {
+      "IIDCFMHCPLJ": "rareup_item",
+      "PAPMBEBHHIG": 826695771
+    },
+    {
+      "IIDCFMHCPLJ": "rich_banner",
+      "PAPMBEBHHIG": 152956765
+    },
+    {
+      "IIDCFMHCPLJ": "scene",
+      "PAPMBEBHHIG": 683895205
+    },
+    {
+      "IIDCFMHCPLJ": "schedule",
+      "PAPMBEBHHIG": 2050725906
+    },
+    {
+      "IIDCFMHCPLJ": "schema_hash",
+      "PAPMBEBHHIG": 1018277022
+    },
+    {
+      "IIDCFMHCPLJ": "secure",
+      "PAPMBEBHHIG": 181454304
+    },
+    {
+      "IIDCFMHCPLJ": "shop",
+      "PAPMBEBHHIG": 1251602497
+    },
+    {
+      "IIDCFMHCPLJ": "skill",
+      "PAPMBEBHHIG": 512512591
+    },
+    {
+      "IIDCFMHCPLJ": "sns",
+      "PAPMBEBHHIG": 2000836911
+    },
+    {
+      "IIDCFMHCPLJ": "sp_item",
+      "PAPMBEBHHIG": 467687887
+    },
+    {
+      "IIDCFMHCPLJ": "story",
+      "PAPMBEBHHIG": 1907141444
+    },
+    {
+      "IIDCFMHCPLJ": "system",
+      "PAPMBEBHHIG": 42041287
+    },
+    {
+      "IIDCFMHCPLJ": "tips",
+      "PAPMBEBHHIG": 2033020499
+    },
+    {
+      "IIDCFMHCPLJ": "title_banner",
+      "PAPMBEBHHIG": 1795780924
+    },
+    {
+      "IIDCFMHCPLJ": "tutorial_mini_adv",
+      "PAPMBEBHHIG": 850795336
+    },
+    {
+      "IIDCFMHCPLJ": "tutorial_pict",
+      "PAPMBEBHHIG": 667892061
+    },
+    {
+      "IIDCFMHCPLJ": "uc_item",
+      "PAPMBEBHHIG": 202222883
+    },
+    {
+      "IIDCFMHCPLJ": "valkyrie",
+      "PAPMBEBHHIG": 1009603319
+    },
+    {
+      "IIDCFMHCPLJ": "val_item",
+      "PAPMBEBHHIG": 2001871068
+    },
+    {
+      "IIDCFMHCPLJ": "val_skill",
+      "PAPMBEBHHIG": 2139363526
+    },
+    {
+      "IIDCFMHCPLJ": "vc_item",
+      "PAPMBEBHHIG": 1387324129
+    },
+    {
+      "IIDCFMHCPLJ": "version",
+      "PAPMBEBHHIG": 1713896951
+    }
+  ]
+}

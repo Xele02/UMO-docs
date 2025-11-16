@@ -2,13 +2,14 @@
 import Link from '@docusaurus/Link';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import { createContext, useContext, useState } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { LanguageContext } from "@umo-generator/components/LanguageContext";
+import { PageContext, getPageData, useReportError } from "@umo-generator/components/PageContext";
 import { LanguageTabs } from "@umo-generator/components/LanguageLink";
 import { DivaLanguageLink, DivaString, DivaIdContext, DivaIdContext_, DivaImage } from "@umo-generator/components/Diva";
 import { CostumeImage, CostumeName } from "@umo-generator/components/Costume";
 import { getLinkById } from "@umo-generator/js/link"
-import { getDatabaseValue, DatabaseValue, getFBValue } from "@umo-generator/components/Database";
+import { getDatabaseValue, getDatabaseValueFromData, DatabaseValue, getFBValue, getFBValueFromData } from "@umo-generator/components/Database";
 import { TranslatedTextTable } from "@umo-generator/components/TranslatedString";
 import { GameVersion } from "@umo-generator/components/Game";
 import clsx from 'clsx';
@@ -73,30 +74,6 @@ export const languagesFiles = [
     { name:"master", lang:["ja", "fr", "en", "zh_Hans"] },
   ];
 
-<LanguageContext files={languagesFiles}>
-
-<DivaIdContext divaId={props.divaId}>
-
-<div style={{position:'relative'}}><div style={{position: 'absolute',top:'-140px', right:'-50px', width:'40%'}}><DivaImage type="l_size" /></div></div>
-
-## Linked datas
-
-* <Link href={getLinkById("documentation/database/data-content/diva")} >Database</Link>
-
-## Basic infos
-
-
-* Id : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/AHHJLDLAPAN_DivaId"} />
-* Serie : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/AIHCEGFANAM_Attr"} />
-* Birthday : <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/DOAJJALOKLI_Month"} /> / <DatabaseValue database_name="diva" path={"CDENCMNHNGA_Divas/"+(props.divaId - 1)+"/PKNONBBKCCP_Day"} />
-* Added in version : <GameVersion version={getFBValue("diva","NCMGOKNHGNL/"+(props.divaId - 1)+"/OFMGALJGDAO")} />
-
-## Profil
-
-<LanguageTabs>
-  <DivaInfoProfileTable />
-</LanguageTabs>
-
 export const DivaTextTable = () =>
 {
   const divaId = useContext(DivaIdContext_);
@@ -121,41 +98,47 @@ export const DivaTextTable = () =>
   );
 };
 
-## Texts
-
-<LanguageTabs>
-  <DivaTextTable />
-</LanguageTabs>
-
-## Stats
-
-export const diva_data_db = require("@site/static/data/database/diva/diva.data.json");
-
 export const DivaStatsRow = ({data, prevData, idx}) =>
 {
   const divaId = useContext(DivaIdContext_);
-  const list = ["ANAJIAENLNB_Level", "HFIDCMNFBJG_Life", "PFJCOCPKABN_Soul", "JFJDLEMNKFE_Vocal", "GDOLPGBLMEA_Charm", "ONDFNOOICLE_Fold", "HCFOMFDPGEC_Support"]
+  const list = ["ANAJIAENLNB", "HFIDCMNFBJG", "PFJCOCPKABN", "JFJDLEMNKFE", "GDOLPGBLMEA", "ONDFNOOICLE", "HCFOMFDPGEC"]
   const col = list.map(c => {
     const prevVal = prevData?.[c];
     const val = data[c];
-    const _path = "CDENCMNHNGA_Divas/"+(divaId - 1)+"/CMCKNKKCNDK_StatsByLevel/"+idx+"/"+c;
-    return <td><DatabaseValue database_name="diva" path={_path} />{(c != "ANAJIAENLNB_Level" && prevVal && prevVal != val) ? " (+"+(val-prevVal)+")" : ""}</td>
+    const _path = "CDENCMNHNGA/"+(divaId - 1)+"/CMCKNKKCNDK/"+idx+"/"+c;
+    return <td><DatabaseValue database_name="diva" path={_path} />{(c != "ANAJIAENLNB" && prevVal && prevVal != val) ? " (+"+(val-prevVal)+")" : ""}</td>
   });
   return (<><tr>
     {col}
   </tr></>);
 }
 
-export const maxLevels = parseInt(getDatabaseValue("diva", "AGNCAAFGLBE_MaxLevels"));
-
 export const DivaStatsRows = ({values_list}) =>
 {
   const divaId = useContext(DivaIdContext_);
-  const stats = diva_data_db.CDENCMNHNGA_Divas[(divaId - 1)].CMCKNKKCNDK_StatsByLevel;
+
+  const data = getPageData();
+  const reportError = useReportError();
+
+  const data_db = data?.database?.diva;
+
+  const valueDb = getDatabaseValueFromData(data_db, "AGNCAAFGLBE", (d) =>
+  {
+    useEffect(() => {
+        reportError('Missing database value '+d[0]+' in path data.database.diva.'+d[1]);
+    }, [data, reportError]);
+  });
+  useEffect(() => {
+    if(!data_db?.CDENCMNHNGA?.[(divaId - 1)]?.CMCKNKKCNDK)
+      reportError('Missing diva datas data.database.diva.CDENCMNHNGA.['+(divaId-1)+'].CMCKNKKCNDK');
+  }, [data, reportError]);
+  const maxLevels = parseInt(valueDb || 0);
+
+  const stats = data_db?.CDENCMNHNGA?.[(divaId - 1)]?.CMCKNKKCNDK || {};
   var prev = undefined;
-  return stats.map((k, idx) => {
+  return Object.entries(stats).sort(([keyA], [keyB]) => Number(keyA) - Number(keyB)).map(([idx, k]) => {
     const _p = prev;
-    const lvl = parseInt(k.ANAJIAENLNB_Level);
+    const lvl = parseInt(k.ANAJIAENLNB);
     if(!values_list || values_list.includes(lvl))
       prev = k;
     if(lvl <= maxLevels && (!values_list || values_list.includes(lvl)))
@@ -178,63 +161,19 @@ export const DivaStats = ({values_list}) =>
   </table>);
 }
 
-
-<DivaStats values_list={[0, maxLevels]} />
-
-<details>
-<summary>Full list of diva stats by level</summary>
-<DivaStats />
-</details>
-
-## Icons
-
-
-<Tabs groupId="divaIcon">
-  <TabItem value="s_size" label="S size" default>
-    <DivaImage type="s_size" />
-  </TabItem>
-  <TabItem value="m_size" label="M size" default>
-    <DivaImage type="m_size" />
-  </TabItem>
-  <TabItem value="l_size" label="L size" default>
-    <DivaImage type="l_size" />
-  </TabItem>
-  <TabItem value="ps" label="PS" default>
-    <DivaImage type="ps" />
-  </TabItem>
-  <TabItem value="story" label="Story" default>
-    <DivaImage type="story" />
-  </TabItem>
-  <TabItem value="small_bustup" label="Small bustup" default>
-    <DivaImage type="small_bustup" />
-  </TabItem>
-  <TabItem value="standing_costume" label="Standing Costume" default>
-    <DivaImage type="standing_costume" />
-  </TabItem>
-  <TabItem value="event_go_diva" label="Event Go Diva" default>
-    <DivaImage type="event_go_diva" />
-  </TabItem>
-  <TabItem value="event_go_diva_typed" label="Event Go Diva Typed" default>
-    <DivaImage type="event_go_diva_typed" />
-  </TabItem>
-</Tabs>
-
-
-## Story description
-
-<LanguageTabs>
-<DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" />  
-<blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" /></blockquote>
-</LanguageTabs>
-
-## Costumes
-
 export const CostumeClick = ({divaId}) => {
 
-    const cos = getDatabaseValue("costume", "CDENCMNHNGA_Costumes").filter(c => c.AHHJLDLAPAN_PrismDivaId == divaId && c.PPEGAKEIEGM_Enabled == 2);
-    const list = cos.map(k => {
-      const id = k.JPIDIENBGKH_CostumeId;
-      const hasColor = k.BJGNGNPHCBA_LevelsInfo.find(l => l.INDDJNMPONH_UnlockType == 4) != undefined;
+    const data = getPageData();
+    const reportError = useReportError();
+    const cos = Object.entries(getDatabaseValueFromData(data?.database?.costume, "CDENCMNHNGA", (d) =>
+    {
+      useEffect(() => {
+        reportError('Missing database value '+d[0]+' in path data.database.costume.'+d[1]);
+    }, [data, reportError]);
+    }))?.filter(([idx, c]) => c.AHHJLDLAPAN == divaId && c.PPEGAKEIEGM == 2) || [];
+    const list = cos.sort(([keyA], [keyB]) => Number(keyA) - Number(keyB)).map(([idx, k]) => {
+      const id = k.JPIDIENBGKH;
+      const hasColor = k._has_color;
       const url = getLinkById("documentation_game_costume_"+id.toString());
       const colorImg = hasColor && (<><span style={{position:'absolute', maxWidth:'50%', right:'0', bottom:'0', backgroundColor:'#FFBBBBAA', borderRadius:'50%'}}><CostumeImage type="costume" costumeId={{id:id}} colorId="1" /></span></>);
       const colorName = hasColor ? (<>/ <CostumeName costumeId={{id:id}} colorId="1" /></>) : "";
@@ -251,9 +190,137 @@ export const CostumeClick = ({divaId}) => {
   return <>{list}</>;
 }
 
-<section class="row">
-<CostumeClick divaId={props.divaId} />
-</section>
+export const DivaContentInContext = ({divaId}) =>
+{
+  const props = {divaId:divaId};
+  const data = getPageData();
+  const reportError = useReportError();
 
-</DivaIdContext>
-</LanguageContext>
+  const data_db = data?.database?.diva;
+
+  const valueDb = getDatabaseValueFromData(data_db, "AGNCAAFGLBE", (d) =>
+  {
+    useEffect(() => {
+        reportError('Missing database value '+d[0]+' in path data.database.diva.'+d[1]);
+    }, [data, reportError]);
+  });
+  const maxLevels = parseInt(valueDb);
+
+  const fb_error = (d) => {
+        useEffect(() => {
+          reportError('Missing fb value '+d[0]+' in path data.fb.diva.'+d[1]);
+    }, [data, reportError]);
+  };
+  return (
+
+    <LanguageContext files={languagesFiles}>
+
+    <DivaIdContext divaId={props.divaId}>
+
+    <div style={{position:'relative'}}><div style={{position: 'absolute',top:'-140px', right:'-50px', width:'40%'}}><DivaImage type="l_size" /></div></div>
+
+    <h2>Linked datas</h2>
+
+    <ul>
+      <li><Link href={getLinkById("documentation/database/data-content/diva")} >Database</Link></li>
+    </ul>
+
+    <h2>Basic infos</h2>
+
+    <ul>
+      <li>Id : <DatabaseValue database_name="diva" path={"CDENCMNHNGA/"+(props.divaId - 1)+"/AHHJLDLAPAN"} /></li>
+      <li>Serie : <DatabaseValue database_name="diva" path={"CDENCMNHNGA/"+(props.divaId - 1)+"/AIHCEGFANAM"} /></li>
+      <li>Birthday : <DatabaseValue database_name="diva" path={"CDENCMNHNGA/"+(props.divaId - 1)+"/DOAJJALOKLI"} /> / <DatabaseValue database_name="diva" path={"CDENCMNHNGA/"+(props.divaId - 1)+"/PKNONBBKCCP"} /></li>
+      <li>Added in version : <GameVersion version={getFBValueFromData(data?.fb?.diva,"NCMGOKNHGNL/"+(props.divaId - 1)+"/OFMGALJGDAO", fb_error) } /></li>
+    </ul>
+
+    <h2>Profil</h2>
+
+    <LanguageTabs>
+      <DivaInfoProfileTable />
+    </LanguageTabs>
+
+    <h2>Texts</h2>
+
+    <LanguageTabs>
+      <DivaTextTable />
+    </LanguageTabs>
+
+    <h2>Stats</h2>
+
+    <DivaStats values_list={[0, maxLevels]} />
+
+    <details>
+    <summary>Full list of diva stats by level</summary>
+    <DivaStats />
+    </details>
+
+    <h2>Icons</h2>
+
+
+    <Tabs groupId="divaIcon">
+      <TabItem value="s_size" label="S size" default>
+        <DivaImage type="s_size" />
+      </TabItem>
+      <TabItem value="m_size" label="M size" default>
+        <DivaImage type="m_size" />
+      </TabItem>
+      <TabItem value="l_size" label="L size" default>
+        <DivaImage type="l_size" />
+      </TabItem>
+      <TabItem value="ps" label="PS" default>
+        <DivaImage type="ps" />
+      </TabItem>
+      <TabItem value="story" label="Story" default>
+        <DivaImage type="story" />
+      </TabItem>
+      <TabItem value="small_bustup" label="Small bustup" default>
+        <DivaImage type="small_bustup" />
+      </TabItem>
+      <TabItem value="standing_costume" label="Standing Costume" default>
+        <DivaImage type="standing_costume" />
+      </TabItem>
+      <TabItem value="event_go_diva" label="Event Go Diva" default>
+        <DivaImage type="event_go_diva" />
+      </TabItem>
+      <TabItem value="event_go_diva_typed" label="Event Go Diva Typed" default>
+        <DivaImage type="event_go_diva_typed" />
+      </TabItem>
+    </Tabs>
+
+
+    <h2>Story description</h2>
+
+    <LanguageTabs>
+    <DivaLanguageLink bank="menu" id="story_diva_desc_##ID##" />  
+    <blockquote><DivaString bank="menu" id="story_diva_desc_##ID##" /></blockquote>
+    </LanguageTabs>
+
+    <h2>Costumes</h2>
+
+    <section class="row">
+    <CostumeClick divaId={props.divaId} />
+    </section>
+
+    </DivaIdContext>
+    </LanguageContext>
+  );
+}
+
+export default function Content({data}) {
+  
+  //export const diva_data_db = require("@site/static/data/database/diva/diva.data.json";
+
+  /*const [data, setData] = useState(null);
+  useEffect(() => {
+    fetch('/data/page1.json')
+      .then(res => res.json())
+      .then(setData);
+  }, []);*/
+
+  return (
+    <PageContext data={data}>
+      <DivaContentInContext divaId={data.divaId} />
+    </PageContext>
+  );
+}

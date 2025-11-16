@@ -1,0 +1,29 @@
+
+{
+    "type" : "class",
+    "name" : "PEBFNABDJDI_System",
+    "cryptedName" : "PEBFNABDJDI",
+    "realName"    : "System",
+    "readerClass" : "IAIDGBJGDBH",
+    "members"     : [
+        {
+            "type" : "dict",
+            "innerTypeKey" : {
+                "type" : "String"
+            },
+            "innerTypeValue" : {
+                "type" : "Int32"
+            },
+            "member_type"    : "property",
+            "member_name"    : "OHJFBLFELNK_m_intParam",
+            "member_cryptedName" : "OHJFBLFELNK",
+            "member_realName"    : "m_intParam",
+            "member_reader"      : "BHGDNGHDDAC/[IDX]/LJNAKDMILMC_key|BHGDNGHDDAC/[IDX]/JBGEEPFKIGG_val",
+            "member_reader_child" : null,
+            "member_readableName" : null,
+            "member_readerDisplay" : null,
+            "member_desc"          : "List of integer settings of the game",
+            "member_display"       : null
+        }
+    ]
+}

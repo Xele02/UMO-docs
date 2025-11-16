@@ -5,11 +5,11 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import { getDatabaseValue, DatabaseValue, getFBValue } from "@umo-generator/components/Database";
 import { DivaLink } from "@umo-generator/components/Diva";
-import { useContext } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { LanguageLink, LanguageTabs } from "@umo-generator/components/LanguageLink";
 import { TranslatedStringLink, TranslatedString, TranslatedTextTable } from "@umo-generator/components/TranslatedString";
 import { GameVersion } from "@umo-generator/components/Game";
-import db_data from "@site/static/data/database/costume/costume.data.json";
+import { PageContext, getPageData, useReportError } from "@umo-generator/components/PageContext";
 
 
 export const languagesFiles = [
@@ -31,7 +31,7 @@ export const CostumeTextTable = () =>
     },
     {
       name:"Skill name",
-      id:"cs_nm_"+(costumeInfo.data.HGHFFJKGNCO_SkillId)?.padStart(4, '0'),
+      id:"cs_nm_"+(costumeInfo?.data?.HGHFFJKGNCO)?.padStart(4, '0'),
       bank:"master",
       params:[
         "Skill value"
@@ -39,16 +39,16 @@ export const CostumeTextTable = () =>
     },
     {
       name:"Skill desc",
-      id:"cs_dsc_"+(costumeInfo.data.HGHFFJKGNCO_SkillId)?.padStart(4, '0'),
+      id:"cs_dsc_"+(costumeInfo?.data?.HGHFFJKGNCO)?.padStart(4, '0'),
       bank:"master",
       params:[
         "Skill value"
       ]
     },
   ]
-  const data_unlock = costumeInfo.data.BJGNGNPHCBA_LevelsInfo.filter(c => c.INDDJNMPONH_UnlockType != "0").flatMap(c_ => 
+  const data_unlock = costumeInfo?.data.BJGNGNPHCBA.filter(c => c.INDDJNMPONH != "0").flatMap(c_ => 
     {
-      const c = c_.INDDJNMPONH_UnlockType;
+      const c = c_.INDDJNMPONH;
       if(c == "1")
       {
         return [
@@ -151,7 +151,7 @@ export const CostumeTextTable = () =>
           },
           {
             name:"Unlock stat name",
-            id:"cos_reward_status_"+(c_.PIBLLGLCJEO_Value[0]).padStart(4, '0'),
+            id:"cos_reward_status_"+(c_.PIBLLGLCJEO[0]).padStart(4, '0'),
             bank:"master",
             order:53
           },
@@ -168,13 +168,13 @@ export const CostumeTextTable = () =>
           },
           {
             name:"Unlock support plate attribut name",
-            id:"cos_subplate_attr_"+(c_.PIBLLGLCJEO_Value[0]).padStart(4, '0'),
+            id:"cos_subplate_attr_"+(c_.PIBLLGLCJEO[0]).padStart(4, '0'),
             bank:"master",
             order:61
           },
           {
             name:"Unlock support plate status name",
-            id:"cos_subplate_status_"+(c_.PIBLLGLCJEO_Value[0]).padStart(4, '0'),
+            id:"cos_subplate_status_"+(c_.PIBLLGLCJEO[0]).padStart(4, '0'),
             bank:"master",
             order:62
           },
@@ -192,15 +192,16 @@ export const CostumeTextTable = () =>
       return [];
     }
   ).filter((c, idx, self) => self.findIndex(c_ => c_.id == c.id) == idx).sort((a, b) => a.order - b.order);
-  const dataCond = costumeInfo.data.BJGNGNPHCBA_LevelsInfo.filter(c => c.INDDJNMPONH_UnlockType != "0" && c.KBOLNIBLIND_UnlockCondIdx != "0").flatMap(c_ => 
+  const data = getPageData();
+  const dataCond = costumeInfo?.data?.BJGNGNPHCBA.filter(c => c.INDDJNMPONH != "0" && c.KBOLNIBLIND != "0").flatMap(c_ => 
     {
-      const condList = db_data.FDNBEPCEHBH_UnlocksConditions.find(d => d.key == c_.KBOLNIBLIND_UnlockCondIdx).value;
-      return condList.NKNBKLHCAFD_UnlocksConditions.filter(d => d.INDDJNMPONH_Condition != "0").flatMap(d => {
-        if(d.INDDJNMPONH_Condition == "1")
+      const condList = data.database.costume.FDNBEPCEHBH.find(d => d.key == c_.KBOLNIBLIND).value;
+      return condList.NKNBKLHCAFD.filter(d => d.INDDJNMPONH != "0").flatMap(d => {
+        if(d.INDDJNMPONH == "1")
         {
           return [{
             name:"Unlock condition costume level",
-            id:"cos_unlock_"+(d.INDDJNMPONH_Condition).padStart(4, '0'),
+            id:"cos_unlock_"+(d.INDDJNMPONH).padStart(4, '0'),
             bank:"master",
             params:[
               "Level to have",
@@ -210,11 +211,11 @@ export const CostumeTextTable = () =>
             order:parseInt(10)
           }];
         }
-        else if(d.INDDJNMPONH_Condition == "2")
+        else if(d.INDDJNMPONH == "2")
         {
           return [{
             name:"Unlock condition item consume",
-            id:"cos_unlock_"+(d.INDDJNMPONH_Condition).padStart(4, '0'),
+            id:"cos_unlock_"+(d.INDDJNMPONH).padStart(4, '0'),
             bank:"master",
             params:[
               "Items",
@@ -223,11 +224,11 @@ export const CostumeTextTable = () =>
             order:parseInt(20)
           }];
         }
-        else if(d.INDDJNMPONH_Condition == "3")
+        else if(d.INDDJNMPONH == "3")
         {
           return [{
             name:"Unlock condition affection level",
-            id:"cos_unlock_"+(d.INDDJNMPONH_Condition).padStart(4, '0'),
+            id:"cos_unlock_"+(d.INDDJNMPONH).padStart(4, '0'),
             bank:"master",
             params:[
               "Affection target",
@@ -247,25 +248,6 @@ export const CostumeTextTable = () =>
     />
   );
 };
-
-
-<LanguageContext files={languagesFiles}>
-
-<CostumeIdContext costumeId={{id:props.costumeId}}>
-
-<div style={{position:'relative'}}><div style={{position: 'absolute',top:'0px', right:'0'}}><div style={{position:'relative'}}><CostumeImage type="costume" /><span style={{position:'absolute', maxWidth:'40%', right:'0', bottom:'0', backgroundColor:'#FFBBBBAA', borderRadius:'50%'}}><CostumeImage type="costume" colorId="1" /></span></div></div></div>
-
-
-## Basic infos
-
-* Id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/JPIDIENBGKH_CostumeId"} />
-* Diva : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId"} /> <DivaLink divaId={getDatabaseValue("costume", "CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/AHHJLDLAPAN_PrismDivaId")} />
-* Diva costume id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/DAJGPBLEEOB_PrismCostumeModelId"} />
-* Has special effect (wind and glow) : <DatabaseValue database_name="costume" path={"CDENCMNHNGA_Costumes/"+(props.costumeId - 1)+"/EGLDFPILJLG_HasSpecialEffects"} />
-* Added in version : <GameVersion version={getFBValue("costume","AMNNIENGDHI/"+(props.costumeId - 1)+"/OFMGALJGDAO")} />
-* Deco added in version : <GameVersion version={getFBValue("costume","AMNNIENGDHI/"+(props.costumeId - 1)+"/JMADKJNCBCO")} />
-
-## Upgrade
 
 export const ObjectName = (prop) =>
 {
@@ -288,22 +270,22 @@ export const SupportPlate = (prop) =>
 export const UpgradeRowUnlock = (prop) =>
 {
   const costumeInfo = useContext(CostumeIdContext_);
-  const levelPath = "CDENCMNHNGA_Costumes/"+(costumeInfo.id - 1)+"/BJGNGNPHCBA_LevelsInfo/"+prop.index;
-  switch(prop.level.INDDJNMPONH_UnlockType)
+  const levelPath = "CDENCMNHNGA/"+(costumeInfo.id - 1)+"/BJGNGNPHCBA/"+prop.index;
+  switch(prop.level.INDDJNMPONH)
   {
     case "0":
       return "None";
     case "1":
-      return (<>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Costume Effect, skill level <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} /> </>);
+      return (<>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH'} />)Costume Effect, skill level <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/0'} /> </>);
     case "2":
     case "3":
-      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Get Object : <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/1'} />x <ObjectName itemId={prop.level.PIBLLGLCJEO_Value[0]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} />)</>;
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH'} />)Get Object : <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/1'} />x <ObjectName itemId={prop.level.PIBLLGLCJEO[0]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/0'} />)</>;
     case "4":
-      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Unlock costume color <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} /></>;
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH'} />)Unlock costume color <DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/0'} /></>;
     case "5":
-      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Add stat : <StatBonus type={prop.level.PIBLLGLCJEO_Value[0]} value={prop.level.PIBLLGLCJEO_Value[1]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} />/<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/1'} />)</>;
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH'} />)Add stat : <StatBonus type={prop.level.PIBLLGLCJEO[0]} value={prop.level.PIBLLGLCJEO[1]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/0'} />/<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/1'} />)</>;
     case "6":
-      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH_UnlockType'} />)Unlock support plate <SupportPlate attr={prop.level.PIBLLGLCJEO_Value[0]} status={prop.level.PIBLLGLCJEO_Value[1]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/0'} />/<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO_Value/1'} />)</>;
+      return <>(<DatabaseValue database_name="costume" path={levelPath+'/INDDJNMPONH'} />)Unlock support plate <SupportPlate attr={prop.level.PIBLLGLCJEO[0]} status={prop.level.PIBLLGLCJEO[1]} />(<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/0'} />/<DatabaseValue database_name="costume" path={levelPath+'/PIBLLGLCJEO/1'} />)</>;
   }
   return <></>;
 }
@@ -339,14 +321,15 @@ export const UpgradeRowConds = (prop) =>
 export const UpgradeRow = (prop) =>
 {
   const cos = useContext(CostumeIdContext_);
-  const basePathPoints = "MBLNIECELNK_UnlockPoints/"+(cos.data.AGBPBDODKBK_UnlockPointIdx)+"/"+(prop.idx);
-  const baseCostPoints = "AKKDOIJNMBH_UcCostByPoint/"+(cos.data.AGBPBDODKBK_UnlockPointIdx)+"/"+(prop.idx);
-  const unlockPoints = db_data.MBLNIECELNK_UnlockPoints.find(c => c.key == cos.data.AGBPBDODKBK_UnlockPointIdx).value;
-  const unlockCost = db_data.AKKDOIJNMBH_UcCostByPoint.find(c => c.key == cos.data.AGBPBDODKBK_UnlockPointIdx).value;
+  const data = getPageData();
+  const basePathPoints = "MBLNIECELNK/"+(cos.data.AGBPBDODKBK)+"/"+(prop.idx);
+  const baseCostPoints = "AKKDOIJNMBH/"+(cos.data.AGBPBDODKBK)+"/"+(prop.idx);
+  const unlockPoints = Object.entries(data.database.costume.MBLNIECELNK).find(([idx, c]) => c.key == cos.data.AGBPBDODKBK).value;
+  const unlockCost = Object.entries(data.database.costume.AKKDOIJNMBH).find(([idx, c]) => c.key == cos.data.AGBPBDODKBK).value;
   return (<tr>
     <td>{prop.idx + 1}</td>
     <td><UpgradeRowUnlock index={prop.idx} level={prop.level} /></td>
-    <td><UpgradeRowConds condIdx={prop.level.KBOLNIBLIND_UnlockCondIdx} /></td>
+    <td><UpgradeRowConds condIdx={prop.level.KBOLNIBLIND} /></td>
     <td><DatabaseValue database_name="costume" path={basePathPoints} /></td>
     <td><DatabaseValue database_name="costume" path={baseCostPoints} /> ({unlockCost[prop.idx] * unlockPoints[prop.idx]})</td>
     </tr>);
@@ -355,10 +338,10 @@ export const UpgradeRow = (prop) =>
 export const UpgradeTable = (prop) =>
 {
   const cos = useContext(CostumeIdContext_);
-  const items = cos.data.BJGNGNPHCBA_LevelsInfo.filter(l => l.INDDJNMPONH_UnlockType != "0").map((l, idx) => (
+  const items = Object.entries(cos?.data?.BJGNGNPHCBA).filter(([idx, l]) => l.INDDJNMPONH != "0").map((l, idx) => (
     <UpgradeRow level={l} idx={idx} />
   ));
-  if(items.length == 0)
+  if(items?.length == 0)
     return "No upgrade";
   return (
     <table>
@@ -378,6 +361,41 @@ export const UpgradeTable = (prop) =>
   );
 }
 
+export const CostumeImageWithColor = (p) =>
+{
+  const cosId = useContext(CostumeIdContext_);
+  const cos = getDatabaseValue("costume", "CDENCMNHNGA").find(c => c.JPIDIENBGKH_CostumeId == cosId?.id);
+  const hasColor = cosId?.hasColor;
+  if(hasColor)
+    return <><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} /></div><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} colorId="1" /></div></>
+  return <><CostumeImage type={p.type} /></>
+}
+
+export const CostumeContentInContext = ({costumeId}) =>
+{
+  const props = {costumeId:costumeId};
+  const data = getPageData();
+  const reportError = useReportError();
+
+  return (
+<LanguageContext files={languagesFiles}>
+
+<CostumeIdContext costumeId={{id:props.costumeId}}>
+
+<div style={{position:'relative'}}><div style={{position: 'absolute',top:'0px', right:'0'}}><div style={{position:'relative'}}><CostumeImage type="costume" /><span style={{position:'absolute', maxWidth:'40%', right:'0', bottom:'0', backgroundColor:'#FFBBBBAA', borderRadius:'50%'}}><CostumeImage type="costume" colorId="1" /></span></div></div></div>
+
+
+## Basic infos
+
+* Id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA/"+(props.costumeId - 1)+"/JPIDIENBGKH"} />
+* Diva : <DatabaseValue database_name="costume" path={"CDENCMNHNGA/"+(props.costumeId - 1)+"/AHHJLDLAPAN"} /> <DivaLink divaId={getDatabaseValue("costume", "CDENCMNHNGA/"+(props.costumeId - 1)+"/AHHJLDLAPAN")} />
+* Diva costume id : <DatabaseValue database_name="costume" path={"CDENCMNHNGA/"+(props.costumeId - 1)+"/DAJGPBLEEOB"} />
+* Has special effect (wind and glow) : <DatabaseValue database_name="costume" path={"CDENCMNHNGA/"+(props.costumeId - 1)+"/EGLDFPILJLG"} />
+* Added in version : <GameVersion version={getFBValue("costume","AMNNIENGDHI/"+(props.costumeId - 1)+"/OFMGALJGDAO")} />
+* Deco added in version : <GameVersion version={getFBValue("costume","AMNNIENGDHI/"+(props.costumeId - 1)+"/JMADKJNCBCO")} />
+
+## Upgrade
+
 <UpgradeTable />
 
 ## Texts
@@ -387,16 +405,6 @@ export const UpgradeTable = (prop) =>
 </LanguageTabs>
 
 ## Icons
-
-export const CostumeImageWithColor = (p) =>
-{
-  const cosId = useContext(CostumeIdContext_);
-  const cos = getDatabaseValue("costume", "CDENCMNHNGA_Costumes").find(c => c.JPIDIENBGKH_CostumeId == cosId.id);
-  const hasColor = cosId.hasColor;
-  if(hasColor)
-    return <><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} /></div><div style={{maxWidth:'50%', display:'inline-block'}}><CostumeImage type={p.type} colorId="1" /></div></>
-  return <><CostumeImage type={p.type} /></>
-}
 
 <Tabs groupId="costumeIcon">
   <TabItem value="costume" label="Costume" default>
@@ -420,3 +428,23 @@ export const CostumeImageWithColor = (p) =>
 </CostumeIdContext>
 
 </LanguageContext>
+  );
+}
+
+export default function Content({data}) {
+  
+  //export const diva_data_db = require("@site/static/data/database/diva/diva.data.json";
+
+  /*const [data, setData] = useState(null);
+  useEffect(() => {
+    fetch('/data/page1.json')
+      .then(res => res.json())
+      .then(setData);
+  }, []);*/
+
+  return (
+    <PageContext data={data}>
+      <CostumeContentInContext costumeId={data.costumeId} />
+    </PageContext>
+  );
+}

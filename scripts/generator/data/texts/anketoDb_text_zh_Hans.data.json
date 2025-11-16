@@ -1,0 +1,20 @@
+
+{
+    "anketo_0000_question" : "\u4F60\u5BF9Macross\u7CFB\u5217\u559C\u6B22\u7684\u7A0B\u5EA6\u662F\uFF1F",
+    "anketo_0000_0000_choice" : "\u975E\u5E38\u559C\u6B22",
+    "anketo_0000_0001_choice" : "\u4E00\u822C\u559C\u6B22",
+    "anketo_0000_0002_choice" : "\u4E0D\u592A\u559C\u6B22",
+    "anketo_0000_0003_choice" : "\u4E0D\u592A\u6E05\u695A",
+    "anketo_0001_question"    : "\u6709\u6E38\u73A9\u8FC7\u5176\u5B83\u97F3\u6E38\u7684\u7ECF\u5386\u5417\uFF1F",
+    "anketo_0001_0000_choice" : "\u7ECF\u5E38\u6E38\u73A9",
+    "anketo_0001_0001_choice" : "\u73A9\u8FC7\u4E00\u4E9B",
+    "anketo_0001_0002_choice" : "\u4E0D\u600E\u4E48\u73A9",
+    "anketo_0001_0003_choice" : "\u8FD9\u662F\u6211\u7684\u7B2C\u4E00\u6B3E\u97F3\u6E38",
+    "anketo_0002_question"    : "\u4F60\u5BF9\u672C\u6E38\u620F\u4E2D\u7684\u54EA\u4E9B\u5185\u5BB9\u8F83\u4E3A\u671F\u5F85\uFF1F",
+    "anketo_0002_0000_choice" : "\u89D2\u8272",
+    "anketo_0002_0001_choice" : "\u5267\u60C5",
+    "anketo_0002_0002_choice" : "\u6B4C\u66F2",
+    "anketo_0002_0003_choice" : "\u821E\u8E48",
+    "anketo_0002_0004_choice" : "\u74E6\u5C14\u57FA\u91CC\u6218\u673A",
+    "anketo_0002_0005_choice" : "\u97F3\u6E38\u73AF\u8282"
+}

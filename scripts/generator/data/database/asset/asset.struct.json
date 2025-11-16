@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "LFPJCEMANCK_Asset",
+    "cryptedName" : "LFPJCEMANCK",
+    "realName"    : "Asset",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}

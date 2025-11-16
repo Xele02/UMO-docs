@@ -1,1 +1,43 @@
-{}
+
+{
+    "FJOEBCMGDMI_m_stringParam" : [
+    ],
+    "OHJFBLFELNK_m_intParam"    : [
+        {
+            "key" : "ranking_point_max",
+            "value" : 99999999
+        }
+    ],
+    "NGHKJOEDLIP_Settings"      : {
+        "OBGBAOLONDD_UniqueId" : "4021",
+        "OPFGFINHFCE_name"     : "\u30DF\u30B9\u30FB\u30DE\u30AF\u30ED\u30B9\u30B3\u30F3\u30C6\u30B9\u30C8\u3000\u8D85\u6642\u7A7A\u8981\u585E\u30DE\u30AF\u30ED\u30B9",
+        "HEDAGCNPHGD_RankingName" : "\u30B9\u30B3\u30A2\u30E9\u30F3\u30AD\u30F3\u30B0",
+        "OCGFKMHNEOF_name_for_api" : "score_ranking_4021",
+        "BONDDBOFBND_RankingStart" : "1654354800",
+        "HPNOGLIFJOP_RankingEnd"   : "1654689600",
+        "LNFKGHNHJKE_RankingEnd2"  : "1654693200",
+        "JGMDAOACOJF_RewardStart"  : "1654696800",
+        "IDDBFFBPNGI_RewardEnd"    : "1654873199",
+        "KNLGKBBIBOH_RewardEnd2"   : "1654873199",
+        "KHIKEGLBGAF_RankingRewardScene" : "40001",
+        "POGEFBMBPCB_MonthOdd"           : "0",
+        "AHKNMANFILO_DayGroup"           : "1",
+        "MOEKELIIDEO_SaveIdx"            : "0",
+        "AHKPNPNOAMO_ExtreamOpen"        : "1",
+        "HKKNEAGCIEB_RankingSupport"     : "1",
+        "CAPAPAABKDP_FreeMusic"          : [
+            "1569"
+        ],
+        "JHPCPNJJHLI_RankingThreshold"   : [
+            "1",
+            "2",
+            "3",
+            "10",
+            "100",
+            "1000"
+        ],
+        "EBGIDCIIGDO_KeyPrefix"          : "event_score_reward_m0_d1_"
+    },
+    "ADPFKHEMNBL"               : [
+    ]
+}

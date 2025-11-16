@@ -1,1 +1,40 @@
-{}
+
+{
+    "FJOEBCMGDMI_m_stringParam" : [
+    ],
+    "OHJFBLFELNK_m_intParam"    : [
+        {
+            "key" : "ranking_point_max",
+            "value" : 99999999
+        }
+    ],
+    "NGHKJOEDLIP_Settings"      : {
+        "OBGBAOLONDD_UniqueId" : "4012",
+        "OPFGFINHFCE_name"     : "\u7B2C12\u56DE\u30DF\u30B9\u30DE\u30AF\u30ED\u30B9\u30B3\u30F3\u30C6\u30B9\u30C8",
+        "HEDAGCNPHGD_RankingName" : "\u30B9\u30B3\u30A2\u30E9\u30F3\u30AD\u30F3\u30B0",
+        "OCGFKMHNEOF_name_for_api" : "score_ranking_4012",
+        "BONDDBOFBND_RankingStart" : "1524808800",
+        "HPNOGLIFJOP_RankingEnd"   : "1525003200",
+        "LNFKGHNHJKE_RankingEnd2"  : "1525006800",
+        "JGMDAOACOJF_RewardStart"  : "1525010400",
+        "IDDBFFBPNGI_RewardEnd"    : "1525618799",
+        "KNLGKBBIBOH_RewardEnd2"   : "1525618799",
+        "KHIKEGLBGAF_RankingRewardScene" : "40001",
+        "POGEFBMBPCB_MonthOdd"           : "0",
+        "AHKNMANFILO_DayGroup"           : "4",
+        "MOEKELIIDEO_SaveIdx"            : "4",
+        "AHKPNPNOAMO_ExtreamOpen"        : "1",
+        "HKKNEAGCIEB_RankingSupport"     : "1",
+        "CAPAPAABKDP_FreeMusic"          : [
+            "288"
+        ],
+        "JHPCPNJJHLI_RankingThreshold"   : [
+            "1",
+            "100",
+            "1000"
+        ],
+        "EBGIDCIIGDO_KeyPrefix"          : "event_score_reward_m0_d4_"
+    },
+    "ADPFKHEMNBL"               : [
+    ]
+}

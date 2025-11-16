@@ -4,14 +4,17 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "generate:docs": "python3 scripts/generator/generatejson.py && node scripts/generator/generatedocs.js",
+    "watch:docs": "nodemon --watch scripts/generator --ext js,mdx,json,py --exec \"npm run generate:docs\"",
+    "start:docusaurus": "docusaurus start",
+    "start": "npm-run-all --parallel watch:docs start:docusaurus"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
@@ -19,6 +22,9 @@
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "docusaurus-json-schema-plugin": "^1.12.2",
+    "handlebars": "^4.7.8",
+    "nodemon": "^3.1.10",
+    "npm-run-all": "^4.1.5",
     "primereact": "^10.8.4",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
@@ -28,7 +34,8 @@
     "@docusaurus/module-type-aliases": "^3.5.2",
     "@docusaurus/tsconfig": "^3.5.2",
     "@docusaurus/types": "^3.5.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "webpack-bundle-analyzer": "^4.10.2"
   },
   "browserslist": {
     "production": [

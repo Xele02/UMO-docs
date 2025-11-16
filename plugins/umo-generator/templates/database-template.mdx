@@ -73,6 +73,19 @@ export function getReaders(iterator_owner, path, replace_)
                 newRet.fb_data = readerRet.fb_data?.[rp];
                 newRet.fb_path += "/"+rp;
             }
+            else if(readerRet.fb_struct?.[1].type == "string" && readerRet.fb_struct?.[1]?.items)
+            {
+                newRet.fb_struct = [rp, {...readerRet.fb_struct[1].items[0]}];
+                newRet.fb_struct[1].reader_prop = rp;
+                var listData = readerRet.fb_data.split(newRet.fb_struct["separator"]);
+                if(listData[rp] == undefined)
+                {    
+                    //throw new Error("no data for "+rp+" in path "+path+" "+JSON.stringify(readerRet));
+                    newRet.fb_error = "Array idx "+rp+" not in reader";
+                }
+                newRet.fb_data = listData[rp];
+                newRet.fb_path += "/"+rp;
+            }
             else
                 throw new Error("No reader "+reader+" "+rp+" "+JSON.stringify(readerRet));
             p_idx++;
@@ -108,6 +121,11 @@ export function iterator_move(iterator, path)
             }
             else if(prev.fb_struct != undefined)
             {
+                if(!prev.fb_struct.items && prev.db_struct.member_readerDisplay?.startsWith("ListString") && prev.fb_struct.type == "string")
+                {
+                    var sep = prev.db_struct.member_readerDisplay.split("|")[1];
+                    prev.fb_struct.items = [{"type":"string", "separator":sep}];
+                }
                 if(!prev.fb_struct.items)
                 {
                     throw new Error("Current fb struct doesn't contain item field for "+p+" in path "+prev.db_path+" "+prev.fb_path+" "+JSON.stringify(prev.fb_struct));
@@ -336,7 +354,7 @@ export const DbPropSource = ({member_data, key_}) =>
         const fbStructProp = reader.fb_struct;
         var subData = reader.fb_data_forced ?? (typeof(reader.fb_data) != "array" && typeof(reader.fb_data) != "object" ? reader.fb_data : /*JSON.stringify*/typeof(reader.fb_data));
         if(member_data.db_struct.member_display == "Date")
-            subData += " ("+(new Date(parseInt(subData) * 1000).toLocaleDateString(undefined, {dateStyle:'short'}))+")";
+            subData += " ("+(new Date(parseInt(subData) * 1000).toLocaleString("en-GB", { timeZone: "UTC" }))+")";
         return (<><br /><strong>Reader</strong> : {fbStructProp?.[1].reader_prop}<br />
             <strong>Database property</strong> : {fbStructProp?.[0] || ""}<br />
             <strong>Raw value</strong> : {subData}
@@ -348,7 +366,7 @@ export function getValueDisplay(value, member_it)
 {
     if(member_it.db_struct.member_display == "Date")
     {
-        return value+" ("+(new Date(parseInt(value) * 1000).toLocaleDateString(undefined, {dateStyle:'short'}))+")";
+        return value+" ("+(new Date(parseInt(value) * 1000).toLocaleString("en-GB", { timeZone: "UTC" }))+")";
     }
     return value;
 }
@@ -359,7 +377,8 @@ export function generateNodesObject(iterator, prefix)
         const member_it = iterator_move(iterator, k[0])
         const key = prefix+k[0];
         const prefix_ = key+'-';
-        const varNames = k[0].split('_');
+        const idx = k[0].indexOf('_');
+        const varNames = idx == 11 ? [k[0].slice(0, idx), k[0].slice(idx + 1)] : [k[0]];
         const name = (member_it.db_struct.member_readableName && member_it.db_struct.member_readableName != "") ? member_it.db_struct.member_readableName : varNames[varNames.length > 1 ? 1 : 0];
         const header = member_it.db_struct.member_desc?.split('\n')[0]
         const additional_desc = member_it.db_struct.member_desc?.split('\n').splice(1).map(k => { return (<>{k}<br /></>); });

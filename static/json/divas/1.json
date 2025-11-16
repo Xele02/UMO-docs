@@ -1,0 +1,1631 @@
+{
+    "divaId": 1,
+    "database": {
+        "diva": {
+            "AGNCAAFGLBE": "120",
+            "CDENCMNHNGA": {
+                "0": {
+                    "AIHCEGFANAM": "1",
+                    "AHHJLDLAPAN": "1",
+                    "IDDHKOEFJFB": "1",
+                    "FPMGHDKACOF": "2",
+                    "PPEGAKEIEGM": "2",
+                    "LIOGKHIGJKN": "23",
+                    "CMBCBNEODPD": "11",
+                    "DOAJJALOKLI": "11",
+                    "PKNONBBKCCP": "3",
+                    "CMCKNKKCNDK": {
+                        "0": {
+                            "ANAJIAENLNB": "0",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "240",
+                            "JFJDLEMNKFE": "180",
+                            "GDOLPGBLMEA": "180",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "1": {
+                            "ANAJIAENLNB": "1",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "265",
+                            "JFJDLEMNKFE": "180",
+                            "GDOLPGBLMEA": "180",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "2": {
+                            "ANAJIAENLNB": "2",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "265",
+                            "JFJDLEMNKFE": "200",
+                            "GDOLPGBLMEA": "180",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "3": {
+                            "ANAJIAENLNB": "3",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "265",
+                            "JFJDLEMNKFE": "200",
+                            "GDOLPGBLMEA": "200",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "4": {
+                            "ANAJIAENLNB": "4",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "290",
+                            "JFJDLEMNKFE": "200",
+                            "GDOLPGBLMEA": "200",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "5": {
+                            "ANAJIAENLNB": "5",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "290",
+                            "JFJDLEMNKFE": "220",
+                            "GDOLPGBLMEA": "200",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "6": {
+                            "ANAJIAENLNB": "6",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "290",
+                            "JFJDLEMNKFE": "220",
+                            "GDOLPGBLMEA": "220",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "7": {
+                            "ANAJIAENLNB": "7",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "315",
+                            "JFJDLEMNKFE": "220",
+                            "GDOLPGBLMEA": "220",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "8": {
+                            "ANAJIAENLNB": "8",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "315",
+                            "JFJDLEMNKFE": "240",
+                            "GDOLPGBLMEA": "220",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "9": {
+                            "ANAJIAENLNB": "9",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "315",
+                            "JFJDLEMNKFE": "240",
+                            "GDOLPGBLMEA": "240",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "10": {
+                            "ANAJIAENLNB": "10",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "340",
+                            "JFJDLEMNKFE": "240",
+                            "GDOLPGBLMEA": "240",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "11": {
+                            "ANAJIAENLNB": "11",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "340",
+                            "JFJDLEMNKFE": "260",
+                            "GDOLPGBLMEA": "240",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "12": {
+                            "ANAJIAENLNB": "12",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "340",
+                            "JFJDLEMNKFE": "260",
+                            "GDOLPGBLMEA": "260",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "13": {
+                            "ANAJIAENLNB": "13",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "365",
+                            "JFJDLEMNKFE": "260",
+                            "GDOLPGBLMEA": "260",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "14": {
+                            "ANAJIAENLNB": "14",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "365",
+                            "JFJDLEMNKFE": "280",
+                            "GDOLPGBLMEA": "260",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "15": {
+                            "ANAJIAENLNB": "15",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "365",
+                            "JFJDLEMNKFE": "280",
+                            "GDOLPGBLMEA": "280",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "16": {
+                            "ANAJIAENLNB": "16",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "390",
+                            "JFJDLEMNKFE": "280",
+                            "GDOLPGBLMEA": "280",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "17": {
+                            "ANAJIAENLNB": "17",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "390",
+                            "JFJDLEMNKFE": "300",
+                            "GDOLPGBLMEA": "280",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "18": {
+                            "ANAJIAENLNB": "18",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "390",
+                            "JFJDLEMNKFE": "300",
+                            "GDOLPGBLMEA": "300",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "19": {
+                            "ANAJIAENLNB": "19",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "415",
+                            "JFJDLEMNKFE": "300",
+                            "GDOLPGBLMEA": "300",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "20": {
+                            "ANAJIAENLNB": "20",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "415",
+                            "JFJDLEMNKFE": "320",
+                            "GDOLPGBLMEA": "300",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "21": {
+                            "ANAJIAENLNB": "21",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "415",
+                            "JFJDLEMNKFE": "320",
+                            "GDOLPGBLMEA": "320",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "22": {
+                            "ANAJIAENLNB": "22",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "440",
+                            "JFJDLEMNKFE": "320",
+                            "GDOLPGBLMEA": "320",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "23": {
+                            "ANAJIAENLNB": "23",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "440",
+                            "JFJDLEMNKFE": "340",
+                            "GDOLPGBLMEA": "320",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "24": {
+                            "ANAJIAENLNB": "24",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "440",
+                            "JFJDLEMNKFE": "340",
+                            "GDOLPGBLMEA": "340",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "25": {
+                            "ANAJIAENLNB": "25",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "465",
+                            "JFJDLEMNKFE": "340",
+                            "GDOLPGBLMEA": "340",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "26": {
+                            "ANAJIAENLNB": "26",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "465",
+                            "JFJDLEMNKFE": "360",
+                            "GDOLPGBLMEA": "340",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "27": {
+                            "ANAJIAENLNB": "27",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "465",
+                            "JFJDLEMNKFE": "360",
+                            "GDOLPGBLMEA": "360",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "28": {
+                            "ANAJIAENLNB": "28",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "490",
+                            "JFJDLEMNKFE": "360",
+                            "GDOLPGBLMEA": "360",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "29": {
+                            "ANAJIAENLNB": "29",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "490",
+                            "JFJDLEMNKFE": "380",
+                            "GDOLPGBLMEA": "360",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "30": {
+                            "ANAJIAENLNB": "30",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "490",
+                            "JFJDLEMNKFE": "380",
+                            "GDOLPGBLMEA": "380",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "31": {
+                            "ANAJIAENLNB": "31",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "515",
+                            "JFJDLEMNKFE": "380",
+                            "GDOLPGBLMEA": "380",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "32": {
+                            "ANAJIAENLNB": "32",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "515",
+                            "JFJDLEMNKFE": "400",
+                            "GDOLPGBLMEA": "380",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "33": {
+                            "ANAJIAENLNB": "33",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "515",
+                            "JFJDLEMNKFE": "400",
+                            "GDOLPGBLMEA": "400",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "34": {
+                            "ANAJIAENLNB": "34",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "540",
+                            "JFJDLEMNKFE": "400",
+                            "GDOLPGBLMEA": "400",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "35": {
+                            "ANAJIAENLNB": "35",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "540",
+                            "JFJDLEMNKFE": "420",
+                            "GDOLPGBLMEA": "400",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "36": {
+                            "ANAJIAENLNB": "36",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "540",
+                            "JFJDLEMNKFE": "420",
+                            "GDOLPGBLMEA": "420",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "37": {
+                            "ANAJIAENLNB": "37",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "565",
+                            "JFJDLEMNKFE": "420",
+                            "GDOLPGBLMEA": "420",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "38": {
+                            "ANAJIAENLNB": "38",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "565",
+                            "JFJDLEMNKFE": "440",
+                            "GDOLPGBLMEA": "420",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "39": {
+                            "ANAJIAENLNB": "39",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "565",
+                            "JFJDLEMNKFE": "440",
+                            "GDOLPGBLMEA": "440",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "40": {
+                            "ANAJIAENLNB": "40",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "590",
+                            "JFJDLEMNKFE": "440",
+                            "GDOLPGBLMEA": "440",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "41": {
+                            "ANAJIAENLNB": "41",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "590",
+                            "JFJDLEMNKFE": "460",
+                            "GDOLPGBLMEA": "440",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "42": {
+                            "ANAJIAENLNB": "42",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "590",
+                            "JFJDLEMNKFE": "460",
+                            "GDOLPGBLMEA": "460",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "43": {
+                            "ANAJIAENLNB": "43",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "615",
+                            "JFJDLEMNKFE": "460",
+                            "GDOLPGBLMEA": "460",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "44": {
+                            "ANAJIAENLNB": "44",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "615",
+                            "JFJDLEMNKFE": "480",
+                            "GDOLPGBLMEA": "460",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "45": {
+                            "ANAJIAENLNB": "45",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "615",
+                            "JFJDLEMNKFE": "480",
+                            "GDOLPGBLMEA": "480",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "46": {
+                            "ANAJIAENLNB": "46",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "640",
+                            "JFJDLEMNKFE": "480",
+                            "GDOLPGBLMEA": "480",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "47": {
+                            "ANAJIAENLNB": "47",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "640",
+                            "JFJDLEMNKFE": "500",
+                            "GDOLPGBLMEA": "480",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "48": {
+                            "ANAJIAENLNB": "48",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "640",
+                            "JFJDLEMNKFE": "500",
+                            "GDOLPGBLMEA": "500",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "49": {
+                            "ANAJIAENLNB": "49",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "665",
+                            "JFJDLEMNKFE": "500",
+                            "GDOLPGBLMEA": "500",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "50": {
+                            "ANAJIAENLNB": "50",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "665",
+                            "JFJDLEMNKFE": "520",
+                            "GDOLPGBLMEA": "500",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "51": {
+                            "ANAJIAENLNB": "51",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "665",
+                            "JFJDLEMNKFE": "520",
+                            "GDOLPGBLMEA": "520",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "52": {
+                            "ANAJIAENLNB": "52",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "690",
+                            "JFJDLEMNKFE": "520",
+                            "GDOLPGBLMEA": "520",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "53": {
+                            "ANAJIAENLNB": "53",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "690",
+                            "JFJDLEMNKFE": "540",
+                            "GDOLPGBLMEA": "520",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "54": {
+                            "ANAJIAENLNB": "54",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "690",
+                            "JFJDLEMNKFE": "540",
+                            "GDOLPGBLMEA": "540",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "55": {
+                            "ANAJIAENLNB": "55",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "715",
+                            "JFJDLEMNKFE": "540",
+                            "GDOLPGBLMEA": "540",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "56": {
+                            "ANAJIAENLNB": "56",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "715",
+                            "JFJDLEMNKFE": "560",
+                            "GDOLPGBLMEA": "540",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "57": {
+                            "ANAJIAENLNB": "57",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "715",
+                            "JFJDLEMNKFE": "560",
+                            "GDOLPGBLMEA": "560",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "58": {
+                            "ANAJIAENLNB": "58",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "740",
+                            "JFJDLEMNKFE": "560",
+                            "GDOLPGBLMEA": "560",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "59": {
+                            "ANAJIAENLNB": "59",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "740",
+                            "JFJDLEMNKFE": "580",
+                            "GDOLPGBLMEA": "560",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "60": {
+                            "ANAJIAENLNB": "60",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "740",
+                            "JFJDLEMNKFE": "580",
+                            "GDOLPGBLMEA": "580",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "61": {
+                            "ANAJIAENLNB": "61",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "765",
+                            "JFJDLEMNKFE": "580",
+                            "GDOLPGBLMEA": "580",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "62": {
+                            "ANAJIAENLNB": "62",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "765",
+                            "JFJDLEMNKFE": "600",
+                            "GDOLPGBLMEA": "580",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "63": {
+                            "ANAJIAENLNB": "63",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "765",
+                            "JFJDLEMNKFE": "600",
+                            "GDOLPGBLMEA": "600",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "64": {
+                            "ANAJIAENLNB": "64",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "790",
+                            "JFJDLEMNKFE": "600",
+                            "GDOLPGBLMEA": "600",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "65": {
+                            "ANAJIAENLNB": "65",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "790",
+                            "JFJDLEMNKFE": "620",
+                            "GDOLPGBLMEA": "600",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "66": {
+                            "ANAJIAENLNB": "66",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "790",
+                            "JFJDLEMNKFE": "620",
+                            "GDOLPGBLMEA": "620",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "67": {
+                            "ANAJIAENLNB": "67",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "815",
+                            "JFJDLEMNKFE": "620",
+                            "GDOLPGBLMEA": "620",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "68": {
+                            "ANAJIAENLNB": "68",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "815",
+                            "JFJDLEMNKFE": "640",
+                            "GDOLPGBLMEA": "620",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "69": {
+                            "ANAJIAENLNB": "69",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "815",
+                            "JFJDLEMNKFE": "640",
+                            "GDOLPGBLMEA": "640",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "70": {
+                            "ANAJIAENLNB": "70",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "840",
+                            "JFJDLEMNKFE": "640",
+                            "GDOLPGBLMEA": "640",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "71": {
+                            "ANAJIAENLNB": "71",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "840",
+                            "JFJDLEMNKFE": "660",
+                            "GDOLPGBLMEA": "640",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "72": {
+                            "ANAJIAENLNB": "72",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "840",
+                            "JFJDLEMNKFE": "660",
+                            "GDOLPGBLMEA": "660",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "73": {
+                            "ANAJIAENLNB": "73",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "865",
+                            "JFJDLEMNKFE": "660",
+                            "GDOLPGBLMEA": "660",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "74": {
+                            "ANAJIAENLNB": "74",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "865",
+                            "JFJDLEMNKFE": "680",
+                            "GDOLPGBLMEA": "660",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "75": {
+                            "ANAJIAENLNB": "75",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "865",
+                            "JFJDLEMNKFE": "680",
+                            "GDOLPGBLMEA": "680",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "76": {
+                            "ANAJIAENLNB": "76",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "890",
+                            "JFJDLEMNKFE": "680",
+                            "GDOLPGBLMEA": "680",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "77": {
+                            "ANAJIAENLNB": "77",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "890",
+                            "JFJDLEMNKFE": "700",
+                            "GDOLPGBLMEA": "680",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "78": {
+                            "ANAJIAENLNB": "78",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "890",
+                            "JFJDLEMNKFE": "700",
+                            "GDOLPGBLMEA": "700",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "79": {
+                            "ANAJIAENLNB": "79",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "915",
+                            "JFJDLEMNKFE": "700",
+                            "GDOLPGBLMEA": "700",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "80": {
+                            "ANAJIAENLNB": "80",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "915",
+                            "JFJDLEMNKFE": "720",
+                            "GDOLPGBLMEA": "700",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "81": {
+                            "ANAJIAENLNB": "81",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "915",
+                            "JFJDLEMNKFE": "720",
+                            "GDOLPGBLMEA": "720",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "82": {
+                            "ANAJIAENLNB": "82",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "940",
+                            "JFJDLEMNKFE": "720",
+                            "GDOLPGBLMEA": "720",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "83": {
+                            "ANAJIAENLNB": "83",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "940",
+                            "JFJDLEMNKFE": "740",
+                            "GDOLPGBLMEA": "720",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "84": {
+                            "ANAJIAENLNB": "84",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "940",
+                            "JFJDLEMNKFE": "740",
+                            "GDOLPGBLMEA": "740",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "85": {
+                            "ANAJIAENLNB": "85",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "965",
+                            "JFJDLEMNKFE": "740",
+                            "GDOLPGBLMEA": "740",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "86": {
+                            "ANAJIAENLNB": "86",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "965",
+                            "JFJDLEMNKFE": "760",
+                            "GDOLPGBLMEA": "740",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "87": {
+                            "ANAJIAENLNB": "87",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "965",
+                            "JFJDLEMNKFE": "760",
+                            "GDOLPGBLMEA": "760",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "88": {
+                            "ANAJIAENLNB": "88",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "990",
+                            "JFJDLEMNKFE": "760",
+                            "GDOLPGBLMEA": "760",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "89": {
+                            "ANAJIAENLNB": "89",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "990",
+                            "JFJDLEMNKFE": "780",
+                            "GDOLPGBLMEA": "760",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "90": {
+                            "ANAJIAENLNB": "90",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "990",
+                            "JFJDLEMNKFE": "780",
+                            "GDOLPGBLMEA": "780",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "91": {
+                            "ANAJIAENLNB": "91",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1015",
+                            "JFJDLEMNKFE": "780",
+                            "GDOLPGBLMEA": "780",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "92": {
+                            "ANAJIAENLNB": "92",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1015",
+                            "JFJDLEMNKFE": "800",
+                            "GDOLPGBLMEA": "780",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "93": {
+                            "ANAJIAENLNB": "93",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1015",
+                            "JFJDLEMNKFE": "800",
+                            "GDOLPGBLMEA": "800",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "94": {
+                            "ANAJIAENLNB": "94",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1040",
+                            "JFJDLEMNKFE": "800",
+                            "GDOLPGBLMEA": "800",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "95": {
+                            "ANAJIAENLNB": "95",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1040",
+                            "JFJDLEMNKFE": "820",
+                            "GDOLPGBLMEA": "800",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "96": {
+                            "ANAJIAENLNB": "96",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1040",
+                            "JFJDLEMNKFE": "820",
+                            "GDOLPGBLMEA": "820",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "97": {
+                            "ANAJIAENLNB": "97",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1065",
+                            "JFJDLEMNKFE": "820",
+                            "GDOLPGBLMEA": "820",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "98": {
+                            "ANAJIAENLNB": "98",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1065",
+                            "JFJDLEMNKFE": "840",
+                            "GDOLPGBLMEA": "820",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "99": {
+                            "ANAJIAENLNB": "99",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1065",
+                            "JFJDLEMNKFE": "840",
+                            "GDOLPGBLMEA": "840",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "100": {
+                            "ANAJIAENLNB": "100",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1090",
+                            "JFJDLEMNKFE": "840",
+                            "GDOLPGBLMEA": "840",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "101": {
+                            "ANAJIAENLNB": "101",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1090",
+                            "JFJDLEMNKFE": "860",
+                            "GDOLPGBLMEA": "840",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "102": {
+                            "ANAJIAENLNB": "102",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1090",
+                            "JFJDLEMNKFE": "860",
+                            "GDOLPGBLMEA": "860",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "103": {
+                            "ANAJIAENLNB": "103",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1115",
+                            "JFJDLEMNKFE": "860",
+                            "GDOLPGBLMEA": "860",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "104": {
+                            "ANAJIAENLNB": "104",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1115",
+                            "JFJDLEMNKFE": "880",
+                            "GDOLPGBLMEA": "860",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "105": {
+                            "ANAJIAENLNB": "105",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1115",
+                            "JFJDLEMNKFE": "880",
+                            "GDOLPGBLMEA": "880",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "106": {
+                            "ANAJIAENLNB": "106",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1140",
+                            "JFJDLEMNKFE": "880",
+                            "GDOLPGBLMEA": "880",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "107": {
+                            "ANAJIAENLNB": "107",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1140",
+                            "JFJDLEMNKFE": "900",
+                            "GDOLPGBLMEA": "880",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "108": {
+                            "ANAJIAENLNB": "108",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1140",
+                            "JFJDLEMNKFE": "900",
+                            "GDOLPGBLMEA": "900",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "109": {
+                            "ANAJIAENLNB": "109",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1165",
+                            "JFJDLEMNKFE": "900",
+                            "GDOLPGBLMEA": "900",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "110": {
+                            "ANAJIAENLNB": "110",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1165",
+                            "JFJDLEMNKFE": "920",
+                            "GDOLPGBLMEA": "900",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "111": {
+                            "ANAJIAENLNB": "111",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1165",
+                            "JFJDLEMNKFE": "920",
+                            "GDOLPGBLMEA": "920",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "112": {
+                            "ANAJIAENLNB": "112",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1190",
+                            "JFJDLEMNKFE": "920",
+                            "GDOLPGBLMEA": "920",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "113": {
+                            "ANAJIAENLNB": "113",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1190",
+                            "JFJDLEMNKFE": "940",
+                            "GDOLPGBLMEA": "920",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "114": {
+                            "ANAJIAENLNB": "114",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1190",
+                            "JFJDLEMNKFE": "940",
+                            "GDOLPGBLMEA": "940",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "115": {
+                            "ANAJIAENLNB": "115",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1215",
+                            "JFJDLEMNKFE": "940",
+                            "GDOLPGBLMEA": "940",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "116": {
+                            "ANAJIAENLNB": "116",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1215",
+                            "JFJDLEMNKFE": "960",
+                            "GDOLPGBLMEA": "940",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "117": {
+                            "ANAJIAENLNB": "117",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1215",
+                            "JFJDLEMNKFE": "960",
+                            "GDOLPGBLMEA": "960",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "118": {
+                            "ANAJIAENLNB": "118",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1240",
+                            "JFJDLEMNKFE": "960",
+                            "GDOLPGBLMEA": "960",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "119": {
+                            "ANAJIAENLNB": "119",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1240",
+                            "JFJDLEMNKFE": "980",
+                            "GDOLPGBLMEA": "960",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        },
+                        "120": {
+                            "ANAJIAENLNB": "120",
+                            "HFIDCMNFBJG": "60",
+                            "PFJCOCPKABN": "1240",
+                            "JFJDLEMNKFE": "980",
+                            "GDOLPGBLMEA": "980",
+                            "ONDFNOOICLE": "50",
+                            "HCFOMFDPGEC": "50"
+                        }
+                    }
+                }
+            }
+        },
+        "costume": {
+            "CDENCMNHNGA": {
+                "0": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "1",
+                    "DAJGPBLEEOB": "1",
+                    "_has_color": false
+                },
+                "1": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "2",
+                    "DAJGPBLEEOB": "2",
+                    "_has_color": true
+                },
+                "2": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "3",
+                    "DAJGPBLEEOB": "3",
+                    "_has_color": false
+                },
+                "3": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "4",
+                    "DAJGPBLEEOB": "4",
+                    "_has_color": true
+                },
+                "4": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "5",
+                    "DAJGPBLEEOB": "5",
+                    "_has_color": false
+                },
+                "5": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "6",
+                    "DAJGPBLEEOB": "6",
+                    "_has_color": true
+                },
+                "6": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "7",
+                    "DAJGPBLEEOB": "7",
+                    "_has_color": false
+                },
+                "7": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "8",
+                    "DAJGPBLEEOB": "8",
+                    "_has_color": false
+                },
+                "8": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "9",
+                    "DAJGPBLEEOB": "9",
+                    "_has_color": false
+                },
+                "9": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "10",
+                    "DAJGPBLEEOB": "10",
+                    "_has_color": false
+                },
+                "10": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "11",
+                    "DAJGPBLEEOB": "11",
+                    "_has_color": false
+                },
+                "11": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "12",
+                    "DAJGPBLEEOB": "12",
+                    "_has_color": false
+                },
+                "12": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "13",
+                    "DAJGPBLEEOB": "13",
+                    "_has_color": true
+                },
+                "13": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "14",
+                    "DAJGPBLEEOB": "14",
+                    "_has_color": false
+                },
+                "14": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "15",
+                    "DAJGPBLEEOB": "15",
+                    "_has_color": false
+                },
+                "15": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "16",
+                    "DAJGPBLEEOB": "16",
+                    "_has_color": true
+                },
+                "16": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "17",
+                    "DAJGPBLEEOB": "17",
+                    "_has_color": false
+                },
+                "17": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "18",
+                    "DAJGPBLEEOB": "18",
+                    "_has_color": false
+                },
+                "18": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "19",
+                    "DAJGPBLEEOB": "19",
+                    "_has_color": false
+                },
+                "19": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "20",
+                    "DAJGPBLEEOB": "20",
+                    "_has_color": false
+                },
+                "230": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "231",
+                    "DAJGPBLEEOB": "21",
+                    "_has_color": false
+                },
+                "231": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "232",
+                    "DAJGPBLEEOB": "22",
+                    "_has_color": false
+                },
+                "232": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "233",
+                    "DAJGPBLEEOB": "23",
+                    "_has_color": false
+                },
+                "233": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "234",
+                    "DAJGPBLEEOB": "24",
+                    "_has_color": false
+                },
+                "234": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "235",
+                    "DAJGPBLEEOB": "25",
+                    "_has_color": false
+                },
+                "235": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "236",
+                    "DAJGPBLEEOB": "26",
+                    "_has_color": false
+                },
+                "236": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "237",
+                    "DAJGPBLEEOB": "27",
+                    "_has_color": false
+                },
+                "237": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "238",
+                    "DAJGPBLEEOB": "28",
+                    "_has_color": false
+                },
+                "238": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "239",
+                    "DAJGPBLEEOB": "29",
+                    "_has_color": false
+                },
+                "239": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "240",
+                    "DAJGPBLEEOB": "30",
+                    "_has_color": false
+                },
+                "320": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "321",
+                    "DAJGPBLEEOB": "31",
+                    "_has_color": false
+                },
+                "321": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "322",
+                    "DAJGPBLEEOB": "32",
+                    "_has_color": false
+                },
+                "323": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "324",
+                    "DAJGPBLEEOB": "34",
+                    "_has_color": false
+                },
+                "324": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "325",
+                    "DAJGPBLEEOB": "35",
+                    "_has_color": false
+                },
+                "325": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "326",
+                    "DAJGPBLEEOB": "36",
+                    "_has_color": false
+                },
+                "326": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "327",
+                    "DAJGPBLEEOB": "37",
+                    "_has_color": false
+                },
+                "327": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "328",
+                    "DAJGPBLEEOB": "38",
+                    "_has_color": false
+                },
+                "328": {
+                    "AHHJLDLAPAN": "1",
+                    "PPEGAKEIEGM": "2",
+                    "JPIDIENBGKH": "329",
+                    "DAJGPBLEEOB": "39",
+                    "_has_color": false
+                }
+            }
+        }
+    },
+    "language": {
+        "common": {
+            "en": {
+                "profile_diva001_age": "14",
+                "profile_diva001_birthday": "Nov. 3",
+                "profile_diva001_birthplace": "Planet Windermere",
+                "profile_diva001_favorite": "Singing, apples",
+                "profile_diva001_description": "A Walk\u00fcre fan, she ran away from her village to audition for them. Naive and a bad dancer, but loves to sing. Her \rune\\ lights up when she feels strong emotions. Has a unique dialect, often using the word \\gori gori.\\",
+                "profile_diva001_description_gakuya": ""
+            },
+            "fr": {
+                "profile_diva001_age": "14 ans",
+                "profile_diva001_birthday": "03/11",
+                "profile_diva001_birthplace": "Plan\u00e8te Windermere",
+                "profile_diva001_favorite": "Le chant, les pommes",
+                "profile_diva001_description": "",
+                "profile_diva001_description_gakuya": ""
+            },
+            "jp": {
+                "profile_diva001_age": "14\u6b73",
+                "profile_diva001_birthday": "11\u67083\u65e5",
+                "profile_diva001_birthplace": "\u60d1\u661f\u30a6\u30a3\u30f3\u30c0\u30df\u30a2",
+                "profile_diva001_favorite": "\u6b4c\u3046\u3053\u3068\u3001\u30ea\u30f3\u30b4",
+                "profile_diva001_description": "\u6226\u8853\u97f3\u697d\u30e6\u30cb\u30c3\u30c8\u300c\u30ef\u30eb\u30ad\u30e5\u30fc\u30ec\u300d\u306b\u61a7\u308c\u3066\u6545\u90f7\u3092\u98db\u3073\u51fa\u3057\u3066\u304d\u305f\u5973\u306e\u5b50\u3002\u5929\u771f\u721b\u6f2b\u306a\u6027\u683c\u3067\u6b4c\u304c\u5927\u597d\u304d\u3001\u3057\u304b\u3057\u30c0\u30f3\u30b9\u306f\u82e6\u624b\u3002\u6c17\u6301\u3061\u304c\u6602\u308b\u3068\u982d\u306e\u300c\u30eb\u30f3\u300d\u304c\u5149\u308a\u8f1d\u304f\u3002\u72ec\u7279\u306e\u8a1b\u308a\u3067\u8a71\u3057\u3001\u300c\u3054\u308a\u3054\u308a\u300d\u304c\u53e3\u7656\u3002",
+                "profile_diva001_description_gakuya": "\u6226\u8853\u97f3\u697d\u30e6\u30cb\u30c3\u30c8\u300c\u30ef\u30eb\u30ad\u30e5\u30fc\u30ec\u300d\u306b\n\u61a7\u308c\u3066\u6545\u90f7\u3092\u98db\u3073\u51fa\u3057\u3066\u304d\u305f\u5973\u306e\u5b50\u3002\n\u5929\u771f\u721b\u6f2b\u306a\u6027\u683c\u3067\u6b4c\u304c\u5927\u597d\u304d\u3001\u3057\u304b\u3057\n\u30c0\u30f3\u30b9\u306f\u82e6\u624b\u3002\n\n\u6c17\u6301\u3061\u304c\u6602\u308b\u3068\u982d\u306e\u300c\u30eb\u30f3\u300d\u304c\u5149\u308a\u8f1d\u304f\u3002\n\u72ec\u7279\u306e\u8a1b\u308a\u3067\u8a71\u3057\u3001\u300c\u3054\u308a\u3054\u308a\u300d\u304c\u53e3\u7656\u3002"
+            },
+            "zh_Hans": {
+                "profile_diva001_age": "14\u5c81",
+                "profile_diva001_birthday": "11\u67083\u65e5",
+                "profile_diva001_birthplace": "\u6e29\u5fb7\u7c73\u5c14\u661f",
+                "profile_diva001_favorite": "\u5531\u6b4c\u3001\u82f9\u679c",
+                "profile_diva001_description": "\u56e0\u5bf9\u6218\u672f\u97f3\u4e50\u7ec4\u5408\u201cWalk\u00fcre\u201d\u5fc3\u751f\u5411\u5f80\u800c\u79bb\u5f00\u5bb6\u4e61\u5916\u51fa\u95ef\u8361\u7684\u5973\u5b69\u3002\u5fc3\u5730\u7eaf\u6d01\u5584\u826f\uff0c\u975e\u5e38\u559c\u6b22\u5531\u6b4c\uff0c\u4f46\u4e0d\u64c5\u957f\u821e\u8e48\u3002\u5934\u4e0a\u7684\u5668\u5b98\u201cRune\u201d\u4f1a\u5728\u5174\u594b\u65f6\u4eae\u8d77\u3002\u8bf4\u8bdd\u5e26\u6709\u7279\u522b\u7684\u53e3\u97f3\uff0c\u5e38\u628a\u201cGoriGori\u201d\u6302\u5728\u5634\u8fb9\u3002",
+                "profile_diva001_description_gakuya": "\u56e0\u5bf9\u6218\u672f\u97f3\u4e50\u7ec4\u5408\u201cWalk\u00fcre\u201d\u5fc3\u751f\u5411\u5f80\n\u800c\u79bb\u5f00\u5bb6\u4e61\u5916\u51fa\u95ef\u8361\u7684\u5973\u5b69\u3002\n\u5fc3\u5730\u7eaf\u6d01\u5584\u826f\uff0c\u975e\u5e38\u559c\u6b22\u5531\u6b4c\uff0c\n\u4f46\u4e0d\u64c5\u957f\u821e\u8e48\u3002\n\n\u5934\u4e0a\u7684\u5668\u5b98\u201cRune\u201d\u4f1a\u5728\u5174\u594b\u65f6\u4eae\u8d77\u3002\n\u8bf4\u8bdd\u5e26\u6709\u7279\u522b\u7684\u53e3\u97f3\uff0c\u5e38\u628a\u201cGoriGori\u201d\u6302\u5728\u5634\u8fb9\u3002"
+            }
+        },
+        "menu": {
+            "en": {
+                "story_diva_desc_01": ""
+            },
+            "fr": {
+                "story_diva_desc_01": ""
+            },
+            "jp": {
+                "story_diva_desc_01": "\u6226\u8853\u97f3\u697d\u30e6\u30cb\u30c3\u30c8\u300c\u30ef\u30eb\u30ad\u30e5\u30fc\u30ec\u300d\u306b\u61a7\u308c\u3066\n\u6545\u90f7\u3092\u98db\u3073\u51fa\u3057\u3066\u304d\u305f\u5973\u306e\u5b50\u3002\n\n\u5929\u771f\u721b\u6f2b\u306a\u6027\u683c\u3067\u6b4c\u304c\u5927\u597d\u304d\u3001\u3057\u304b\u3057\u30c0\u30f3\u30b9\u306f\u82e6\u624b\u3002\n\u6c17\u6301\u3061\u304c\u6602\u308b\u3068\u982d\u306e\u300c\u30eb\u30f3\u300d\u304c\u5149\u308a\u8f1d\u304f\u3002\n\n\u72ec\u7279\u306e\u8a1b\u308a\u3067\u8a71\u3057\u3001\u300c\u3054\u308a\u3054\u308a\u300d\u304c\u53e3\u7656\u3002"
+            },
+            "zh_Hans": {
+                "story_diva_desc_01": "\u56e0\u5bf9\u6218\u672f\u97f3\u4e50\u7ec4\u5408\u201cWalk\u00fcre\u201d\u5fc3\u751f\u5411\u5f80\n\u800c\u79bb\u5f00\u5bb6\u4e61\u5916\u51fa\u95ef\u8361\u7684\u5973\u5b69\u3002\n\n\u5fc3\u5730\u7eaf\u6d01\u5584\u826f\uff0c\u975e\u5e38\u559c\u6b22\u5531\u6b4c\uff0c\u4f46\u4e0d\u64c5\u957f\u821e\u8e48\u3002\n\u5934\u4e0a\u7684\u5668\u5b98\u201cRune\u201d\u4f1a\u5728\u5174\u594b\u65f6\u4eae\u8d77\u3002\n\n\u8bf4\u8bdd\u5e26\u6709\u7279\u522b\u7684\u53e3\u97f3\uff0c\u5e38\u628a\u201cGoriGori\u201d\u6302\u5728\u5634\u8fb9\u3002"
+            }
+        },
+        "master": {
+            "en": {
+                "diva_01": "Freyja Wion",
+                "diva_s_01": "Freyja",
+                "cos_0001": "Walk\u00fcre Uniform",
+                "cos_0002": "Strahl",
+                "cos_0002_01": "Neo Strahl",
+                "cos_0003": "Rotk\u00e4ppchen",
+                "cos_0004": "Blau Blume",
+                "cos_0004_01": "Rot Blume",
+                "cos_0005": "Kimono Stil",
+                "cos_0006": "Vor Stoss",
+                "cos_0006_01": "Sturm Sto\u00df",
+                "cos_0007": "H\u00fcbsche Qualle",
+                "cos_0008": "Erste Liebe",
+                "cos_0009": "Resonanz",
+                "cos_0010": "Edel Schwan",
+                "cos_0011": "Garnet Teen",
+                "cos_0012": "Blauer \u00c4ther",
+                "cos_0013": "Sternen Blau",
+                "cos_0013_01": "Star Pumpkin",
+                "cos_0014": "Leidenschaft",
+                "cos_0015": "Rag Nyan-Nyan Messiah",
+                "cos_0016": "Cosmic Apple",
+                "cos_0016_01": "Cosmic Papaya",
+                "cos_0017": "Floral Summer",
+                "cos_0018": "Pop Twister",
+                "cos_0019": "Hot Lilith",
+                "cos_0020": "Crossover Passion",
+                "cos_0231": "Apfel Schokolade",
+                "cos_0232": "Kirsche Braut",
+                "cos_0233": "Modisch Wind",
+                "cos_0234": "Apfel Mythos",
+                "cos_0235": "Crossover Lip",
+                "cos_0236": "Trick Apple",
+                "cos_0237": "Merry Sch\u00fcrze",
+                "cos_0238": "Shiny Bell",
+                "cos_0239": "Eintracht",
+                "cos_0240": "Canary Apple",
+                "cos_0321": "Steife Brise",
+                "cos_0322": "Yami Clothes",
+                "cos_0324": "Frau Jubelnd",
+                "cos_0325": "Weiss Tr\u00e4nen",
+                "cos_0326": "",
+                "cos_0327": "",
+                "cos_0328": "",
+                "cos_0329": ""
+            },
+            "fr": {
+                "diva_01": "Freyja Wion",
+                "diva_s_01": "Freyja",
+                "cos_0001": "",
+                "cos_0002": "",
+                "cos_0002_01": "",
+                "cos_0003": "",
+                "cos_0004": "",
+                "cos_0004_01": "",
+                "cos_0005": "",
+                "cos_0006": "",
+                "cos_0006_01": "",
+                "cos_0007": "",
+                "cos_0008": "",
+                "cos_0009": "",
+                "cos_0010": "",
+                "cos_0011": "",
+                "cos_0012": "",
+                "cos_0013": "",
+                "cos_0013_01": "",
+                "cos_0014": "",
+                "cos_0015": "",
+                "cos_0016": "",
+                "cos_0016_01": "",
+                "cos_0017": "",
+                "cos_0018": "",
+                "cos_0019": "",
+                "cos_0020": "",
+                "cos_0231": "",
+                "cos_0232": "",
+                "cos_0233": "",
+                "cos_0234": "",
+                "cos_0235": "",
+                "cos_0236": "",
+                "cos_0237": "",
+                "cos_0238": "",
+                "cos_0239": "",
+                "cos_0240": "",
+                "cos_0321": "",
+                "cos_0322": "",
+                "cos_0324": "",
+                "cos_0325": "",
+                "cos_0326": "",
+                "cos_0327": "",
+                "cos_0328": "",
+                "cos_0329": ""
+            },
+            "jp": {
+                "diva_01": "\u30d5\u30ec\u30a4\u30a2\u30fb\u30f4\u30a3\u30aa\u30f3",
+                "diva_s_01": "\u30d5\u30ec\u30a4\u30a2",
+                "cos_0001": "\u30ef\u30eb\u30ad\u30e5\u30fc\u30ec\u30fb\u30e6\u30cb\u30d5\u30a9\u30fc\u30e0",
+                "cos_0002": "\u30b7\u30e5\u30c8\u30e9\u30fc\u30eb",
+                "cos_0002_01": "\u30cd\u30aa\u30fb\u30b7\u30e5\u30c8\u30e9\u30fc\u30eb",
+                "cos_0003": "\u30ed\u30fc\u30c8\u30b1\u30fc\u30d7\u30d2\u30a7\u30f3",
+                "cos_0004": "\u30d6\u30e9\u30a6\u30fb\u30d6\u30eb\u30fc\u30e1",
+                "cos_0004_01": "\u30ed\u30fc\u30c6\u30fb\u30d6\u30eb\u30fc\u30e1",
+                "cos_0005": "\u30ad\u30e2\u30ce\u30b7\u30e5\u30c6\u30a3\u30fc\u30eb",
+                "cos_0006": "\u30d5\u30a9\u30fc\u30a2\u30fb\u30b7\u30e5\u30c8\u30fc\u30b9",
+                "cos_0006_01": "\u30b7\u30e5\u30c8\u30a5\u30eb\u30e0\u30fb\u30b7\u30e5\u30c8\u30fc\u30b9",
+                "cos_0007": "\u30d2\u30e5\u30d7\u30b7\u30e5\u30fb\u30af\u30f4\u30a1\u30ec",
+                "cos_0008": "\u30a8\u30fc\u30a2\u30b9\u30c6\u30fb\u30ea\u30fc\u30d9",
+                "cos_0009": "\u30ec\u30be\u30ca\u30f3\u30c4",
+                "cos_0010": "\u30a8\u30fc\u30c7\u30eb\u30fb\u30b7\u30e5\u30f4\u30a1\u30f3",
+                "cos_0011": "\u30ac\u30fc\u30cd\u30c3\u30c8\u30fb\u30c6\u30a3\u30fc\u30f3",
+                "cos_0012": "\u30d6\u30e9\u30a6\u30a2\u30fc\u30a8\u30b6\u30fc",
+                "cos_0013": "\u30b7\u30e5\u30c6\u30eb\u30cd\u30f3\u30fb\u30d6\u30e9\u30a6",
+                "cos_0013_01": "\u30b7\u30e5\u30c6\u30eb\u30cd\u30f3\u30fb\u30ad\u30e5\u30eb\u30d3\u30b9",
+                "cos_0014": "\u30e9\u30a4\u30c7\u30f3\u30b7\u30e3\u30d5\u30c8",
+                "cos_0015": "\u88f8\u55b0\u5a18\u5a18\u30e1\u30b5\u30a4\u30a2",
+                "cos_0016": "\u30b3\u30ba\u30df\u30c3\u30af\u30a2\u30c3\u30d7\u30eb",
+                "cos_0016_01": "\u30b3\u30ba\u30df\u30c3\u30af\u30d1\u30d1\u30a4\u30e4",
+                "cos_0017": "\u30d5\u30ed\u30fc\u30e9\u30eb\u30b5\u30de\u30fc",
+                "cos_0018": "\u30dd\u30c3\u30d7\u30fb\u30c4\u30a4\u30b9\u30bf\u30fc",
+                "cos_0019": "\u30db\u30c3\u30c8\u30ea\u30ea\u30b9",
+                "cos_0020": "\u30af\u30ed\u30b9\u30aa\u30fc\u30d0\u30fc\u30fb\u30d1\u30c3\u30b7\u30e7\u30f3",
+                "cos_0231": "\u30a2\u30d7\u30d5\u30a7\u30eb\u30fb\u30b7\u30e7\u30b3\u30e9\u30fc\u30c7",
+                "cos_0232": "\u30ad\u30eb\u30b7\u30a7\u30fb\u30d6\u30e9\u30a6\u30c8",
+                "cos_0233": "\u30e2\u30fc\u30c7\u30a3\u30c3\u30b7\u30e5\u30fb\u30f4\u30a3\u30f3\u30c8",
+                "cos_0234": "\u30a2\u30d7\u30d5\u30a7\u30eb\u30df\u30e5\u30fc\u30c8\u30b9",
+                "cos_0235": "\u30af\u30ed\u30b9\u30aa\u30fc\u30d0\u30fc\u30fb\u30ea\u30c3\u30d7",
+                "cos_0236": "\u30c8\u30ea\u30c3\u30af\u30fb\u30a2\u30c3\u30d7\u30eb",
+                "cos_0237": "\u30e1\u30ea\u30fc\u30fb\u30b7\u30e5\u30eb\u30c4\u30a7",
+                "cos_0238": "\u30b7\u30e3\u30a4\u30cb\u30fc\u30fb\u30d9\u30eb",
+                "cos_0239": "\u30a2\u30a4\u30f3\u30c8\u30e9\u30cf\u30c8",
+                "cos_0240": "\u30ad\u30e3\u30ca\u30ea\u30fc\u30fb\u30a2\u30c3\u30d7\u30eb",
+                "cos_0321": "\u30b7\u30e5\u30bf\u30a4\u30d5\u30fb\u30d6\u30ea\u30fc\u30bc",
+                "cos_0322": "\u30e4\u30df\u30fb\u30af\u30ed\u30fc\u30ba",
+                "cos_0324": "\u30d5\u30e9\u30a6\u30fb\u30e6\u30fc\u30d9\u30eb\u30c8",
+                "cos_0325": "\u30f4\u30a1\u30a4\u30b9\u30fb\u30c8\u30ec\u30fc\u30cd\u30f3",
+                "cos_0326": "\u30b9\u30ab\u30fc\u30ec\u30c3\u30c8\u30fb\u30ce\u30fc\u30d6\u30eb",
+                "cos_0327": "\u30b7\u30e5\u30f4\u30a1\u30eb\u30c4\u30a7\u30fb\u30b4\u30b7\u30c3\u30af",
+                "cos_0328": "\u30a2\u30a4\u30b9\u30fb\u30d5\u30e9\u30ef\u30fc",
+                "cos_0329": "\u30ad\u30eb\u30b7\u30a7\u30fb\u30a8\u30ec\u30ac\u30f3\u30c8"
+            },
+            "zh_Hans": {
+                "diva_01": "\u8299\u857e\u96c5\u00b7\u8587\u6069",
+                "diva_s_01": "\u8299\u857e\u96c5",
+                "cos_0001": "Walk\u00fcre\u5236\u670d",
+                "cos_0002": "\u7efd\u653e\u4e4b\u5149",
+                "cos_0002_01": "",
+                "cos_0003": "\u5c0f\u7ea2\u5e3d",
+                "cos_0004": "",
+                "cos_0004_01": "",
+                "cos_0005": "",
+                "cos_0006": "",
+                "cos_0006_01": "",
+                "cos_0007": "",
+                "cos_0008": "\u60c5\u7aa6\u521d\u5f00",
+                "cos_0009": "",
+                "cos_0010": "",
+                "cos_0011": "\u69b4\u7ea2\u82b3\u534e",
+                "cos_0012": "",
+                "cos_0013": "",
+                "cos_0013_01": "",
+                "cos_0014": "",
+                "cos_0015": "",
+                "cos_0016": "",
+                "cos_0016_01": "",
+                "cos_0017": "",
+                "cos_0018": "",
+                "cos_0019": "",
+                "cos_0020": "",
+                "cos_0231": "",
+                "cos_0232": "",
+                "cos_0233": "",
+                "cos_0234": "",
+                "cos_0235": "",
+                "cos_0236": "",
+                "cos_0237": "",
+                "cos_0238": "",
+                "cos_0239": "",
+                "cos_0240": "",
+                "cos_0321": "",
+                "cos_0322": "",
+                "cos_0324": "",
+                "cos_0325": "",
+                "cos_0326": "",
+                "cos_0327": "",
+                "cos_0328": "",
+                "cos_0329": ""
+            }
+        }
+    },
+    "fb": {
+        "diva": {
+            "NCMGOKNHGNL": {
+                "0": {
+                    "OFMGALJGDAO": 1
+                }
+            }
+        }
+    }
+}

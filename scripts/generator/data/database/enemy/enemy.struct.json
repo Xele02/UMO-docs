@@ -1,0 +1,10 @@
+
+{
+    "type" : "class",
+    "name" : "MHDFCLCMDKO_Enemy",
+    "cryptedName" : "MHDFCLCMDKO",
+    "realName"    : "Enemy",
+    "readerClass" : null,
+    "members"     : [
+    ]
+}
